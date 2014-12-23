@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <!-- <link href="http://gmpg.org/xfn/11" rel="profile"> -->
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      404: Page not found &middot; Useless Things
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/main.css"> <!-- custom CSS -->
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Useless Things" href="/atom.xml">
+  <script type="text/javascript">
+
+    var pallette = [
+      {
+        color : '#355C69',
+        kids: [],
+      },
+      {
+        color : '#646881',
+        kids: [],
+      },
+      {
+        color : '#69355C',
+        kids: [],
+      }
+      
+    ];
+
+    var extraColors = ['#DDB967','#D1603D','#272932'];
+  </script>
+</head>
+
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead  content-centered">
+        <a href="/" title="Home">
+          <h3 class="masthead-title" style="text-decoration: none;">
+            <small>experiments in making an internet of</small>
+            <br />
+            Useless Things
+          </h3>
+        </a>
+      </header>
+
+      <main>
+        <div class="page">
+  <h1 class="page-title">404: Page not found</h1>
+  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Head back home</a> to try finding it again.</p>
+</div>
+
+      </main>
+
+      <footer class="footer content-centered">
+        <small>
+          &copy; <time datetime="2014-12-23T11:25:44-05:00">2014</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+    <script type="text/javascript">
+    window.addEventListener('load',function(){
+      var blocks = document.getElementsByClassName('block');
+      for(var i=0;i<blocks.length;i++){
+
+        var stepAmount = 155/blocks.length;
+
+        var palletteIndex = i%pallette.length
+        var color = pallette[palletteIndex].color;
+
+        //var color = 255-Math.floor(stepAmount*i);
+
+       //blocks[i].style.backgroundColor = color;
+      }
+    });
+  </script>
+  </body>
+</html>

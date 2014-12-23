@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Useless Things</title>
+ <link href="http://www.andysigler.com/atom.xml" rel="self"/>
+ <link href="http://www.andysigler.com/"/>
+ <updated>2014-12-23T11:25:44-05:00</updated>
+ <id>http://www.andysigler.com</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>NodeJS + Yun</title>
+   <link href="http://www.andysigler.com//2014/11/14/nodejs-arduino-yun/"/>
+   <updated>2014-11-14T00:00:00-05:00</updated>
+   <id>http://www.andysigler.com/2014/11/14/nodejs-arduino-yun</id>
+   <content type="html">&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;before-you-begin&quot;&gt;Before you begin&lt;/h2&gt;
+
+    &lt;p&gt;Below are the steps to get NodeJS up and running on the Arduino Yun. This tutorial assumes you have already connected the Yun to your network, and have a basic understanding of NodeJS.&lt;/p&gt;
+
+    &lt;p&gt;The final steps (red section) of this tutorial are optional and should be taken with caution. They show how to disable Bridge on the Yun, in order to allow NodeJS to speak directly with the Arduino side of the board using node-serialport.&lt;/p&gt;
+
+    &lt;p&gt;This, however, means you can only access the Linux side of the board over the network. If you do not have control over the network between your computer and Yun, you will not be able to connect.&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;update-and-expand-your-yun&quot;&gt;Update and Expand your Yun&lt;/h2&gt;
+
+    &lt;h3 id=&quot;update-the-yuns-image&quot;&gt;Update the Yun’s image&lt;/h3&gt;
+
+    &lt;p&gt;To do all the following, make sure you have updated your Yun to the latest image. This to to allow your Yun to have is disk space expanded in the next step.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://arduino.cc/en/Tutorial/YunSysupgrade&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Instructions on updating the Yun’s image&lt;/a&gt;&lt;/p&gt;
+
+    &lt;h3 id=&quot;expand-disk-space-with-sd-card&quot;&gt;Expand disk space with SD card&lt;/h3&gt;
+
+    &lt;p&gt;We will be moving the Yun’s operating system and memory onto a micro-sd card, so that we have enough room to install and run NodeJS.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://arduino.cc/en/Tutorial/ExpandingYunDiskSpace&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Instructions on expanding the Yun’s disk space&lt;/a&gt;&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;install-nodejs-and-sftp&quot;&gt;Install NodeJS and SFTP&lt;/h2&gt;
+
+    &lt;h3 id=&quot;install-node-and-node-modules-with-opkg&quot;&gt;Install Node and node-modules with opkg&lt;/h3&gt;
+
+    &lt;p&gt;With an updated Yun image and more memory, we can install Node using opkg (the Yun’s package management system). Be sure the Yun is connected to the internet.&lt;/p&gt;
+
+    &lt;p&gt;Enter the following line into the Yun to prepare opkg.&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;opkg update&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;After each call to opkg, you should see some lines about downloading and installing some files.&lt;/p&gt;
+
+    &lt;p&gt;Next install NodeJS with the following line.&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;opkg install node&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;This may take a few moments. After it’s finished, install the pre-compiled node-modules using opkg.&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;opkg install node-ws &lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;opkg install node-serialport&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;There are a few other pre-compiled node-modules you can install through opkg. All modules are installed globally, so there is no need to ever run npm (especially because npm doesn’t work on the Yun…)&lt;/p&gt;
+
+    &lt;h3 id=&quot;add-sftp-to-transfer-files&quot;&gt;Add SFTP to transfer files&lt;/h3&gt;
+
+    &lt;p&gt;Uploading files to the Yun is much faster if you don’t have to turn it off every time. To do this, we have enable our Yun to be accessed over SFTP. Now, applications like CyberDuck can connect to and upload files to your Yun&lt;/p&gt;
+
+    &lt;p&gt;Enter the following line to install the SFTP package, and now you can connect to it using an FTP client like CyberDuck.&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;opkg update &lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;opkg install openssh-sftp-server&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;In CyberDuck, connect with SFTP, port 22, username ‘root’, and the server-name being your Yun’s IP address.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/images/cyberDuck_yun.png&quot; alt=&quot;cyberDuck_yun&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;I store all the node and web files on the micro-sd card, at &lt;code&gt;/mnt/sda1/arduino/node&lt;/code&gt;. “sda1” is the external memory, “arduino” is a folder that should already exist, and “node” is a folder I created to store my Node scripts.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/images/cyberDuck_yun_2.png&quot; alt=&quot;cyberDuck_yun_2&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Now you can upload and run NodeJS scripts on your Yun! See the below link for you can get NodeJS and the Arduino side of the Yun talking with Bridge:&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://www.tigoe.com/pcomp/code/arduinowiring/1216/#more-1216&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Node.js on the Arduino Yun&lt;/a&gt; - Tom Igoe’s example for getting NodeJS and the ATmega32U4 to communicate with Bridge.&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;make-the-yun-unabridged&quot;&gt;Make the Yun Unabridged&lt;/h2&gt;
+
+    &lt;h3 id=&quot;give-the-ethernet-port-a-static-ip&quot;&gt;Give the ethernet port a static IP&lt;/h3&gt;
+
+    &lt;p&gt;To my mind, the biggest disadvantage of removing Bridge from the Yun, is that you are taking away the ability to access the Linino through the ATmega32U4. This is especially helpul during initial setup, and while configuring the Yun’s network.&lt;/p&gt;
+
+    &lt;p&gt;To give some added security, I have chosen to give my Yun’s ethernet port a static, never changing IP address. With this, I can ssh into the Yun over an ethernet cable, using the following steps.&lt;/p&gt;
+
+    &lt;p&gt;We will edit a file to change the Yun’s network settings. The nano command opens it in terminal:&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;nano /etc/config/network&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;If you get the error &lt;code&gt;Error opening terminal: xterm-256color.&lt;/code&gt;, the following worked for me.&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;ln -s x /usr/share/terminfo/78 &lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;export TERM=xterm-color &lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;nano /etc/config/network&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;Find the part of the document that looks like this:&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;config interface &amp;#39;wan&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option iframe &amp;#39;eth1&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option proto &amp;#39;dhcp&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option metric &amp;#39;10&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;And change it to look like this:&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;config interface &amp;#39;wan&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option iframe &amp;#39;eth1&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option &amp;#39;proto&amp;#39; &amp;#39;static&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option &amp;#39;ipaddr&amp;#39; &amp;#39;192.168.0.200&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option &amp;#39;netmask&amp;#39; &amp;#39;255.255.255.0&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option &amp;#39;gateway&amp;#39; &amp;#39;192.168.0.1&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option &amp;#39;dns&amp;#39; &amp;#39;192.168.0.1&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   option metric &amp;#39;10&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;Instructions on the bottom show how to Write Out (save the file), and Exit.&lt;/p&gt;
+
+    &lt;p&gt;To Write Out (save your changes), hit &lt;code&gt;CONTROL-O&lt;/code&gt;. It will ask if you want to save changes to this file, hit &lt;code&gt;ENTER&lt;/code&gt; to save. To Exit hit &lt;code&gt;CONTROL-X&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Restart your Yun, and you will find it’s ethernet port has the permanent address &lt;code&gt;192.168.0.200&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;p&gt;In order to ssh into the Yun over an ethernet cable, your laptop’s ethernet IP address must share the same two first digits as the Yun’s IP. In this example, the laptop’s IP should beging width 192 and 168 in order for the two to communicate.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/images/staticEthernet_mac.png&quot; alt=&quot;staticEthernet_mac&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;On a Mac, I can go to &lt;code&gt;System Preferences &amp;gt; Network&lt;/code&gt;, select the ethernet port, and tell it to be a Manual IP Address (not DHCP). For example, I could set my laptop to be &lt;code&gt;192.168.0.42&lt;/code&gt;.&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;disable-bridge-on-the-yun&quot;&gt;Disable Bridge on the Yun&lt;/h2&gt;
+
+    &lt;p class=&quot;message&quot;&gt;
+Warning: Proceed with Caution!
+To disable Bridge and free the serial port between the Linux processor and the ATmega32U4, you simply have to comment out one line, and then restart the Yun. To bring Bridge back, simply uncomment the line, and restart the Yun.
+&lt;/p&gt;
+
+    &lt;p&gt;Open the file we must in edit in Terminal with the following command.&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;nano /etc/inittab&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;If you get the error &lt;code&gt;Error opening terminal: xterm-256color.&lt;/code&gt;, the following worked for me.&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;ln -s x /usr/share/terminfo/78 &lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;export TERM=xterm-color &lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;nano /etc/inittab&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;The nano command will open up a text editor in Terminal, where you can move around with the arrow keys.&lt;/p&gt;
+
+    &lt;p&gt;Find the line that says this:&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;ttyATH0::askfirst:/bin/ash --login&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;And comment it out with pound sign at the beginning, like this:&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;#ttyATH0::askfirst:/bin/ash --login&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;Instructions on the bottom show how to Write Out (save the file), and Exit.&lt;/p&gt;
+
+    &lt;p&gt;To Write Out (save your changes), hit &lt;code&gt;CONTROL-O&lt;/code&gt;. It will ask if you want to save changes to this file, hit &lt;code&gt;ENTER&lt;/code&gt; to save. To Exit hit &lt;code&gt;CONTROL-X&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Restart your Yun, and Bridge will not run. Once again, simply uncomment the line to bring Bridge back.&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;using-the-new-setup&quot;&gt;Using the new setup&lt;/h2&gt;
+
+    &lt;h3 id=&quot;modify-code-and-run&quot;&gt;Modify code and run&lt;/h3&gt;
+
+    &lt;p&gt;The Arduino on your Yun can now open a plain Serial connection to the Linux processor. However, it uses &lt;code&gt;Serial1&lt;/code&gt; instead of &lt;code&gt;Serial&lt;/code&gt;. &lt;code&gt;Serial&lt;/code&gt; (without the 1) is connected to the micro-USB, and is used to upload code and communicate with a laptop.&lt;/p&gt;
+
+    &lt;p&gt;So to begin in your setup(), your Arduino code should read:&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;115200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;And to read and write, continue using &lt;code&gt;Serial1&lt;/code&gt;:&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;available&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()){&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p&gt;Any process running on Linux side of the board can access the Arduino’s serial port with the name &lt;code&gt;/dev/ttyATH0&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Now any NodeJS script using the node-serialport module can access the Atmel32u4 using port &lt;code&gt;/dev/ttyATH0&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://github.com/andySigler/NodeJS_Yun_Example&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;NodeJS_Yun_Example&lt;/a&gt; - Some example code, showing a NodeJS server mediating the connection between a browser and an Arduino.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://github.com/voodootikigod/node-serialport/blob/master/README.md&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Reference for node-serialport&lt;/a&gt; - Connect a Node script to the ATmega32U4&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://github.com/einaros/ws/blob/master/README.md&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Reference for node-ws&lt;/a&gt; - Run a WebSocket server on the Yun to have fast, real-time communication with a browser or other devices.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://github.com/arduino/openwrt-packages-yun/tree/master/arduino&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Node-modules available through opkg&lt;/a&gt; - the repo containing all pre-compiled node-modules for the Yun. Others include Noble, Bleno, and socket.io.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://www.tigoe.com/pcomp/code/arduinowiring/1216/#more-1216&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Node.js on the Arduino Yun&lt;/a&gt; - Tom Igoe’s example for getting NodeJS and the ATmega32U4 to communicate with Bridge. Its a bit of a hack that uses the stdin and stdout of a process.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+
+</feed>

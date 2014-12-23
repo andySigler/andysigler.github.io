@@ -1,0 +1,13 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Useless Things
+tagline:          experiments in making an internet of
+url:              http://www.andysigler.com
+paginate:         20
+baseurl:          /
+author:			  Andy Sigler
+name:           Andy Sigler
+email:          andrewsigler1@gmail.com

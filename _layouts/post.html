@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="post-header" style="background-image:url({{ site.baseurl }}public/images/{{ page.image }});">
+    <div class="post-title-box">
+      <div class="verticalAlign">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <h3 class="post-subtitle">{{ page.subtitle }}</h1>
+        <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
+      </div>
+    </div>
+  </div>
+  {{ content }}
+</article>
+
+<aside class="related content-centered">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:6 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}" target="blank">
+            {{ post.title }}
+            <small>
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
