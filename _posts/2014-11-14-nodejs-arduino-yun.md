@@ -44,7 +44,7 @@ With an updated Yun image and more memory, we can install Node using opkg (the Y
 
 Enter the following line into the Yun to prepare opkg.
 
-{% highlight shell-session %}
+{% highlight html %}
 	opkg update
 {% endhighlight %}
 
@@ -52,13 +52,13 @@ After each call to opkg, you should see some lines about downloading and install
 
 Next install NodeJS with the following line.
 
-{% highlight shell-session %}
+{% highlight html %}
 opkg install node
 {% endhighlight %}
 
 This may take a few moments. After it's finished, install the pre-compiled node-modules using opkg.
 
-{% highlight shell-session %}
+{% highlight html %}
 opkg install node-ws 
 opkg install node-serialport
 {% endhighlight %}
@@ -71,7 +71,7 @@ Uploading files to the Yun is much faster if you don't have to turn it off every
 
 Enter the following line to install the SFTP package, and now you can connect to it using an FTP client like CyberDuck.
 
-{% highlight shell-session %}
+{% highlight html %}
 opkg update 
 opkg install openssh-sftp-server
 {% endhighlight %}
@@ -101,13 +101,13 @@ To give some added security, I have chosen to give my Yun's ethernet port a stat
 
 We will edit a file to change the Yun's network settings. The nano command opens it in terminal:
 
-{% highlight shell-session %}
+{% highlight html %}
 nano /etc/config/network
 {% endhighlight %}
 
 If you get the error <code>Error opening terminal: xterm-256color.</code>, the following worked for me.
 
-{% highlight shell-session %}
+{% highlight html %}
 ln -s x /usr/share/terminfo/78 
 export TERM=xterm-color 
 nano /etc/config/network
@@ -115,7 +115,7 @@ nano /etc/config/network
 
 Find the part of the document that looks like this:
 
-{% highlight shell-session %}
+{% highlight html %}
 config interface 'wan'
    option iframe 'eth1'
    option proto 'dhcp'
@@ -124,7 +124,7 @@ config interface 'wan'
 
 And change it to look like this:
 
-{% highlight shell-session %}
+{% highlight html %}
 config interface 'wan'
    option iframe 'eth1'
    option 'proto' 'static'
@@ -159,13 +159,13 @@ To disable Bridge and free the serial port between the Linux processor and the A
 
 Open the file we must in edit in Terminal with the following command.
 
-{% highlight shell-session %}
+{% highlight html %}
 nano /etc/inittab
 {% endhighlight %}
 
 If you get the error <code>Error opening terminal: xterm-256color.</code>, the following worked for me.
 
-{% highlight shell-session %}
+{% highlight html %}
 ln -s x /usr/share/terminfo/78 
 export TERM=xterm-color 
 nano /etc/inittab
@@ -175,13 +175,13 @@ The nano command will open up a text editor in Terminal, where you can move arou
 
 Find the line that says this:
 
-{% highlight shell-session %}
+{% highlight html %}
 ttyATH0::askfirst:/bin/ash --login
 {% endhighlight %}
 
 And comment it out with pound sign at the beginning, like this:
 
-{% highlight shell-session %}
+{% highlight html %}
 #ttyATH0::askfirst:/bin/ash --login
 {% endhighlight %}
 
