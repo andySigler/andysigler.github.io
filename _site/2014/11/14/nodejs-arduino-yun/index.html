@@ -110,18 +110,18 @@
 
     <p>Enter the following line into the Yun to prepare opkg.</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">opkg update</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">opkg update</code></pre></div>
 
     <p>After each call to opkg, you should see some lines about downloading and installing some files.</p>
 
     <p>Next install NodeJS with the following line.</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">opkg install node</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">opkg install node</code></pre></div>
 
     <p>This may take a few moments. After it’s finished, install the pre-compiled node-modules using opkg.</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">opkg install node-ws </span>
-<span class="go">opkg install node-serialport</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">opkg install node-ws 
+opkg install node-serialport</code></pre></div>
 
     <p>There are a few other pre-compiled node-modules you can install through opkg. All modules are installed globally, so there is no need to ever run npm (especially because npm doesn’t work on the Yun…)</p>
 
@@ -131,8 +131,8 @@
 
     <p>Enter the following line to install the SFTP package, and now you can connect to it using an FTP client like CyberDuck.</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">opkg update </span>
-<span class="go">opkg install openssh-sftp-server</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">opkg update 
+opkg install openssh-sftp-server</code></pre></div>
 
     <p>In CyberDuck, connect with SFTP, port 22, username ‘root’, and the server-name being your Yun’s IP address.</p>
 
@@ -159,31 +159,31 @@
 
     <p>We will edit a file to change the Yun’s network settings. The nano command opens it in terminal:</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">nano /etc/config/network</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">nano /etc/config/network</code></pre></div>
 
     <p>If you get the error <code>Error opening terminal: xterm-256color.</code>, the following worked for me.</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">ln -s x /usr/share/terminfo/78 </span>
-<span class="go">export TERM=xterm-color </span>
-<span class="go">nano /etc/config/network</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">ln -s x /usr/share/terminfo/78 
+export TERM=xterm-color 
+nano /etc/config/network</code></pre></div>
 
     <p>Find the part of the document that looks like this:</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">config interface &#39;wan&#39;</span>
-<span class="go">   option iframe &#39;eth1&#39;</span>
-<span class="go">   option proto &#39;dhcp&#39;</span>
-<span class="go">   option metric &#39;10&#39;</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">config interface &#39;wan&#39;
+   option iframe &#39;eth1&#39;
+   option proto &#39;dhcp&#39;
+   option metric &#39;10&#39;</code></pre></div>
 
     <p>And change it to look like this:</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">config interface &#39;wan&#39;</span>
-<span class="go">   option iframe &#39;eth1&#39;</span>
-<span class="go">   option &#39;proto&#39; &#39;static&#39;</span>
-<span class="go">   option &#39;ipaddr&#39; &#39;192.168.0.200&#39;</span>
-<span class="go">   option &#39;netmask&#39; &#39;255.255.255.0&#39;</span>
-<span class="go">   option &#39;gateway&#39; &#39;192.168.0.1&#39;</span>
-<span class="go">   option &#39;dns&#39; &#39;192.168.0.1&#39;</span>
-<span class="go">   option metric &#39;10&#39;</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">config interface &#39;wan&#39;
+   option iframe &#39;eth1&#39;
+   option &#39;proto&#39; &#39;static&#39;
+   option &#39;ipaddr&#39; &#39;192.168.0.200&#39;
+   option &#39;netmask&#39; &#39;255.255.255.0&#39;
+   option &#39;gateway&#39; &#39;192.168.0.1&#39;
+   option &#39;dns&#39; &#39;192.168.0.1&#39;
+   option metric &#39;10&#39;</code></pre></div>
 
     <p>Instructions on the bottom show how to Write Out (save the file), and Exit.</p>
 
@@ -209,23 +209,23 @@ To disable Bridge and free the serial port between the Linux processor and the A
 
     <p>Open the file we must in edit in Terminal with the following command.</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">nano /etc/inittab</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">nano /etc/inittab</code></pre></div>
 
     <p>If you get the error <code>Error opening terminal: xterm-256color.</code>, the following worked for me.</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">ln -s x /usr/share/terminfo/78 </span>
-<span class="go">export TERM=xterm-color </span>
-<span class="go">nano /etc/inittab</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">ln -s x /usr/share/terminfo/78 
+export TERM=xterm-color 
+nano /etc/inittab</code></pre></div>
 
     <p>The nano command will open up a text editor in Terminal, where you can move around with the arrow keys.</p>
 
     <p>Find the line that says this:</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">ttyATH0::askfirst:/bin/ash --login</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">ttyATH0::askfirst:/bin/ash --login</code></pre></div>
 
     <p>And comment it out with pound sign at the beginning, like this:</p>
 
-    <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">#ttyATH0::askfirst:/bin/ash --login</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-html" data-lang="html">#ttyATH0::askfirst:/bin/ash --login</code></pre></div>
 
     <p>Instructions on the bottom show how to Write Out (save the file), and Exit.</p>
 
@@ -294,7 +294,7 @@ To disable Bridge and free the serial port between the Linux processor and the A
 
       <footer class="footer content-centered">
         <small>
-          &copy; <time datetime="2014-12-23T11:25:44-05:00">2014</time>. All rights reserved.
+          &copy; <time datetime="2014-12-26T16:22:16-05:00">2014</time>. All rights reserved.
         </small>
       </footer>
     </div>
@@ -313,6 +313,16 @@ To disable Bridge and free the serial port between the Linux processor and the A
        //blocks[i].style.backgroundColor = color;
       }
     });
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-57970756-2', 'auto');
+    ga('send', 'pageview');
+
   </script>
   </body>
 </html>

@@ -4,7 +4,7 @@
  <title>Useless Things</title>
  <link href="http://www.andysigler.com/atom.xml" rel="self"/>
  <link href="http://www.andysigler.com/"/>
- <updated>2014-12-23T11:25:44-05:00</updated>
+ <updated>2014-12-26T16:22:16-05:00</updated>
  <id>http://www.andysigler.com</id>
  <author>
    <name></name>
@@ -55,18 +55,18 @@
 
     &lt;p&gt;Enter the following line into the Yun to prepare opkg.&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;opkg update&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;opkg update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;After each call to opkg, you should see some lines about downloading and installing some files.&lt;/p&gt;
 
     &lt;p&gt;Next install NodeJS with the following line.&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;opkg install node&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;opkg install node&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;This may take a few moments. After it’s finished, install the pre-compiled node-modules using opkg.&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;opkg install node-ws &lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;opkg install node-serialport&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;opkg install node-ws 
+opkg install node-serialport&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;There are a few other pre-compiled node-modules you can install through opkg. All modules are installed globally, so there is no need to ever run npm (especially because npm doesn’t work on the Yun…)&lt;/p&gt;
 
@@ -76,8 +76,8 @@
 
     &lt;p&gt;Enter the following line to install the SFTP package, and now you can connect to it using an FTP client like CyberDuck.&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;opkg update &lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;opkg install openssh-sftp-server&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;opkg update 
+opkg install openssh-sftp-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;In CyberDuck, connect with SFTP, port 22, username ‘root’, and the server-name being your Yun’s IP address.&lt;/p&gt;
 
@@ -104,31 +104,31 @@
 
     &lt;p&gt;We will edit a file to change the Yun’s network settings. The nano command opens it in terminal:&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;nano /etc/config/network&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;nano /etc/config/network&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;If you get the error &lt;code&gt;Error opening terminal: xterm-256color.&lt;/code&gt;, the following worked for me.&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;ln -s x /usr/share/terminfo/78 &lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;export TERM=xterm-color &lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;nano /etc/config/network&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ln -s x /usr/share/terminfo/78 
+export TERM=xterm-color 
+nano /etc/config/network&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;Find the part of the document that looks like this:&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;config interface &amp;#39;wan&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option iframe &amp;#39;eth1&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option proto &amp;#39;dhcp&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option metric &amp;#39;10&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;config interface &amp;#39;wan&amp;#39;
+   option iframe &amp;#39;eth1&amp;#39;
+   option proto &amp;#39;dhcp&amp;#39;
+   option metric &amp;#39;10&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;And change it to look like this:&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;config interface &amp;#39;wan&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option iframe &amp;#39;eth1&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option &amp;#39;proto&amp;#39; &amp;#39;static&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option &amp;#39;ipaddr&amp;#39; &amp;#39;192.168.0.200&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option &amp;#39;netmask&amp;#39; &amp;#39;255.255.255.0&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option &amp;#39;gateway&amp;#39; &amp;#39;192.168.0.1&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option &amp;#39;dns&amp;#39; &amp;#39;192.168.0.1&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;   option metric &amp;#39;10&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;config interface &amp;#39;wan&amp;#39;
+   option iframe &amp;#39;eth1&amp;#39;
+   option &amp;#39;proto&amp;#39; &amp;#39;static&amp;#39;
+   option &amp;#39;ipaddr&amp;#39; &amp;#39;192.168.0.200&amp;#39;
+   option &amp;#39;netmask&amp;#39; &amp;#39;255.255.255.0&amp;#39;
+   option &amp;#39;gateway&amp;#39; &amp;#39;192.168.0.1&amp;#39;
+   option &amp;#39;dns&amp;#39; &amp;#39;192.168.0.1&amp;#39;
+   option metric &amp;#39;10&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;Instructions on the bottom show how to Write Out (save the file), and Exit.&lt;/p&gt;
 
@@ -154,23 +154,23 @@ To disable Bridge and free the serial port between the Linux processor and the A
 
     &lt;p&gt;Open the file we must in edit in Terminal with the following command.&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;nano /etc/inittab&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;If you get the error &lt;code&gt;Error opening terminal: xterm-256color.&lt;/code&gt;, the following worked for me.&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;ln -s x /usr/share/terminfo/78 &lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;export TERM=xterm-color &lt;/span&gt;
-&lt;span class=&quot;go&quot;&gt;nano /etc/inittab&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ln -s x /usr/share/terminfo/78 
+export TERM=xterm-color 
+nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;The nano command will open up a text editor in Terminal, where you can move around with the arrow keys.&lt;/p&gt;
 
     &lt;p&gt;Find the line that says this:&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;ttyATH0::askfirst:/bin/ash --login&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ttyATH0::askfirst:/bin/ash --login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;And comment it out with pound sign at the beginning, like this:&lt;/p&gt;
 
-    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell-session&quot; data-lang=&quot;shell-session&quot;&gt;&lt;span class=&quot;go&quot;&gt;#ttyATH0::askfirst:/bin/ash --login&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;#ttyATH0::askfirst:/bin/ash --login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;p&gt;Instructions on the bottom show how to Write Out (save the file), and Exit.&lt;/p&gt;
 
