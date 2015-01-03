@@ -4,7 +4,7 @@
  <title>andysigler</title>
  <link href="http://www.andysigler.com/atom.xml" rel="self"/>
  <link href="http://www.andysigler.com/"/>
- <updated>2015-01-03T17:30:22-05:00</updated>
+ <updated>2015-01-03T17:46:12-05:00</updated>
  <id>http://www.andysigler.com</id>
  <author>
    <name></name>
@@ -60,7 +60,9 @@
 
     &lt;p&gt;The Patchbay is a graphical interface, developed for my 2014 master’s thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.&lt;/p&gt;
 
-    &lt;p&gt;Skip ahead to &lt;a href=&quot;http://vimeo.com/96851567#t=5m10s&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;5:10&lt;/a&gt; to see my explanation of the Patchbay interface.&lt;/p&gt;
+    &lt;div class=&quot;message&quot;&gt;
+Skip ahead to &lt;a href=&quot;http://vimeo.com/96851567#t=5m10s&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;5:10&lt;/a&gt; to see my explanation of the Patchbay interface.
+&lt;/div&gt;
 
     &lt;iframe src=&quot;//player.vimeo.com/video/96851567&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
     &lt;p class=&quot;caption&quot;&gt;&lt;a href=&quot;http://vimeo.com/96851567&quot;&gt;Andy Sigler: ITP 2014 Thesis Presentation&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/andysigler&quot;&gt;Andy Sigler&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
@@ -84,7 +86,9 @@
 	&lt;canvas id=&quot;canvas&quot;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;The devices you see, and their corresponding &lt;code&gt;INPUTs&lt;/code&gt; and &lt;code&gt;OUTPUTs&lt;/code&gt;, are actualy toys and objects developed for my 2014 thesis. It was a lot of fun playing with the connections between them :)&lt;/p&gt;
+    &lt;div class=&quot;message&quot;&gt;
+	The devices you see, and their corresponding &lt;code&gt;INPUTs&lt;/code&gt; and &lt;code&gt;OUTPUTs&lt;/code&gt;, are actualy toys and objects developed for my 2014 thesis. It was a lot of fun playing with the connections between them :)
+&lt;/div&gt;
 
   &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
@@ -143,7 +147,9 @@
 
     &lt;p&gt;However, for future implementations I would like to use Bluetooth 4.0. This would allow devices to communicate over broadcasted, stateless communication channels, while being able to communicate directly with a user’s smartphone, tablet, or laptop.&lt;/p&gt;
 
-    &lt;p&gt;You can download the Patchbay from &lt;a href=&quot;https://github.com/andySigler/patchbay&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;. The repo comes with the NodeJS server, HTML5 inteface, and Arduino Library for using the RFm12b.&lt;/p&gt;
+    &lt;div class=&quot;message&quot;&gt;
+You can download the Patchbay from &lt;a href=&quot;https://github.com/andySigler/patchbay&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;. The repo comes with the NodeJS server, HTML5 inteface, and Arduino Library for using the RFm12b.
+&lt;/div&gt;
 
   &lt;/div&gt;&lt;/div&gt;
 </content>

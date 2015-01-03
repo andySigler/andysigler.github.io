@@ -156,7 +156,6 @@ pre {
 }
 code {
   padding: .25em .5em;
-  font-size: 85%;
   color: #bf616a;
   background-color: #f0f0f0;
   border-radius: 3px;
@@ -165,8 +164,8 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
+  padding: 0.75rem;
+  font-size: 1rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
@@ -315,7 +314,7 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: white;
+  color: rgb(220,220,220);
 }
 .masthead-title a {
   color: #505050;
@@ -327,7 +326,7 @@ tbody tr:nth-child(odd) th {
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: rgb(150,150,150);
+  color: rgb(220,220,220);
   letter-spacing: 0;
   margin-right:-12px;
 }
@@ -357,7 +356,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin: 0;
-  color:white;
+  color:rgb(252,120,43);
 }
 
 .post-subtitle {

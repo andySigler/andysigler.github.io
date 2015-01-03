@@ -31,7 +31,7 @@
 	padding:0.15rem 0.5rem 0.15rem 0.5rem;
 	/*background-color:rgb(73,100,200);*/
 	/*color: rgb(252,120,43);*/
-	color:rgb(150,150,150);
+	color:rgb(220,220,220);
 }
 
 .caption {
@@ -89,8 +89,8 @@ code{
 }
 
 .message {
-	background-color:#999;
-	color: white;
+	background-color:rgb(120,120,120);
+	color: rgb(220,220,220);
 }
 
 .related {

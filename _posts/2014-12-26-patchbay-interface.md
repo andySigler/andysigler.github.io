@@ -41,7 +41,9 @@ published: true
 
 The Patchbay is a graphical interface, developed for my 2014 master's thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.
 
+<div class="message">
 Skip ahead to <a href="http://vimeo.com/96851567#t=5m10s" class="inpost-link" target="_blank">5:10</a> to see my explanation of the Patchbay interface.
+</div>
 
 <iframe src="//player.vimeo.com/video/96851567" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p class="caption"><a href="http://vimeo.com/96851567">Andy Sigler: ITP 2014 Thesis Presentation</a> from <a href="http://vimeo.com/andysigler">Andy Sigler</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
@@ -64,7 +66,9 @@ A working demo of the Patchbay can be found below. It's interactive! Rotate the 
 	<canvas id="canvas"></canvas>
 </div>	
 
-The devices you see, and their corresponding <code>INPUTs</code> and <code>OUTPUTs</code>, are actualy toys and objects developed for my 2014 thesis. It was a lot of fun playing with the connections between them :)
+<div class="message">
+	The devices you see, and their corresponding <code>INPUTs</code> and <code>OUTPUTs</code>, are actualy toys and objects developed for my 2014 thesis. It was a lot of fun playing with the connections between them :)
+</div>
 
 </div></div>
 <div class="block"><div class="content-centered" markdown="1">
@@ -123,7 +127,9 @@ For my thesis, the interface was connected over a WebSocket connection to a loca
 
 However, for future implementations I would like to use Bluetooth 4.0. This would allow devices to communicate over broadcasted, stateless communication channels, while being able to communicate directly with a user's smartphone, tablet, or laptop.
 
+<div class="message">
 You can download the Patchbay from <a href="https://github.com/andySigler/patchbay" class="inpost-link" target="_blank">GitHub</a>. The repo comes with the NodeJS server, HTML5 inteface, and Arduino Library for using the RFm12b.
+</div>
 
 
 </div></div>
