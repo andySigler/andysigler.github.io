@@ -25,8 +25,24 @@
 	overflow: hidden;
 	background-color: rgb(79,79,79);
 	background-repeat: repeat;
-    background-position: center;
+    background-position: 0%;
     background-attachment: scroll;
+
+    -webkit-animation: headSlide 30s linear infinite;
+    -moz-animation: headSlide 30s linear infinite;
+    -o-animation: headSlide 30s linear infinite;
+    animation: headSlide 30s linear infinite;
+}
+
+@-webkit-keyframes headSlide {
+    from {background-position: 0%;}
+    to {background-position: 100%;}
+}
+
+/* Standard syntax */
+@keyframes headSlide {
+    from {background-position: 0%;}
+    to {background-position: 100%;}
 }
 
 .post-text {
