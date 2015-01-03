@@ -4,13 +4,150 @@
  <title>andysigler</title>
  <link href="http://www.andysigler.com/atom.xml" rel="self"/>
  <link href="http://www.andysigler.com/"/>
- <updated>2015-01-02T21:54:53-05:00</updated>
+ <updated>2015-01-03T17:00:44-05:00</updated>
  <id>http://www.andysigler.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>The Patchbay Interface</title>
+   <link href="http://www.andysigler.com//2014/12/26/patchbay-interface/"/>
+   <updated>2014-12-26T00:00:00-05:00</updated>
+   <id>http://www.andysigler.com/2014/12/26/patchbay-interface</id>
+   <content type="html">&lt;style&gt;
+	#routerContainer {
+		position:relative;
+		display:block-inline;
+		background-color:rgb(79,79,79);
+	}
+	#patchbayTitle {
+		color:rgb(79,79,79);
+	}
+	canvas{
+		display:inline;
+		position:absolute;
+		left:0px;
+		top:0px;
+	}
+&lt;/style&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/public/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+    &lt;p&gt;The Patchbay is a graphical interface, developed for my 2014 master’s thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.&lt;/p&gt;
+
+    &lt;p&gt;Skip ahead to &lt;a href=&quot;http://vimeo.com/96851567#t=5m10s&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;5:10&lt;/a&gt; to see my explanation of the Patchbay interface.&lt;/p&gt;
+
+    &lt;iframe src=&quot;//player.vimeo.com/video/96851567&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+    &lt;p class=&quot;caption&quot;&gt;&lt;a href=&quot;http://vimeo.com/96851567&quot;&gt;Andy Sigler: ITP 2014 Thesis Presentation&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/andysigler&quot;&gt;Andy Sigler&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;The term Patchbay refers to a piece of equipment found in most recording studios. Patchbays are boxes that live in a studio, and an engineer will wire the audio inputs and outputs from all their equipment into it.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/images/patchbay.jpg&quot; alt=&quot;patchbay&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;An audio studio’s patchbay, used to make connections between outboard gear&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;What it provides is convenience in connecting their equipment, by have one central place to do it. The studio’s engineer is now able to quickly design sounds using the links between her gear.&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+    &lt;p&gt;A working demo of the Patchbay can be found below. It’s interactive! Rotate the arcs to view different project, and connect inputs and output.&lt;/p&gt;
+
+    &lt;div id=&quot;routerContainer&quot;&gt;
+	&lt;div id=&quot;patchbayTitle&quot;&gt;PatchBay&lt;/div&gt;
+	&lt;canvas id=&quot;canvas&quot;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+    &lt;p&gt;The devices you see, and their corresponding &lt;code&gt;INPUTs&lt;/code&gt; and &lt;code&gt;OUTPUTs&lt;/code&gt;, are actualy toys and objects developed for my 2014 thesis. It was a lot of fun playing with the connections between them :)&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;an-interface-for-interop&quot;&gt;An Interface for Interop&lt;/h2&gt;
+
+    &lt;p&gt;What the Patchbay assumes (and all patching intefaces for that matter, digital and physical) is that all nodes in the network are interoperable, meaning that they are able to seamlessly communicate with each other. The people who made them have come to some agreement over how they will communicate.&lt;/p&gt;
+
+    &lt;p&gt;The Patchbay’s role in such an ecosystem is to simply say “This talk to That.”&lt;/p&gt;
+
+    &lt;p&gt;Each device has what’s called &lt;code&gt;INPUTs&lt;/code&gt; and &lt;code&gt;OUTPUTs&lt;/code&gt;. For a simple example, imagine two devices. The first has three buttons, the second has two lights. The first device has three &lt;code&gt;INPUTs&lt;/code&gt;, and the second has two &lt;code&gt;OUTPUTs&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Using the Patchbay, I could connect button #2 to light #1. This would be done by connecting the device’s &lt;code&gt;INPUT&lt;/code&gt; #2 to the other’s &lt;code&gt;OUTPUT&lt;/code&gt; #1.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/images/patchbay_make.gif&quot; alt=&quot;patchbay_make&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;When I no longer want that button to control that light, I erase the connection on the interface.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/images/patchbay_break.gif&quot; alt=&quot;patchbay_break&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;With a simple interface come constraints. The Patchbay is for devices that share only simple values between them. Buttons and lights are a good example: the button could send a &lt;code&gt;1&lt;/code&gt; when pressed, and a &lt;code&gt;0&lt;/code&gt; when released. These numbers would be received by the light, and it would interpret them as meaning “Turn ON” and “Turn OFF.”&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;too-many-things&quot;&gt;Too Many Things&lt;/h2&gt;
+
+    &lt;p&gt;The past few years, I have seen a growing interest in connected devices, and how to best interact with an Internet of Things on a day-to-day bases. “Patching” interfaces have arose, ranging from simple I/O mapping, to more richly featured environments for controlling a network’s data flow.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/images/spacebrew.png&quot; alt=&quot;spacebrew&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;
+	&lt;a href=&quot;http://docs.spacebrew.cc/&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Spacebrew&lt;/a&gt; - a framework for mapping simple I/O over a WebSocket connection.
+&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/images/node-red.png&quot; alt=&quot;node-red&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;
+	&lt;a href=&quot;http://docs.spacebrew.cc/&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Node-RED&lt;/a&gt; - a framework for connecting devices, APIs and online services.
+&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;All these interfaces have one serious design flaw: they become easily over-crowded and difficult to use once the network grows. The more devices that are displayed, the more concentration a user must put into navigating and using one of these interfaces.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/images/zombie.jpg&quot; alt=&quot;zombies&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;The Patchbay hides most of this complexity, using its adaptive circular design. When a new device comes within range of the interface, it will be represented by a new arc.&lt;/p&gt;
+
+    &lt;p&gt;By rotating either circle, you are allowed to see only a couple of the devices’ &lt;code&gt;INPUTs&lt;/code&gt; and &lt;code&gt;OUTPUTs&lt;/code&gt;. This allows the user to focus on only the devices they are currently interacting with, freeing them to look up and experience physical sensations.&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
+
+    &lt;h2 id=&quot;how-it-was-made&quot;&gt;How it was Made&lt;/h2&gt;
+
+    &lt;p&gt;The Patchbay is an HTML5 graphical interface, designed to work on any device that supports modern web technologies. All animations are done an a Canvas element using custom Javascript. The only framework used was &lt;a href=&quot;http://hammerjs.github.io/&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Hammer.js&lt;/a&gt;, a Javascript library for handling both mouse and touch events for tablets.&lt;/p&gt;
+
+    &lt;p&gt;For my thesis, the interface was connected over a WebSocket connection to a local &lt;a href=&quot;http://nodejs.org/&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;NodeJS&lt;/a&gt; server. This NodeJS server was constantly scanning for surrounding devices, and relaying the space’s state on the interface. The decision to run a NodeJS server was made because my devices were all communicating using the &lt;a href=&quot;http://www.hoperf.com/rf/fsk_module/RFM12B.htm&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;RFm12b radio&lt;/a&gt;, operating at 433MHz, and using the &lt;a href=&quot;https://github.com/jcw/jeelib&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;Arduino library from JeeNode&lt;/a&gt;. Smartphones sadly do not support these frequencies, so I fellback to running a local server.&lt;/p&gt;
+
+    &lt;p&gt;However, for future implementations I would like to use Bluetooth 4.0. This would allow devices to communicate over broadcasted, stateless communication channels, while being able to communicate directly with a user’s smartphone, tablet, or laptop.&lt;/p&gt;
+
+    &lt;p&gt;You can download the Patchbay from &lt;a href=&quot;https://github.com/andySigler/patchbay&quot; class=&quot;inpost-link&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;. The repo comes with the NodeJS server, HTML5 inteface, and Arduino Library for using the RFm12b.&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>NodeJS + Yun</title>

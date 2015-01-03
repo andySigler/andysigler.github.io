@@ -1,12 +1,12 @@
 .block{
 	overflow: hidden; /* prevents collapsing margins */
   	padding:2rem 0.5rem 2rem 0.5rem;
-  	color:black;
+  	/*color:black;*/
   	margin:0;
 }
 
 .content-centered{
-	width: 60%;
+	width: 70%;
 	max-width:1000px;
  	min-width:700px;
 	margin-left:  auto;
@@ -23,6 +23,7 @@
 	background-size: auto 150px;
 	text-align: center;
 	overflow: hidden;
+	background-color: rgb(79,79,79);
 	background-repeat: repeat;
     background-position: center;
     background-attachment: scroll;
@@ -31,7 +32,13 @@
 .post-text {
 	background-color:rgba(79,79,79,1);
 	padding:0.15rem 0.5rem 0.15rem 0.5rem;
-	color:rgb(73,200,200);
+	background-color:rgb(73,200,200);
+	/*color: rgb(252,120,43);*/
+	color:black;
+}
+
+.caption {
+	font-size: 0.75rem;
 }
 
 .inpost-link:hover{
@@ -55,7 +62,7 @@
 	width:100%;
 	height:100%;
 	display:inline-block;
-	color: black;
+	/*color: black;*/
 	/*border:.2rem solid #272932;*/
 	padding:0.5rem;
 	border-radius: 0.25rem;
@@ -69,7 +76,7 @@ h2{
 
   padding-bottom:1rem;
   margin-bottom:1.6rem;
-  border-bottom:1px solid black;
+  border-bottom:1px solid;
 }
 
 code{
@@ -78,9 +85,9 @@ code{
 }
 
 .highlight pre,.message{
-	width:90%;
-	margin-right: auto;
-	margin-left: auto;
+	display:inline-block;
+	min-width:70%;
+	width:auto;
 	border-radius: 0.25rem;
 }
 
@@ -90,7 +97,7 @@ code{
 }
 
 .related {
-	color:black;
+	/*color:black;*/
 }
 
 .footer{

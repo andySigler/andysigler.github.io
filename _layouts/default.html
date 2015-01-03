@@ -6,14 +6,16 @@
   <body>
 
     <div class="container content">
-      <header class="masthead  content-centered">
-        <a href="{{ site.baseurl }}" title="Home">
-          <h3 class="masthead-title" style="text-decoration: none;">
-            <small>{{ site.tagline }}</small>
-            <br />
-            {{ site.title }}
-          </h3>
-        </a>
+      <header class="masthead">
+        <div class="content-centered">
+          <a href="{{ site.baseurl }}" title="Home">
+            <h3 class="masthead-title" style="text-decoration: none;">
+              <small>{{ site.tagline }}</small>
+              <br />
+              {{ site.title }}
+            </h3>
+          </a>
+        </div>
       </header>
 
       <main>
@@ -65,11 +67,15 @@
       if (i%2===1) {
         b.style.backgroundColor = 'rgb(79,79,79)';
         b.style.color = 'rgb(73,200,200)';
-        console.log('yea');
       }
       else {
         b.style.backgroundColor = 'white';
+        b.style.color = 'black';
       }
+    }
+    if(blocks.length%2===1) {
+      document.body.style.backgroundColor = 'rgb(79,79,79)';
+      document.body.style.color = 'white';
     }
    </script>
   </body>

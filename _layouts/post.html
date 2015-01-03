@@ -33,7 +33,7 @@ layout: default
     {% for post in site.related_posts limit:6 %}
       <li>
         <h3>
-          <a href="{{ post.url }}" target="blank">
+          <a href="{{ post.url }}">
             {{ post.title }}
             <small>
               <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>

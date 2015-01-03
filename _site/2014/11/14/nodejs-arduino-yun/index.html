@@ -51,14 +51,16 @@
   <body>
 
     <div class="container content">
-      <header class="masthead  content-centered">
-        <a href="/" title="Home">
-          <h3 class="masthead-title" style="text-decoration: none;">
-            <small>making useless things</small>
-            <br />
-            andysigler
-          </h3>
-        </a>
+      <header class="masthead">
+        <div class="content-centered">
+          <a href="/" title="Home">
+            <h3 class="masthead-title" style="text-decoration: none;">
+              <small>making useless things</small>
+              <br />
+              andysigler
+            </h3>
+          </a>
+        </div>
       </header>
 
       <main>
@@ -299,6 +301,16 @@ nano /etc/inittab</code></pre></div>
   <h2>Related Posts</h2>
   <ul class="related-posts">
     
+      <li>
+        <h3>
+          <a href="/2014/12/26/patchbay-interface/">
+            The Patchbay Interface
+            <small>
+              <time datetime="2014-12-26T00:00:00-05:00">26 Dec 2014</time></small>
+          </a>
+        </h3>
+      </li>
+    
   </ul>
 </aside>
 
@@ -309,7 +321,7 @@ nano /etc/inittab</code></pre></div>
           andrewsigler1@gmail.com
         </small>
         <!-- <small>
-          &copy; <time datetime="2015-01-02T21:54:53-05:00">2015</time>. All rights reserved.
+          &copy; <time datetime="2015-01-03T17:00:44-05:00">2015</time>. All rights reserved.
         </small> -->
       </footer>
     </div>
@@ -349,11 +361,15 @@ nano /etc/inittab</code></pre></div>
       if (i%2===1) {
         b.style.backgroundColor = 'rgb(79,79,79)';
         b.style.color = 'rgb(73,200,200)';
-        console.log('yea');
       }
       else {
         b.style.backgroundColor = 'white';
+        b.style.color = 'black';
       }
+    }
+    if(blocks.length%2===1) {
+      document.body.style.backgroundColor = 'rgb(79,79,79)';
+      document.body.style.color = 'white';
     }
    </script>
   </body>

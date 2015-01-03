@@ -51,14 +51,16 @@
   <body>
 
     <div class="container content">
-      <header class="masthead  content-centered">
-        <a href="/" title="Home">
-          <h3 class="masthead-title" style="text-decoration: none;">
-            <small>making useless things</small>
-            <br />
-            andysigler
-          </h3>
-        </a>
+      <header class="masthead">
+        <div class="content-centered">
+          <a href="/" title="Home">
+            <h3 class="masthead-title" style="text-decoration: none;">
+              <small>making useless things</small>
+              <br />
+              andysigler
+            </h3>
+          </a>
+        </div>
       </header>
 
       <main>
@@ -67,7 +69,26 @@
   <article class="post block">
     <div class="content-centered">
       <h4 class="post-title">
-        <a href="/2014/11/14/nodejs-arduino-yun/" target="blank">
+        <a href="/2014/12/26/patchbay-interface/">
+          The Patchbay Interface
+        </a>
+      </h3>
+      <h4 class="post-subtitle">
+        Design decisions for multi-device interactions
+      </h4>
+
+      <time datetime="2014-12-26T00:00:00-05:00" class="post-date">26 Dec 2014</time>
+
+      <p class="post-excerpt">
+        The Patchbay the graphical interface was developed for my 2014 master's thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.
+      </p>
+    </div>
+  </article>
+  
+  <article class="post block">
+    <div class="content-centered">
+      <h4 class="post-title">
+        <a href="/2014/11/14/nodejs-arduino-yun/">
           NodeJS + Yun
         </a>
       </h3>
@@ -91,7 +112,7 @@
           andrewsigler1@gmail.com
         </small>
         <!-- <small>
-          &copy; <time datetime="2015-01-02T21:54:53-05:00">2015</time>. All rights reserved.
+          &copy; <time datetime="2015-01-03T17:00:44-05:00">2015</time>. All rights reserved.
         </small> -->
       </footer>
     </div>
@@ -131,11 +152,15 @@
       if (i%2===1) {
         b.style.backgroundColor = 'rgb(79,79,79)';
         b.style.color = 'rgb(73,200,200)';
-        console.log('yea');
       }
       else {
         b.style.backgroundColor = 'white';
+        b.style.color = 'black';
       }
+    }
+    if(blocks.length%2===1) {
+      document.body.style.backgroundColor = 'rgb(79,79,79)';
+      document.body.style.color = 'white';
     }
    </script>
   </body>
