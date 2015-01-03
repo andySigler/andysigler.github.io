@@ -6,9 +6,21 @@ layout: default
   <div class="post-header" style="background-image:url({{ site.baseurl }}public/images/{{ page.image }});">
     <div class="post-title-box">
       <div class="verticalAlign">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <h3 class="post-subtitle">{{ page.subtitle }}</h1>
-        <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
+        <h1 class="post-title">
+          <span class="post-text">
+            {{ page.title }}
+          </span>
+        </h1>
+        <h3 class="post-subtitle">
+          <span class="post-text">
+            {{ page.subtitle }}
+          </span>
+        </h1>
+        <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">
+          <span class="post-text">
+            {{ page.date | date_to_string }}
+          </span>
+        </time>
       </div>
     </div>
   </div>

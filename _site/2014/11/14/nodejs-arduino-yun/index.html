@@ -10,7 +10,7 @@
 
   <title>
     
-      NodeJS + Yun &middot; Useless Things
+      NodeJS + Yun &middot; andysigler
     
   </title>
 
@@ -24,7 +24,7 @@
   <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/atom+xml" title="Useless Things" href="/atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="andysigler" href="/atom.xml">
   <script type="text/javascript">
 
     var pallette = [
@@ -54,9 +54,9 @@
       <header class="masthead  content-centered">
         <a href="/" title="Home">
           <h3 class="masthead-title" style="text-decoration: none;">
-            <small>experiments in making an internet of</small>
+            <small>making useless things</small>
             <br />
-            Useless Things
+            andysigler
           </h3>
         </a>
       </header>
@@ -66,9 +66,21 @@
   <div class="post-header" style="background-image:url(/public/images/nodejs_arduino.jpg);">
     <div class="post-title-box">
       <div class="verticalAlign">
-        <h1 class="post-title">NodeJS + Yun</h1>
-        <h3 class="post-subtitle">Installing and Running NodeJS on the Arduino Yun</h1>
-        <time datetime="2014-11-14T00:00:00-05:00" class="page-date">14 Nov 2014</time>
+        <h1 class="post-title">
+          <span class="post-text">
+            NodeJS + Yun
+          </span>
+        </h1>
+        <h3 class="post-subtitle">
+          <span class="post-text">
+            Installing and Running NodeJS on the Arduino Yun
+          </span>
+        </h1>
+        <time datetime="2014-11-14T00:00:00-05:00" class="page-date">
+          <span class="post-text">
+            14 Nov 2014
+          </span>
+        </time>
       </div>
     </div>
   </div>
@@ -287,6 +299,16 @@ nano /etc/inittab</code></pre></div>
   <h2>Related Posts</h2>
   <ul class="related-posts">
     
+      <li>
+        <h3>
+          <a href="/2014/12/26/patchbay-interface/" target="blank">
+            Patchbay Interface
+            <small>
+              <time datetime="2014-12-26T00:00:00-05:00">26 Dec 2014</time></small>
+          </a>
+        </h3>
+      </li>
+    
   </ul>
 </aside>
 
@@ -294,7 +316,7 @@ nano /etc/inittab</code></pre></div>
 
       <footer class="footer content-centered">
         <small>
-          &copy; <time datetime="2014-12-26T16:22:16-05:00">2014</time>. All rights reserved.
+          &copy; <time datetime="2015-01-02T20:39:22-05:00">2015</time>. All rights reserved.
         </small>
       </footer>
     </div>
@@ -324,5 +346,22 @@ nano /etc/inittab</code></pre></div>
     ga('send', 'pageview');
 
   </script>
+
+   <script type="text/javascript">
+
+    // find all .block classes and alternate their background-colors
+    var blocks = document.getElementsByClassName('block');
+    for(var i=0;i<blocks.length;i++) {
+      var b = blocks[i];
+      if (i%2===1) {
+        b.style.backgroundColor = 'rgb(79,79,79)';
+        b.style.color = 'rgb(73,200,200)';
+        console.log('yea');
+      }
+      else {
+        b.style.backgroundColor = 'white';
+      }
+    }
+   </script>
   </body>
 </html>

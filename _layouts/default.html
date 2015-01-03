@@ -52,5 +52,22 @@
     ga('send', 'pageview');
 
   </script>
+
+   <script type="text/javascript">
+
+    // find all .block classes and alternate their background-colors
+    var blocks = document.getElementsByClassName('block');
+    for(var i=0;i<blocks.length;i++) {
+      var b = blocks[i];
+      if (i%2===1) {
+        b.style.backgroundColor = 'rgb(79,79,79)';
+        b.style.color = 'rgb(73,200,200)';
+        console.log('yea');
+      }
+      else {
+        b.style.backgroundColor = 'white';
+      }
+    }
+   </script>
   </body>
 </html>

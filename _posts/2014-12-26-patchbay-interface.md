@@ -1,10 +1,14 @@
 ---
 layout: post
 title: Patchbay Interface
-image: nada.jpg
-subtitle: Design desicions and descripts of the minimal Patchbay interface
-excerpt: nada
-published: false
+image: patchbay.png
+subtitle: Design decisions for the Patchbay interface
+excerpt: ITP Masters Thesis 2014
+published: true
 ---
 
-Here it is
+<div class="block"><div class="content-centered" markdown="1">
+
+ITP Masters Thesis 2014
+
+</div></div>

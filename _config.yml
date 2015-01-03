@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Useless Things
-tagline:          experiments in making an internet of
+title:            andysigler
+tagline:          making useless things
 url:              http://www.andysigler.com
 paginate:         20
 baseurl:          /

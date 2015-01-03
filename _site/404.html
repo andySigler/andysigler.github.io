@@ -10,7 +10,7 @@
 
   <title>
     
-      404: Page not found &middot; Useless Things
+      404: Page not found &middot; andysigler
     
   </title>
 
@@ -24,7 +24,7 @@
   <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/atom+xml" title="Useless Things" href="/atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="andysigler" href="/atom.xml">
   <script type="text/javascript">
 
     var pallette = [
@@ -54,9 +54,9 @@
       <header class="masthead  content-centered">
         <a href="/" title="Home">
           <h3 class="masthead-title" style="text-decoration: none;">
-            <small>experiments in making an internet of</small>
+            <small>making useless things</small>
             <br />
-            Useless Things
+            andysigler
           </h3>
         </a>
       </header>
@@ -71,7 +71,7 @@
 
       <footer class="footer content-centered">
         <small>
-          &copy; <time datetime="2014-12-26T16:22:16-05:00">2014</time>. All rights reserved.
+          &copy; <time datetime="2015-01-02T20:39:22-05:00">2015</time>. All rights reserved.
         </small>
       </footer>
     </div>
@@ -101,5 +101,22 @@
     ga('send', 'pageview');
 
   </script>
+
+   <script type="text/javascript">
+
+    // find all .block classes and alternate their background-colors
+    var blocks = document.getElementsByClassName('block');
+    for(var i=0;i<blocks.length;i++) {
+      var b = blocks[i];
+      if (i%2===1) {
+        b.style.backgroundColor = 'rgb(79,79,79)';
+        b.style.color = 'rgb(73,200,200)';
+        console.log('yea');
+      }
+      else {
+        b.style.backgroundColor = 'white';
+      }
+    }
+   </script>
   </body>
 </html>
