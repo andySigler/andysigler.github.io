@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            andysigler
-tagline:          make useless things
+tagline:          makes useless things
 url:              http://www.andysigler.com
 paginate:         20
 baseurl:          /
