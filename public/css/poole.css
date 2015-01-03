@@ -324,9 +324,9 @@ tbody tr:nth-child(odd) th {
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: rgb(73,200,200);
   letter-spacing: 0;
-  margin-right:-6px;
+  margin-right:-12px;
 }
 
 

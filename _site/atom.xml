@@ -4,26 +4,13 @@
  <title>andysigler</title>
  <link href="http://www.andysigler.com/atom.xml" rel="self"/>
  <link href="http://www.andysigler.com/"/>
- <updated>2015-01-02T20:40:54-05:00</updated>
+ <updated>2015-01-02T21:06:54-05:00</updated>
  <id>http://www.andysigler.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
- 
- <entry>
-   <title>Patchbay Interface</title>
-   <link href="http://www.andysigler.com//2014/12/26/patchbay-interface/"/>
-   <updated>2014-12-26T00:00:00-05:00</updated>
-   <id>http://www.andysigler.com/2014/12/26/patchbay-interface</id>
-   <content type="html">&lt;div class=&quot;block&quot;&gt;&lt;div class=&quot;content-centered&quot;&gt;
-
-    &lt;p&gt;ITP Masters Thesis 2014&lt;/p&gt;
-
-  &lt;/div&gt;&lt;/div&gt;
-</content>
- </entry>
  
  <entry>
    <title>NodeJS + Yun</title>
