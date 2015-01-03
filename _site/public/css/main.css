@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Matchbook";
+    src: url(../fonts/Matchbook.ttf);
+}
+.masthead-title{
+	font-family: "Matchbook";
+	font-weight: normal;
+	font-size:4rem;
+}
 .block{
 	overflow: hidden; /* prevents collapsing margins */
   	padding:2rem 0.5rem 2rem 0.5rem;
@@ -89,8 +98,8 @@ code{
 }
 
 .message {
-	background-color:rgb(120,120,120);
-	color: rgb(220,220,220);
+	background-color:rgb(150,150,150);
+	color: white;
 }
 
 .related {
