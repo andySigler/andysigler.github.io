@@ -28,10 +28,10 @@
     background-position: 0%;
     background-attachment: scroll;
 
-    -webkit-animation: headSlide 30s linear infinite;
-    -moz-animation: headSlide 30s linear infinite;
-    -o-animation: headSlide 30s linear infinite;
-    animation: headSlide 30s linear infinite;
+    -webkit-animation: headSlide 30s ease-in-out infinite alternate;
+    -moz-animation: headSlide 30s ease-in-out infinite alternate;
+    -o-animation: headSlide 30s ease-in-out infinite alternate;
+    animation: headSlide 30s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes headSlide {
