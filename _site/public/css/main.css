@@ -24,33 +24,14 @@
 	text-align: center;
 	overflow: hidden;
 	background-color: rgb(79,79,79);
-	background-repeat: repeat;
-    background-position: 0%;
-    background-attachment: scroll;
-
-    -webkit-animation: headSlide 30s ease-in-out infinite alternate;
-    -moz-animation: headSlide 30s ease-in-out infinite alternate;
-    -o-animation: headSlide 30s ease-in-out infinite alternate;
-    animation: headSlide 30s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes headSlide {
-    from {background-position: 0%;}
-    to {background-position: 100%;}
-}
-
-/* Standard syntax */
-@keyframes headSlide {
-    from {background-position: 0%;}
-    to {background-position: 100%;}
 }
 
 .post-text {
 	background-color:rgba(79,79,79,1);
 	padding:0.15rem 0.5rem 0.15rem 0.5rem;
-	background-color:rgb(73,200,200);
+	/*background-color:rgb(73,100,200);*/
 	/*color: rgb(252,120,43);*/
-	color:black;
+	color:rgb(150,150,150);
 }
 
 .caption {

@@ -327,7 +327,7 @@ tbody tr:nth-child(odd) th {
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: rgb(73,200,200);
+  color: rgb(150,150,150);
   letter-spacing: 0;
   margin-right:-12px;
 }
@@ -357,6 +357,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin: 0;
+  color:white;
 }
 
 .post-subtitle {
