@@ -73,6 +73,7 @@ a {
   text-decoration: none;
 }
 a strong {
+  font-weight: bold;
   color: inherit;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
@@ -84,7 +85,7 @@ a:focus {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.25;
   /*color: #313131;*/
   text-rendering: optimizeLegibility;
@@ -112,6 +113,7 @@ p {
 }
 
 strong {
+  font-weight: bold;
   color: #303030;
 }
 

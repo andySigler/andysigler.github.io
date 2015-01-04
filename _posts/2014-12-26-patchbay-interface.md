@@ -2,7 +2,7 @@
 layout: post
 title: The Patchbay Interface
 image: patchbay.png
-subtitle: Design decisions for multi-device interactions
+subtitle: Design Decisions for Multi-Device Interactions
 excerpt: The Patchbay the graphical interface was developed for my 2014 master's thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.
 published: true
 ---
