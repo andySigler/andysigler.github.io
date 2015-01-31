@@ -45,11 +45,12 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(50,138,181);
 }
 
 html {
-  font-family: Courier;
-  font-size: 16px;
+  font-family: Tahoma;
+  font-size: 14px;
   line-height: 1.5;
 }
 @media (min-width: 38em) {
@@ -67,9 +68,13 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
+main {
+  background-color: white;
+}
+
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: rgb(252,120,43);
+  color: #FF7F3D;
   text-decoration: none;
 }
 a strong {
@@ -84,7 +89,7 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
   font-weight: normal;
   line-height: 1.25;
   /*color: #313131;*/
@@ -95,14 +100,15 @@ h1 {
 }
 h2 {
   margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
-  margin-top: 1rem;
+  margin-top: 0rem;
   font-size: 1rem;
 }
 
@@ -157,7 +163,7 @@ pre {
   font-family: "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
+  padding: .1em .25em;
   color: #bf616a;
   background-color: #f0f0f0;
   border-radius: 3px;
@@ -235,10 +241,10 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
-  border:2px solid black;
-/*  margin-right: auto;
-  margin-left: auto;*/
+  /*border-radius: 5px;*/
+  border:1px solid black;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Tables */
@@ -281,7 +287,6 @@ tbody tr:nth-child(odd) th {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  background-color: #f0f0f0;
 }
 
 
@@ -307,8 +312,9 @@ tbody tr:nth-child(odd) th {
 
 .masthead {
   width:100%;
-  background-color: rgb(79,79,79);
+  background-color: rgb(50,138,181);
   padding-top:    1rem;
+  padding-left:    0.2rem;
   padding-bottom: 1rem;
   height: 7rem;
   text-align: left;
@@ -316,7 +322,7 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: rgb(220,220,220);
+  color:rgb(250,250,250);
 }
 .masthead-title a {
   color: #505050;
@@ -326,10 +332,10 @@ tbody tr:nth-child(odd) th {
   text-decoration: none;
 }
 .masthead-title small {
-  font-family: Courier;
+  font-family: Tahoma;
   font-size: 25%;
   font-weight: 400;
-  color: rgb(220,220,220);
+  color:rgb(250,250,250);
   letter-spacing: 0;
   margin-right:-12px;
 }
@@ -359,7 +365,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin: 0;
-  color:rgb(252,120,43);
+  /*color:rgb(252,120,43);*/
 }
 
 .post-subtitle {
@@ -367,7 +373,9 @@ tbody tr:nth-child(odd) th {
 }
 
 /* Meta data line below post title */
+.page-date,
 .post-date {
+  color:rgb(200,200,200);
   display: block;
   margin: 0;
   font-size: 0.8rem;
@@ -380,9 +388,10 @@ tbody tr:nth-child(odd) th {
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
+  margin-top: 0rem;
+  padding-top: 0rem;
   padding-bottom: 2rem;
-  border-top: 1px solid #eee;
+  /*border-top: 1px solid #eee;*/
 }
 .related-posts {
   padding-left: 0;
@@ -396,7 +405,7 @@ tbody tr:nth-child(odd) th {
   color: #999;
 }
 .related-posts li a:hover {
-  color: #268bd2;
+  /*color: #268bd2;*/
   text-decoration: none;
 }
 .related-posts li a:hover small {
@@ -432,7 +441,7 @@ tbody tr:nth-child(odd) th {
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
 }
 
 @media (min-width: 30em) {

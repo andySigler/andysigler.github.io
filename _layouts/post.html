@@ -6,7 +6,7 @@ layout: default
   <!-- <div class="post-header" style="background-image:url({{ site.baseurl }}public/images/{{ page.image }});"> -->
   <div class="post-header">
     <div class="post-title-box">
-      <div class="verticalAlign">
+      <div class="content-centered">
         <h1 class="post-title">
           <span>
             {{ page.title }}
@@ -16,7 +16,7 @@ layout: default
           <span class="post-text">
             {{ page.subtitle }}
           </span>
-        </h1>
+        </h3>
         <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">
           <span class="post-text">
             {{ page.date | date_to_string }}

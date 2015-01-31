@@ -37,15 +37,13 @@ published: true
 
 <div class="block"><div class="content-centered" markdown="1">
 
-##Background
-
 The Patchbay is a graphical interface, developed for my 2014 master's thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.
 
 <div class="message">
 Skip ahead to <a href="http://vimeo.com/96851567#t=5m10s" class="inpost-link" target="_blank">5:10</a> to see my explanation of the Patchbay interface.
 </div>
 
-<iframe src="//player.vimeo.com/video/96851567" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p class="caption"><a href="http://vimeo.com/96851567">Andy Sigler: ITP 2014 Thesis Presentation</a> from <a href="http://vimeo.com/andysigler">Andy Sigler</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe style="width:500px;margin-left:auto;margin-right:auto;display:block;position:relative;" src="//player.vimeo.com/video/96851567" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p class="caption"><a href="http://vimeo.com/96851567">Andy Sigler: ITP 2014 Thesis Presentation</a> from <a href="http://vimeo.com/andysigler">Andy Sigler</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 The term Patchbay refers to a piece of equipment found in most recording studios. Patchbays are boxes that live in a studio, and an engineer will wire the audio inputs and outputs from all their equipment into it.
 
@@ -61,7 +59,7 @@ What it provides is convenience in connecting their equipment, by have one centr
 
 A working demo of the Patchbay can be found below. It's interactive! Rotate the arcs to view different project, and connect inputs and output.
 
-<div id="routerContainer">
+<div id="routerContainer" style="margin-bottom:1.5rem">
 	<div id="patchbayTitle">PatchBay</div>
 	<canvas id="canvas"></canvas>
 </div>	

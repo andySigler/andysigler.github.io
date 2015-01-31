@@ -68,7 +68,7 @@
   <!-- <div class="post-header" style="background-image:url(/public/images/patchbay.png);"> -->
   <div class="post-header">
     <div class="post-title-box">
-      <div class="verticalAlign">
+      <div class="content-centered">
         <h1 class="post-title">
           <span>
             The Patchbay Interface
@@ -78,7 +78,7 @@
           <span class="post-text">
             Design Decisions for Multi-Device Interactions
           </span>
-        </h1>
+        </h3>
         <time datetime="2014-12-26T00:00:00-05:00" class="page-date">
           <span class="post-text">
             26 Dec 2014
@@ -126,15 +126,13 @@
 
 <div class="block"><div class="content-centered">
 
-    <h2 id="background">Background</h2>
-
     <p>The Patchbay is a graphical interface, developed for my 2014 master’s thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.</p>
 
     <div class="message">
 Skip ahead to <a href="http://vimeo.com/96851567#t=5m10s" class="inpost-link" target="_blank">5:10</a> to see my explanation of the Patchbay interface.
 </div>
 
-    <iframe src="//player.vimeo.com/video/96851567" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    <iframe style="width:500px;margin-left:auto;margin-right:auto;display:block;position:relative;" src="//player.vimeo.com/video/96851567" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
     <p class="caption"><a href="http://vimeo.com/96851567">Andy Sigler: ITP 2014 Thesis Presentation</a> from <a href="http://vimeo.com/andysigler">Andy Sigler</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
     <p>The term Patchbay refers to a piece of equipment found in most recording studios. Patchbays are boxes that live in a studio, and an engineer will wire the audio inputs and outputs from all their equipment into it.</p>
@@ -151,7 +149,7 @@ Skip ahead to <a href="http://vimeo.com/96851567#t=5m10s" class="inpost-link" ta
 
     <p>A working demo of the Patchbay can be found below. It’s interactive! Rotate the arcs to view different project, and connect inputs and output.</p>
 
-    <div id="routerContainer">
+    <div id="routerContainer" style="margin-bottom:1.5rem">
 	<div id="patchbayTitle">PatchBay</div>
 	<canvas id="canvas"></canvas>
 </div>
@@ -231,16 +229,6 @@ You can download the Patchbay from <a href="https://github.com/andySigler/patchb
     
       <li>
         <h3>
-          <a href="/2015/01/27/nodela/">
-            Nodela
-            <small>
-              <time datetime="2015-01-27T00:00:00-05:00">27 Jan 2015</time></small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
           <a href="/2014/11/14/nodejs-arduino-yun/">
             NodeJS + Yun
             <small>
@@ -254,30 +242,40 @@ You can download the Patchbay from <a href="https://github.com/andySigler/patchb
 
       </main>
 
-      <footer class="footer content-centered">
-        <small>
+      <footer class="footer">
+        <small style="display:block" class="content-centered">
           andrewsigler1@gmail.com
         </small>
         <!-- <small>
-          &copy; <time datetime="2015-01-29T22:46:24-05:00">2015</time>. All rights reserved.
+          &copy; <time datetime="2015-01-30T20:36:50-05:00">2015</time>. All rights reserved.
         </small> -->
       </footer>
     </div>
     <script type="text/javascript">
     window.addEventListener('load',function(){
-      var blocks = document.getElementsByClassName('block');
-      for(var i=0;i<blocks.length;i++){
 
-        var stepAmount = 155/blocks.length;
+      if(document.getElementsByClassName('posts').length===0) {
 
-        var palletteIndex = i%pallette.length
-        var color = pallette[palletteIndex].color;
+       var otherColor = 'rgb(50,138,181)';
 
-        //var color = 255-Math.floor(stepAmount*i);
-
-       //blocks[i].style.backgroundColor = color;
+        // find all .block classes and alternate their background-colors
+        var blocks = document.getElementsByClassName('block');
+        for(var i=0;i<blocks.length;i++) {
+          var b = blocks[i];
+          if (i%2===1) {
+            b.style.backgroundColor = otherColor;
+            b.style.color = 'rgb(250,250,250)';
+          }
+          else {
+            b.style.backgroundColor = 'white';
+          }
+        }
+        if(blocks.length%2===1) {
+          document.body.style.backgroundColor = otherColor;
+        }
       }
     });
+
   </script>
   <script>
     // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -289,26 +287,5 @@ You can download the Patchbay from <a href="https://github.com/andySigler/patchb
     // ga('send', 'pageview');
 
   </script>
-
-   <script type="text/javascript">
-
-    // find all .block classes and alternate their background-colors
-    var blocks = document.getElementsByClassName('block');
-    for(var i=0;i<blocks.length;i++) {
-      var b = blocks[i];
-      if (i%2===1) {
-        b.style.backgroundColor = 'rgb(79,79,79)';
-        b.style.color = 'rgb(220,220,220)';
-      }
-      else {
-        b.style.backgroundColor = 'white';
-        b.style.color = 'black';
-      }
-    }
-    if(blocks.length%2===1) {
-      document.body.style.backgroundColor = 'rgb(79,79,79)';
-      document.body.style.color = 'white';
-    }
-   </script>
   </body>
 </html>

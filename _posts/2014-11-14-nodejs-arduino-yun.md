@@ -8,8 +8,6 @@ excerpt: Below are the steps to get NodeJS up and running on the Arduino Yun. Th
 
 <div class="block"><div class="content-centered" markdown="1">
 
-##Before you begin
-
 Below are the steps to get NodeJS up and running on the Arduino Yun. This tutorial assumes you have already connected the Yun to your network, and have a basic understanding of NodeJS.
 
 The final steps (red section) of this tutorial are optional and should be taken with caution. They show how to disable Bridge on the Yun, in order to allow NodeJS to speak directly with the Arduino side of the board using node-serialport.
