@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <!-- <link href="http://gmpg.org/xfn/11" rel="profile"> -->
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Nodela &middot; andysigler
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/main.css"> <!-- custom CSS -->
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="andysigler" href="/atom.xml">
+  <script type="text/javascript">
+
+    var pallette = [
+      {
+        color : '#355C69',
+        kids: [],
+      },
+      {
+        color : '#646881',
+        kids: [],
+      },
+      {
+        color : '#69355C',
+        kids: [],
+      }
+      
+    ];
+
+    var extraColors = ['#DDB967','#D1603D','#272932'];
+  </script>
+</head>
+
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead">
+        <div class="content-centered">
+          <a href="/" title="Home">
+            <h3 class="masthead-title" style="text-decoration: none;">
+              andysigler
+             <!--  <br /> -->
+              <small>makes useless things</small>
+            </h3>
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <article class="post">
+  <!-- <div class="post-header" style="background-image:url(/public/images/);"> -->
+  <div class="post-header">
+    <div class="post-title-box">
+      <div class="content-centered">
+        <h1 class="post-title">
+          <span>
+            Nodela
+          </span>
+        </h1>
+        <h3 class="post-subtitle">
+          <span class="post-text">
+            A Web Interface for Milling PCBs on the Roland-Modela
+          </span>
+        </h3>
+        <time datetime="2015-01-27T00:00:00-05:00" class="page-date">
+          <span class="post-text">
+            27 Jan 2015
+          </span>
+        </time>
+      </div>
+    </div>
+  </div>
+  <div class="block"><div class="content-centered">
+
+    <p>The Roland-Modela is a discontued micro-milling machine, and students at <a href="http://itp.nyu.edu" class="inpost-link" target="_blank">ITP</a> use it to mill PCBs from copper clad plates. It’s a well made machine, but it’s software package is terrible.</p>
+
+    <p><img src="/public/images/roland.png" alt="roland-modela" />
+<span class="caption">The Modela a year ago (aka the bit killer)</span></p>
+
+    <p>We had to edit the executable files manually in text editors, and of course we didn’t know what we were doing. Not to mention, the bed was made from steel, so all copper plates were held down (unevenly) with messy double-sided tape. We were breaking bits like crazy!</p>
+
+    <p>I was excited about milling PCBs, but this was the only micro milling machine I had access to. So I made a simple interface using Javascript, and designed a new bed from delrin, and now I can cut straight from an Eagle file without breaking bits.</p>
+
+    <p><img src="/public/images/roland_new.jpg" alt="roland-modela" />
+<span class="caption">The Modela with it’s redesigned bad, made from delrin and threaded inserts.</span></p>
+
+  </div></div>
+<div class="block"><div class="content-centered">
+
+    <h2 id="the-interface">The Interface</h2>
+
+    <p>Below is a screenshot if the interface. It allows you to jog the head around, in order to select your cut’s origin (impossible until recently). It also loads preset speed and plunge values for different bits, so that each bit is used at it’s most optimal settings.</p>
+
+    <p><img src="/public/images/interface-nodela.png" alt="nodela-interface" />
+<span class="caption">New interface for the Modela, made with Javascript and running in a browser.</span></p>
+
+    <p>To load your file, simply drag the Eagle <code>.brd</code> file onto the interface, and it will parse our all the layers that contain toolpath lines (drawn with <code>WIRES</code>). Then it’s just a matter of selecting the correct layer and bit size before pressing print!</p>
+
+  </div></div>
+<div class="block"><div class="content-centered">
+
+    <h2 id="links-and-tutorials">Links and Tutorials</h2>
+
+    <p>The software can be found on <a href="http://github.com/andysigler/nodela" class="inpost-link" target="_blank">GitHub</a>. Check out the README for installation instructions and getting in running.</p>
+
+    <p>The FAQ for the Roland-Modela and interface can be found on ITP’s shop website. <a href="http://shop.itp.nyu.edu/machines/cnc-milling-machines/roland-modela-mdx-20" class="inpost-link" target="_blank">Here is a direct link</a> to the Modela’s page.</p>
+
+    <p>I have also recorded to video tutorials on using the Modela. The first is on how to prepare your Eagle file to be milled, and the second is a walkthrough of cutting that same file.</p>
+
+    <iframe style="width:500px;margin-left:auto;margin-right:auto;display:block;position:relative;" src="//player.vimeo.com/video/119003450" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    <p class="caption"><a href="https://vimeo.com/119003450">Design for the Roland Modela</a> from <a href="https://vimeo.com/andysigler">Andy Sigler</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+    <iframe style="width:500px;margin-left:auto;margin-right:auto;display:block;position:relative;" src="//player.vimeo.com/video/119725323" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    <p class="caption"><a href="https://vimeo.com/119725323">Milling PCBs on the Roland Modela</a> from <a href="https://vimeo.com/andysigler">Andy Sigler</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+    <p>There are a lot of digital frabrication and circuit prototyping machines hitting the market these days, so I know this hack for making a discotinued machine usable won’t last long. But, if you use it and like it, please let me know, and also if there are any changes needed :)</p>
+
+  </div></div>
+
+</article>
+
+<aside class="related content-centered">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2014/12/26/patchbay-interface/">
+            The Patchbay Interface
+            <small>
+              <time datetime="2014-12-26T00:00:00-05:00">26 Dec 2014</time></small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2014/11/14/nodejs-arduino-yun/">
+            NodeJS + Yun
+            <small>
+              <time datetime="2014-11-14T00:00:00-05:00">14 Nov 2014</time></small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</aside>
+
+      </main>
+
+      <footer class="footer">
+        <small style="display:block" class="content-centered">
+          andrewsigler1@gmail.com
+        </small>
+        <!-- <small>
+          &copy; <time datetime="2015-03-04T17:00:16-05:00">2015</time>. All rights reserved.
+        </small> -->
+      </footer>
+    </div>
+    <script type="text/javascript">
+    window.addEventListener('load',function(){
+
+      if(document.getElementsByClassName('posts').length===0) {
+
+       var otherColor = 'rgb(50,138,181)';
+
+        // find all .block classes and alternate their background-colors
+        var blocks = document.getElementsByClassName('block');
+        for(var i=0;i<blocks.length;i++) {
+          var b = blocks[i];
+          if (i%2===1) {
+            b.style.backgroundColor = otherColor;
+            b.style.color = 'rgb(250,250,250)';
+          }
+          else {
+            b.style.backgroundColor = 'white';
+          }
+        }
+        if(blocks.length%2===1) {
+          document.body.style.backgroundColor = otherColor;
+        }
+      }
+    });
+
+  </script>
+  <script>
+    // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    // ga('create', 'UA-57970756-2', 'auto');
+    // ga('send', 'pageview');
+
+  </script>
+  </body>
+</html>
