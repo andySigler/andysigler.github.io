@@ -4,7 +4,7 @@
  <title>andysigler</title>
  <link href="http://www.andysigler.com/atom.xml" rel="self"/>
  <link href="http://www.andysigler.com/"/>
- <updated>2015-03-04T17:00:16-05:00</updated>
+ <updated>2015-03-11T16:38:53-04:00</updated>
  <id>http://www.andysigler.com</id>
  <author>
    <name></name>
@@ -28,7 +28,7 @@
 
     &lt;p&gt;I was excited about milling PCBs, but this was the only micro milling machine I had access to. So I made a simple interface using Javascript, and designed a new bed from delrin, and now I can cut straight from an Eagle file without breaking bits.&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/public/images/roland_new.jpg&quot; alt=&quot;roland-modela&quot; /&gt;
+    &lt;p&gt;&lt;img src=&quot;/public/images/roland_delrin.jpg&quot; alt=&quot;roland-modela&quot; /&gt;
 &lt;span class=&quot;caption&quot;&gt;The Modela with it’s redesigned bad, made from delrin and threaded inserts.&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;&lt;/div&gt;

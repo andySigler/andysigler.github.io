@@ -33,7 +33,7 @@
 	text-align: left;
 	overflow: hidden;
 	background-color: white;
-	color:rgb(50,138,181);
+	color:black;
 	padding-top: 1rem;
 }
 
@@ -113,8 +113,8 @@ code{
 }
 
 .footer{
-	background-color: rgb(50,138,181);
-	color:rgb(250,250,250);
+	background-color: white;
+	color:rgb(100,100,100);
 	text-align: left;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
