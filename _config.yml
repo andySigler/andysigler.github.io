@@ -23,7 +23,7 @@ description: "I make things."
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "https://andySigler.github.io/new_website"
+url: "http://andysigler.com"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
