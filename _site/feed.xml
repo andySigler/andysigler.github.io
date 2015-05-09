@@ -3,26 +3,83 @@
   <channel>
     <title>Andy Sigler</title>
     <description>I make things.</description>
-    <link>http://andysigler.com/</link>
-    <atom:link href="http://andysigler.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Panelling Arduino Minis</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/0-top-mask.jpg&quot; alt=&quot;0-top-mask&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/1-bottom-mask.jpg&quot; alt=&quot;1-bottom-mask&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/2-cleaned-mask.jpg&quot; alt=&quot;2-cleaned-mask&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/4-diy_arduino_mini.jpg&quot; alt=&quot;4-diy_arduino_mini&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/5-populated.jpg&quot; alt=&quot;5-populated&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/6-brokenOut.jpg&quot; alt=&quot;6-brokenOut&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/hardware/panelling-arduino-minis/</link>
+        <guid isPermaLink="true">http://localhost:4000/hardware/panelling-arduino-minis/</guid>
+      </item>
+    
+      <item>
+        <title>DIY RFm69 Breakout</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69_finished_panel.png&quot; alt=&quot;rfm69_finished_panel&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/rfm69_printed_sheet.jpg&quot; alt=&quot;rfm69_printed_sheet&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/rfm69_next_to_boards.jpg&quot; alt=&quot;rfm69_next_to_boards&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/rfm69-1_cut.jpg&quot; alt=&quot;rfm69-1_cut&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/rfm69-2_laminate.jpg&quot; alt=&quot;rfm69-2_laminate&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/rfm69-3_align.jpg&quot; alt=&quot;rfm69-3_align&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/rfm69-5_mask_done.jpg&quot; alt=&quot;rfm69-5_mask_done&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/rfm69.jpg&quot; alt=&quot;rfm69&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Mar 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/hardware/diy-rfm69-breakout/</link>
+        <guid isPermaLink="true">http://localhost:4000/hardware/diy-rfm69-breakout/</guid>
+      </item>
+    
+      <item>
+        <title>DIY Solder Mask</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/0-top-film.jpg&quot; alt=&quot;0-top-film&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/1-bottom-film.jpg&quot; alt=&quot;1-bottom-film&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/2_box_UV.jpg&quot; alt=&quot;2_box_UV&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/4-final-result.gif&quot; alt=&quot;4-final-result&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Mar 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/hardware/diy-solder-mask/</link>
+        <guid isPermaLink="true">http://localhost:4000/hardware/diy-solder-mask/</guid>
+      </item>
+    
+      <item>
+        <title>UV Light Cigar Box</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_2_finished_pcb.png&quot; alt=&quot;lightbox_2_finished_pcb&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/lightbox_3_testing_leds.jpg&quot; alt=&quot;lightbox_3_testing_leds&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/lightbox_4_box_open.jpg&quot; alt=&quot;lightbox_4_box_open&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/lightbox_5_box_closed.jpg&quot; alt=&quot;lightbox_5_box_closed&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/lightbox_6_box_interior.jpg&quot; alt=&quot;lightbox_6_box_interior&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/lightbox_7_solder_mask_applied.jpg&quot; alt=&quot;lightbox_7_solder_mask_applied&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Feb 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/hardware/uv-lightbox/</link>
+        <guid isPermaLink="true">http://localhost:4000/hardware/uv-lightbox/</guid>
+      </item>
     
       <item>
         <title>Nodela</title>
         <description>&lt;p&gt;The Roland-Modela is a discontued micro-milling machine, and students at &lt;a href=&quot;http://itp.nyu.edu&quot;&gt;ITP&lt;/a&gt; use it to mill PCBs from copper clad plates. It’s a well made machine, but it’s software package is terrible.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/roland.png&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/roland.png&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We had to edit the executable files manually in text editors, and of course we didn’t know what we were doing. Not to mention, the bed was made from steel, so all copper plates were held down (unevenly) with messy double-sided tape. We were breaking bits like crazy!&lt;/p&gt;
 
 &lt;p&gt;I was excited about milling PCBs, but this was the only micro milling machine I had access to. So I made a simple interface using Javascript, and designed a new bed from delrin, and now I can cut straight from an Eagle file without breaking bits.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/roland_delrin.jpg&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/roland_delrin.jpg&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-interface&quot;&gt;The Interface&lt;/h1&gt;
 
 &lt;p&gt;Below is a screenshot if the interface. It allows you to jog the head around, in order to select your cut’s origin (impossible until recently). It also loads preset speed and plunge values for different bits, so that each bit is used at it’s most optimal settings.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/interface-nodela.png&quot; alt=&quot;nodela-interface&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/interface-nodela.png&quot; alt=&quot;nodela-interface&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To load your file, simply drag the Eagle &lt;code&gt;.brd&lt;/code&gt; file onto the interface, and it will parse our all the layers that contain toolpath lines (drawn with &lt;code&gt;WIRES&lt;/code&gt;). Then it’s just a matter of selecting the correct layer and bit size before pressing print!&lt;/p&gt;
 
@@ -41,8 +98,8 @@
 &lt;p&gt;There are a lot of digital frabrication and circuit prototyping machines hitting the market these days, so I know this hack for making a discotinued machine usable won’t last long. But, if you use it and like it, please let me know, and also if there are any changes needed :)&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Jan 2015 00:00:00 -0500</pubDate>
-        <link>http://andysigler.com/hardware/nodela/</link>
-        <guid isPermaLink="true">http://andysigler.com/hardware/nodela/</guid>
+        <link>http://localhost:4000/hardware/nodela/</link>
+        <guid isPermaLink="true">http://localhost:4000/hardware/nodela/</guid>
       </item>
     
       <item>
@@ -64,25 +121,25 @@
 	}
 &lt;/style&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;The Patchbay is a graphical interface, developed for my 2014 master’s thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.&lt;/p&gt;
 
@@ -92,7 +149,7 @@
 
 &lt;p&gt;The term Patchbay refers to a piece of equipment found in most recording studios. Patchbays are boxes that live in a studio, and an engineer will wire the audio inputs and outputs from all their equipment into it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/patchbay.jpg&quot; alt=&quot;patchbay&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/patchbay.jpg&quot; alt=&quot;patchbay&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What it provides is convenience in connecting their equipment, by have one central place to do it. The studio’s engineer is now able to quickly design sounds using the links between her gear.&lt;/p&gt;
 
@@ -117,11 +174,11 @@
 
 &lt;p&gt;Using the Patchbay, I could connect button #2 to light #1. This would be done by connecting the device’s &lt;code&gt;INPUT&lt;/code&gt; #2 to the other’s &lt;code&gt;OUTPUT&lt;/code&gt; #1.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/patchbay_make.gif&quot; alt=&quot;patchbay_make&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/patchbay_make.gif&quot; alt=&quot;patchbay_make&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When I no longer want that button to control that light, I erase the connection on the interface.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/patchbay_break.gif&quot; alt=&quot;patchbay_break&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/patchbay_break.gif&quot; alt=&quot;patchbay_break&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With a simple interface come constraints. The Patchbay is for devices that share only simple values between them. Buttons and lights are a good example: the button could send a &lt;code&gt;1&lt;/code&gt; when pressed, and a &lt;code&gt;0&lt;/code&gt; when released. These numbers would be received by the light, and it would interpret them as meaning “Turn ON” and “Turn OFF.”&lt;/p&gt;
 
@@ -129,15 +186,15 @@
 
 &lt;p&gt;The past few years, I have seen a growing interest in connected devices, and how to best interact with an Internet of Things on a day-to-day bases. “Patching” interfaces have arose, ranging from simple I/O mapping, to more richly featured environments for controlling a network’s data flow.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/spacebrew.png&quot; alt=&quot;spacebrew&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/spacebrew.png&quot; alt=&quot;spacebrew&quot; /&gt;
 &lt;a href=&quot;http://docs.spacebrew.cc/&quot;&gt;Spacebrew&lt;/a&gt; - a framework for mapping simple I/O over a WebSocket connection.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/node-red.png&quot; alt=&quot;node-red&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/node-red.png&quot; alt=&quot;node-red&quot; /&gt;
 &lt;a href=&quot;http://docs.spacebrew.cc/&quot;&gt;Node-RED&lt;/a&gt; - a framework for connecting devices, APIs and online services.&lt;/p&gt;
 
 &lt;p&gt;All these interfaces have one serious design flaw: they become easily over-crowded and difficult to use once the network grows. The more devices that are displayed, the more concentration a user must put into navigating and using one of these interfaces.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/zombie.jpg&quot; alt=&quot;zombies&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/zombie.jpg&quot; alt=&quot;zombies&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Patchbay hides most of this complexity, using its adaptive circular design. When a new device comes within range of the interface, it will be represented by a new arc.&lt;/p&gt;
 
@@ -154,8 +211,8 @@
 &lt;p&gt;You can download the Patchbay from (https://github.com/andySigler/patchbay)[GitHub]. The repo comes with the NodeJS server, HTML5 inteface, and Arduino Library for using the RFm12b.&lt;/p&gt;
 </description>
         <pubDate>Fri, 26 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://andysigler.com/patchbay/patchbay-interface/</link>
-        <guid isPermaLink="true">http://andysigler.com/patchbay/patchbay-interface/</guid>
+        <link>http://localhost:4000/patchbay/patchbay-interface/</link>
+        <guid isPermaLink="true">http://localhost:4000/patchbay/patchbay-interface/</guid>
       </item>
     
       <item>
@@ -210,11 +267,11 @@ opkg install openssh-sftp-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;In CyberDuck, connect with SFTP, port 22, username ‘root’, and the server-name being your Yun’s IP address.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/cyberDuck_yun.png&quot; alt=&quot;cyberDuck_yun&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/cyberDuck_yun.png&quot; alt=&quot;cyberDuck_yun&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I store all the node and web files on the micro-sd card, at &lt;code&gt;/mnt/sda1/arduino/node&lt;/code&gt;. “sda1” is the external memory, “arduino” is a folder that should already exist, and “node” is a folder I created to store my Node scripts.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/cyberDuck_yun_2.png&quot; alt=&quot;cyberDuck_yun_2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/cyberDuck_yun_2.png&quot; alt=&quot;cyberDuck_yun_2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now you can upload and run NodeJS scripts on your Yun! See the below link for you can get NodeJS and the Arduino side of the Yun talking with Bridge:&lt;/p&gt;
 
@@ -262,7 +319,7 @@ nano /etc/config/network&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;In order to ssh into the Yun over an ethernet cable, your laptop’s ethernet IP address must share the same two first digits as the Yun’s IP. In this example, the laptop’s IP should beging width 192 and 168 in order for the two to communicate.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/staticEthernet_mac.png&quot; alt=&quot;staticEthernet_mac&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/staticEthernet_mac.png&quot; alt=&quot;staticEthernet_mac&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;On a Mac, I can go to &lt;code&gt;System Preferences &amp;gt; Network&lt;/code&gt;, select the ethernet port, and tell it to be a Manual IP Address (not DHCP). For example, I could set my laptop to be &lt;code&gt;192.168.0.42&lt;/code&gt;.&lt;/p&gt;
 
@@ -333,8 +390,8 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 </description>
         <pubDate>Fri, 14 Nov 2014 00:00:00 -0500</pubDate>
-        <link>http://andysigler.com/teaching/nodejs-arduino-yun/</link>
-        <guid isPermaLink="true">http://andysigler.com/teaching/nodejs-arduino-yun/</guid>
+        <link>http://localhost:4000/teaching/nodejs-arduino-yun/</link>
+        <guid isPermaLink="true">http://localhost:4000/teaching/nodejs-arduino-yun/</guid>
       </item>
     
       <item>
@@ -342,8 +399,8 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         <description>
 </description>
         <pubDate>Mon, 28 Apr 2014 00:00:00 -0400</pubDate>
-        <link>http://andysigler.com/projects/how-to-make-the-internet-of-useless-things/</link>
-        <guid isPermaLink="true">http://andysigler.com/projects/how-to-make-the-internet-of-useless-things/</guid>
+        <link>http://localhost:4000/projects/how-to-make-the-internet-of-useless-things/</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/how-to-make-the-internet-of-useless-things/</guid>
       </item>
     
       <item>
@@ -357,14 +414,14 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This interface uses a multi-touch trackpad, proximity sensor, and flexible polycarbonite poles, all to allow the human hand to expressively perform vowel sounds. The fingers horizontal position moves the frequency of resonant bandpass filters, while their vertical position alters the filters’ Q.&lt;/p&gt;
 </description>
         <pubDate>Sat, 28 Dec 2013 00:00:00 -0500</pubDate>
-        <link>http://andysigler.com/projects/noser/</link>
-        <guid isPermaLink="true">http://andysigler.com/projects/noser/</guid>
+        <link>http://localhost:4000/projects/noser/</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/noser/</guid>
       </item>
     
       <item>
         <title>Browser Tag</title>
-        <description>&lt;p&gt;&lt;a class=&quot;span8 offset3&quot; title=&quot;BitTorrent-Sticker&quot; name=&quot;BitTorrent-Sticker&quot; href=&quot;javascript:(function()%7Bvar%20bk%3D%7Bmouse:%7Bx:0,y:0%7D,imgCounter:0,allImages:%5B%5D,maxImages:500,maxWidth:500,minWidth:10,ratio:270/880,prev:0.5,slide:2,move:false,toggle:true,highestZ:100000,img:document.createElement(%22img%22)%7D%3Bbk.img.src%3D%22http://andysigler.com/images/btnc.png%22%3Bfunction%20cloneImage(a,f,d)%7Bvar%20c%3DgetWidth()%3Bif(c%3Cbk.minWidth)%7Bc%3D200%7Dvar%20b%3DMath.floor(c*bk.ratio)%3Bvar%20e%3Dbk.img.cloneNode(true)%3Be.style.position%3D%22absolute%22%3Be.style.width%3Dc%2B%22px%22%3Be.style.height%3Db%2B%22px%22%3Be.style.top%3D(f-(b/2))%2B%22px%22%3Be.style.left%3D(a-(c/2))%2B%22px%22%3Be.style.zindex%3Dbk.highestZ%2Bbk.imgCounter%3Bif(e.style.webkitTransform!%3D%3Dundefined)%7Be.style.webkitTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.MozTransform!%3D%3Dundefined)%7Be.style.MozTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.msTransform!%3D%3Dundefined)%7Be.style.msTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.OTransform!%3D%3Dundefined)%7Be.style.OTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.transform!%3D%3Dundefined)%7Be.style.transform%3D%22rotate(%22%2Bd%2B%22deg)%22%7D%7D%7D%7D%7De.id%3D%22img_%22%2Bbk.imgCounter%3Bbk.imgCounter%2B%2B%3Bdocument.body.appendChild(e)%7Dfunction%20getWidth()%7Bvar%20a%3D((Math.tan(((Math.random()*2)-1)*(Math.PI/4))%2B1)/2)%3Bbk.prev%3Dbk.prev%2B((a-bk.prev)/bk.slide)%3Breturn%20Math.floor((bk.prev*bk.maxWidth)%2Bbk.minWidth)%7Dwindow.onmousemove%3Dfunction(a)%7Bbk.mouse.x%3Da.pageX%3Bbk.mouse.y%3Da.pageY%3Bbk.move%3Dtrue%7D%3Bwindow.onclick%3Dfunction(a)%7Bbk.toggle%3D!bk.toggle%7D%3Bfunction%20findHighestZIndex()%7Bvar%20g%3D%5B%22div%22,%22p%22,%22img%22%5D%3Bvar%20f%3D0%3Bvar%20a%3Dg.length%3Bfor(var%20b%3D0%3Bb%3Ca%3Bb%2B%2B)%7Bvar%20c%3Ddocument.getElementsByTagName(g%5Bb%5D)%3Bfor(var%20e%3D0%3Be%3Cc.length%3Be%2B%2B)%7Bvar%20d%3Ddocument.defaultView.getComputedStyle(c%5Be%5D,null).getPropertyValue(%22z-index%22)%3Bif((d%3Ef)%26%26(d!%3D%22auto%22))%7Bf%3Dd%7D%7D%7Dbk.highestZ%3Df%7DsetInterval(function()%7Bif(bk.move%26%26bk.toggle)%7BcloneImage(bk.mouse.x,bk.mouse.y,Math.floor(Math.random()*80-40))%3Bbk.move%3Dfalse%7D%7D,100)%3BfindHighestZIndex()%3B%7D)()%3B&quot; alt=&quot;BitTorrent-Sticker&quot;&gt;
-  &lt;img id=&quot;sticker&quot; width=&quot;360&quot; border=&quot;3&quot; title=&quot;BitTorrent-Sticker&quot; src=&quot;http://andysigler.com/images/btnc_fold.png&quot; name=&quot;BitTorrent-Sticker&quot; alt=&quot;BitTorrent-Sticker&quot; style=&quot;border:2px solid black&quot; /&gt;
+        <description>&lt;p&gt;&lt;a class=&quot;span8 offset3&quot; title=&quot;BitTorrent-Sticker&quot; name=&quot;BitTorrent-Sticker&quot; href=&quot;javascript:(function()%7Bvar%20bk%3D%7Bmouse:%7Bx:0,y:0%7D,imgCounter:0,allImages:%5B%5D,maxImages:500,maxWidth:500,minWidth:10,ratio:270/880,prev:0.5,slide:2,move:false,toggle:true,highestZ:100000,img:document.createElement(%22img%22)%7D%3Bbk.img.src%3D%22http://localhost:4000/images/btnc.png%22%3Bfunction%20cloneImage(a,f,d)%7Bvar%20c%3DgetWidth()%3Bif(c%3Cbk.minWidth)%7Bc%3D200%7Dvar%20b%3DMath.floor(c*bk.ratio)%3Bvar%20e%3Dbk.img.cloneNode(true)%3Be.style.position%3D%22absolute%22%3Be.style.width%3Dc%2B%22px%22%3Be.style.height%3Db%2B%22px%22%3Be.style.top%3D(f-(b/2))%2B%22px%22%3Be.style.left%3D(a-(c/2))%2B%22px%22%3Be.style.zindex%3Dbk.highestZ%2Bbk.imgCounter%3Bif(e.style.webkitTransform!%3D%3Dundefined)%7Be.style.webkitTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.MozTransform!%3D%3Dundefined)%7Be.style.MozTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.msTransform!%3D%3Dundefined)%7Be.style.msTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.OTransform!%3D%3Dundefined)%7Be.style.OTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.transform!%3D%3Dundefined)%7Be.style.transform%3D%22rotate(%22%2Bd%2B%22deg)%22%7D%7D%7D%7D%7De.id%3D%22img_%22%2Bbk.imgCounter%3Bbk.imgCounter%2B%2B%3Bdocument.body.appendChild(e)%7Dfunction%20getWidth()%7Bvar%20a%3D((Math.tan(((Math.random()*2)-1)*(Math.PI/4))%2B1)/2)%3Bbk.prev%3Dbk.prev%2B((a-bk.prev)/bk.slide)%3Breturn%20Math.floor((bk.prev*bk.maxWidth)%2Bbk.minWidth)%7Dwindow.onmousemove%3Dfunction(a)%7Bbk.mouse.x%3Da.pageX%3Bbk.mouse.y%3Da.pageY%3Bbk.move%3Dtrue%7D%3Bwindow.onclick%3Dfunction(a)%7Bbk.toggle%3D!bk.toggle%7D%3Bfunction%20findHighestZIndex()%7Bvar%20g%3D%5B%22div%22,%22p%22,%22img%22%5D%3Bvar%20f%3D0%3Bvar%20a%3Dg.length%3Bfor(var%20b%3D0%3Bb%3Ca%3Bb%2B%2B)%7Bvar%20c%3Ddocument.getElementsByTagName(g%5Bb%5D)%3Bfor(var%20e%3D0%3Be%3Cc.length%3Be%2B%2B)%7Bvar%20d%3Ddocument.defaultView.getComputedStyle(c%5Be%5D,null).getPropertyValue(%22z-index%22)%3Bif((d%3Ef)%26%26(d!%3D%22auto%22))%7Bf%3Dd%7D%7D%7Dbk.highestZ%3Df%7DsetInterval(function()%7Bif(bk.move%26%26bk.toggle)%7BcloneImage(bk.mouse.x,bk.mouse.y,Math.floor(Math.random()*80-40))%3Bbk.move%3Dfalse%7D%7D,100)%3BfindHighestZIndex()%3B%7D)()%3B&quot; alt=&quot;BitTorrent-Sticker&quot;&gt;
+  &lt;img id=&quot;sticker&quot; width=&quot;360&quot; border=&quot;3&quot; title=&quot;BitTorrent-Sticker&quot; src=&quot;http://localhost:4000/images/btnc_fold.png&quot; name=&quot;BitTorrent-Sticker&quot; alt=&quot;BitTorrent-Sticker&quot; style=&quot;border:2px solid black&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;instructions&quot;&gt;Instructions:&lt;/h2&gt;
@@ -377,66 +434,8 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This bookmarklet was my first and favorite thing I made while interning for &lt;strong&gt;BitTorrent&lt;/strong&gt; during the summer of 2013. It is a bookmarklet that, when pressed on any webpage, injects a small script to cover the page with the &lt;strong&gt;BitTorrent Is Not a Crime&lt;/strong&gt; campaign sticker. Simple and fun.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Sep 2013 00:00:00 -0400</pubDate>
-        <link>http://andysigler.com/projects/browser-tag/</link>
-        <guid isPermaLink="true">http://andysigler.com/projects/browser-tag/</guid>
-      </item>
-    
-      <item>
-        <title>ScreenRacer</title>
-        <description>&lt;p&gt;Screen Racer is a multi-screen, online game, made with HTML5, Node.js, and WebSockets. Using the iPhone’s orientation as a controller, players send their helicopter through rough terrain, all spread across any number of connected web browsers. This allows Screen Racer’s landscape to depend on the physical placement of the screens. I have found it fun to place the screens in a circle, forcing the player to run in circles in order to keep up with their helicopter.&lt;/p&gt;
-
-&lt;p&gt;View the project on &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/andySigler/screenracer&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 May 2013 00:00:00 -0400</pubDate>
-        <link>http://andysigler.com/projects/screenracer/</link>
-        <guid isPermaLink="true">http://andysigler.com/projects/screenracer/</guid>
-      </item>
-    
-      <item>
-        <title>OpenLimbs</title>
-        <description>&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/wov2sgdQe8Y&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;The Open Limbs Project, made up of Andy Sigler, &lt;a href=&quot;http://wk9.tumblr.com/&quot; target=&quot;_blank&quot;&gt;Will Canine&lt;/a&gt;, and &lt;a href=&quot;http://www.carlj.us/&quot; target=&quot;_blank&quot;&gt;Carl Jamilkowski&lt;/a&gt;, uses the body as a medium and means for expression. The Project uses electric muscle stimulation to control the limbs of the human body, leading to new forms of expressions, identity, and connections. The Open Limbs Project was created for the Biomechanics graduate course at ITP.&lt;/p&gt;
-
-&lt;p&gt;Below is a video of Will hooked up to two stimulators, one controlled through tilting a smartphone, the other through moving the skeleton’s arm.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://player.vimeo.com/video/65162857&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;OpenLimbs was shown in the ITP 2013 Spring Show, and somehow made it to the front page of Yahoo! news.&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;blank&quot; href=&quot;http://news.yahoo.com/blogs/this-could-be-big-abc-news/remote-control-body-184110077.html&quot;&gt;
-	&lt;img style=&quot;width:70%&quot; src=&quot;http://andysigler.com/images/yahoo.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 May 2013 00:00:00 -0400</pubDate>
-        <link>http://andysigler.com/projects/openlimbs/</link>
-        <guid isPermaLink="true">http://andysigler.com/projects/openlimbs/</guid>
-      </item>
-    
-      <item>
-        <title>Numbers on the Board</title>
-        <description>&lt;p&gt;Numbers on the Board is a sculptural installation, designed for the Manhattan-Henge events, during the months of May through July.&lt;/p&gt;
-
-&lt;p&gt;Manhatten-Henge is the solar phenomenon that occurs every summer in New York City, where two nights a year, the sunset perfectly aligns with the streets on Manhattan. This allows pedestrians to see the sunset over the horizon through the tall skyscrapers, and the sun can be seen through to the other side of Manhattan, into Brooklyn.&lt;/p&gt;
-
-&lt;p&gt;To emphasis how special these moments of alignment are, myself, &lt;a href=&quot;http://johncapogna.com/&quot; target=&quot;blank&quot;&gt;John Capogna&lt;/a&gt;, and &lt;a href=&quot;http://www.allisonburtch.net/&quot; target=&quot;blank&quot;&gt;Allison Burtch&lt;/a&gt; created a sound installation, designed to live on the Tudor Bridge on 42nd Street. Using the sonic alignment of polyphonic rhythms, Numbers on the Board uses five gears, each with 42, 43, 44, 45, and 46 teeth, to create an ever-evolving melody, and all notes perfectly align every 44 days. If started during the first occurrence of Manhatten-Henge, the gears would play for two months, and then aligning again during the exact moment of the second Manhatten-Henge, 44 days latter.&lt;/p&gt;
-
-&lt;p&gt;The sculpture uses metal tongs, inspired by the African Mbira, to create a soothing, yet percussive melody. The Mbira is designed to perform polkyphonic melodies, and seems like a perfect fit.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 May 2013 00:00:00 -0400</pubDate>
-        <link>http://andysigler.com/projects/numbers-on-the-board/</link>
-        <guid isPermaLink="true">http://andysigler.com/projects/numbers-on-the-board/</guid>
-      </item>
-    
-      <item>
-        <title>Foodable</title>
-        <description>&lt;p&gt;Foodable is an interactive table, designed for a NYC food event, and made in collaboration with &lt;a href=&quot;http://johncapogna.com/&quot; target=&quot;blank&quot;&gt;John Capogna&lt;/a&gt; and &lt;a href=&quot;http://shilpanbhagat.com/site/&quot; target=&quot;_blank&quot;&gt;Shilpan Bhagat&lt;/a&gt;. Using multiple sensing technologies, we allow diners to â€œplayâ€ with their food, while simultaneously learning about their dish and drink.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/foodable_flow.jpg&quot; style=&quot;border-bottom:20px solid white&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Apr 2013 00:00:00 -0400</pubDate>
-        <link>http://andysigler.com/projects/foodable/</link>
-        <guid isPermaLink="true">http://andysigler.com/projects/foodable/</guid>
+        <link>http://localhost:4000/projects/browser-tag/</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/browser-tag/</guid>
       </item>
     
   </channel>

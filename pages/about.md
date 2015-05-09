@@ -10,7 +10,7 @@ header: no
 
 ![me]({{ site.url }}/images/me_small.jpg "me")
 
-Hi, I'm Andy, and I'm interested in networked objects. I want to encourage [improvisation and play]({{ site.url }}/itp/how-to-make-the-internet-of-useless-things) in the Internet of Things, and I hope to someday fill my home with networked musical instruments and toys.
+I'm interested in networked and interactive objects. I want to encourage [improvisation and play]({{ site.url }}/itp/how-to-make-the-internet-of-useless-things) in the Internet of Things, and I hope to someday fill my home with networked musical instruments and toys.
 
 I am currently a research resident at the [Interactive Telecommunications Program (ITP)](https://itp.nyu.edu) at NYU, where I focus on PCB rapid prototyping and connected devices. I will be teaching a course entitled Homemade Hardware at ITP beginning Fall '15. Previously I was lead developer and interaction designer at [OpenTrons](http://opentrons.com).
 

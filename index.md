@@ -8,13 +8,17 @@ layout: page
 permalink: "/"
 show_meta: false
 ---
-
-<span class="avoidMe teaser" style="display:inline-block;width:100%;max-width:500px">
-I make connected devices and interactive systems.
-</span>
-<br /><br />
-<span class="avoidMe teaser" style="display:inline-block;width:100%;max-width:500px">
-Check out my [projects]({{ site.url }}/projects/), or learn more [about me]({{ site.url }}/about).
+<span style="display:block;width:100%;max-width:400px;" markdown="1">
+	<span class="avoidMe teaser">
+	Hello. I make connected devices and the experiences around them.
+	</span>
+	<br /><br />
+	<span class="avoidMe subheadline">
+	[projects]({{ site.url }}/projects/)
+	</span>
+	<span class="avoidMe subheadline" style="padding-left:30px;">
+	[about]({{ site.url }}/about)
+	</span>
 </span>
 
 <canvas id="seeds" style="z-index:-100;position:absolute;top:50px;left:0px;margin:0;padding:0;display:inline-block;margin-bottom:-6px">
