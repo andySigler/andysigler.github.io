@@ -127,7 +127,7 @@ function setup(){
   window.addEventListener('mousemove',function (e){
     if(!isMobile) {
       var x = e.clientX;
-      var y = e.clientY-50;
+      var y = e.clientY;
 
       showEraser(x,y);
 
@@ -146,7 +146,7 @@ function setup(){
       var touches = e.changedTouches;
       for (var i=0; i < touches.length; i++) {
         var x = touches[i].clientX;
-        var y = touches[i].clientY-50;
+        var y = touches[i].clientY;
         
         showEraser(x,y);
         eraseQueue.push({
@@ -353,20 +353,25 @@ var resizeCanvas = function(){
 
   canvas = document.getElementById('seeds');
 
-  var navHeight = document.getElementById('navigation').offsetHeight;
-  var headerHeight = document.getElementById('masthead-no-image-header').offsetHeight;
+  // var 0 = document.getElementById('navigation').offsetHeight;
+  var navHeight = 0;
 
   var footer = document.getElementById('footer-content');
 
   width = window.innerWidth;
-  height = (window.innerHeight - navHeight) - footer.offsetHeight;
+  height = (window.innerHeight - footer.offsetHeight);
   canvas.style.width = width+'px';
   canvas.style.height = height+'px';
 
-  var currentFooterOffset = Number(footer.style.marginTop.split('px')[0]);
-  var footerTopPos = ((getPos(footer).y - currentFooterOffset) - footer.offsetHeight);
-  var footerTopOffset = height - footerTopPos - 0;
-  footer.style.marginTop = footerTopOffset+'px';
+  var currentFooterMargin = Number(footer.style.marginTop.split('px')[0]);
+  var currentFooterTop = getPos(footer).y;
+
+  document.body.style.height = height+'px';
+
+  // the top includes the margin pushing it
+  // so get the right position, then include the current margin
+  var newMargin = (height - currentFooterTop) + (currentFooterMargin - 31);
+  footer.style.marginTop = newMargin+'px';
 
   canvas.width = width;
   canvas.height = height;
@@ -390,6 +395,7 @@ var resizeCanvas = function(){
   totalTextDivs = 0;
 
   var padding = 20;
+  var yOffset = 30;
 
   var matchbooks = document.getElementsByClassName('matchbook');
   totalTextDivs += matchbooks.length;
@@ -400,7 +406,7 @@ var resizeCanvas = function(){
     var spanWidth = thisSpan.offsetWidth;
     var spanHeight = thisSpan.offsetHeight;
     var x1 = pos.x - (padding/2);
-    var y1 = (pos.y - navHeight) - (padding/2);
+    var y1 = ((pos.y - 0) - (padding/2)) + yOffset;
     var x2 = x1+spanWidth+padding;
     var y2 = y1+spanHeight+padding;
 
@@ -442,7 +448,7 @@ var resizeCanvas = function(){
     var spanWidth = thisSpan.offsetWidth;
     var spanHeight = thisSpan.offsetHeight;
     var x1 = pos.x - (padding/2);
-    var y1 = (pos.y - navHeight) - (padding/2);
+    var y1 = ((pos.y - 0) - (padding/2)) + yOffset;
     var x2 = x1+spanWidth+padding;
     var y2 = y1+spanHeight+padding;
 
@@ -491,14 +497,14 @@ var resizeCanvas = function(){
   if(QUITER===true) shouldTriggerDraw = true;
   QUITER = false;
 
-  if(width < 500 || height < 300) {
-    shouldTriggerDraw = false;
-    isMobile = true;
-  }
-  else {
-    if(isMobile===true) shouldTriggerDraw = true;
-    isMobile = false;
-  }
+  // if(width < 500 || height < 300) {
+  //   shouldTriggerDraw = false;
+  //   isMobile = true;
+  // }
+  // else {
+  //   if(isMobile===true) shouldTriggerDraw = true;
+  //   isMobile = false;
+  // }
 
   if(shouldTriggerDraw) window.requestAnimationFrame(draw);
 }
@@ -517,6 +523,8 @@ function hexToRGB(hex) {
 ///////////////////////////////////////
 
 window.addEventListener('resize', function(){
+  document.body.style.paddingTop = '0px';
+  document.body.style.overflow = 'hidden';
   resizeCanvas();
 });
 
@@ -746,6 +754,8 @@ function Line(tempPrevX, tempPrevY) {
     context.save();
 
     context.lineWidth = Math.round(this.lineWidth*1.2);
+
+    if(!this.c) this.c = {'r':0,'g':0,'b':0};
     //context.shadowBlur = context.lineWidth/2;
 
     context.strokeStyle = 'rgba('+this.c.r+','+this.c.g+','+this.c.b+',0.05)';

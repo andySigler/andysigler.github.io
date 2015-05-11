@@ -7,20 +7,28 @@
 layout: page
 permalink: "/"
 show_meta: false
+header: no
 ---
-<span style="display:block;width:100%;max-width:400px;" markdown="1">
-	<span class="avoidMe teaser">
-	Hello. I make connected devices and the experiences around them.
-	</span>
-	<br /><br />
-	<span class="avoidMe subheadline">
+<script type="text/javascript">
+	document.getElementById('navigation').style.display = 'none';
+</script>
+<div style="margin-top:-54px;">
+	<span class="avoidMe matchbook noselect" id="nameLogo">{{ site.nickname }}</span>
+	<br />
+	<span class="avoidMe matchbook noselect" id="subLogo">{{ site.slogan }}</span>
+</div>
+<span style="display:block;width:100%;max-width:400px;text-align:center;margin-top:50px;" markdown="1">
+	<span class="avoidMe subheadline" style="float:left;font-size:1.2rem;">
 	[projects]({{ site.url }}/projects/)
 	</span>
-	<span class="avoidMe subheadline" style="padding-left:30px;">
+	<span class="avoidMe subheadline" style="margin-left:30px;font-size:1.2rem;">
+	[blog]({{ site.url }}/blog/)
+	</span>
+	<span class="avoidMe subheadline" style="margin-left:30px;float:right;font-size:1.2rem;">
 	[about]({{ site.url }}/about)
 	</span>
 </span>
 
-<canvas id="seeds" style="z-index:-100;position:absolute;top:50px;left:0px;margin:0;padding:0;display:inline-block;margin-bottom:-6px">
+<canvas id="seeds" style="z-index:-100;position:absolute;top:-30px;left:0px;margin:0;padding:0;display:inline-block;margin-bottom:-6px">
 </canvas>
 <script type="text/javascript" src="{{ site.url }}/assets/js/doodling.js"></script>
