@@ -17,14 +17,14 @@ header: no
 	<br />
 	<span class="avoidMe matchbook noselect" id="subLogo">{{ site.slogan }}</span>
 </div>
-<span style="display:block;width:100%;max-width:400px;text-align:center;margin-top:50px;" markdown="1">
-	<span class="avoidMe subheadline" style="float:left;font-size:1.2rem;">
+<span style="display:block;width:100%;max-width:320px;text-align:center;margin-top:10px;" markdown="1">
+	<span class="avoidMe subheadline" style="float:left;">
 	[projects]({{ site.url }}/projects/)
 	</span>
-	<span class="avoidMe subheadline" style="margin-left:30px;font-size:1.2rem;">
+	<span class="avoidMe subheadline" style="">
 	[blog]({{ site.url }}/blog/)
 	</span>
-	<span class="avoidMe subheadline" style="margin-left:30px;float:right;font-size:1.2rem;">
+	<span class="avoidMe subheadline" style="float:right;">
 	[about]({{ site.url }}/about)
 	</span>
 </span>
