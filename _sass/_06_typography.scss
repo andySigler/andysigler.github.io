@@ -24,7 +24,9 @@ Check typography variables › _3_typography_settings.scss
 ------------------------------------------------------------------- */
 
 a,
-a:link {}
+a:link {
+    font-weight:normal;
+}
 
 a:visited {
         border-bottom: $grey-2;
@@ -281,6 +283,7 @@ mark {
     font-size: rem-calc(16);
     margin: 0;
     text-transform: uppercase;
+    display:inline-block;
 }
 .teaser {
     font-size: rem-calc(20);

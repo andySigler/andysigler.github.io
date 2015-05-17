@@ -127,7 +127,7 @@ function setup(){
   window.addEventListener('mousemove',function (e){
     if(!isMobile) {
       var x = e.clientX;
-      var y = e.clientY;
+      var y = e.clientY-navHeight;
 
       showEraser(x,y);
 
@@ -146,7 +146,7 @@ function setup(){
       var touches = e.changedTouches;
       for (var i=0; i < touches.length; i++) {
         var x = touches[i].clientX;
-        var y = touches[i].clientY;
+        var y = touches[i].clientY-navHeight;
         
         showEraser(x,y);
         eraseQueue.push({
@@ -271,6 +271,13 @@ function makeNewPoint(){
         insideTextBox = true;
       }
     }
+    else if(currentLine.prevX <= oneLine[index].newX && currentLine.prevX >= oneLine[index].prevX) {
+      if(currentLine.prevY <= oneLine[index+1].newY && currentLine.prevY >= oneLine[index+1].prevY) {
+        redoPoint = true;
+        stackOverflowCounter += 10;
+        insideTextBox = true;
+      }
+    }
   }
 
   //if this function has been called too many times, just overlap the lines
@@ -339,7 +346,7 @@ function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
   globalMoveAmount = (Math.pow(Math.random(),2)*width*.1)+50;
 
-  masterDrawCount = 1;
+  masterDrawCount = 4;
 }
 
 ///////////////////////////////////////
@@ -349,28 +356,30 @@ function lookDifferent(){
 var totalInvisibleLines = 0;
 var totalTextDivs = 0;
 
+var navHeight = 0;
+
 var resizeCanvas = function(){
 
   canvas = document.getElementById('seeds');
 
-  // var 0 = document.getElementById('navigation').offsetHeight;
-  var navHeight = 0;
+  navHeight = document.getElementById('navigation').offsetHeight;
 
   var footer = document.getElementById('footer-content');
 
   width = window.innerWidth;
-  height = (window.innerHeight - footer.offsetHeight);
+  height = (window.innerHeight - footer.offsetHeight) - navHeight;
   canvas.style.width = width+'px';
   canvas.style.height = height+'px';
+  canvas.style.top = navHeight+'px';
 
   var currentFooterMargin = Number(footer.style.marginTop.split('px')[0]);
   var currentFooterTop = getPos(footer).y;
 
-  document.body.style.height = height+'px';
+  //document.body.style.height = height+'px';
 
   // the top includes the margin pushing it
   // so get the right position, then include the current margin
-  var newMargin = (height - currentFooterTop) + (currentFooterMargin - 31);
+  var newMargin = (height - currentFooterTop) + (currentFooterMargin + navHeight);
   footer.style.marginTop = newMargin+'px';
 
   canvas.width = width;
@@ -395,54 +404,28 @@ var resizeCanvas = function(){
   totalTextDivs = 0;
 
   var padding = 20;
-  var yOffset = 30;
+  var yOffset = navHeight * -1;
+
+  var ignoreArray = [];
 
   var matchbooks = document.getElementsByClassName('matchbook');
-  totalTextDivs += matchbooks.length;
-  for(var i=0;i<matchbooks.length;i++) {
-    var thisSpan = matchbooks[i];
+  for(var n=0;n<matchbooks.length;n++) {
+    ignoreArray.push(matchbooks[n]);
+  }
 
-    var pos = getPos(thisSpan);
-    var spanWidth = thisSpan.offsetWidth;
-    var spanHeight = thisSpan.offsetHeight;
-    var x1 = pos.x - (padding/2);
-    var y1 = ((pos.y - 0) - (padding/2)) + yOffset;
-    var x2 = x1+spanWidth+padding;
-    var y2 = y1+spanHeight+padding;
-
-    var top = new Line(x1,y1);
-    top.newX = x2;
-    top.newY = y1;
-    top.doneFading = true;
-    oneLine.push(top);
-    totalInvisibleLines++;
-
-    var right = new Line(x2,y1);
-    right.newX = x2;
-    right.newY = y2;
-    right.doneFading = true;
-    oneLine.push(right);
-    totalInvisibleLines++;
-
-    var bottom = new Line(x2,y2);
-    bottom.newX = x1;
-    bottom.newY = y2;
-    bottom.doneFading = true;
-    oneLine.push(bottom);
-    totalInvisibleLines++;
-
-    var left = new Line(x1,y2);
-    left.newX = x1;
-    left.newY = y1;
-    left.doneFading = true;
-    oneLine.push(left);
-    totalInvisibleLines++;
+  var subheadline = document.getElementsByClassName('subheadline');
+  for(var n=0;n<subheadline.length;n++) {
+    ignoreArray.push(subheadline[n]);
   }
 
   var noTouchTexts = document.getElementsByClassName('avoidMe');
-  totalTextDivs += noTouchTexts.length;
-  for(var i=0;i<noTouchTexts.length;i++) {
-    var thisSpan = noTouchTexts[i];
+  for(var n=0;n<noTouchTexts.length;n++) {
+    ignoreArray.push(noTouchTexts[n]);
+  }
+
+  totalTextDivs += ignoreArray.length;
+  for(var i=0;i<ignoreArray.length;i++) {
+    var thisSpan = ignoreArray[i];
 
     var pos = getPos(thisSpan);
     var spanWidth = thisSpan.offsetWidth;
@@ -523,8 +506,8 @@ function hexToRGB(hex) {
 ///////////////////////////////////////
 
 window.addEventListener('resize', function(){
-  document.body.style.paddingTop = '0px';
-  document.body.style.overflow = 'hidden';
+  // document.body.style.paddingTop = '0px';
+  // document.body.style.overflow = 'hidden';
   resizeCanvas();
 });
 
@@ -533,6 +516,9 @@ window.addEventListener("orientationchange", resizeCanvas, true);
 var isMobile = false;
 
 window.addEventListener('load', function(){
+
+  document.getElementsByClassName('top-bar-section ')[0].style.color = 'white';
+
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ){
     stackOverflowThresh = 20;
     attempThresh = 100;
@@ -758,7 +744,7 @@ function Line(tempPrevX, tempPrevY) {
     if(!this.c) this.c = {'r':0,'g':0,'b':0};
     //context.shadowBlur = context.lineWidth/2;
 
-    context.strokeStyle = 'rgba('+this.c.r+','+this.c.g+','+this.c.b+',0.05)';
+    context.strokeStyle = 'rgba('+this.c.r+','+this.c.g+','+this.c.b+',0.075)';
     //context.shadowColor = 'rgba('+this.c.r+','+this.c.g+','+this.c.b+',0.9)';
 
     context.lineJoin = context.lineCap = 'round';

@@ -8,14 +8,10 @@ permalink: "/about/"
 header: no
 ---
 
+Hello, I'm Andy, and I want to experience the physical world as if it were a musical instrument; made to be touched, remixed, and to help us extend beyond the limitations of our bodies. A highly connected world is a canvas for our actions, and as artists and makers, we have the responsibility to grow an internet of things that enables creativity, improvisation, and open-source.
+
 ![me]({{ site.url }}/images/me_small.jpg "me")
 
-I'm interested in networked and interactive objects. I want to encourage [improvisation and play]({{ site.url }}/itp/how-to-make-the-internet-of-useless-things) in the Internet of Things, and I hope to someday fill my home with networked musical instruments and toys.
+I am currently a research resident at [ITP-NYU](http://itp.nyu.edu), where I focus on physical computing, PCB fabrication, and connected devices. My past experiences include lead-developer and interaction designer at OpenTrons, and creative-developer at BitTorrent.
 
-I am currently a research resident at the [Interactive Telecommunications Program (ITP)](https://itp.nyu.edu) at NYU, where I focus on PCB rapid prototyping and connected devices. I will be teaching a course entitled Homemade Hardware at ITP beginning Fall '15. Previously I was lead developer and interaction designer at [OpenTrons](http://opentrons.com).
-
-# Background
-
-Originally a guitar player, I graduated from Hamilton College '10 with a degree in politics, but worked as an audio engineer and instructor after graduation. My interests quickly shifted towards new musical interfaces and interactive technologies, and I enrolled in ITP to explore these fields.
-
-<div style="height:50px"></div>
+This Fall I will teach a class at ITP titled Homemade Hardware, where I will be showing artists and designers how to fabricate custom circuit boards for microcontroller-based projects (syllabus and tutorials coming soon).

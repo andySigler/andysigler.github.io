@@ -53,7 +53,7 @@ The Patchbay is a graphical interface, developed for my 2014 master's thesis at 
 
 Skip ahead to [5:10](http://vimeo.com/96851567#t=5m10s) to see my explanation of the Patchbay interface.
 
-<iframe src="https://player.vimeo.com/video/96851567" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/96851567" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width:100%;max-width:500px;"></iframe>
 
 The term Patchbay refers to a piece of equipment found in most recording studios. Patchbays are boxes that live in a studio, and an engineer will wire the audio inputs and outputs from all their equipment into it.
 

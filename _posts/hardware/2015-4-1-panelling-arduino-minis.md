@@ -14,12 +14,19 @@ tags:
 image:
     thumb: diy_arduino_mini_thumb.jpg
 
-header: no
+header:
+    image_fullwidth: panel-header.jpg
 
 author: Andy Sigler
 ---
 
+
+
+![4-final-result]({{ site.url }}/images/4-final-result.gif)
 ![0-top-mask]({{ site.url }}/images/0-top-mask.jpg)
+
+<iframe src="https://player.vimeo.com/video/127789344" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="max-width:500px;width:100%;"></iframe>
+
 ![1-bottom-mask]({{ site.url }}/images/1-bottom-mask.jpg)
 ![2-cleaned-mask]({{ site.url }}/images/2-cleaned-mask.jpg)
 ![4-diy_arduino_mini]({{ site.url }}/images/4-diy_arduino_mini.jpg)
