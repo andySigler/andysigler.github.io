@@ -3,8 +3,8 @@
   <channel>
     <title>Andy Sigler</title>
     <description>I make things.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://andysigler.com/</link>
+    <atom:link href="http://andysigler.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>The Internet of Useless Things</title>
@@ -12,7 +12,7 @@
 
 &lt;p&gt;What follows is in no way a direct transcript of that video. Instead, it is a cut down, re-ordered, and re-written version of my favorite parts. The edits were made to better align with and summarize my own thoughts.&lt;/p&gt;
 
-&lt;p&gt;Also, check out my ITP master’s thesis presentation, &lt;a href=&quot;http://localhost:4000/projects/how-to-make-the-internet-of-useless-things&quot;&gt;How to Make the Interent of Useless Things&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also, check out my ITP master’s thesis presentation, &lt;a href=&quot;http://andysigler.com/projects/how-to-make-the-internet-of-useless-things&quot;&gt;How to Make the Interent of Useless Things&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
 I want domestic internet art, designed for the home. I want internet of things art. I’d rather prefer it to be open-sourced art too. Luxurious, open-sourced, internet of things, cultural expression for the home.
@@ -39,13 +39,13 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JUvECBZpefU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width:100%;max-width:560px;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Tue, 12 May 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/useless-things/art-and-the-internet-of-useless-things/</link>
-        <guid isPermaLink="true">http://localhost:4000/useless-things/art-and-the-internet-of-useless-things/</guid>
+        <link>http://andysigler.com/useless-things/art-and-the-internet-of-useless-things/</link>
+        <guid isPermaLink="true">http://andysigler.com/useless-things/art-and-the-internet-of-useless-things/</guid>
       </item>
     
       <item>
         <title>Panelling Arduino Minis</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/4-final-result.gif&quot; alt=&quot;4-final-result&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/4-final-result.gif&quot; alt=&quot;4-final-result&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here are some pictures of my attempt at making a panel of 10 Arduino Mini’s of my own design. I’ve been working on this board design for a while, trying to make the board small and simple, yet having to consider the limitations of making my own PCBs in house (namely, vias being so difficult to make).&lt;/p&gt;
 
@@ -57,29 +57,29 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;Top layer:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/0-top-mask.jpg&quot; alt=&quot;0-top-mask&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/0-top-mask.jpg&quot; alt=&quot;0-top-mask&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Bottom layer:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/1-bottom-mask.jpg&quot; alt=&quot;1-bottom-mask&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/1-bottom-mask.jpg&quot; alt=&quot;1-bottom-mask&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pretty picture:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2-cleaned-mask.jpg&quot; alt=&quot;2-cleaned-mask&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/2-cleaned-mask.jpg&quot; alt=&quot;2-cleaned-mask&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;results-after-assembly&quot;&gt;Results after Assembly&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/4-diy_arduino_mini.jpg&quot; alt=&quot;4-diy_arduino_mini&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/images/5-populated.jpg&quot; alt=&quot;5-populated&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/4-diy_arduino_mini.jpg&quot; alt=&quot;4-diy_arduino_mini&quot; /&gt;
+&lt;img src=&quot;http://andysigler.com/images/5-populated.jpg&quot; alt=&quot;5-populated&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;broken-out-boards&quot;&gt;Broken Out Boards&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/6-brokenOut.jpg&quot; alt=&quot;6-brokenOut&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/6-brokenOut.jpg&quot; alt=&quot;6-brokenOut&quot; /&gt;
+&lt;img src=&quot;http://andysigler.com/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Apr 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/hardware/panelling-arduino-minis/</link>
-        <guid isPermaLink="true">http://localhost:4000/hardware/panelling-arduino-minis/</guid>
+        <link>http://andysigler.com/hardware/panelling-arduino-minis/</link>
+        <guid isPermaLink="true">http://andysigler.com/hardware/panelling-arduino-minis/</guid>
       </item>
     
       <item>
@@ -90,35 +90,35 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;h1 id=&quot;step-1-mill-the-panel&quot;&gt;Step 1: Mill the Panel&lt;/h1&gt;
 
-&lt;p&gt;I milled the double-sided breakout boards on ITP’s Roland Modela CNC, using my &lt;a href=&quot;http://localhost:4000/hardware/nodela/&quot;&gt;Nodela&lt;/a&gt; software.&lt;/p&gt;
+&lt;p&gt;I milled the double-sided breakout boards on ITP’s Roland Modela CNC, using my &lt;a href=&quot;http://andysigler.com/hardware/nodela/&quot;&gt;Nodela&lt;/a&gt; software.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69_finished_panel.png&quot; alt=&quot;rfm69_finished_panel&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/rfm69_finished_panel.png&quot; alt=&quot;rfm69_finished_panel&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-2-print-uv-mask-onto-transparency-paper&quot;&gt;Step 2: Print UV Mask onto Transparency Paper&lt;/h1&gt;
 
 &lt;p&gt;When we expose our board to UV light, we want to block the light from hitting parts of our PCB that need to be soldered to.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69_printed_sheet.jpg&quot; alt=&quot;rfm69_printed_sheet&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/rfm69_printed_sheet.jpg&quot; alt=&quot;rfm69_printed_sheet&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Using transparency paper and a standard laser printer, I printed the tStop and bStop Eagle layers, makiing sure that they were spaced just as my panels were.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69_next_to_boards.jpg&quot; alt=&quot;rfm69_next_to_boards&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/rfm69_next_to_boards.jpg&quot; alt=&quot;rfm69_next_to_boards&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-3-laminate-dynamask-onto-pcb&quot;&gt;Step 3: Laminate Dynamask onto PCB&lt;/h1&gt;
 
 &lt;p&gt;First cut our a desired amount of Dynamask film to fit onto the panel. The glossier side of the Dynamask film has adhesive under the plastic covering. Peel the plastic off, stick the Dynamask to the PCB, and pass it through a laminator 4 times.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69-1_cut.jpg&quot; alt=&quot;rfm69-1_cut&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/rfm69-1_cut.jpg&quot; alt=&quot;rfm69-1_cut&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When passing it through the laminator like in the picture below, be sure all air bubbles have been pushed out and the Dynamask is applied as evenly as possible.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69-2_laminate.jpg&quot; alt=&quot;rfm69-2_laminate&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/rfm69-2_laminate.jpg&quot; alt=&quot;rfm69-2_laminate&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-4-expose-to-uv-light&quot;&gt;Step 4: Expose to UV Light&lt;/h1&gt;
 
 &lt;p&gt;Align the PCB and transparency paper, and expose to UV light until fully exposed. The amount of time required depends on the power of the UV light being used. For my DIY lightbox, I only have to expose for 30-60 seconds.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69-3_align.jpg&quot; alt=&quot;rfm69-3_align&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/rfm69-3_align.jpg&quot; alt=&quot;rfm69-3_align&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-5-develop-to-expose-copper&quot;&gt;Step 5: Develop to Expose Copper&lt;/h1&gt;
 
@@ -132,22 +132,22 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;As you can see in the image below, my solder mask did &lt;strong&gt;not&lt;/strong&gt; get exposed evenly. Way too much solder mask was removed during the developing process. This is because those pieces of solder mask were not hit with enought UV light.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69-5_mask_done.jpg&quot; alt=&quot;rfm69-5_mask_done&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/rfm69-5_mask_done.jpg&quot; alt=&quot;rfm69-5_mask_done&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But, they all work! Good luck to the class, and I hope they enjoy using them!&lt;/p&gt;
 
 &lt;p&gt;I learned through making these breakout boards that my UV lightbox does not spread light evenly, and that I needed to give more distance between the UV LED’s and my PCB.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69.jpg&quot; alt=&quot;rfm69&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/rfm69.jpg&quot; alt=&quot;rfm69&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I built a new UV lightbox from a deeper metal box I had lying around&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_10_metal_box.jpg&quot; alt=&quot;metal-lightbox&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/lightbox_10_metal_box.jpg&quot; alt=&quot;metal-lightbox&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 20 Mar 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/hardware/dynamask-and-twenty-rfm69-breakouts/</link>
-        <guid isPermaLink="true">http://localhost:4000/hardware/dynamask-and-twenty-rfm69-breakouts/</guid>
+        <link>http://andysigler.com/hardware/dynamask-and-twenty-rfm69-breakouts/</link>
+        <guid isPermaLink="true">http://andysigler.com/hardware/dynamask-and-twenty-rfm69-breakouts/</guid>
       </item>
     
       <item>
@@ -162,11 +162,11 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;h1 id=&quot;step-2-make-the-circuit&quot;&gt;Step 2: Make the Circuit&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_2_finished_pcb.png&quot; alt=&quot;lightbox_2_finished_pcb&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/lightbox_2_finished_pcb.png&quot; alt=&quot;lightbox_2_finished_pcb&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Next I needed a board to mount the LEDs and resistors needed to complete a circuit. I decided to mill a PCB to house all the LEDs, which took forever! I’ll either be acid-etching or buying a perf-board for my next lightbox.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_3_testing_leds.jpg&quot; alt=&quot;lightbox_3_testing_leds&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/lightbox_3_testing_leds.jpg&quot; alt=&quot;lightbox_3_testing_leds&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ths picture above is me testing the PCB after fully assembling it. But don’t be fooled by my poor documentation, before I assembled the PCB, I tested the circuit and parts on a breadboard to make sure it all worked correctly.&lt;/p&gt;
 
@@ -176,7 +176,7 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;So I had been looking around for a good box to turn into a lightbox, and I decided to try this cigar box lying around my room. It seemed to be the perfect fit for a 6x6inch copper plate, and it looked nice on a desktop.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_5_box_closed.jpg&quot; alt=&quot;lightbox_5_box_closed&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/lightbox_5_box_closed.jpg&quot; alt=&quot;lightbox_5_box_closed&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Small screws and washers were used to hold the PCB in place on the lid. Then, trying to be fancy, I wired a hall-effect sensor between my circuit and ground, and then glued a magnet to the lid. Now, the LEDs only powers when the lid is closed :)&lt;/p&gt;
 
@@ -184,40 +184,40 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;I finally lined the inside with some aluminum foil to let the light bounce around more before either being absorbed or lost.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_4_box_open.jpg&quot; alt=&quot;lightbox_4_box_open&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/lightbox_4_box_open.jpg&quot; alt=&quot;lightbox_4_box_open&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-4-make-some-solder-mask&quot;&gt;Step 4: Make Some Solder Mask&lt;/h1&gt;
 
 &lt;p&gt;Below is an image of the first PCB exposed in the lightbox. The acrylic and foam are holding the board well, but you’ll notice the LEDs are only an inch or two from the PCB. This reduces the surface area the LEDs can evenly spread, meaning that whatever is put in the middle will “cook” faster than what’s on the outer areas… oops.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_6_box_interior.jpg&quot; alt=&quot;lightbox_6_box_interior&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/lightbox_6_box_interior.jpg&quot; alt=&quot;lightbox_6_box_interior&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But, these boards turned out great! These PCBs will be used to make function generators in Eric Rosenthal’s &lt;a href=&quot;http://www.basicanalogcircuits.com/Syllabus.html&quot;&gt;Basic Analog Circuits class&lt;/a&gt;. I hope the class enjoys them!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_7_solder_mask_applied.jpg&quot; alt=&quot;lightbox_7_solder_mask_applied&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/lightbox_7_solder_mask_applied.jpg&quot; alt=&quot;lightbox_7_solder_mask_applied&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Feb 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/hardware/uv-lightbox/</link>
-        <guid isPermaLink="true">http://localhost:4000/hardware/uv-lightbox/</guid>
+        <link>http://andysigler.com/hardware/uv-lightbox/</link>
+        <guid isPermaLink="true">http://andysigler.com/hardware/uv-lightbox/</guid>
       </item>
     
       <item>
         <title>Nodela</title>
         <description>&lt;p&gt;The Roland-Modela is a discontued micro-milling machine, and students at &lt;a href=&quot;http://itp.nyu.edu&quot;&gt;ITP&lt;/a&gt; use it to mill PCBs from copper clad plates. It’s a well made machine, but it’s software package is terrible.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/roland.png&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/roland.png&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We had to edit the executable files manually in text editors, and of course we didn’t know what we were doing. Not to mention, the bed was made from steel, so all copper plates were held down (unevenly) with messy double-sided tape. We were breaking bits like crazy!&lt;/p&gt;
 
 &lt;p&gt;I was excited about milling PCBs, but this was the only micro milling machine I had access to. So I made a simple interface using Javascript, and designed a new bed from delrin, and now I can cut straight from an Eagle file without breaking bits.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/roland_delrin.jpg&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/roland_delrin.jpg&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-interface&quot;&gt;The Interface&lt;/h1&gt;
 
 &lt;p&gt;Below is a screenshot if the interface. It allows you to jog the head around, in order to select your cut’s origin (impossible until recently). It also loads preset speed and plunge values for different bits, so that each bit is used at it’s most optimal settings.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/interface-nodela.png&quot; alt=&quot;nodela-interface&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/interface-nodela.png&quot; alt=&quot;nodela-interface&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To load your file, simply drag the Eagle &lt;code&gt;.brd&lt;/code&gt; file onto the interface, and it will parse our all the layers that contain toolpath lines (drawn with &lt;code&gt;WIRES&lt;/code&gt;). Then it’s just a matter of selecting the correct layer and bit size before pressing print!&lt;/p&gt;
 
@@ -236,8 +236,8 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 &lt;p&gt;There are a lot of digital frabrication and circuit prototyping machines hitting the market these days, so I know this hack for making a discotinued machine usable won’t last long. But, if you use it and like it, please let me know, and also if there are any changes needed :)&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Jan 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/hardware/nodela/</link>
-        <guid isPermaLink="true">http://localhost:4000/hardware/nodela/</guid>
+        <link>http://andysigler.com/hardware/nodela/</link>
+        <guid isPermaLink="true">http://andysigler.com/hardware/nodela/</guid>
       </item>
     
       <item>
@@ -259,25 +259,25 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 	}
 &lt;/style&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;The Patchbay is a graphical interface, developed for my 2014 master’s thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.&lt;/p&gt;
 
@@ -287,7 +287,7 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;The term Patchbay refers to a piece of equipment found in most recording studios. Patchbays are boxes that live in a studio, and an engineer will wire the audio inputs and outputs from all their equipment into it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/patchbay.jpg&quot; alt=&quot;patchbay&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/patchbay.jpg&quot; alt=&quot;patchbay&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What it provides is convenience in connecting their equipment, by have one central place to do it. The studio’s engineer is now able to quickly design sounds using the links between her gear.&lt;/p&gt;
 
@@ -312,11 +312,11 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;Using the Patchbay, I could connect button #2 to light #1. This would be done by connecting the device’s &lt;code&gt;INPUT&lt;/code&gt; #2 to the other’s &lt;code&gt;OUTPUT&lt;/code&gt; #1.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/patchbay_make.gif&quot; alt=&quot;patchbay_make&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/patchbay_make.gif&quot; alt=&quot;patchbay_make&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When I no longer want that button to control that light, I erase the connection on the interface.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/patchbay_break.gif&quot; alt=&quot;patchbay_break&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/patchbay_break.gif&quot; alt=&quot;patchbay_break&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With a simple interface come constraints. The Patchbay is for devices that share only simple values between them. Buttons and lights are a good example: the button could send a &lt;code&gt;1&lt;/code&gt; when pressed, and a &lt;code&gt;0&lt;/code&gt; when released. These numbers would be received by the light, and it would interpret them as meaning “Turn ON” and “Turn OFF.”&lt;/p&gt;
 
@@ -324,15 +324,15 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;The past few years, I have seen a growing interest in connected devices, and how to best interact with an Internet of Things on a day-to-day bases. “Patching” interfaces have arose, ranging from simple I/O mapping, to more richly featured environments for controlling a network’s data flow.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/spacebrew.png&quot; alt=&quot;spacebrew&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/spacebrew.png&quot; alt=&quot;spacebrew&quot; /&gt;
 &lt;a href=&quot;http://docs.spacebrew.cc/&quot;&gt;Spacebrew&lt;/a&gt; - a framework for mapping simple I/O over a WebSocket connection.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/node-red.png&quot; alt=&quot;node-red&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/node-red.png&quot; alt=&quot;node-red&quot; /&gt;
 &lt;a href=&quot;http://docs.spacebrew.cc/&quot;&gt;Node-RED&lt;/a&gt; - a framework for connecting devices, APIs and online services.&lt;/p&gt;
 
 &lt;p&gt;All these interfaces have one serious design flaw: they become easily over-crowded and difficult to use once the network grows. The more devices that are displayed, the more concentration a user must put into navigating and using one of these interfaces.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/zombie.jpg&quot; alt=&quot;zombies&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/zombie.jpg&quot; alt=&quot;zombies&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Patchbay hides most of this complexity, using its adaptive circular design. When a new device comes within range of the interface, it will be represented by a new arc.&lt;/p&gt;
 
@@ -349,8 +349,8 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 &lt;p&gt;You can download the Patchbay from (https://github.com/andySigler/patchbay)[GitHub]. The repo comes with the NodeJS server, HTML5 inteface, and Arduino Library for using the RFm12b.&lt;/p&gt;
 </description>
         <pubDate>Fri, 26 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/patchbay/patchbay-interface/</link>
-        <guid isPermaLink="true">http://localhost:4000/patchbay/patchbay-interface/</guid>
+        <link>http://andysigler.com/patchbay/patchbay-interface/</link>
+        <guid isPermaLink="true">http://andysigler.com/patchbay/patchbay-interface/</guid>
       </item>
     
       <item>
@@ -405,11 +405,11 @@ opkg install openssh-sftp-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;In CyberDuck, connect with SFTP, port 22, username ‘root’, and the server-name being your Yun’s IP address.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/cyberDuck_yun.png&quot; alt=&quot;cyberDuck_yun&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/cyberDuck_yun.png&quot; alt=&quot;cyberDuck_yun&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I store all the node and web files on the micro-sd card, at &lt;code&gt;/mnt/sda1/arduino/node&lt;/code&gt;. “sda1” is the external memory, “arduino” is a folder that should already exist, and “node” is a folder I created to store my Node scripts.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/cyberDuck_yun_2.png&quot; alt=&quot;cyberDuck_yun_2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/cyberDuck_yun_2.png&quot; alt=&quot;cyberDuck_yun_2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now you can upload and run NodeJS scripts on your Yun! See the below link for you can get NodeJS and the Arduino side of the Yun talking with Bridge:&lt;/p&gt;
 
@@ -457,7 +457,7 @@ nano /etc/config/network&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;In order to ssh into the Yun over an ethernet cable, your laptop’s ethernet IP address must share the same two first digits as the Yun’s IP. In this example, the laptop’s IP should beging width 192 and 168 in order for the two to communicate.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/staticEthernet_mac.png&quot; alt=&quot;staticEthernet_mac&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/staticEthernet_mac.png&quot; alt=&quot;staticEthernet_mac&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;On a Mac, I can go to &lt;code&gt;System Preferences &amp;gt; Network&lt;/code&gt;, select the ethernet port, and tell it to be a Manual IP Address (not DHCP). For example, I could set my laptop to be &lt;code&gt;192.168.0.42&lt;/code&gt;.&lt;/p&gt;
 
@@ -528,8 +528,8 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 </description>
         <pubDate>Fri, 14 Nov 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/teaching/nodejs-arduino-yun/</link>
-        <guid isPermaLink="true">http://localhost:4000/teaching/nodejs-arduino-yun/</guid>
+        <link>http://andysigler.com/teaching/nodejs-arduino-yun/</link>
+        <guid isPermaLink="true">http://andysigler.com/teaching/nodejs-arduino-yun/</guid>
       </item>
     
       <item>
@@ -551,25 +551,25 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 	}
 &lt;/style&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.com/assets/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;Below is a demo for the Patchbay interface. Turn the circles to view the projects, and make or break the links between inputs and outputs. The interface works on desktop, laptop, and touchscreen (recommended).&lt;/p&gt;
 
@@ -583,8 +583,8 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Download the Patchbay framework (as it was upon presenting my thesis) from &lt;a href=&quot;https://github.com/andySigler/patchbay&quot;&gt;GitHub&lt;/a&gt;. The package includes the nodeJS server, HTML5 interface, Arduino library and examples for making a physical computing projects work with the patchbay.&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Apr 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/projects/how-to-make-the-internet-of-useless-things/</link>
-        <guid isPermaLink="true">http://localhost:4000/projects/how-to-make-the-internet-of-useless-things/</guid>
+        <link>http://andysigler.com/projects/how-to-make-the-internet-of-useless-things/</link>
+        <guid isPermaLink="true">http://andysigler.com/projects/how-to-make-the-internet-of-useless-things/</guid>
       </item>
     
       <item>
@@ -598,14 +598,14 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This interface uses a multi-touch trackpad, proximity sensor, and flexible polycarbonite poles, all to allow the human hand to expressively perform vowel sounds. The fingers horizontal position moves the frequency of resonant bandpass filters, while their vertical position alters the filters’ Q.&lt;/p&gt;
 </description>
         <pubDate>Sat, 28 Dec 2013 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/projects/noser/</link>
-        <guid isPermaLink="true">http://localhost:4000/projects/noser/</guid>
+        <link>http://andysigler.com/projects/noser/</link>
+        <guid isPermaLink="true">http://andysigler.com/projects/noser/</guid>
       </item>
     
       <item>
         <title>Browser Tag</title>
-        <description>&lt;p&gt;&lt;a class=&quot;span8 offset3&quot; title=&quot;BitTorrent-Sticker&quot; name=&quot;BitTorrent-Sticker&quot; href=&quot;javascript:(function()%7Bvar%20bk%3D%7Bmouse:%7Bx:0,y:0%7D,imgCounter:0,allImages:%5B%5D,maxImages:500,maxWidth:500,minWidth:10,ratio:270/880,prev:0.5,slide:2,move:false,toggle:true,highestZ:100000,img:document.createElement(%22img%22)%7D%3Bbk.img.src%3D%22http://localhost:4000/images/btnc.png%22%3Bfunction%20cloneImage(a,f,d)%7Bvar%20c%3DgetWidth()%3Bif(c%3Cbk.minWidth)%7Bc%3D200%7Dvar%20b%3DMath.floor(c*bk.ratio)%3Bvar%20e%3Dbk.img.cloneNode(true)%3Be.style.position%3D%22absolute%22%3Be.style.width%3Dc%2B%22px%22%3Be.style.height%3Db%2B%22px%22%3Be.style.top%3D(f-(b/2))%2B%22px%22%3Be.style.left%3D(a-(c/2))%2B%22px%22%3Be.style.zindex%3Dbk.highestZ%2Bbk.imgCounter%3Bif(e.style.webkitTransform!%3D%3Dundefined)%7Be.style.webkitTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.MozTransform!%3D%3Dundefined)%7Be.style.MozTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.msTransform!%3D%3Dundefined)%7Be.style.msTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.OTransform!%3D%3Dundefined)%7Be.style.OTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.transform!%3D%3Dundefined)%7Be.style.transform%3D%22rotate(%22%2Bd%2B%22deg)%22%7D%7D%7D%7D%7De.id%3D%22img_%22%2Bbk.imgCounter%3Bbk.imgCounter%2B%2B%3Bdocument.body.appendChild(e)%7Dfunction%20getWidth()%7Bvar%20a%3D((Math.tan(((Math.random()*2)-1)*(Math.PI/4))%2B1)/2)%3Bbk.prev%3Dbk.prev%2B((a-bk.prev)/bk.slide)%3Breturn%20Math.floor((bk.prev*bk.maxWidth)%2Bbk.minWidth)%7Dwindow.onmousemove%3Dfunction(a)%7Bbk.mouse.x%3Da.pageX%3Bbk.mouse.y%3Da.pageY%3Bbk.move%3Dtrue%7D%3Bwindow.onclick%3Dfunction(a)%7Bbk.toggle%3D!bk.toggle%7D%3Bfunction%20findHighestZIndex()%7Bvar%20g%3D%5B%22div%22,%22p%22,%22img%22%5D%3Bvar%20f%3D0%3Bvar%20a%3Dg.length%3Bfor(var%20b%3D0%3Bb%3Ca%3Bb%2B%2B)%7Bvar%20c%3Ddocument.getElementsByTagName(g%5Bb%5D)%3Bfor(var%20e%3D0%3Be%3Cc.length%3Be%2B%2B)%7Bvar%20d%3Ddocument.defaultView.getComputedStyle(c%5Be%5D,null).getPropertyValue(%22z-index%22)%3Bif((d%3Ef)%26%26(d!%3D%22auto%22))%7Bf%3Dd%7D%7D%7Dbk.highestZ%3Df%7DsetInterval(function()%7Bif(bk.move%26%26bk.toggle)%7BcloneImage(bk.mouse.x,bk.mouse.y,Math.floor(Math.random()*80-40))%3Bbk.move%3Dfalse%7D%7D,100)%3BfindHighestZIndex()%3B%7D)()%3B&quot; alt=&quot;BitTorrent-Sticker&quot;&gt;
-  &lt;img id=&quot;sticker&quot; width=&quot;360&quot; border=&quot;3&quot; title=&quot;BitTorrent-Sticker&quot; src=&quot;http://localhost:4000/images/btnc_fold.png&quot; name=&quot;BitTorrent-Sticker&quot; alt=&quot;BitTorrent-Sticker&quot; style=&quot;border:2px solid black&quot; /&gt;
+        <description>&lt;p&gt;&lt;a class=&quot;span8 offset3&quot; title=&quot;BitTorrent-Sticker&quot; name=&quot;BitTorrent-Sticker&quot; href=&quot;javascript:(function()%7Bvar%20bk%3D%7Bmouse:%7Bx:0,y:0%7D,imgCounter:0,allImages:%5B%5D,maxImages:500,maxWidth:500,minWidth:10,ratio:270/880,prev:0.5,slide:2,move:false,toggle:true,highestZ:100000,img:document.createElement(%22img%22)%7D%3Bbk.img.src%3D%22http://andysigler.com/images/btnc.png%22%3Bfunction%20cloneImage(a,f,d)%7Bvar%20c%3DgetWidth()%3Bif(c%3Cbk.minWidth)%7Bc%3D200%7Dvar%20b%3DMath.floor(c*bk.ratio)%3Bvar%20e%3Dbk.img.cloneNode(true)%3Be.style.position%3D%22absolute%22%3Be.style.width%3Dc%2B%22px%22%3Be.style.height%3Db%2B%22px%22%3Be.style.top%3D(f-(b/2))%2B%22px%22%3Be.style.left%3D(a-(c/2))%2B%22px%22%3Be.style.zindex%3Dbk.highestZ%2Bbk.imgCounter%3Bif(e.style.webkitTransform!%3D%3Dundefined)%7Be.style.webkitTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.MozTransform!%3D%3Dundefined)%7Be.style.MozTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.msTransform!%3D%3Dundefined)%7Be.style.msTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.OTransform!%3D%3Dundefined)%7Be.style.OTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.transform!%3D%3Dundefined)%7Be.style.transform%3D%22rotate(%22%2Bd%2B%22deg)%22%7D%7D%7D%7D%7De.id%3D%22img_%22%2Bbk.imgCounter%3Bbk.imgCounter%2B%2B%3Bdocument.body.appendChild(e)%7Dfunction%20getWidth()%7Bvar%20a%3D((Math.tan(((Math.random()*2)-1)*(Math.PI/4))%2B1)/2)%3Bbk.prev%3Dbk.prev%2B((a-bk.prev)/bk.slide)%3Breturn%20Math.floor((bk.prev*bk.maxWidth)%2Bbk.minWidth)%7Dwindow.onmousemove%3Dfunction(a)%7Bbk.mouse.x%3Da.pageX%3Bbk.mouse.y%3Da.pageY%3Bbk.move%3Dtrue%7D%3Bwindow.onclick%3Dfunction(a)%7Bbk.toggle%3D!bk.toggle%7D%3Bfunction%20findHighestZIndex()%7Bvar%20g%3D%5B%22div%22,%22p%22,%22img%22%5D%3Bvar%20f%3D0%3Bvar%20a%3Dg.length%3Bfor(var%20b%3D0%3Bb%3Ca%3Bb%2B%2B)%7Bvar%20c%3Ddocument.getElementsByTagName(g%5Bb%5D)%3Bfor(var%20e%3D0%3Be%3Cc.length%3Be%2B%2B)%7Bvar%20d%3Ddocument.defaultView.getComputedStyle(c%5Be%5D,null).getPropertyValue(%22z-index%22)%3Bif((d%3Ef)%26%26(d!%3D%22auto%22))%7Bf%3Dd%7D%7D%7Dbk.highestZ%3Df%7DsetInterval(function()%7Bif(bk.move%26%26bk.toggle)%7BcloneImage(bk.mouse.x,bk.mouse.y,Math.floor(Math.random()*80-40))%3Bbk.move%3Dfalse%7D%7D,100)%3BfindHighestZIndex()%3B%7D)()%3B&quot; alt=&quot;BitTorrent-Sticker&quot;&gt;
+  &lt;img id=&quot;sticker&quot; width=&quot;360&quot; border=&quot;3&quot; title=&quot;BitTorrent-Sticker&quot; src=&quot;http://andysigler.com/images/btnc_fold.png&quot; name=&quot;BitTorrent-Sticker&quot; alt=&quot;BitTorrent-Sticker&quot; style=&quot;border:2px solid black&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;instructions&quot;&gt;Instructions:&lt;/h2&gt;
@@ -618,8 +618,8 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This bookmarklet was my first and favorite thing I made while interning for &lt;strong&gt;BitTorrent&lt;/strong&gt; during the summer of 2013. It is a bookmarklet that, when pressed on any webpage, injects a small script to cover the page with the &lt;strong&gt;BitTorrent Is Not a Crime&lt;/strong&gt; campaign sticker. Simple and fun.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Sep 2013 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/projects/browser-tag/</link>
-        <guid isPermaLink="true">http://localhost:4000/projects/browser-tag/</guid>
+        <link>http://andysigler.com/projects/browser-tag/</link>
+        <guid isPermaLink="true">http://andysigler.com/projects/browser-tag/</guid>
       </item>
     
   </channel>
