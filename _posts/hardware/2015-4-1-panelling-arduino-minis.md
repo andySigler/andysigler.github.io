@@ -20,13 +20,17 @@ header:
 author: Andy Sigler
 ---
 
-![4-final-result]({{ site.url }}/images/4-final-result.gif)
 
-Here are some pictures of my attempt at making a panel of 10 Arduino Mini's of my own design. I've been working on this board design for a while, trying to make the board small and simple, yet having to consider the limitations of making my own PCBs in house (namely, vias being so difficult to make).
+
+Here are some pictures of my attempt at making a panel of 10 Arduino Mini's of my own design. You can find the pin layout, board files, and other documentation on [GitHub]({{ site.github }}/homemade-hardware/tree/master/Arduino-SMD);
+
+I've been working on this board design for a while, trying to make the board small and simple, yet having to consider the limitations of making my own PCBs in house (namely, vias being so difficult to make).
+
+![pinouts]({{ site.url }}/images/arduino_smd_design.png)
 
 These 10 boards were created within one day at ITP. I milled the panel in the morning, cleaned and added solder mask in the afternoon, and assembled at night. It was a long process, but I've never been able to make 10 boards of such quality and in such a short amount of time.
 
-You can find the pin layout, board files, and other documentation on [GitHub]({{ site.github }}/homemade-hardware/tree/master/Arduino-SMD);
+![pinouts]({{ site.url }}/images/arduino_smd_pinout.png)
 
 #Solder Mask Results
 

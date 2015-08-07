@@ -7,6 +7,44 @@
     <atom:link href="http://andysigler.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Opentrons Platform Prototype</title>
+        <description>&lt;h1 id=&quot;my-role-at-opentrons-labworks&quot;&gt;My Role at Opentrons Labworks&lt;/h1&gt;
+
+&lt;p&gt;Beginning June 2014, I have worked with Opentrons in developing their low-cost, open-source liquid handling robot. Working with Opentrons has allowed me to spend nearly a month living and working in Shenzhen, China, considered the hardware capitol of the world, and to work inside HAXLR8R, the hardware accelerator based there.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/opentrons_team.jpg&quot; alt=&quot;The Opentrons Founders&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My role was to prototype the liquid handling platform’s software stack. This means I was responsible for the early decisions and executions of the file format and used to design a protocol (the job), the robot’s interface, how it would accurately calibration to it’s surroundings and liquids, and finally what &lt;strong&gt;exactly&lt;/strong&gt; it does on execution (aka how it moves).&lt;/p&gt;
+
+&lt;h1 id=&quot;platform-overview&quot;&gt;Platform Overview&lt;/h1&gt;
+
+&lt;p&gt;Below is a quick video I shot to demonstrate my prototype. All designs and software used in the video (excluding the motor controller) were written by me.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/130249723&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;
+Here’s a general diagram showing the different blocks that I developed. Each was iterated upon to reflect what the robot’s mechanics required, and to satisfy users’ needs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/opentrons_flowchart.png&quot; alt=&quot;Platform Prototype Flowchart&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The file format fed in at the top ended up being a variation of the &lt;a href=&quot;http://autoprotocol.org/&quot;&gt;Auto-Protocol standard proposed by Transcriptics&lt;/a&gt;, which uses JSON to describe a protocol’s many details and procedures. Because I needed to work fast, I used NodeJS to communicate with with robot’s motorcontroller, and created an HTML5 interface for the user to interact with. Everything written in NodeJS has since been translated to Python, and the front-end has been handed off to front-end engineers.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-lesson-learned&quot;&gt;A Lesson Learned&lt;/h1&gt;
+
+&lt;p&gt;This was my first time working on a real-world product/tool, and the experience has left me with one lesson that I will hold on to:&lt;/p&gt;
+
+&lt;h2 id=&quot;narrow-down-to-what-the-ucoreu-experience-of-the-product-is-and-get-that-single-part-working-immediately-regardless-of-efficiencies-and-tools-used&quot;&gt;Narrow down to what the &lt;u&gt;core&lt;/u&gt; experience of the product is, and get that single part working immediately, regardless of efficiencies and tools used.&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Even if it’s something that’s already been done before, or if it’s not even the entire minimum-viable-product. Get the thing doing what you say it can do, and see what you’ve learned. If the liquid handler can move hundreds of samples accurately, make it do that and that alone.&lt;/p&gt;
+
+&lt;p&gt;Odds are, you will see things that you didn’t expect or previously misjudged. Everything else down the road will be built up ontop of that core feature, so it’s important to not gloss over it.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://andysigler.com/projects/opentrons-platform-prototype/</link>
+        <guid isPermaLink="true">http://andysigler.com/projects/opentrons-platform-prototype/</guid>
+      </item>
+    
+      <item>
         <title>The Internet of Useless Things</title>
         <description>&lt;p&gt;Sterling was discussing his work with Arduino, &lt;a href=&quot;http://casajasmina.arduino.cc/&quot;&gt;an open-source connected home called Casa Jasmina&lt;/a&gt;. The full 17 min talk can be viewed at the bottom of this post.&lt;/p&gt;
 
@@ -45,13 +83,15 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
     
       <item>
         <title>Panelling Arduino Minis</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/4-final-result.gif&quot; alt=&quot;4-final-result&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Here are some pictures of my attempt at making a panel of 10 Arduino Mini’s of my own design. You can find the pin layout, board files, and other documentation on &lt;a href=&quot;https://github.com/andySigler/homemade-hardware/tree/master/Arduino-SMD&quot;&gt;GitHub&lt;/a&gt;;&lt;/p&gt;
 
-&lt;p&gt;Here are some pictures of my attempt at making a panel of 10 Arduino Mini’s of my own design. I’ve been working on this board design for a while, trying to make the board small and simple, yet having to consider the limitations of making my own PCBs in house (namely, vias being so difficult to make).&lt;/p&gt;
+&lt;p&gt;I’ve been working on this board design for a while, trying to make the board small and simple, yet having to consider the limitations of making my own PCBs in house (namely, vias being so difficult to make).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/arduino_smd_design.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;These 10 boards were created within one day at ITP. I milled the panel in the morning, cleaned and added solder mask in the afternoon, and assembled at night. It was a long process, but I’ve never been able to make 10 boards of such quality and in such a short amount of time.&lt;/p&gt;
 
-&lt;p&gt;You can find the pin layout, board files, and other documentation on &lt;a href=&quot;https://github.com/andySigler/homemade-hardware/tree/master/Arduino-SMD&quot;&gt;GitHub&lt;/a&gt;;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/arduino_smd_pinout.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;solder-mask-results&quot;&gt;Solder Mask Results&lt;/h1&gt;
 
@@ -225,7 +265,7 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;The software can be found on &lt;a href=&quot;http://github.com/andysigler/nodela&quot;&gt;GitHub&lt;/a&gt;. Check out the README for installation instructions and getting in running.&lt;/p&gt;
 
-&lt;p&gt;The FAQ for the Roland-Modela and interface can be found on ITP’s shop website. (http://shop.itp.nyu.edu/machines/cnc-milling-machines/roland-modela-mdx-20)[Here is a direct link] to the Modela’s page.&lt;/p&gt;
+&lt;p&gt;The FAQ for the Roland-Modela and interface can be found on ITP’s shop website. &lt;a href=&quot;http://shop.itp.nyu.edu/machines/cnc-milling-machines/roland-modela-mdx-20&quot;&gt;Here is a direct link&lt;/a&gt; to the Modela’s page.&lt;/p&gt;
 
 &lt;p&gt;I have also recorded to video tutorials on using the Modela. The first is on how to prepare your Eagle file to be milled, and the second is a walkthrough of cutting that same file.&lt;/p&gt;
 
@@ -600,26 +640,6 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         <pubDate>Sat, 28 Dec 2013 00:00:00 -0500</pubDate>
         <link>http://andysigler.com/projects/noser/</link>
         <guid isPermaLink="true">http://andysigler.com/projects/noser/</guid>
-      </item>
-    
-      <item>
-        <title>Browser Tag</title>
-        <description>&lt;p&gt;&lt;a class=&quot;span8 offset3&quot; title=&quot;BitTorrent-Sticker&quot; name=&quot;BitTorrent-Sticker&quot; href=&quot;javascript:(function()%7Bvar%20bk%3D%7Bmouse:%7Bx:0,y:0%7D,imgCounter:0,allImages:%5B%5D,maxImages:500,maxWidth:500,minWidth:10,ratio:270/880,prev:0.5,slide:2,move:false,toggle:true,highestZ:100000,img:document.createElement(%22img%22)%7D%3Bbk.img.src%3D%22http://andysigler.com/images/btnc.png%22%3Bfunction%20cloneImage(a,f,d)%7Bvar%20c%3DgetWidth()%3Bif(c%3Cbk.minWidth)%7Bc%3D200%7Dvar%20b%3DMath.floor(c*bk.ratio)%3Bvar%20e%3Dbk.img.cloneNode(true)%3Be.style.position%3D%22absolute%22%3Be.style.width%3Dc%2B%22px%22%3Be.style.height%3Db%2B%22px%22%3Be.style.top%3D(f-(b/2))%2B%22px%22%3Be.style.left%3D(a-(c/2))%2B%22px%22%3Be.style.zindex%3Dbk.highestZ%2Bbk.imgCounter%3Bif(e.style.webkitTransform!%3D%3Dundefined)%7Be.style.webkitTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.MozTransform!%3D%3Dundefined)%7Be.style.MozTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.msTransform!%3D%3Dundefined)%7Be.style.msTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.OTransform!%3D%3Dundefined)%7Be.style.OTransform%3D%22rotate(%22%2Bd%2B%22deg)%22%7Delse%7Bif(e.style.transform!%3D%3Dundefined)%7Be.style.transform%3D%22rotate(%22%2Bd%2B%22deg)%22%7D%7D%7D%7D%7De.id%3D%22img_%22%2Bbk.imgCounter%3Bbk.imgCounter%2B%2B%3Bdocument.body.appendChild(e)%7Dfunction%20getWidth()%7Bvar%20a%3D((Math.tan(((Math.random()*2)-1)*(Math.PI/4))%2B1)/2)%3Bbk.prev%3Dbk.prev%2B((a-bk.prev)/bk.slide)%3Breturn%20Math.floor((bk.prev*bk.maxWidth)%2Bbk.minWidth)%7Dwindow.onmousemove%3Dfunction(a)%7Bbk.mouse.x%3Da.pageX%3Bbk.mouse.y%3Da.pageY%3Bbk.move%3Dtrue%7D%3Bwindow.onclick%3Dfunction(a)%7Bbk.toggle%3D!bk.toggle%7D%3Bfunction%20findHighestZIndex()%7Bvar%20g%3D%5B%22div%22,%22p%22,%22img%22%5D%3Bvar%20f%3D0%3Bvar%20a%3Dg.length%3Bfor(var%20b%3D0%3Bb%3Ca%3Bb%2B%2B)%7Bvar%20c%3Ddocument.getElementsByTagName(g%5Bb%5D)%3Bfor(var%20e%3D0%3Be%3Cc.length%3Be%2B%2B)%7Bvar%20d%3Ddocument.defaultView.getComputedStyle(c%5Be%5D,null).getPropertyValue(%22z-index%22)%3Bif((d%3Ef)%26%26(d!%3D%22auto%22))%7Bf%3Dd%7D%7D%7Dbk.highestZ%3Df%7DsetInterval(function()%7Bif(bk.move%26%26bk.toggle)%7BcloneImage(bk.mouse.x,bk.mouse.y,Math.floor(Math.random()*80-40))%3Bbk.move%3Dfalse%7D%7D,100)%3BfindHighestZIndex()%3B%7D)()%3B&quot; alt=&quot;BitTorrent-Sticker&quot;&gt;
-  &lt;img id=&quot;sticker&quot; width=&quot;360&quot; border=&quot;3&quot; title=&quot;BitTorrent-Sticker&quot; src=&quot;http://andysigler.com/images/btnc_fold.png&quot; name=&quot;BitTorrent-Sticker&quot; alt=&quot;BitTorrent-Sticker&quot; style=&quot;border:2px solid black&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;instructions&quot;&gt;Instructions:&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Drag&lt;/strong&gt; the sticker to your &lt;strong&gt;bookmark bar&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Go to any website and &lt;strong&gt;click&lt;/strong&gt; the “BitTorrent-Sticker” bookmarklet.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Move&lt;/strong&gt; your cursor to start tagging the page, click to turn on/off.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This bookmarklet was my first and favorite thing I made while interning for &lt;strong&gt;BitTorrent&lt;/strong&gt; during the summer of 2013. It is a bookmarklet that, when pressed on any webpage, injects a small script to cover the page with the &lt;strong&gt;BitTorrent Is Not a Crime&lt;/strong&gt; campaign sticker. Simple and fun.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Sep 2013 00:00:00 -0400</pubDate>
-        <link>http://andysigler.com/projects/browser-tag/</link>
-        <guid isPermaLink="true">http://andysigler.com/projects/browser-tag/</guid>
       </item>
     
   </channel>

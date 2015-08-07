@@ -344,7 +344,7 @@ var theLineWidth = 0;
 
 function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
-  globalMoveAmount = (Math.pow(Math.random(),2)*width*.1)+50;
+  globalMoveAmount = (Math.pow(Math.random(),2)*width*.1)+40;
 
   masterDrawCount = 4;
 }
