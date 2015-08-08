@@ -32,7 +32,9 @@ Here’s a general diagram showing the different blocks that I developed. Each w
 
 &lt;p&gt;This was my first time working on a real-world product/tool, and the experience has left me with one lesson that I will hold on to:&lt;/p&gt;
 
-&lt;h2 id=&quot;narrow-down-to-what-the-ucoreu-experience-of-the-product-is-and-get-that-single-part-working-immediately-regardless-of-efficiencies-and-tools-used&quot;&gt;Narrow down to what the &lt;u&gt;core&lt;/u&gt; experience of the product is, and get that single part working immediately, regardless of efficiencies and tools used.&lt;/h2&gt;
+&lt;div class=&quot;alert-box radius alert&quot;&gt;
+Narrow down to what the &lt;u&gt;core&lt;/u&gt; experience of the product is, and get that single part working immediately, regardless of efficiencies and tools used.
+&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
 Even if it’s something that’s already been done before, or if it’s not even the entire minimum-viable-product. Get the thing doing what you say it can do, and see what you’ve learned. If the liquid handler can move hundreds of samples accurately, make it do that and that alone.&lt;/p&gt;

@@ -14,7 +14,7 @@ tags:
 
 image:
     homepage: bookmapping.png
-    thumb: bookmapping.png
+    thumb: bookmapping_small.png
 
 header: no
 

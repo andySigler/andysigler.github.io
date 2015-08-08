@@ -14,7 +14,7 @@ tags:
 
 image:
     homepage: screenracer.png
-    thumb: screenracer.png
+    thumb: screenracer_small.png
 
 header: no
 

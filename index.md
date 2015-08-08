@@ -21,6 +21,7 @@ I am interested in [improvisation in the internet of things]({{ site.url }}/proj
 </span>
 </span>
 
-<canvas id="seeds" style="z-index:-100;position:absolute;top:0px;left:0px;margin:0;padding:0;display:inline-block;margin-bottom:-6px">
+<canvas id="seeds" style="margin:0;z-index:-100;position:absolute;top:0px;left:0px;padding:0;display:inline-block;margin-bottom:-6px">
 </canvas>
+<div id="spacer_thing" style="width:100px;height:900px;background-color:rgba(0,0,0,0);"></div>
 <script type="text/javascript" src="{{ site.url }}/assets/js/doodling.js"></script>

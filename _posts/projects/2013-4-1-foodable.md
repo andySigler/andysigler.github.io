@@ -14,7 +14,7 @@ tags:
 
 image:
     homepage: foodable.png
-    thumb: foodable.png
+    thumb: foodable_small.png
 
 header: no
 

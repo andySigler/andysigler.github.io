@@ -14,7 +14,7 @@ tags:
 
 image:
     homepage: bookmarklet.png
-    thumb: bookmarklet.png
+    thumb: bookmarklet_small.png
 
 author: Andy Sigler
 

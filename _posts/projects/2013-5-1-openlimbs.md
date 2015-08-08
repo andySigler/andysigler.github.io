@@ -14,7 +14,7 @@ tags:
 
 image:
     homepage: openlimbs.png
-    thumb: openlimbs.png
+    thumb: openlimbs_small.png
 
 header: no
 

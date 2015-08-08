@@ -14,7 +14,7 @@ tags:
 
 image:
     homepage: gears.png
-    thumb: gears.png
+    thumb: gears_small.png
 
 header: no
 

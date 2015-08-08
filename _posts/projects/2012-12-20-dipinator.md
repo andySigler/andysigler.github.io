@@ -14,7 +14,7 @@ tags:
 
 image:
     homepage: dipinator.png
-    thumb: dipinator.png
+    thumb: dipinator_small.png
 
 header: no
 

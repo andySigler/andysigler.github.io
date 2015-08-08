@@ -44,7 +44,9 @@ The file format fed in at the top ended up being a variation of the [Auto-Protoc
 
 This was my first time working on a real-world product/tool, and the experience has left me with one lesson that I will hold on to:
 
-##Narrow down to what the <u>core</u> experience of the product is, and get that single part working immediately, regardless of efficiencies and tools used.
+<div class="alert-box radius alert">
+Narrow down to what the <u>core</u> experience of the product is, and get that single part working immediately, regardless of efficiencies and tools used.
+</div>
 
 <br />
 Even if it's something that's already been done before, or if it's not even the entire minimum-viable-product. Get the thing doing what you say it can do, and see what you've learned. If the liquid handler can move hundreds of samples accurately, make it do that and that alone.

@@ -346,7 +346,7 @@ function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
   globalMoveAmount = (Math.pow(Math.random(),2)*width*.1)+40;
 
-  masterDrawCount = 4;
+  masterDrawCount = 6;
 }
 
 ///////////////////////////////////////
@@ -516,6 +516,8 @@ window.addEventListener("orientationchange", resizeCanvas, true);
 var isMobile = false;
 
 window.addEventListener('load', function(){
+
+  document.getElementById('spacer_thing').parentNode.removeChild(document.getElementById('spacer_thing'));
 
   document.getElementsByClassName('top-bar-section ')[0].style.color = 'white';
 
