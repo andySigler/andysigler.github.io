@@ -8,7 +8,7 @@ permalink: "/about/"
 header: no
 ---
 
-I am currently a research resident at [ITP-NYU](http://itp.nyu.edu), where I focus on physical computing, PCB fabrication, and connected devices. I will be teaching a course at ITP this Fall titled [Homemade Hardware]({{ site.url }}/homemade-hardware/), where I will be showing students how to fabricate custom circuit boards for microcontroller-based projects.
+I am currently a research resident at [ITP-NYU](http://itp.nyu.edu), where I focus on physical computing, PCB fabrication, and connected devices. I will be teaching a course at ITP this Fall titled [Homemade Hardware](http://homemadehardware.com), where I will be showing students how to fabricate custom circuit boards for microcontroller-based projects.
 
 My past experiences include lead-developer and interaction designer at OpenTrons, and creative-developer at BitTorrent.
 

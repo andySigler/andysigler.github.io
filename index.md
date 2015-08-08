@@ -13,7 +13,7 @@ header: no
 ---
 <span style="display:block;width:100%;max-width:500px;" markdown="1">
 <span class="avoidMe" style="">
-Currently a research resident at [ITP-NYU](https://itp.nyu.edu), and will be teaching a course beginning Fall '15 titled Homemade Hardware.
+Former research resident and current adjunct professor at [ITP-NYU](https://itp.nyu.edu), teaching a course I'm calling [Homemade Hardware](http://homemadehardware.com).
 </span>
 <br /><br />
 <span class="avoidMe" style="">
