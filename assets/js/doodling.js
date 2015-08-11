@@ -367,7 +367,7 @@ var resizeCanvas = function(){
   var footer = document.getElementById('footer-content');
 
   width = window.innerWidth;
-  height = Math.max((window.innerHeight - footer.offsetHeight) - navHeight, 400);
+  height = Math.max((window.innerHeight - footer.offsetHeight) - navHeight, 500);
   canvas.style.width = width+'px';
   canvas.style.height = height+'px';
   canvas.style.top = navHeight+'px';

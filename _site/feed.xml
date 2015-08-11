@@ -10,23 +10,23 @@
         <title>Opentrons Platform Prototype</title>
         <description>&lt;h1 id=&quot;my-role-at-opentrons-labworks&quot;&gt;My Role at Opentrons Labworks&lt;/h1&gt;
 
-&lt;p&gt;Beginning June 2014, I have worked with Opentrons in developing their low-cost, open-source liquid handling robot. Working with Opentrons has allowed me to spend nearly a month living and working in Shenzhen, China, considered the hardware capitol of the world, and to work inside HAXLR8R, the hardware accelerator based there.&lt;/p&gt;
+&lt;p&gt;Beginning June 2014, I have worked with Opentrons in developing their low-cost, open-source liquid handling robot. Working with Opentrons has allowed me to spend nearly a month living and working in Shenzhen, China and HAXLR8R. Shenzhen is considered the hardware capitol of the world, and it was eye-opening to see a city completely centered around hardware manufacturing at all scales.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/opentrons_team.jpg&quot; alt=&quot;The Opentrons Founders&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;My role was to prototype the liquid handling platform’s software stack. This means I was responsible for the early decisions and executions of the file format and used to design a protocol (the job), the robot’s interface, how it would accurately calibration to it’s surroundings and liquids, and finally what &lt;strong&gt;exactly&lt;/strong&gt; it does on execution (aka how it moves).&lt;/p&gt;
+&lt;p&gt;My role with Opentrons was to prototype the liquid handling platform’s software stack. This means I was responsible for the early decisions and executions of its design-file format (for writing experiments), for designing and making the robot’s interface, experimenting with how it would accurately calibrate, and finally what &lt;strong&gt;exactly&lt;/strong&gt; it does on execution (aka how it moves).&lt;/p&gt;
 
 &lt;h1 id=&quot;platform-overview&quot;&gt;Platform Overview&lt;/h1&gt;
 
-&lt;p&gt;Below is a quick video I shot to demonstrate my prototype. All designs and software used in the video (excluding the motor controller) were written by me.&lt;/p&gt;
+&lt;p&gt;Below is a quick video I shot to demonstrate the prototype. All designs and software in the video (excluding the motor controller) were written by me.&lt;/p&gt;
 
 &lt;iframe src=&quot;https://player.vimeo.com/video/130249723&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;
-Here’s a general diagram showing the different blocks that I developed. Each was iterated upon to reflect what the robot’s mechanics required, and to satisfy users’ needs.&lt;/p&gt;
+Below is a diagram showing the different software blocks I developed. Each was iterated upon to reflect what the robot’s mechanical requirements, and to satisfy users’ needs.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/opentrons_flowchart.png&quot; alt=&quot;Platform Prototype Flowchart&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The file format fed in at the top ended up being a variation of the &lt;a href=&quot;http://autoprotocol.org/&quot;&gt;Auto-Protocol standard proposed by Transcriptics&lt;/a&gt;, which uses JSON to describe a protocol’s many details and procedures. Because I needed to work fast, I used NodeJS to communicate with with robot’s motorcontroller, and created an HTML5 interface for the user to interact with. Everything written in NodeJS has since been translated to Python, and the front-end has been handed off to front-end engineers.&lt;/p&gt;
+&lt;p&gt;The file format fed in at the top ended up being a variation of the &lt;a href=&quot;http://autoprotocol.org/specification/&quot;&gt;Auto-Protocol standard proposed by Transcriptics&lt;/a&gt;, which uses JSON to describe a protocol’s many details and procedures. Because I needed to work fast, I used NodeJS to communicate with with robot’s motorcontroller, and I created an HTML5 interface for the user to interact with. Everything written in NodeJS has since been translated to Python, and the front-end has been handed off to front-end engineers.&lt;/p&gt;
 
 &lt;h1 id=&quot;a-lesson-learned&quot;&gt;A Lesson Learned&lt;/h1&gt;
 
@@ -37,9 +37,9 @@ Narrow down to what the &lt;u&gt;core&lt;/u&gt; experience of the product is, an
 &lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
-Even if it’s something that’s already been done before, or if it’s not even the entire minimum-viable-product. Get the thing doing what you say it can do, and see what you’ve learned. If the liquid handler can move hundreds of samples accurately, make it do that and that alone.&lt;/p&gt;
+Even if it’s something that’s already been done before, or if it’s not even the entire minimum-viable-product. Get the thing doing what you say it can do, and see what you’ve learned. If you say the liquid handler can move hundreds of samples accurately, make it do that and that alone before working on any other problems.&lt;/p&gt;
 
-&lt;p&gt;Odds are, you will see things that you didn’t expect or previously misjudged. Everything else down the road will be built up ontop of that core feature, so it’s important to not gloss over it.&lt;/p&gt;
+&lt;p&gt;Odds are, you will see things that you didn’t expect or previously misjudged. Everything else down the road will be built up on top of that core feature, so it’s important to not gloss over it.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://andysigler.com/projects/opentrons-platform-prototype/</link>
@@ -97,6 +97,8 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;h1 id=&quot;solder-mask-results&quot;&gt;Solder Mask Results&lt;/h1&gt;
 
+&lt;p&gt;I’ve been using Dynamask dry-film solder mask, and it’s made populating boards much easier. I’ve documented the process a bit in my blog, and below are some pictures of my panel after milling and applying the solder mask.&lt;/p&gt;
+
 &lt;p&gt;Top layer:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/0-top-mask.jpg&quot; alt=&quot;0-top-mask&quot; /&gt;&lt;/p&gt;
@@ -111,13 +113,22 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;h1 id=&quot;results-after-assembly&quot;&gt;Results after Assembly&lt;/h1&gt;
 
+&lt;p&gt;I used ITP’s manual pick-and-place machine to lay out the solder and place each component. I then reflowed using a heat gun, and finally soldered together all the vias.&lt;/p&gt;
+
+&lt;p&gt;The vias are what takes the longest, and greatly restrict your design. I use a thin piece of wire to connect the top and bottom of the PCB, then solder each side. This means that there can not be any vias underneath any component or IC, and that they need a considerable amount of space to allow the solder to melt with causing any shorts.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/4-diy_arduino_mini.jpg&quot; alt=&quot;4-diy_arduino_mini&quot; /&gt;
 &lt;img src=&quot;http://andysigler.com/images/5-populated.jpg&quot; alt=&quot;5-populated&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;broken-out-boards&quot;&gt;Broken Out Boards&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/6-brokenOut.jpg&quot; alt=&quot;6-brokenOut&quot; /&gt;
-&lt;img src=&quot;http://andysigler.com/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Bootloaded and test, they all work!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/6-brokenOut.jpg&quot; alt=&quot;6-brokenOut&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I decided to add the option of soldering a coin-cell battery holder onto the bottom. Here you can see one attached:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Apr 2015 00:00:00 -0400</pubDate>
         <link>http://andysigler.com/hardware/panelling-arduino-minis/</link>
@@ -245,11 +256,11 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
     
       <item>
         <title>Nodela</title>
-        <description>&lt;p&gt;The Roland-Modela is a discontued micro-milling machine, and students at &lt;a href=&quot;http://itp.nyu.edu&quot;&gt;ITP&lt;/a&gt; use it to mill PCBs from copper clad plates. It’s a well made machine, but it’s software package is terrible.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;http://github.com/andysigler/nodela&quot;&gt;Download the interface here&lt;/a&gt;, and check out the native app for OSX.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/roland.png&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;We had to edit the executable files manually in text editors, and of course we didn’t know what we were doing. Not to mention, the bed was made from steel, so all copper plates were held down (unevenly) with messy double-sided tape. We were breaking bits like crazy!&lt;/p&gt;
+&lt;p&gt;The Roland-Modela is a discontued micro-milling machine, and students at &lt;a href=&quot;http://itp.nyu.edu&quot;&gt;ITP&lt;/a&gt; use it to mill PCBs from copper clad plates. It’s a well made machine, but it’s software package is terrible. We had to edit the executable files manually in text editors, and of course we didn’t know what we were doing. Not to mention, the bed was made from steel, so all copper plates were held down (unevenly) with messy double-sided tape. We were breaking bits like crazy!&lt;/p&gt;
 
 &lt;p&gt;I was excited about milling PCBs, but this was the only micro milling machine I had access to. So I made a simple interface using Javascript, and designed a new bed from delrin, and now I can cut straight from an Eagle file without breaking bits.&lt;/p&gt;
 
@@ -257,7 +268,7 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;h1 id=&quot;the-interface&quot;&gt;The Interface&lt;/h1&gt;
 
-&lt;p&gt;Below is a screenshot if the interface. It allows you to jog the head around, in order to select your cut’s origin (impossible until recently). It also loads preset speed and plunge values for different bits, so that each bit is used at it’s most optimal settings.&lt;/p&gt;
+&lt;p&gt;Below is a screenshot of the interface. It allows you to jog the head around, in order to select your cut’s origin (impossible until recently). It also loads preset speed and plunge values for different bits, so that each bit is used at it’s most optimal settings.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/interface-nodela.png&quot; alt=&quot;nodela-interface&quot; /&gt;&lt;/p&gt;
 
