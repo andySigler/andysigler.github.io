@@ -7,6 +7,103 @@
     <atom:link href="http://andysigler.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>DIY PCB Setup</title>
+        <description>&lt;p&gt;I just finished putting together a PCB “pipeline” in my bedroom. It’s an ensemble of tools to help me make boards at low cost and fast. Here I’ll take you through the main components.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-space&quot;&gt;The Space&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/room_fullShot_original.jpg&quot; alt=&quot;full shot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First off, the standing desk from Ikea, pictured above. 5’ x 2.5’, and 3.5’ tall, it keep all my work near my elbows so I don’t hurt my back, nor spend all day on my ass.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_storage.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.com/images/room_storage.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_drawers.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.com/images/room_drawers.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_chemicals.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.com/images/room_chemicals.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;To separate all my stuff, I’ve got the small drawers to hold components, a drawer unit from Ikea to hold other parts, and a large plastic container to keep all the chemicals out of harm’s way.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-machines&quot;&gt;The Machines&lt;/h1&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_roland.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.com/images/room_roland.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_laminator.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.com/images/room_laminator.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_printer.jpg&quot;&gt;
+       		&lt;img src=&quot;http://andysigler.com/images/room_printer.jpg&quot; alt=&quot;&quot; /&gt;
+       	&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Going from right to left, I first have my Roland Modela I recently bought off ebay. It’s a fairly old machine, which is why I can get relatively cheap, but I’ve found it’s mechanics are better than anything else out there around the same price point. Also, I’ve been using the Modela at ITP for the past year, and have &lt;a href=&quot;http://andysigler.com/hardware/nodela&quot;&gt;written my own software suite&lt;/a&gt; to interface with it. It’s the right tool for me.&lt;/p&gt;
+
+&lt;p&gt;Next, it’s a laminator from Amazon. Their cheapest one, I believe less than $20. I use it for applying toner and solder mask to my copper clad plates. It works much better if you rip the plastic top off, however it’s super hot so be careful if you do that same.&lt;/p&gt;
+
+&lt;p&gt;Finally, a simple black &amp;amp; white laser printer I found on ebay. This is used for printing out designs from each to assist my toner transfer and solder mask processes.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-tools&quot;&gt;The Tools&lt;/h1&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-3 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_heat.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.com/images/room_heat.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-3 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_uv_box.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.com/images/room_uv_box.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-3 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_oven.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.com/images/room_oven.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-3 columns&quot;&gt;
+    	&lt;a href=&quot;http://andysigler.com/images/room_hair_dryer.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.com/images/room_hair_dryer.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Everybody who works with electronics should have a variable temperature soldering iron, but I recently needed to add a heat gun to my collection. It’s slim and seems to be working well for when I need to remove parts from a board, or for when I just don’t feel like using the toaster over.&lt;/p&gt;
+
+&lt;p&gt;My UV exposure box was made by your’s truly (that’s why it’s so ugly), but with so many UV leds inside, it works super fast! I’ve been using this for when applying solder mask, but it might come in handy for if I ever start using photoresist instead of toner transfers to etch away traces. Other UV expsosure units can be found online for around $80, and if I could do it again I would have just bought one of those.&lt;/p&gt;
+
+&lt;p&gt;Toaster oven, also from ebay, used for reflowing boards. Turns out reflowing in your bedroom can cause some pretty nasty fumes to build up, so I’ve also invested in a small fan and make sure to keep my windows and door open while doing this.&lt;/p&gt;
+
+&lt;p&gt;The hair dryer is fairly basic, I didn’t have one before, but now I use it to dry off my boards after cleaning them off in water. I’ve learned to never wipe a board clean because you can easily ruin whatever it is you’ve just done to it (removing wet toner or solder mask).&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://andysigler.com/hardware/diy-pcb-setup/</link>
+        <guid isPermaLink="true">http://andysigler.com/hardware/diy-pcb-setup/</guid>
+      </item>
+    
+      <item>
         <title>Opentrons Platform Prototype</title>
         <description>&lt;h1 id=&quot;my-role-at-opentrons-labworks&quot;&gt;My Role at Opentrons Labworks&lt;/h1&gt;
 
@@ -30,14 +127,9 @@ Below is a diagram showing the different software blocks I developed. Each was i
 
 &lt;h1 id=&quot;a-lesson-learned&quot;&gt;A Lesson Learned&lt;/h1&gt;
 
-&lt;p&gt;This was my first time working on a real-world product/tool, and the experience has left me with one lesson that I will hold on to:&lt;/p&gt;
+&lt;p&gt;This was my first time working on a real-world product/tool, and the experience has left me with one lesson that I will hold on to: Narrow down to what the &lt;u&gt;core&lt;/u&gt; experience of the product is, and get that single part working immediately, regardless of efficiencies and tools used.&lt;/p&gt;
 
-&lt;div class=&quot;alert-box radius alert&quot;&gt;
-Narrow down to what the &lt;u&gt;core&lt;/u&gt; experience of the product is, and get that single part working immediately, regardless of efficiencies and tools used.
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Even if it’s something that’s already been done before, or if it’s not even the entire minimum-viable-product. Get the thing doing what you say it can do, and see what you’ve learned. If you say the liquid handler can move hundreds of samples accurately, make it do that and that alone before working on any other problems.&lt;/p&gt;
+&lt;p&gt;Even if it’s something that’s already been done before, or if it’s not even the entire minimum-viable-product. Get the thing doing what you say it can do, and see what you’ve learned. If you say the liquid handler can move hundreds of samples accurately, make it do that and that alone before working on any other problems.&lt;/p&gt;
 
 &lt;p&gt;Odds are, you will see things that you didn’t expect or previously misjudged. Everything else down the road will be built up on top of that core feature, so it’s important to not gloss over it.&lt;/p&gt;
 </description>
@@ -638,21 +730,6 @@ nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         <pubDate>Mon, 28 Apr 2014 00:00:00 -0400</pubDate>
         <link>http://andysigler.com/projects/how-to-make-the-internet-of-useless-things/</link>
         <guid isPermaLink="true">http://andysigler.com/projects/how-to-make-the-internet-of-useless-things/</guid>
-      </item>
-    
-      <item>
-        <title>Noser</title>
-        <description>&lt;p&gt;Noser is a combination of musical instruments, exploring the real-time performance of timbre. Traditional instrumentation has explored changes in pitch, level, rhythm and timing for thousands of years. With computers and music synthesis, we can now explore the manipulation of a sound’s spectral shape and content through physical interaction. For my methods, I first used the combination of FFT convolution and the Touche sensing technique, and second, resonant filters modeling the human vocal tract. Convolution and vowel modeling, combined with physical interaction with the hands, has led to some interesting results.&lt;/p&gt;
-
-&lt;p&gt;Below is an earlier prototype of the system.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://player.vimeo.com/video/74424188&quot; width=&quot;500&quot; height=&quot;278&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;This interface uses a multi-touch trackpad, proximity sensor, and flexible polycarbonite poles, all to allow the human hand to expressively perform vowel sounds. The fingers horizontal position moves the frequency of resonant bandpass filters, while their vertical position alters the filters’ Q.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Dec 2013 00:00:00 -0500</pubDate>
-        <link>http://andysigler.com/projects/noser/</link>
-        <guid isPermaLink="true">http://andysigler.com/projects/noser/</guid>
       </item>
     
   </channel>

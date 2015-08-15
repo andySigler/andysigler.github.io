@@ -9,26 +9,34 @@ show_meta: false
 header: no
 ---
 
-<p class="subheadline">summer 2014 - spring 2015</p>
-<h1>Hardware and Automation</h1>
+<p class="subheadline">summer 2014 - summer 2015</p>
+<h1>Wireless, Hardware, and Automation</h1>
 
 <div class="row t30">
-    <div class="medium-4 columns">
-        <a href="{{ site.url }}/projects/opentrons-platform-prototype/" >
-            <img src="{{ site.url }}/images/opentrons_small.jpg" alt="">
-            <p>Opentrons Platform Prototype</p>
+    <div class="medium-6 columns b30">
+        <a href="http://patchbay.io">
+            <img src="{{ site.url }}/images/patchbay_demo_small.jpg" alt="">
+            <p>Patchbay: A Wireless Framework for Musical Instruments and Toys</p>
         </a>
     </div>
-    <div class="medium-4 columns">
+    <div class="medium-6 columns b30">
         <a href="{{ site.url }}/hardware/nodela/" >
             <img src="{{ site.url }}/images/nodela_image_small.png" alt="">
             <p>Nodela</p>
         </a>
     </div>
-    <div class="medium-4 columns">
+</div>
+<div class="row t30">
+    <div class="medium-6 columns b30">
         <a href="{{ site.url }}/hardware/panelling-arduino-minis/" >
             <img src="{{ site.url }}/images/diy_arduino_mini_thumb.jpg" alt="">
             <p>DIY Arduino Panel</p>
+        </a>
+    </div>
+    <div class="medium-6 columns b30">
+        <a href="{{ site.url }}/projects/opentrons-platform-prototype/" >
+            <img src="{{ site.url }}/images/opentrons_small.jpg" alt="">
+            <p>Opentrons Platform Prototype</p>
         </a>
     </div>
 </div>
