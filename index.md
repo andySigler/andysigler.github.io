@@ -17,7 +17,7 @@ Former research resident and current adjunct professor at [ITP-NYU](https://itp.
 </span>
 <br /><br />
 <span class="avoidMe" style="">
-I am interested in [improvisation in the internet of things](http://patchbay.io), and I hope to someday fill my home with networked musical instruments and toys.
+I am interested in improvisation in the internet of things, and I hope to someday fill my home with networked musical instruments and toys.
 </span>
 </span>
 

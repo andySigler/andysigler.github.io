@@ -14,7 +14,7 @@ header: no
 
 <div class="row t30">
     <div class="medium-6 columns b30">
-        <a href="http://patchbay.io">
+        <a href="http://patchbay.io" target="_blank">
             <img src="{{ site.url }}/images/patchbay_demo_small.jpg" alt="">
             <p>Patchbay: A Wireless Framework for Musical Instruments and Toys</p>
         </a>
