@@ -352,7 +352,7 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.com/images/roland.png&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The Roland-Modela is a discontued micro-milling machine, and students at &lt;a href=&quot;http://itp.nyu.edu&quot;&gt;ITP&lt;/a&gt; use it to mill PCBs from copper clad plates. It’s a well made machine, but it’s software package is terrible. We had to edit the executable files manually in text editors, and of course we didn’t know what we were doing. Not to mention, the bed was made from steel, so all copper plates were held down (unevenly) with messy double-sided tape. We were breaking bits like crazy!&lt;/p&gt;
+&lt;p&gt;The Roland-Modela is a discontinued micro-milling machine, and students at &lt;a href=&quot;http://itp.nyu.edu&quot;&gt;ITP&lt;/a&gt; use it to mill PCBs from copper clad plates. It’s a well made machine, but it’s software package is terrible. We had to edit the executable files manually in text editors, and of course we didn’t know what we were doing. Not to mention, the bed was made from steel, so all copper plates were held down (unevenly) with messy double-sided tape. We were breaking bits like crazy!&lt;/p&gt;
 
 &lt;p&gt;I was excited about milling PCBs, but this was the only micro milling machine I had access to. So I made a simple interface using Javascript, and designed a new bed from delrin, and now I can cut straight from an Eagle file without breaking bits.&lt;/p&gt;
 
