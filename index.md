@@ -13,7 +13,7 @@ header: no
 ---
 <span style="display:block;width:100%;max-width:500px;" markdown="1">
 <span class="avoidMe" style="">
-Former research resident and current adjunct professor at [ITP-NYU](https://itp.nyu.edu), teaching a course I'm calling [Homemade Hardware](http://homemadehardware.com).
+Current developer at [Opentrons](http://www.opentrons.com), and adjunct professor at [ITP-NYU](https://itp.nyu.edu) teaching [Homemade Hardware](http://homemadehardware.com).
 </span>
 <br /><br />
 <span class="avoidMe" style="">
