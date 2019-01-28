@@ -147,7 +147,7 @@ function setup(){
       for (var i=0; i < touches.length; i++) {
         var x = touches[i].clientX;
         var y = touches[i].clientY-navHeight;
-        
+
         showEraser(x,y);
         eraseQueue.push({
           'x':x,
@@ -174,7 +174,7 @@ function setup(){
 ///////////////////////////////////////
 ///////////////////////////////////////
 
-function draw(){  
+function draw(){
 
   if(!isMobile) {
 
@@ -195,7 +195,7 @@ function draw(){
         erase(eraseQueue[0].x,eraseQueue[0].y,0.2);
       }
     }
-    
+
     //reset the stack overflow counter to zero with each draw cycle
     stackOverflowCounter=0;
     for(var i=totalInvisibleLines;i<oneLine.length-1;i++){
@@ -207,15 +207,25 @@ function draw(){
         i--;
       }
     }
-      
+
     if(!QUITER) {
       //if the latest line segment has been fully drawn...
       if(oneLine[oneLine.length-1].timeForNewLine){
         //create new line, passing on the new x and y points from the latest line
         makeNewLine(oneLine[oneLine.length-1].newX,oneLine[oneLine.length-1].newY);
-        
+
         //make the new point for the new line
         makeNewPoint();
+        xDist = oneLine[oneLine.length-1].xDistance;
+        yDist = oneLine[oneLine.length-1].yDistance;
+
+        a_tan = Math.atan(yDist / xDist)
+        if (xDist < 0) {
+          a_tan += Math.PI
+        }
+        else if (yDist < 0) {
+          a_tan += (Math.PI * 2)
+        }
       }
       else {
         oneLine[oneLine.length-1].drawLine();
@@ -236,7 +246,7 @@ function draw(){
 ///////////////////////////////////////
 
 function makeNewLine(prevLineEndX, prevLineEndY){
-  //create new instance with the previous line's 
+  //create new instance with the previous line's
   //end point as its starting point
   var l = new Line(prevLineEndX,prevLineEndY);
   oneLine.push(l);
@@ -258,7 +268,7 @@ function makeNewPoint(){
 
   //set it's new points for drawing later
   currentLine.setPoints();
-  
+
   //testing variable to redo this function if it ends up true
   var redoPoint = false;
 
@@ -321,13 +331,13 @@ function makeNewPoint(){
 
         currentColorIndex += Math.floor(((myColors.length-2)+1)*Math.random());
         currentColorIndex %= myColors.length
-        
+
         //reset the color to draw with
         currentColor = hexToRGB(myColors[currentColorIndex]);
-        
+
         //reset the counter
         stackOverflowCounter=0;
-        
+
         //now call this very function again
         makeNewPoint();
       }
@@ -345,8 +355,7 @@ var theLineWidth = 0;
 function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
   globalMoveAmount = (Math.pow(Math.random(),2)*width*.1)+40;
-
-  masterDrawCount = 6;
+  masterDrawCount = 5;
 }
 
 ///////////////////////////////////////
@@ -364,23 +373,11 @@ var resizeCanvas = function(){
 
   navHeight = document.getElementById('navigation').offsetHeight;
 
-  var footer = document.getElementById('footer-content');
-
   width = window.innerWidth;
-  height = Math.max((window.innerHeight - footer.offsetHeight) - navHeight, 500);
+  height = Math.max(window.innerHeight - navHeight, 500);
   canvas.style.width = width+'px';
   canvas.style.height = height+'px';
   canvas.style.top = navHeight+'px';
-
-  var currentFooterMargin = Number(footer.style.marginTop.split('px')[0]);
-  var currentFooterTop = getPos(footer).y;
-
-  //document.body.style.height = height+'px';
-
-  // the top includes the margin pushing it
-  // so get the right position, then include the current margin
-  var newMargin = (height - currentFooterTop) + (currentFooterMargin + navHeight);
-  footer.style.marginTop = newMargin+'px';
 
   canvas.width = width;
   canvas.height = height;
@@ -394,7 +391,7 @@ var resizeCanvas = function(){
 
   currentColorIndex += Math.floor(((myColors.length-2)+1)*Math.random());
   currentColorIndex %= myColors.length
-  
+
   //reset the color to draw with
   currentColor = hexToRGB(myColors[currentColorIndex]);
 
@@ -468,7 +465,6 @@ var resizeCanvas = function(){
   oneLine.push(new Line(width/2,height));
   //set it's new points for drawing later
   oneLine[oneLine.length-1].setPoints();
-  //document.getElementById('footer-content').offsetTop = height;
 
   lookDifferent();
 
@@ -517,7 +513,10 @@ var isMobile = false;
 
 window.addEventListener('load', function(){
 
-  document.getElementById('spacer_thing').parentNode.removeChild(document.getElementById('spacer_thing'));
+  var spacerThing = document.getElementById('spacer_thing');
+  if (spacerThing) {
+    spacerThing.parentNode.removeChild(spacerThing);
+  }
 
   document.getElementsByClassName('top-bar-section ')[0].style.color = 'white';
 
@@ -609,7 +608,7 @@ function Line(tempPrevX, tempPrevY) {
   this.rThis;
   this.gThis;
   this.bThis;
-  
+
   //variables to allow the line to be drawn incrementally
   this.xDistance;
   this.yDistance;
@@ -620,19 +619,19 @@ function Line(tempPrevX, tempPrevY) {
   this.tempNewX;
   this.tempNewY;
   this.timeForNewLine = false;
-  
+
   //amount to erase the line with each frame
   this.eraseAmount = .02;
-  
+
   //counter for testing if the line has been drawn fully or not
   this.counter = 0;
-  
+
   //variables hold line's points
   this.prevX = tempPrevX;
   this.prevY = tempPrevX;
   this.newX;
   this.newY;
-  
+
   //amounts to swing the new x and y values
   //to give them tendancies towards the middle
   this.swingX;
@@ -640,36 +639,36 @@ function Line(tempPrevX, tempPrevY) {
   //scale to keep it off the wall
   //1=always in center, 0=free ranging
   this.swingAmount = globalSwingAmount;
-  
+
   //how long a line can be at most
   this.moveAmount = globalMoveAmount;
-  
+
   //the transparency of the line, to count down
   this.fillAmount = 1;
-  
+
   //boolean to determine if it's time to reset the line
   //that is, if it totally faded away
   this.lineGone = false;
-   
-    
+
+
   //set starting point at center of screen
   this.prevX = tempPrevX;
   this.prevY = tempPrevY;
-  
+
   this.setPoints = function(){
-    
+
     //set the swing amount to keep the values towards the middle
     this.swingX = (((this.prevX-width/2)*-1) / (width/2)) * this.moveAmount * this.swingAmount;
     this.swingY = (((this.prevY-height/2)*-1) / (height/2)) * this.moveAmount * this.swingAmount;
 
     var RAND = getSeed();
-    
+
     //set the new x and y points to be within the size set above
     this.newX = this.prevX + ((RAND.seed.x*this.moveAmount*2)-this.moveAmount) + this.swingX;
     this.newX = Math.min(Math.max(this.newX,RAND.min.x),RAND.max.x);
     this.newY = this.prevY + ((RAND.seed.y*this.moveAmount*2)-this.moveAmount) + this.swingY;
     this.newY = Math.min(Math.max(this.newY,RAND.min.y),RAND.max.y);
-    
+
     //set the distance so it can drawn slowly over time
     this.xDistance = this.newX - this.prevX;
     this.yDistance = this.newY - this.prevY;
@@ -682,7 +681,7 @@ function Line(tempPrevX, tempPrevY) {
 
     this.c = JSON.parse(JSON.stringify(currentColor));
   }
-  
+
   this.drawLine = function(){
     //if the line hasn't been fully drawn yet, keep drawing it
     if(this.counter<this.drawCounter){
@@ -698,7 +697,7 @@ function Line(tempPrevX, tempPrevY) {
     context.shadowColor = null;
     context.lineWidth = 1;
     context.lineJoin = context.lineCap = 'round';
-    
+
     //draw the line based of the temporary/incrementing new x and y
     context.beginPath();
     context.moveTo(this.tempNewX-this.xIncrement, this.tempNewY-this.yIncrement);
@@ -776,17 +775,17 @@ function Line(tempPrevX, tempPrevY) {
 
     context.restore();
   }
-  
+
   //function for checking if this line intersections with the passed x and y points
   this.intersection = function(x1, y1, x2, y2){
-    
+
     var theResult = false;
-    
+
     //save the slopes and y-intercepts in variables
     var m, n;
     var b, d;
     var xIntersect;
-    
+
     //if the line is vertical or horizontal, just redo it
     if(this.prevX-this.newX==0 || this.prevY-this.newY==0){
       //println("bad line");
@@ -796,7 +795,7 @@ function Line(tempPrevX, tempPrevY) {
       //set the slope values
       m = (y1-y2)/(x1-x2);
       n = (this.prevY-this.newY)/(this.prevX-this.newX);
-      
+
       //if the slopes aren't equal, keep going
       if(m==n){
         //println("they're parallel");
@@ -806,10 +805,10 @@ function Line(tempPrevX, tempPrevY) {
         //find the y-intercepts
         b = y1 - m * x1;
         d = this.prevY - n * this.prevX;
-        
+
         //now, find the x point of interception
         xIntersect = (d-b)/(m-n);
-        
+
         //test if this x values is within both lines
         if(this.newX<this.prevX){
           if(x1<x2){

@@ -2,17 +2,17 @@
   url: "/"
   side: right
 
-- title: Projects
-  url: "/projects/"
-  side: right
+# - title: Projects
+#   url: "/projects/"
+#   side: right
 
 # - title: Teaching
 #   url: "/teaching/"
 #   side: right
 
-- title: Blog
-  url: "/blog/"
-  side: right
+# - title: Blog
+#   url: "/blog/"
+#   side: right
 
 - title: "About"
   url: "/about/"

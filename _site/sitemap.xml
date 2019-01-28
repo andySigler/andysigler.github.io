@@ -3,24 +3,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/hardware/diy-pcb-setup/</loc>
+      <loc>http://localhost:4000/hardware/diy-pcb-setup/</loc>
       
-        <lastmod>2015-08-11T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/projects/opentrons-platform-prototype/</loc>
-      
-        <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+        <lastmod>2015-08-11T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -33,24 +18,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/useless-things/art-and-the-internet-of-useless-things/</loc>
+      <loc>http://localhost:4000/projects/opentrons-platform-prototype/</loc>
       
-        <lastmod>2015-05-12T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/hardware/panelling-arduino-minis/</loc>
-      
-        <lastmod>2015-04-01T00:00:00-04:00</lastmod>
+        <lastmod>2015-06-01T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -63,24 +33,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/hardware/dynamask-and-twenty-rfm69-breakouts/</loc>
+      <loc>http://localhost:4000/useless-things/art-and-the-internet-of-useless-things/</loc>
       
-        <lastmod>2015-03-20T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/hardware/uv-lightbox/</loc>
-      
-        <lastmod>2015-02-25T00:00:00-05:00</lastmod>
+        <lastmod>2015-05-12T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -93,24 +48,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/hardware/nodela/</loc>
+      <loc>http://localhost:4000/hardware/panelling-arduino-minis/</loc>
       
-        <lastmod>2015-01-27T00:00:00-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/patchbay/patchbay-interface/</loc>
-      
-        <lastmod>2014-12-26T00:00:00-05:00</lastmod>
+        <lastmod>2015-04-01T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -123,24 +63,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/teaching/nodejs-arduino-yun/</loc>
+      <loc>http://localhost:4000/hardware/dynamask-and-twenty-rfm69-breakouts/</loc>
       
-        <lastmod>2014-11-14T00:00:00-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/projects/how-to-make-the-internet-of-useless-things/</loc>
-      
-        <lastmod>2014-04-28T00:00:00-04:00</lastmod>
+        <lastmod>2015-03-20T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -153,24 +78,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/projects/noser/</loc>
+      <loc>http://localhost:4000/hardware/uv-lightbox/</loc>
       
-        <lastmod>2013-12-28T00:00:00-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/projects/browser-tag/</loc>
-      
-        <lastmod>2013-09-01T00:00:00-04:00</lastmod>
+        <lastmod>2015-02-25T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -183,24 +93,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/projects/screenracer/</loc>
+      <loc>http://localhost:4000/hardware/nodela/</loc>
       
-        <lastmod>2013-05-01T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/projects/openlimbs/</loc>
-      
-        <lastmod>2013-05-01T00:00:00-04:00</lastmod>
+        <lastmod>2015-01-27T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -213,24 +108,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/projects/numbers-on-the-board/</loc>
+      <loc>http://localhost:4000/patchbay/patchbay-interface/</loc>
       
-        <lastmod>2013-05-01T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/projects/foodable/</loc>
-      
-        <lastmod>2013-04-01T00:00:00-04:00</lastmod>
+        <lastmod>2014-12-26T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -243,9 +123,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/projects/bookmapping/</loc>
+      <loc>http://localhost:4000/teaching/nodejs-arduino-yun/</loc>
       
-        <lastmod>2013-02-01T00:00:00-05:00</lastmod>
+        <lastmod>2014-11-14T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -258,9 +138,129 @@
   
     
     <url>
-      <loc>http://andysigler.com/projects/dipinator/</loc>
+      <loc>http://localhost:4000/projects/how-to-make-the-internet-of-useless-things/</loc>
       
-        <lastmod>2012-12-20T00:00:00-05:00</lastmod>
+        <lastmod>2014-04-28T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/projects/noser/</loc>
+      
+        <lastmod>2013-12-28T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/projects/browser-tag/</loc>
+      
+        <lastmod>2013-09-01T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/projects/screenracer/</loc>
+      
+        <lastmod>2013-05-01T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/projects/openlimbs/</loc>
+      
+        <lastmod>2013-05-01T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/projects/numbers-on-the-board/</loc>
+      
+        <lastmod>2013-05-01T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/projects/foodable/</loc>
+      
+        <lastmod>2013-04-01T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/projects/bookmapping/</loc>
+      
+        <lastmod>2013-02-01T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/projects/dipinator/</loc>
+      
+        <lastmod>2012-12-20T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -274,9 +274,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/404.html</loc>
+      <loc>http://localhost:4000/404.html</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -289,24 +289,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/about/</loc>
+      <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/blog/archive/</loc>
-      
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -319,24 +304,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/feed.xml</loc>
+      <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/homemade-hardware/</loc>
-      
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -349,24 +319,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/humans.txt</loc>
+      <loc>http://localhost:4000/humans.txt</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/blog/</loc>
-      
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -379,24 +334,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/</loc>
+      <loc>http://localhost:4000/</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/projects/</loc>
-      
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -409,24 +349,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/redirect-page/</loc>
+      <loc>http://localhost:4000/nothing</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/robots.txt</loc>
-      
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -439,24 +364,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/sitemap.xml</loc>
+      <loc>http://localhost:4000/projects/</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/assets/css/styles_feeling_responsive.css</loc>
-      
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -469,24 +379,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/teaching/</loc>
+      <loc>http://localhost:4000/redirect-page/</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://andysigler.com/teach/this-to-that/</loc>
-      
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -499,9 +394,9 @@
   
     
     <url>
-      <loc>http://andysigler.com/blog/page2/</loc>
+      <loc>http://localhost:4000/robots.txt</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -514,9 +409,24 @@
   
     
     <url>
-      <loc>http://andysigler.com/blog/page3/</loc>
+      <loc>http://localhost:4000/sitemap.xml</loc>
       
-        <lastmod>2016-06-02T11:11:57-04:00</lastmod>
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/assets/css/styles_feeling_responsive.css</loc>
+      
+        <lastmod>2019-01-28T17:00:32+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
