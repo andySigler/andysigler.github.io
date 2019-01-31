@@ -8,7 +8,7 @@ permalink: "/about/"
 header: no
 ---
 
-<span class="avoidMe">Currently I'm a developer at [Opentrons Labworks](http://tomorrow-lab.com), and previously I was an electronics design engineer at [Tomorrow Lab](http://tomorrow-lab.com), where I focus on physical computing, PCB fabrication, and connected devices. I am also teaching a course at ITP this Fall titled [Homemade Hardware](http://homemadehardware.com), where I am showing students how to fabricate custom circuit boards for microcontroller-based projects.</span>
+<span class="avoidMe">Currently I'm a developer at [Opentrons Labworks](http://opentrons.com), and previously I was an electronics design engineer at [Tomorrow Lab](http://tomorrow-lab.com), where I focus on physical computing, PCB fabrication, and connected devices. I am also teaching a course at ITP this Fall titled [Homemade Hardware](http://homemadehardware.com), where I am showing students how to fabricate custom circuit boards for microcontroller-based projects.</span>
 
 <span class="avoidMe">My past experiences include lead-developer and interaction designer at OpenTrons, creative-developer at BitTorrent, and a resident researcher at ITP-NYU.</span>
 
