@@ -462,7 +462,7 @@ var resizeCanvas = function(){
   }
 
   //set the first instance to start in the center
-  oneLine.push(new Line(width/2,height));
+  oneLine.push(new Line(width*0.75,0));
   //set it's new points for drawing later
   oneLine[oneLine.length-1].setPoints();
 

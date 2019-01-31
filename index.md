@@ -1,59 +1,112 @@
 ---
-title: Andy Sigler
-subheadline: hardware & networked interaction
 layout: page
+title: Andy Sigler
+subheadline: when the going get's weird
 permalink: "/"
 show_meta: false
 header: no
 ---
 
-<p class="subheadline">summer 2014 - summer 2015</p>
-<h1>Wireless, Hardware, and Automation</h1>
+<div>I design with electronics and software</div>
+<div>I want to make objects that bring magic to daily life</div>
 
+<br />
+<br />
+
+<p class="subheadline">summer 2016 - winter 2019</p>
+<h1>Opentrons Labworks</h1>
+<div>Returned to Opentrons Labworks to design and manufacture the next-generation, open-source, liquid-handling hardware platform</div>
 <div class="row t30">
-    <div class="medium-6 columns b30">
-        <a href="{{ site.url }}/patchbay" target="_blank">
-            <img src="{{ site.url }}/images/patchbay_table_small.png" alt="">
-            <p>Patchbay: for Musical Connected Instruments</p>
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}/404" >
+            <img src="{{ site.url }}/images/placeholder.png" alt="">
+            <p>Opentrons API</p>
         </a>
     </div>
-    <div class="medium-6 columns b30">
-        <a href="{{ site.url }}/hardware/nodela/" >
-            <img src="{{ site.url }}/images/nodela_image_small.png" alt="">
-            <p>Nodela</p>
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}/404" >
+            <img src="{{ site.url }}/images/placeholder.png" alt="">
+            <p>Opentrons OT2</p>
+        </a>
+    </div>
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}/404" >
+            <img src="{{ site.url }}/images/placeholder.png" alt="">
+            <p>Opentrons Modules</p>
         </a>
     </div>
 </div>
+<br />
+<br />
+
+<p class="subheadline">fall 2015 - summer 2016</p>
+<h1>Electronics & IoT</h1>
+<div>Work made while at the IoT design firm <a href="http://tomorrow-lab.com">Tomorrow-Lab</a>, as well as creating my own <a href="https://tisch.nyu.edu/itp">ITP-NYU</a> graduate course</div>
 <div class="row t30">
-    <div class="medium-6 columns b30">
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}/404" >
+            <img src="{{ site.url }}/images/placeholder.png" alt="">
+            <p>Hue Light Dice</p>
+        </a>
+    </div>
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}/404" >
+            <img src="{{ site.url }}/images/placeholder.png" alt="">
+            <p>ITP Course - Homemade Hardware</p>
+        </a>
+    </div>
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}/404" >
+            <img src="{{ site.url }}/images/placeholder.png" alt="">
+            <p>Projects from Tomorrow Lab</p>
+        </a>
+    </div>
+</div>
+<br />
+<br />
+
+<p class="subheadline">summer 2014 - summer 2015</p>
+<h1>Wireless, Hardware, and Automation</h1>
+<div>Work made during a research residency at <a href="https://tisch.nyu.edu/itp">ITP-NYU</a>, and creating the initial software stack for <a href="https://www.kickstarter.com/projects/932664050/opentrons-open-source-rapid-prototyping-for-biolog">Opentrons Labwork's Kickstarter product</a></div>
+<div class="row t30">
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}/hardware/nodela/" >
+            <img src="{{ site.url }}/images/nodela_image_small.png" alt="">
+            <p>Nodela: DIY PCB Milling Software</p>
+        </a>
+    </div>
+    <div class="medium-4 columns">
         <a href="{{ site.url }}/hardware/panelling-arduino-minis/" >
             <img src="{{ site.url }}/images/diy_arduino_mini_thumb.jpg" alt="">
             <p>DIY Arduino Panel</p>
         </a>
     </div>
-    <div class="medium-6 columns b30">
+    <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/opentrons-platform-prototype/" >
             <img src="{{ site.url }}/images/opentrons_small.jpg" alt="">
             <p>Opentrons Platform Prototype</p>
         </a>
     </div>
 </div>
+<br />
+<br />
 
 <p class="subheadline">spring 2014</p>
-<h1>Masters Thesis Presentation</h1>
-
+<h1>ITP Masters Thesis</h1>
+<div>Patchbay is a electronics and wireless platform for building musical instruments, toys, and other playful objects for the internet of things</div>
 <div class="row t30 b20">
     <div class="medium-12 columns">
-        <a href="{{ site.url }}/projects/how-to-make-the-internet-of-useless-things/" >
+        <a href="{{ site.url }}/patchbay" >
             <img src="{{ site.url }}/images/uselessThings.jpg" alt="">
-            <p>How to Make the Internet of Useless Things</p>
+            <p>Patchbay: For Connected Instruments & Toys</p>
         </a>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
+<br />
 
 <p class="subheadline">fall 2012 - spring 2014</p>
 <h1>ITP Portfolio</h1>
-
+<div>Selected works from my time as a graduate student at <a href="https://tisch.nyu.edu/itp">ITP-NYU</a></div>
 <div class="row t30">
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/noser/" >
@@ -74,7 +127,6 @@ header: no
         </a>
     </div>
 </div>
-
 <div class="row t30">
     <div class="medium-4 columns">
         <a href="https://andysigler.github.io/squaremirror" >
@@ -95,7 +147,6 @@ header: no
         </a>
     </div>
 </div>
-
 <div class="row t30">
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/bookmapping/" >
@@ -116,7 +167,6 @@ header: no
         </a>
     </div>
 </div>
-
 <div class="row t30">
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/browser-tag/" >
@@ -137,4 +187,3 @@ header: no
         </a>
     </div>
 </div>
-<br />

@@ -24,8 +24,8 @@ description: "I make things."
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-# url: "http://localhost:4000"
-url: "http://andysigler.github.io"
+url: "http://localhost:4000"
+# url: "http://andysigler.github.io"
 # url: "http://www.andysigler.com"
 baseurl: ""
 
