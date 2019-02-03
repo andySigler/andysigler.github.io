@@ -120,6 +120,20 @@ function erase (mouseX, mouseY,fill){
 
 function setup(){
 
+  document.getScroll = function() {
+    if (window.pageYOffset != undefined) {
+      return [pageXOffset, pageYOffset];
+    }
+    else {
+      var sx, sy, d = document,
+      r = d.documentElement,
+      b = d.body;
+      sx = r.scrollLeft || b.scrollLeft || 0;
+      sy = r.scrollTop || b.scrollTop || 0;
+      return [sx, sy];
+    }
+  }
+
   canvas = document.getElementById('seeds');
 
   var canvasOffsetY = getPos(canvas).y;
@@ -127,7 +141,7 @@ function setup(){
   window.addEventListener('mousemove',function (e){
     if(!isMobile) {
       var x = e.clientX;
-      var y = e.clientY-navHeight;
+      var y = (e.clientY-navHeight)+document.getScroll()[1];
 
       showEraser(x,y);
 
@@ -355,7 +369,7 @@ var theLineWidth = 0;
 function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
   globalMoveAmount = (Math.pow(Math.random(),2)*width*.1)+40;
-  masterDrawCount = 5;
+  masterDrawCount = 20;
 }
 
 ///////////////////////////////////////
@@ -367,14 +381,30 @@ var totalTextDivs = 0;
 
 var navHeight = 0;
 
+var getWindowHeight = function() {
+  var body = document.body;
+  var html = document.documentElement;
+
+  var window_height = Math.max(
+    body.scrollHeight, body.offsetHeight,
+    html.clientHeight, html.scrollHeight, html.offsetHeight);
+
+  return window_height;
+}
+
 var resizeCanvas = function(){
 
   canvas = document.getElementById('seeds');
 
+  canvas.style.height = '0px';
+  canvas.height = 0;
+
   navHeight = document.getElementById('navigation').offsetHeight;
 
+  var window_height = getWindowHeight();
+
   width = window.innerWidth;
-  height = Math.max(window.innerHeight - navHeight, 500);
+  height = (window_height - navHeight) - 0;
   canvas.style.width = width+'px';
   canvas.style.height = height+'px';
   canvas.style.top = navHeight+'px';

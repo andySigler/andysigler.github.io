@@ -3,8 +3,28 @@
   <channel>
     <title>Andy Sigler</title>
     <description>I make things.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://andysigler.github.io/</link>
+    <atom:link href="http://andysigler.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Tomorrow Lab</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.tomorrow-lab.com/work/rally&quot;&gt;Rally&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.tomorrow-lab.com/work/lotik&quot;&gt;Lotik&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.tomorrow-lab.com/work/waycount&quot;&gt;WayCount&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Feb 2019 00:00:00 +0800</pubDate>
+        <link>http://andysigler.github.io/products/tomorrow-lab/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/products/tomorrow-lab/</guid>
+      </item>
+    
+      <item>
+        <title>Opentrons API</title>
+        <description>&lt;p&gt;Nothing to say&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Feb 2019 00:00:00 +0800</pubDate>
+        <link>http://andysigler.github.io/products/opentrons-api/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/products/opentrons-api/</guid>
+      </item>
     
       <item>
         <title>DIY PCB Setup</title>
@@ -12,24 +32,24 @@
 
 &lt;h1 id=&quot;the-space&quot;&gt;The Space&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/room_fullShot_original.jpg&quot; alt=&quot;full shot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/room_fullShot_original.jpg&quot; alt=&quot;full shot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;First off, the standing desk from Ikea, pictured above. 5’ x 2.5’, and 3.5’ tall, it keep all my work near my elbows so I don’t hurt my back, nor spend all day on my ass.&lt;/p&gt;
 
 &lt;div class=&quot;row t30&quot;&gt;
     &lt;div class=&quot;medium-4 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_storage.jpg&quot;&gt;
-        	&lt;img src=&quot;http://localhost:4000/images/room_storage.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_storage.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.github.io/images/room_storage.jpg&quot; alt=&quot;&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&quot;medium-4 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_drawers.jpg&quot;&gt;
-        	&lt;img src=&quot;http://localhost:4000/images/room_drawers.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_drawers.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.github.io/images/room_drawers.jpg&quot; alt=&quot;&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&quot;medium-4 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_chemicals.jpg&quot;&gt;
-        	&lt;img src=&quot;http://localhost:4000/images/room_chemicals.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_chemicals.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.github.io/images/room_chemicals.jpg&quot; alt=&quot;&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -41,24 +61,24 @@
 
 &lt;div class=&quot;row t30&quot;&gt;
     &lt;div class=&quot;medium-4 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_roland.jpg&quot;&gt;
-        	&lt;img src=&quot;http://localhost:4000/images/room_roland.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_roland.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.github.io/images/room_roland.jpg&quot; alt=&quot;&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&quot;medium-4 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_laminator.jpg&quot;&gt;
-        	&lt;img src=&quot;http://localhost:4000/images/room_laminator.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_laminator.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.github.io/images/room_laminator.jpg&quot; alt=&quot;&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&quot;medium-4 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_printer.jpg&quot;&gt;
-       		&lt;img src=&quot;http://localhost:4000/images/room_printer.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_printer.jpg&quot;&gt;
+       		&lt;img src=&quot;http://andysigler.github.io/images/room_printer.jpg&quot; alt=&quot;&quot; /&gt;
        	&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Going from right to left, I first have my Roland Modela I recently bought off ebay. It’s a fairly old machine, which is why I can get relatively cheap, but I’ve found it’s mechanics are better than anything else out there around the same price point. Also, I’ve been using the Modela at ITP for the past year, and have &lt;a href=&quot;http://localhost:4000/hardware/nodela&quot;&gt;written my own software suite&lt;/a&gt; to interface with it. It’s the right tool for me.&lt;/p&gt;
+&lt;p&gt;Going from right to left, I first have my Roland Modela I recently bought off ebay. It’s a fairly old machine, which is why I can get relatively cheap, but I’ve found it’s mechanics are better than anything else out there around the same price point. Also, I’ve been using the Modela at ITP for the past year, and have &lt;a href=&quot;http://andysigler.github.io/hardware/nodela&quot;&gt;written my own software suite&lt;/a&gt; to interface with it. It’s the right tool for me.&lt;/p&gt;
 
 &lt;p&gt;Next, it’s a laminator from Amazon. Their cheapest one, I believe less than $20. I use it for applying toner and solder mask to my copper clad plates. It works much better if you rip the plastic top off, however it’s super hot so be careful if you do that same.&lt;/p&gt;
 
@@ -68,23 +88,23 @@
 
 &lt;div class=&quot;row t30&quot;&gt;
     &lt;div class=&quot;medium-3 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_heat.jpg&quot;&gt;
-        	&lt;img src=&quot;http://localhost:4000/images/room_heat.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_heat.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.github.io/images/room_heat.jpg&quot; alt=&quot;&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&quot;medium-3 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_uv_box.jpg&quot;&gt;
-        	&lt;img src=&quot;http://localhost:4000/images/room_uv_box.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_uv_box.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.github.io/images/room_uv_box.jpg&quot; alt=&quot;&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&quot;medium-3 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_oven.jpg&quot;&gt;
-        	&lt;img src=&quot;http://localhost:4000/images/room_oven.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_oven.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.github.io/images/room_oven.jpg&quot; alt=&quot;&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&quot;medium-3 columns&quot;&gt;
-    	&lt;a href=&quot;http://localhost:4000/images/room_hair_dryer.jpg&quot;&gt;
-        	&lt;img src=&quot;http://localhost:4000/images/room_hair_dryer.jpg&quot; alt=&quot;&quot; /&gt;
+    	&lt;a href=&quot;http://andysigler.github.io/images/room_hair_dryer.jpg&quot;&gt;
+        	&lt;img src=&quot;http://andysigler.github.io/images/room_hair_dryer.jpg&quot; alt=&quot;&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -99,8 +119,8 @@
 &lt;p&gt;The hair dryer is fairly basic, I didn’t have one before, but now I use it to dry off my boards after cleaning them off in water. I’ve learned to never wipe a board clean because you can easily ruin whatever it is you’ve just done to it (removing wet toner or solder mask).&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Aug 2015 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/hardware/diy-pcb-setup/</link>
-        <guid isPermaLink="true">http://localhost:4000/hardware/diy-pcb-setup/</guid>
+        <link>http://andysigler.github.io/hardware/diy-pcb-setup/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/hardware/diy-pcb-setup/</guid>
       </item>
     
       <item>
@@ -109,7 +129,7 @@
 
 &lt;p&gt;Beginning June 2014, I have worked with Opentrons in developing their low-cost, open-source liquid handling robot. Working with Opentrons has allowed me to spend nearly a month living and working in Shenzhen, China and HAXLR8R. Shenzhen is considered the hardware capitol of the world, and it was eye-opening to see a city completely centered around hardware manufacturing at all scales.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/opentrons_team.jpg&quot; alt=&quot;The Opentrons Founders&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons_team.jpg&quot; alt=&quot;The Opentrons Founders&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My role with Opentrons was to prototype the liquid handling platform’s software stack. This means I was responsible for the early decisions and executions of its design-file format (for writing experiments), for designing and making the robot’s interface, experimenting with how it would accurately calibrate, and finally what &lt;strong&gt;exactly&lt;/strong&gt; it does on execution (aka how it moves).&lt;/p&gt;
 
@@ -121,7 +141,7 @@
 &lt;p&gt;&lt;br /&gt;
 Below is a diagram showing the different software blocks I developed. Each was iterated upon to reflect what the robot’s mechanical requirements, and to satisfy users’ needs.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/opentrons_flowchart.png&quot; alt=&quot;Platform Prototype Flowchart&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons_flowchart.png&quot; alt=&quot;Platform Prototype Flowchart&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The file format fed in at the top ended up being a variation of the &lt;a href=&quot;http://autoprotocol.org/specification/&quot;&gt;Auto-Protocol standard proposed by Transcriptics&lt;/a&gt;, which uses JSON to describe a protocol’s many details and procedures. Because I needed to work fast, I used NodeJS to communicate with with robot’s motorcontroller, and I created an HTML5 interface for the user to interact with. Everything written in NodeJS has since been translated to Python, and the front-end has been handed off to front-end engineers.&lt;/p&gt;
 
@@ -134,8 +154,8 @@ Below is a diagram showing the different software blocks I developed. Each was i
 &lt;p&gt;Odds are, you will see things that you didn’t expect or previously misjudged. Everything else down the road will be built up on top of that core feature, so it’s important to not gloss over it.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/projects/opentrons-platform-prototype/</link>
-        <guid isPermaLink="true">http://localhost:4000/projects/opentrons-platform-prototype/</guid>
+        <link>http://andysigler.github.io/projects/opentrons-platform-prototype/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/projects/opentrons-platform-prototype/</guid>
       </item>
     
       <item>
@@ -144,7 +164,7 @@ Below is a diagram showing the different software blocks I developed. Each was i
 
 &lt;p&gt;What follows is in no way a direct transcript of that video. Instead, it is a cut down, re-ordered, and re-written version of my favorite parts. The edits were made to better align with and summarize my own thoughts.&lt;/p&gt;
 
-&lt;p&gt;Also, check out my ITP master’s thesis presentation, &lt;a href=&quot;http://localhost:4000/projects/how-to-make-the-internet-of-useless-things&quot;&gt;How to Make the Interent of Useless Things&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also, check out my ITP master’s thesis presentation, &lt;a href=&quot;http://andysigler.github.io/projects/how-to-make-the-internet-of-useless-things&quot;&gt;How to Make the Interent of Useless Things&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
 I want domestic internet art, designed for the home. I want internet of things art. I’d rather prefer it to be open-sourced art too. Luxurious, open-sourced, internet of things, cultural expression for the home.
@@ -171,8 +191,8 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JUvECBZpefU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width:100%;max-width:560px;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Tue, 12 May 2015 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/useless-things/art-and-the-internet-of-useless-things/</link>
-        <guid isPermaLink="true">http://localhost:4000/useless-things/art-and-the-internet-of-useless-things/</guid>
+        <link>http://andysigler.github.io/useless-things/art-and-the-internet-of-useless-things/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/useless-things/art-and-the-internet-of-useless-things/</guid>
       </item>
     
       <item>
@@ -181,11 +201,11 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;I’ve been working on this board design for a while, trying to make the board small and simple, yet having to consider the limitations of making my own PCBs in house (namely, vias being so difficult to make).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/arduino_smd_design.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/arduino_smd_design.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;These 10 boards were created within one day at ITP. I milled the panel in the morning, cleaned and added solder mask in the afternoon, and assembled at night. It was a long process, but I’ve never been able to make 10 boards of such quality and in such a short amount of time.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/arduino_smd_pinout.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/arduino_smd_pinout.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;solder-mask-results&quot;&gt;Solder Mask Results&lt;/h1&gt;
 
@@ -193,15 +213,15 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;Top layer:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/0-top-mask.jpg&quot; alt=&quot;0-top-mask&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/0-top-mask.jpg&quot; alt=&quot;0-top-mask&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Bottom layer:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/1-bottom-mask.jpg&quot; alt=&quot;1-bottom-mask&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/1-bottom-mask.jpg&quot; alt=&quot;1-bottom-mask&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pretty picture:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2-cleaned-mask.jpg&quot; alt=&quot;2-cleaned-mask&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/2-cleaned-mask.jpg&quot; alt=&quot;2-cleaned-mask&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;results-after-assembly&quot;&gt;Results after Assembly&lt;/h1&gt;
 
@@ -209,22 +229,22 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;The vias are what takes the longest, and greatly restrict your design. I use a thin piece of wire to connect the top and bottom of the PCB, then solder each side. This means that there can not be any vias underneath any component or IC, and that they need a considerable amount of space to allow the solder to melt with causing any shorts.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/4-diy_arduino_mini.jpg&quot; alt=&quot;4-diy_arduino_mini&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/images/5-populated.jpg&quot; alt=&quot;5-populated&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/4-diy_arduino_mini.jpg&quot; alt=&quot;4-diy_arduino_mini&quot; /&gt;
+&lt;img src=&quot;http://andysigler.github.io/images/5-populated.jpg&quot; alt=&quot;5-populated&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;broken-out-boards&quot;&gt;Broken Out Boards&lt;/h1&gt;
 
 &lt;p&gt;Bootloaded and test, they all work!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/6-brokenOut.jpg&quot; alt=&quot;6-brokenOut&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/6-brokenOut.jpg&quot; alt=&quot;6-brokenOut&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I decided to add the option of soldering a coin-cell battery holder onto the bottom. Here you can see one attached:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Apr 2015 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/hardware/panelling-arduino-minis/</link>
-        <guid isPermaLink="true">http://localhost:4000/hardware/panelling-arduino-minis/</guid>
+        <link>http://andysigler.github.io/hardware/panelling-arduino-minis/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/hardware/panelling-arduino-minis/</guid>
       </item>
     
       <item>
@@ -235,35 +255,35 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;h1 id=&quot;step-1-mill-the-panel&quot;&gt;Step 1: Mill the Panel&lt;/h1&gt;
 
-&lt;p&gt;I milled the double-sided breakout boards on ITP’s Roland Modela CNC, using my &lt;a href=&quot;http://localhost:4000/hardware/nodela/&quot;&gt;Nodela&lt;/a&gt; software.&lt;/p&gt;
+&lt;p&gt;I milled the double-sided breakout boards on ITP’s Roland Modela CNC, using my &lt;a href=&quot;http://andysigler.github.io/hardware/nodela/&quot;&gt;Nodela&lt;/a&gt; software.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69_finished_panel.png&quot; alt=&quot;rfm69_finished_panel&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rfm69_finished_panel.png&quot; alt=&quot;rfm69_finished_panel&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-2-print-uv-mask-onto-transparency-paper&quot;&gt;Step 2: Print UV Mask onto Transparency Paper&lt;/h1&gt;
 
 &lt;p&gt;When we expose our board to UV light, we want to block the light from hitting parts of our PCB that need to be soldered to.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69_printed_sheet.jpg&quot; alt=&quot;rfm69_printed_sheet&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rfm69_printed_sheet.jpg&quot; alt=&quot;rfm69_printed_sheet&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Using transparency paper and a standard laser printer, I printed the tStop and bStop Eagle layers, makiing sure that they were spaced just as my panels were.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69_next_to_boards.jpg&quot; alt=&quot;rfm69_next_to_boards&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rfm69_next_to_boards.jpg&quot; alt=&quot;rfm69_next_to_boards&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-3-laminate-dynamask-onto-pcb&quot;&gt;Step 3: Laminate Dynamask onto PCB&lt;/h1&gt;
 
 &lt;p&gt;First cut our a desired amount of Dynamask film to fit onto the panel. The glossier side of the Dynamask film has adhesive under the plastic covering. Peel the plastic off, stick the Dynamask to the PCB, and pass it through a laminator 4 times.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69-1_cut.jpg&quot; alt=&quot;rfm69-1_cut&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rfm69-1_cut.jpg&quot; alt=&quot;rfm69-1_cut&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When passing it through the laminator like in the picture below, be sure all air bubbles have been pushed out and the Dynamask is applied as evenly as possible.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69-2_laminate.jpg&quot; alt=&quot;rfm69-2_laminate&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rfm69-2_laminate.jpg&quot; alt=&quot;rfm69-2_laminate&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-4-expose-to-uv-light&quot;&gt;Step 4: Expose to UV Light&lt;/h1&gt;
 
 &lt;p&gt;Align the PCB and transparency paper, and expose to UV light until fully exposed. The amount of time required depends on the power of the UV light being used. For my DIY lightbox, I only have to expose for 30-60 seconds.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69-3_align.jpg&quot; alt=&quot;rfm69-3_align&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rfm69-3_align.jpg&quot; alt=&quot;rfm69-3_align&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-5-develop-to-expose-copper&quot;&gt;Step 5: Develop to Expose Copper&lt;/h1&gt;
 
@@ -277,22 +297,22 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;As you can see in the image below, my solder mask did &lt;strong&gt;not&lt;/strong&gt; get exposed evenly. Way too much solder mask was removed during the developing process. This is because those pieces of solder mask were not hit with enought UV light.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69-5_mask_done.jpg&quot; alt=&quot;rfm69-5_mask_done&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rfm69-5_mask_done.jpg&quot; alt=&quot;rfm69-5_mask_done&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But, they all work! Good luck to the class, and I hope they enjoy using them!&lt;/p&gt;
 
 &lt;p&gt;I learned through making these breakout boards that my UV lightbox does not spread light evenly, and that I needed to give more distance between the UV LED’s and my PCB.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/rfm69.jpg&quot; alt=&quot;rfm69&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rfm69.jpg&quot; alt=&quot;rfm69&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I built a new UV lightbox from a deeper metal box I had lying around&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_10_metal_box.jpg&quot; alt=&quot;metal-lightbox&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lightbox_10_metal_box.jpg&quot; alt=&quot;metal-lightbox&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 20 Mar 2015 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/hardware/dynamask-and-twenty-rfm69-breakouts/</link>
-        <guid isPermaLink="true">http://localhost:4000/hardware/dynamask-and-twenty-rfm69-breakouts/</guid>
+        <link>http://andysigler.github.io/hardware/dynamask-and-twenty-rfm69-breakouts/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/hardware/dynamask-and-twenty-rfm69-breakouts/</guid>
       </item>
     
       <item>
@@ -307,11 +327,11 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;h1 id=&quot;step-2-make-the-circuit&quot;&gt;Step 2: Make the Circuit&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_2_finished_pcb.png&quot; alt=&quot;lightbox_2_finished_pcb&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lightbox_2_finished_pcb.png&quot; alt=&quot;lightbox_2_finished_pcb&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Next I needed a board to mount the LEDs and resistors needed to complete a circuit. I decided to mill a PCB to house all the LEDs, which took forever! I’ll either be acid-etching or buying a perf-board for my next lightbox.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_3_testing_leds.jpg&quot; alt=&quot;lightbox_3_testing_leds&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lightbox_3_testing_leds.jpg&quot; alt=&quot;lightbox_3_testing_leds&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ths picture above is me testing the PCB after fully assembling it. But don’t be fooled by my poor documentation, before I assembled the PCB, I tested the circuit and parts on a breadboard to make sure it all worked correctly.&lt;/p&gt;
 
@@ -321,7 +341,7 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;So I had been looking around for a good box to turn into a lightbox, and I decided to try this cigar box lying around my room. It seemed to be the perfect fit for a 6x6inch copper plate, and it looked nice on a desktop.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_5_box_closed.jpg&quot; alt=&quot;lightbox_5_box_closed&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lightbox_5_box_closed.jpg&quot; alt=&quot;lightbox_5_box_closed&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Small screws and washers were used to hold the PCB in place on the lid. Then, trying to be fancy, I wired a hall-effect sensor between my circuit and ground, and then glued a magnet to the lid. Now, the LEDs only powers when the lid is closed :)&lt;/p&gt;
 
@@ -329,40 +349,40 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;I finally lined the inside with some aluminum foil to let the light bounce around more before either being absorbed or lost.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_4_box_open.jpg&quot; alt=&quot;lightbox_4_box_open&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lightbox_4_box_open.jpg&quot; alt=&quot;lightbox_4_box_open&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;step-4-make-some-solder-mask&quot;&gt;Step 4: Make Some Solder Mask&lt;/h1&gt;
 
 &lt;p&gt;Below is an image of the first PCB exposed in the lightbox. The acrylic and foam are holding the board well, but you’ll notice the LEDs are only an inch or two from the PCB. This reduces the surface area the LEDs can evenly spread, meaning that whatever is put in the middle will “cook” faster than what’s on the outer areas… oops.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_6_box_interior.jpg&quot; alt=&quot;lightbox_6_box_interior&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lightbox_6_box_interior.jpg&quot; alt=&quot;lightbox_6_box_interior&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But, these boards turned out great! These PCBs will be used to make function generators in Eric Rosenthal’s &lt;a href=&quot;http://www.basicanalogcircuits.com/Syllabus.html&quot;&gt;Basic Analog Circuits class&lt;/a&gt;. I hope the class enjoys them!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/lightbox_7_solder_mask_applied.jpg&quot; alt=&quot;lightbox_7_solder_mask_applied&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lightbox_7_solder_mask_applied.jpg&quot; alt=&quot;lightbox_7_solder_mask_applied&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Feb 2015 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/hardware/uv-lightbox/</link>
-        <guid isPermaLink="true">http://localhost:4000/hardware/uv-lightbox/</guid>
+        <link>http://andysigler.github.io/hardware/uv-lightbox/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/hardware/uv-lightbox/</guid>
       </item>
     
       <item>
         <title>Nodela</title>
         <description>&lt;p&gt;&lt;a href=&quot;http://github.com/andysigler/nodela&quot;&gt;Download the interface here&lt;/a&gt;, and check out the native app for OSX.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/roland.png&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/roland.png&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Roland-Modela is a discontinued micro-milling machine, and students at &lt;a href=&quot;http://itp.nyu.edu&quot;&gt;ITP&lt;/a&gt; use it to mill PCBs from copper clad plates. It’s a well made machine, but it’s software package is terrible. We had to edit the executable files manually in text editors, and of course we didn’t know what we were doing. Not to mention, the bed was made from steel, so all copper plates were held down (unevenly) with messy double-sided tape. We were breaking bits like crazy!&lt;/p&gt;
 
 &lt;p&gt;I was excited about milling PCBs, but this was the only micro milling machine I had access to. So I made a simple interface using Javascript, and designed a new bed from delrin, and now I can cut straight from an Eagle file without breaking bits.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/roland_delrin.jpg&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/roland_delrin.jpg&quot; alt=&quot;roland-modela&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-interface&quot;&gt;The Interface&lt;/h1&gt;
 
 &lt;p&gt;Below is a screenshot of the interface. It allows you to jog the head around, in order to select your cut’s origin (impossible until recently). It also loads preset speed and plunge values for different bits, so that each bit is used at it’s most optimal settings.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/interface-nodela.png&quot; alt=&quot;nodela-interface&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/interface-nodela.png&quot; alt=&quot;nodela-interface&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To load your file, simply drag the Eagle &lt;code&gt;.brd&lt;/code&gt; file onto the interface, and it will parse our all the layers that contain toolpath lines (drawn with &lt;code&gt;WIRES&lt;/code&gt;). Then it’s just a matter of selecting the correct layer and bit size before pressing print!&lt;/p&gt;
 
@@ -381,8 +401,8 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 &lt;p&gt;There are a lot of digital frabrication and circuit prototyping machines hitting the market these days, so I know this hack for making a discotinued machine usable won’t last long. But, if you use it and like it, please let me know, and also if there are any changes needed :)&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Jan 2015 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/hardware/nodela/</link>
-        <guid isPermaLink="true">http://localhost:4000/hardware/nodela/</guid>
+        <link>http://andysigler.github.io/hardware/nodela/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/hardware/nodela/</guid>
       </item>
     
       <item>
@@ -404,25 +424,25 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 	}
 &lt;/style&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://andysigler.github.io/assets/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;The Patchbay is a graphical interface, developed for my 2014 master’s thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.&lt;/p&gt;
 
@@ -432,7 +452,7 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;The term Patchbay refers to a piece of equipment found in most recording studios. Patchbays are boxes that live in a studio, and an engineer will wire the audio inputs and outputs from all their equipment into it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/patchbay.jpg&quot; alt=&quot;patchbay&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/patchbay.jpg&quot; alt=&quot;patchbay&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What it provides is convenience in connecting their equipment, by have one central place to do it. The studio’s engineer is now able to quickly design sounds using the links between her gear.&lt;/p&gt;
 
@@ -457,11 +477,11 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;Using the Patchbay, I could connect button #2 to light #1. This would be done by connecting the device’s &lt;code&gt;INPUT&lt;/code&gt; #2 to the other’s &lt;code&gt;OUTPUT&lt;/code&gt; #1.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/patchbay_make.gif&quot; alt=&quot;patchbay_make&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/patchbay_make.gif&quot; alt=&quot;patchbay_make&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When I no longer want that button to control that light, I erase the connection on the interface.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/patchbay_break.gif&quot; alt=&quot;patchbay_break&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/patchbay_break.gif&quot; alt=&quot;patchbay_break&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With a simple interface come constraints. The Patchbay is for devices that share only simple values between them. Buttons and lights are a good example: the button could send a &lt;code&gt;1&lt;/code&gt; when pressed, and a &lt;code&gt;0&lt;/code&gt; when released. These numbers would be received by the light, and it would interpret them as meaning “Turn ON” and “Turn OFF.”&lt;/p&gt;
 
@@ -469,15 +489,15 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;The past few years, I have seen a growing interest in connected devices, and how to best interact with an Internet of Things on a day-to-day bases. “Patching” interfaces have arose, ranging from simple I/O mapping, to more richly featured environments for controlling a network’s data flow.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/spacebrew.png&quot; alt=&quot;spacebrew&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/spacebrew.png&quot; alt=&quot;spacebrew&quot; /&gt;
 &lt;a href=&quot;http://docs.spacebrew.cc/&quot;&gt;Spacebrew&lt;/a&gt; - a framework for mapping simple I/O over a WebSocket connection.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/node-red.png&quot; alt=&quot;node-red&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/node-red.png&quot; alt=&quot;node-red&quot; /&gt;
 &lt;a href=&quot;http://docs.spacebrew.cc/&quot;&gt;Node-RED&lt;/a&gt; - a framework for connecting devices, APIs and online services.&lt;/p&gt;
 
 &lt;p&gt;All these interfaces have one serious design flaw: they become easily over-crowded and difficult to use once the network grows. The more devices that are displayed, the more concentration a user must put into navigating and using one of these interfaces.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/zombie.jpg&quot; alt=&quot;zombies&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/zombie.jpg&quot; alt=&quot;zombies&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Patchbay hides most of this complexity, using its adaptive circular design. When a new device comes within range of the interface, it will be represented by a new arc.&lt;/p&gt;
 
@@ -494,242 +514,8 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 &lt;p&gt;You can download the Patchbay from (https://github.com/andySigler/patchbay)[GitHub]. The repo comes with the NodeJS server, HTML5 inteface, and Arduino Library for using the RFm12b.&lt;/p&gt;
 </description>
         <pubDate>Fri, 26 Dec 2014 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/patchbay/patchbay-interface/</link>
-        <guid isPermaLink="true">http://localhost:4000/patchbay/patchbay-interface/</guid>
-      </item>
-    
-      <item>
-        <title>NodeJS + Yun</title>
-        <description>&lt;p&gt;Below are the steps to get NodeJS up and running on the Arduino Yun. This tutorial assumes you have already connected the Yun to your network, and have a basic understanding of NodeJS.&lt;/p&gt;
-
-&lt;p&gt;The final steps (red section) of this tutorial are optional and should be taken with caution. They show how to disable Bridge on the Yun, in order to allow NodeJS to speak directly with the Arduino side of the board using node-serialport.&lt;/p&gt;
-
-&lt;p&gt;This, however, means you can only access the Linux side of the board over the network. If you do not have control over the network between your computer and Yun, you will not be able to connect.&lt;/p&gt;
-
-&lt;h1 id=&quot;update-the-yuns-image&quot;&gt;Update the Yun’s image&lt;/h1&gt;
-
-&lt;p&gt;To do all the following, make sure you have updated your Yun to the latest image. This to to allow your Yun to have is disk space expanded in the next step.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://arduino.cc/en/Tutorial/YunSysupgrade&quot;&gt;Instructions on updating the Yun’s image&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;expand-disk-space-with-sd-card&quot;&gt;Expand disk space with SD card&lt;/h1&gt;
-
-&lt;p&gt;We will be moving the Yun’s operating system and memory onto a micro-sd card, so that we have enough room to install and run NodeJS.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://arduino.cc/en/Tutorial/ExpandingYunDiskSpace&quot;&gt;Instructions on expanding the Yun’s disk space&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;install-node-and-node-modules-with-opkg&quot;&gt;Install Node and node-modules with opkg&lt;/h1&gt;
-
-&lt;p&gt;With an updated Yun image and more memory, we can install Node using opkg (the Yun’s package management system). Be sure the Yun is connected to the internet.&lt;/p&gt;
-
-&lt;p&gt;Enter the following line into the Yun to prepare opkg.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;opkg update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;After each call to opkg, you should see some lines about downloading and installing some files.&lt;/p&gt;
-
-&lt;p&gt;Next install NodeJS with the following line.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;opkg install node&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This may take a few moments. After it’s finished, install the pre-compiled node-modules using opkg.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;opkg install node-ws 
-opkg install node-serialport&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;There are a few other pre-compiled node-modules you can install through opkg. All modules are installed globally, so there is no need to ever run npm (especially because npm doesn’t work on the Yun…)&lt;/p&gt;
-
-&lt;h1 id=&quot;add-sftp-to-transfer-files&quot;&gt;Add SFTP to transfer files&lt;/h1&gt;
-
-&lt;p&gt;Uploading files to the Yun is much faster if you don’t have to turn it off every time. To do this, we have enable our Yun to be accessed over SFTP. Now, applications like CyberDuck can connect to and upload files to your Yun&lt;/p&gt;
-
-&lt;p&gt;Enter the following line to install the SFTP package, and now you can connect to it using an FTP client like CyberDuck.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;opkg update 
-opkg install openssh-sftp-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;In CyberDuck, connect with SFTP, port 22, username ‘root’, and the server-name being your Yun’s IP address.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/cyberDuck_yun.png&quot; alt=&quot;cyberDuck_yun&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I store all the node and web files on the micro-sd card, at &lt;code&gt;/mnt/sda1/arduino/node&lt;/code&gt;. “sda1” is the external memory, “arduino” is a folder that should already exist, and “node” is a folder I created to store my Node scripts.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/cyberDuck_yun_2.png&quot; alt=&quot;cyberDuck_yun_2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now you can upload and run NodeJS scripts on your Yun! See the below link for you can get NodeJS and the Arduino side of the Yun talking with Bridge:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.tigoe.com/pcomp/code/arduinowiring/1216/#more-1216&quot;&gt;Node.js on the Arduino Yun&lt;/a&gt; - Tom Igoe’s example for getting NodeJS and the ATmega32U4 to communicate with Bridge.&lt;/p&gt;
-
-&lt;h1 id=&quot;give-the-ethernet-port-a-static-ip&quot;&gt;Give the ethernet port a static IP&lt;/h1&gt;
-
-&lt;p&gt;To my mind, the biggest disadvantage of removing Bridge from the Yun, is that you are taking away the ability to access the Linino through the ATmega32U4. This is especially helpul during initial setup, and while configuring the Yun’s network.&lt;/p&gt;
-
-&lt;p&gt;To give some added security, I have chosen to give my Yun’s ethernet port a static, never changing IP address. With this, I can ssh into the Yun over an ethernet cable, using the following steps.&lt;/p&gt;
-
-&lt;p&gt;We will edit a file to change the Yun’s network settings. The nano command opens it in terminal:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;nano /etc/config/network&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;If you get the error &lt;code&gt;Error opening terminal: xterm-256color.&lt;/code&gt;, the following worked for me.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ln -s x /usr/share/terminfo/78 
-export TERM=xterm-color 
-nano /etc/config/network&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Find the part of the document that looks like this:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;config interface &amp;#39;wan&amp;#39;
-   option iframe &amp;#39;eth1&amp;#39;
-   option proto &amp;#39;dhcp&amp;#39;
-   option metric &amp;#39;10&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And change it to look like this:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;config interface &amp;#39;wan&amp;#39;
-   option iframe &amp;#39;eth1&amp;#39;
-   option &amp;#39;proto&amp;#39; &amp;#39;static&amp;#39;
-   option &amp;#39;ipaddr&amp;#39; &amp;#39;192.168.0.200&amp;#39;
-   option &amp;#39;netmask&amp;#39; &amp;#39;255.255.255.0&amp;#39;
-   option &amp;#39;gateway&amp;#39; &amp;#39;192.168.0.1&amp;#39;
-   option &amp;#39;dns&amp;#39; &amp;#39;192.168.0.1&amp;#39;
-   option metric &amp;#39;10&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Instructions on the bottom show how to Write Out (save the file), and Exit.&lt;/p&gt;
-
-&lt;p&gt;To Write Out (save your changes), hit &lt;code&gt;CONTROL-O&lt;/code&gt;. It will ask if you want to save changes to this file, hit &lt;code&gt;ENTER&lt;/code&gt; to save. To Exit hit &lt;code&gt;CONTROL-X&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Restart your Yun, and you will find it’s ethernet port has the permanent address &lt;code&gt;192.168.0.200&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;In order to ssh into the Yun over an ethernet cable, your laptop’s ethernet IP address must share the same two first digits as the Yun’s IP. In this example, the laptop’s IP should beging width 192 and 168 in order for the two to communicate.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/staticEthernet_mac.png&quot; alt=&quot;staticEthernet_mac&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;On a Mac, I can go to &lt;code&gt;System Preferences &amp;gt; Network&lt;/code&gt;, select the ethernet port, and tell it to be a Manual IP Address (not DHCP). For example, I could set my laptop to be &lt;code&gt;192.168.0.42&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;disable-bridge-on-the-yun&quot;&gt;Disable Bridge on the Yun&lt;/h1&gt;
-
-&lt;div class=&quot;alert-box radius alert&quot;&gt;
-Warning: Proceed with Caution!
-To disable Bridge and free the serial port between the Linux processor and the ATmega32U4, you simply have to comment out one line, and then restart the Yun. To bring Bridge back, simply uncomment the line, and restart the Yun.
-&lt;/div&gt;
-
-&lt;p&gt;Open the file we must in edit in Terminal with the following command.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;If you get the error &lt;code&gt;Error opening terminal: xterm-256color.&lt;/code&gt;, the following worked for me.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ln -s x /usr/share/terminfo/78 
-export TERM=xterm-color 
-nano /etc/inittab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;The nano command will open up a text editor in Terminal, where you can move around with the arrow keys.&lt;/p&gt;
-
-&lt;p&gt;Find the line that says this:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ttyATH0::askfirst:/bin/ash --login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And comment it out with pound sign at the beginning, like this:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;#ttyATH0::askfirst:/bin/ash --login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Instructions on the bottom show how to Write Out (save the file), and Exit.&lt;/p&gt;
-
-&lt;p&gt;To Write Out (save your changes), hit &lt;code&gt;CONTROL-O&lt;/code&gt;. It will ask if you want to save changes to this file, hit &lt;code&gt;ENTER&lt;/code&gt; to save. To Exit hit &lt;code&gt;CONTROL-X&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Restart your Yun, and Bridge will not run. Once again, simply uncomment the line to bring Bridge back.&lt;/p&gt;
-
-&lt;h1 id=&quot;modify-code-and-run&quot;&gt;Modify code and run&lt;/h1&gt;
-
-&lt;p&gt;The Arduino on your Yun can now open a plain Serial connection to the Linux processor. However, it uses &lt;code&gt;Serial1&lt;/code&gt; instead of &lt;code&gt;Serial&lt;/code&gt;. &lt;code&gt;Serial&lt;/code&gt; (without the 1) is connected to the micro-USB, and is used to upload code and communicate with a laptop.&lt;/p&gt;
-
-&lt;p&gt;So to begin in your setup(), your Arduino code should read:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;115200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
-&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And to read and write, continue using &lt;code&gt;Serial1&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;available&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()){&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Serial1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Any process running on Linux side of the board can access the Arduino’s serial port with the name &lt;code&gt;/dev/ttyATH0&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now any NodeJS script using the node-serialport module can access the Atmel32u4 using port &lt;code&gt;/dev/ttyATH0&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/andySigler/NodeJS_Yun_Example&quot;&gt;NodeJS_Yun_Example&lt;/a&gt; - Some example code, showing a NodeJS server mediating the connection between a browser and an Arduino.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/voodootikigod/node-serialport/blob/master/README.md&quot;&gt;Reference for node-serialport&lt;/a&gt; - Connect a Node script to the ATmega32U4&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/einaros/ws/blob/master/README.md&quot;&gt;Reference for node-ws&lt;/a&gt; - Run a WebSocket server on the Yun to have fast, real-time communication with a browser or other devices.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/arduino/openwrt-packages-yun/tree/master/arduino&quot;&gt;Node-modules available through opkg&lt;/a&gt; - the repo containing all pre-compiled node-modules for the Yun. Others include Noble, Bleno, and socket.io.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.tigoe.com/pcomp/code/arduinowiring/1216/#more-1216&quot;&gt;Node.js on the Arduino Yun&lt;/a&gt; - Tom Igoe’s example for getting NodeJS and the ATmega32U4 to communicate with Bridge. Its a bit of a hack that uses the stdin and stdout of a process.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 14 Nov 2014 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/teaching/nodejs-arduino-yun/</link>
-        <guid isPermaLink="true">http://localhost:4000/teaching/nodejs-arduino-yun/</guid>
-      </item>
-    
-      <item>
-        <title>ITP Master&#39;s Thesis</title>
-        <description>&lt;style&gt;
-	#routerContainer {
-		position:relative;
-		display:block-inline;
-		background-color:rgb(79,79,79);
-	}
-	#patchbayTitle {
-		color:rgb(79,79,79);
-	}
-	canvas{
-		display:inline;
-		position:absolute;
-		left:0px;
-		top:0px;
-	}
-&lt;/style&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/hammer.min.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/websocketStuff.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/canvasStuff.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/touchStuff.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/cord.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/port.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/arc.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/circle.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/mouse.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://localhost:4000/assets/js/patchbay/initPatchbay.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Below is a demo for the Patchbay interface. Turn the circles to view the projects, and make or break the links between inputs and outputs. The interface works on desktop, laptop, and touchscreen (recommended).&lt;/p&gt;
-
-&lt;p&gt;I more detailed explanation of the interface can be found in &lt;a href=&quot;/patchbay/patchbay-interface&quot;&gt;this blog post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div id=&quot;routerContainer&quot; style=&quot;margin-bottom:1.5rem&quot;&gt;
-	&lt;div id=&quot;patchbayTitle&quot;&gt;PatchBay&lt;/div&gt;
-	&lt;canvas id=&quot;canvas&quot;&gt;&lt;/canvas&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Download the Patchbay framework (as it was upon presenting my thesis) from &lt;a href=&quot;https://github.com/andySigler/patchbay&quot;&gt;GitHub&lt;/a&gt;. The package includes the nodeJS server, HTML5 interface, Arduino library and examples for making a physical computing projects work with the patchbay.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 28 Apr 2014 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/projects/how-to-make-the-internet-of-useless-things/</link>
-        <guid isPermaLink="true">http://localhost:4000/projects/how-to-make-the-internet-of-useless-things/</guid>
+        <link>http://andysigler.github.io/patchbay/patchbay-interface/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/patchbay/patchbay-interface/</guid>
       </item>
     
   </channel>

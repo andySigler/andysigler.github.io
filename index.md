@@ -1,37 +1,31 @@
 ---
 layout: page
 title: Andy Sigler
-subheadline: when the going get's weird
+subheadline: design with software and electronics
 permalink: "/"
 show_meta: false
 header: no
 ---
-
-<div>I design with electronics and software</div>
-<div>I want to make objects that bring magic to daily life</div>
-
-<br />
-<br />
 
 <p class="subheadline">summer 2016 - winter 2019</p>
 <h1>Opentrons Labworks</h1>
 <div>Returned to Opentrons Labworks to design and manufacture the next-generation, open-source, liquid-handling hardware platform</div>
 <div class="row t30">
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/404" >
-            <img src="{{ site.url }}/images/placeholder.png" alt="">
+        <a href="{{ site.url }}/products/opentrons-api" >
+            <img src="{{ site.url }}/images/opentrons_api_small.png" alt="">
             <p>Opentrons API</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="{{ site.url }}/404" >
-            <img src="{{ site.url }}/images/placeholder.png" alt="">
+            <img src="{{ site.url }}/images/opentrons_ot2_small.png" alt="">
             <p>Opentrons OT2</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="{{ site.url }}/404" >
-            <img src="{{ site.url }}/images/placeholder.png" alt="">
+            <img src="{{ site.url }}/images/opentrons_modules_small.png" alt="">
             <p>Opentrons Modules</p>
         </a>
     </div>
@@ -56,9 +50,9 @@ header: no
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/404" >
-            <img src="{{ site.url }}/images/placeholder.png" alt="">
-            <p>Projects from Tomorrow Lab</p>
+        <a href="{{ site.url }}/products/tomorrow-lab" >
+            <img src="{{ site.url }}/images/tomorrow_lab_small.png" alt="">
+            <p>Products from Tomorrow Lab</p>
         </a>
     </div>
 </div>
@@ -110,14 +104,14 @@ header: no
 <div class="row t30">
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/noser/" >
-            <img src="{{ site.url }}/images/noser_small.png" alt="">
-            <p>Noser</p>
+            <img src="{{ site.url }}/images/noser_small_2.png" alt="">
+            <p>Noser: Monster Synth</p>
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/projects/numbers-on-the-board/" >
-            <img src="{{ site.url }}/images/gears_small.png" alt="">
-            <p>Numbers on the Board</p>
+        <a href="{{ site.url }}/projects/screenracer/" >
+            <img src="{{ site.url }}/images/screenracer_small.png" alt="">
+            <p>Screenracer</p>
         </a>
     </div>
     <div class="medium-4 columns">
@@ -135,9 +129,9 @@ header: no
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/projects/screenracer/" >
-            <img src="{{ site.url }}/images/screenracer_small.png" alt="">
-            <p>Screenracer</p>
+        <a href="https://andysigler.github.io/paintmirror" >
+            <img src="{{ site.url }}/images/paintmirror_small.jpg" alt="">
+            <p>Paintmirror</p>
         </a>
     </div>
     <div class="medium-4 columns">
@@ -161,9 +155,9 @@ header: no
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/projects/openlimbs/" >
-            <img src="{{ site.url }}/images/openlimbs_small.png" alt="">
-            <p>OpenLimbs</p>
+        <a href="https://andysigler.github.io/trees" >
+            <img src="{{ site.url }}/images/trees_small.png" alt="">
+            <p>Trees</p>
         </a>
     </div>
 </div>
@@ -175,15 +169,15 @@ header: no
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="https://andysigler.github.io/paintmirror" >
-            <img src="{{ site.url }}/images/paintmirror_small.jpg" alt="">
-            <p>Paintmirror</p>
+        <a href="{{ site.url }}/projects/numbers-on-the-board/" >
+            <img src="{{ site.url }}/images/gears_small.png" alt="">
+            <p>Numbers on the Board</p>
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="https://andysigler.github.io/trees" >
-            <img src="{{ site.url }}/images/trees_small.png" alt="">
-            <p>Trees</p>
+        <a href="{{ site.url }}/projects/openlimbs/" >
+            <img src="{{ site.url }}/images/openlimbs_small.png" alt="">
+            <p>OpenLimbs</p>
         </a>
     </div>
 </div>
