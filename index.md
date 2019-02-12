@@ -11,9 +11,11 @@ header: no
         border: 1px solid #aaa;
     }
 </style>
+<br />
+
 <p class="subheadline">summer 2016 - winter 2019</p>
-<h1>Opentrons Labworks</h1>
-<div>Returned to Opentrons Labworks to design and manufacture the next-generation, open-source, liquid-handling hardware platform</div>
+<h1>Platform Design and Production</h1>
+<div>Returned to <a href="http://www.opentrons.com">Opentrons Labworks</a> to design and manufacture the next-generation, open-source, liquid-handling hardware platform</div>
 <div class="row t30">
     <div class="medium-4 columns">
         <a href="{{ site.url }}/products/opentrons-api" >
@@ -38,7 +40,7 @@ header: no
 <br />
 
 <p class="subheadline">fall 2015 - summer 2016</p>
-<h1>Electronics & IoT</h1>
+<h1>Internet of Things and Teaching</h1>
 <div>Work made while at the IoT design firm <a href="http://tomorrow-lab.com">Tomorrow-Lab</a>, as well as creating my own <a href="https://tisch.nyu.edu/itp">ITP-NYU</a> graduate course</div>
 <div class="row t30">
     <div class="medium-4 columns">
@@ -49,7 +51,7 @@ header: no
     </div>
     <div class="medium-4 columns">
         <a href="{{ site.url }}/404" >
-            <img class="borderImg" src="{{ site.url }}/images/placeholder.png" alt="">
+            <img class="borderImg" src="{{ site.url }}/images/homemade_hardware_small.png" alt="">
             <p>ITP Course - Homemade Hardware</p>
         </a>
     </div>
@@ -64,7 +66,7 @@ header: no
 <br />
 
 <p class="subheadline">summer 2014 - summer 2015</p>
-<h1>Wireless, Hardware, and Automation</h1>
+<h1>DIY PCBs and Automation</h1>
 <div>Work made during a research residency at <a href="https://tisch.nyu.edu/itp">ITP-NYU</a>, and creating the initial software stack for <a href="https://www.kickstarter.com/projects/932664050/opentrons-open-source-rapid-prototyping-for-biolog">Opentrons Labwork's Kickstarter product</a></div>
 <div class="row t30">
     <div class="medium-4 columns">
@@ -165,7 +167,7 @@ header: no
         </a>
     </div>
 </div>
-<div class="row t30">
+<!-- <div class="row t30">
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/browser-tag/" >
             <img class="borderImg" src="{{ site.url }}/images/bookmarklet_small.png" alt="">
@@ -184,4 +186,4 @@ header: no
             <p>OpenLimbs</p>
         </a>
     </div>
-</div>
+</div> -->
