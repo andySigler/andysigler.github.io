@@ -24,13 +24,13 @@ header: no
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/404" >
-            <img class="borderImg" src="{{ site.url }}/images/opentrons_ot2_small.png" alt="">
+        <a href="{{ site.url }}/products/opentrons-ot2" >
+            <img class="borderImg" src="{{ site.url }}/images/ot2-small.jpg" alt="">
             <p>Opentrons OT2</p>
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/404" >
+        <a href="{{ site.url }}/products/opentrons-modules" >
             <img class="borderImg" src="{{ site.url }}/images/opentrons_modules_small.png" alt="">
             <p>Opentrons Modules</p>
         </a>
@@ -44,13 +44,13 @@ header: no
 <div>Work made while at the IoT design firm <a href="http://tomorrow-lab.com">Tomorrow-Lab</a>, as well as creating my own <a href="https://tisch.nyu.edu/itp">ITP-NYU</a> graduate course</div>
 <div class="row t30">
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/404" >
+        <a href="{{ site.url }}/projects/hue-light-controller" >
             <img class="borderImg" src="{{ site.url }}/images/placeholder.png" alt="">
-            <p>Hue Light Dice</p>
+            <p>Hue Light Controller</p>
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/404" >
+        <a href="{{ site.url }}/teaching/homemade-hardware" >
             <img class="borderImg" src="{{ site.url }}/images/homemade_hardware_small.png" alt="">
             <p>ITP Course - Homemade Hardware</p>
         </a>
@@ -117,13 +117,13 @@ header: no
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/screenracer/" >
             <img class="borderImg" src="{{ site.url }}/images/screenracer_small.png" alt="">
-            <p>Screenracer</p>
+            <p>Screenracer: Multi-Screen Game</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/foodable/" >
             <img class="borderImg" src="{{ site.url }}/images/foodable_small.png" alt="">
-            <p>Foodable</p>
+            <p>Foodable: Interactive Tabletop</p>
         </a>
     </div>
 </div>
@@ -131,19 +131,19 @@ header: no
     <div class="medium-4 columns">
         <a href="https://andysigler.github.io/squaremirror" >
             <img class="borderImg" src="{{ site.url }}/images/squaremirror_small.jpg" alt="">
-            <p>Squaremirror</p>
+            <p>Squaremirror: Live Demo</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="https://andysigler.github.io/paintmirror" >
             <img class="borderImg" src="{{ site.url }}/images/paintmirror_small.jpg" alt="">
-            <p>Paintmirror</p>
+            <p>Paintmirror: Live Demo</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="https://andysigler.github.io/stretchmirror" >
             <img class="borderImg" src="{{ site.url }}/images/stretchmirror_small.png" alt="">
-            <p>Stretchmirror</p>
+            <p>Stretchmirror: Live Demo</p>
         </a>
     </div>
 </div>
@@ -151,19 +151,19 @@ header: no
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/bookmapping/" >
             <img class="borderImg" src="{{ site.url }}/images/bookmapping_small.png" alt="">
-            <p>Bookmapping</p>
+            <p>Bookmapping: Interactive Projection</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/dipinator/" >
             <img class="borderImg" src="{{ site.url }}/images/dipinator_small.png" alt="">
-            <p>Dipinator</p>
+            <p>Dipinator: Water as Interface</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="https://andysigler.github.io/trees" >
             <img class="borderImg" src="{{ site.url }}/images/trees_small.png" alt="">
-            <p>Trees</p>
+            <p>Trees: Browser Animation</p>
         </a>
     </div>
 </div>

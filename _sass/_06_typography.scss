@@ -1,4 +1,4 @@
-/* TOC – Typography 
+/* TOC – Typography
 
 Check typography variables › _3_typography_settings.scss
 
@@ -49,11 +49,11 @@ a:active {
 /* Customize Foundation Typography
 ------------------------------------------------------------------- */
 
-p { 
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+p {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
 }
 p a,
 article a {
@@ -236,9 +236,9 @@ blockquote {
     margin: 0 30px 30px 30px;
     color: #4b4b4d
 }
- 
+
     blockquote p {font-style: italic; color: $grey-10; }
- 
+
     blockquote:before {
         display:block;content:"\00BB";
         font-size:80px;
@@ -330,7 +330,7 @@ mark {
 .footnotes {
     margin-top: 60px;
 }
-.footnotes ol { 
+.footnotes ol {
     font-size: $font-size-small;
 }
 

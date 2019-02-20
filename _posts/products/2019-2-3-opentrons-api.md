@@ -19,4 +19,8 @@ header: no
 
 ---
 
-Nothing to say
+- Overview of how to use it
+- Prior art (Transcriptics)
+- Abstraction layers and control
+- Changes made over time
+- My contributions of motion control
