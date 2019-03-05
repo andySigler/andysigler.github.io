@@ -15,9 +15,18 @@ header: no
 
 ---
 
-![Opentrons API]({{site.url}}/images/opentrons-api-banner.jpg)
+<!-- ![Opentrons API]({{site.url}}/images/opentrons-api-banner.jpg) -->
 
 The [Opentrons API](https://docs.opentrons.com/) is an opensource software interface, written in Python, to control the set of Opentrons liquid-handlers. It was designed allow simple commands to perform relatively complex procedures, while at the same time exposing a lower level that gives the author control over the machine's atomic movements.
+
+<video id="vid" style="max-width:100%; height:auto; border:1px solid #aaa" width="1280" height="720" controls loop autoplay muted>
+  <source src="{{site.url}}/images/opentrons_api.webm" type="video/webm">
+  <source src="{{site.url}}/images/opentrons_api.ogv" type="video/ogg">
+  <source src="{{site.url}}/images/opentrons_api.mp4" type="video/mp4">
+</video>
+<script type="text/javascript">
+    document.getElementById('vid').removeAttribute('controls');
+</script>
 
 Conceived, designed, and developed in 2016, the Opentrons API has proven to be the right tool for protocol authors using Opentrons machines. It is still [in active development](https://github.com/opentrons/opentrons) by the team of Opentrons sofware engineers, with relatively little change made to the exterior API interface.
 
@@ -25,9 +34,11 @@ Conceived, designed, and developed in 2016, the Opentrons API has proven to be t
 
 As part of a team of four software developers in 2016, I played an outsized role in shaping the interface of the API. From experience in using the [OT-One](https://shop.opentrons.com/collections/ot-one-s-robot-and-accessories), plus having solely writting the [platform's Kickstarter version all in Javascript]({{site.url}}/projects/opentrons-platform-prototype), I new it was important to allow both lower-level control of liquid transfers, while giving another option for simple transfers. This allowed the API to satisfy both simple needs and programming beginners, as well as more complex procedures and those with Python experience.
 
-In addition to leading design of the API's interface, I spent considerable time in 2016 for the OT-One and in 2018 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for control the stepper-motor-driving system, and finally communication with the machine's stepper-motor-driver through GCode.
+![My API Contributions]({{site.url}}/images/opentrons-api-contribution.png)
 
-I'm quite proud of the work I've done on Opentrons machine software stack. There's nothing more satisfying than to see not only your code in the hands of happy customers, but to also know it is literally driving the liquid transfers of laboratory experiments around the world.
+[*GitHub Contributions 2016-18*](https://github.com/Opentrons/opentrons/commits?author=andySigler)
+
+In addition to leading design of the API's interface, I spent considerable time in 2016 for the OT-One and in 2017 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for control the stepper-motor-driving system, and finally communication with the machine's stepper-motor-driver through GCode.
 
 # How to Use
 

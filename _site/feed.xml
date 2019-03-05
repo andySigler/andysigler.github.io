@@ -15,7 +15,7 @@
   &lt;li&gt;Manufacturing&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 19 Feb 2019 00:00:00 +0800</pubDate>
+        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-ot2/</link>
         <guid isPermaLink="true">http://andysigler.github.io/products/opentrons-ot2/</guid>
       </item>
@@ -39,7 +39,7 @@
   &lt;li&gt;Manufacturing&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 19 Feb 2019 00:00:00 +0800</pubDate>
+        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-modules/</link>
         <guid isPermaLink="true">http://andysigler.github.io/products/opentrons-modules/</guid>
       </item>
@@ -54,7 +54,7 @@
   &lt;li&gt;Firmware overview&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 19 Feb 2019 00:00:00 +0800</pubDate>
+        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/projects/hue-light-controller/</link>
         <guid isPermaLink="true">http://andysigler.github.io/projects/hue-light-controller/</guid>
       </item>
@@ -101,7 +101,7 @@
 
 &lt;p&gt;In the long-term, students have been able to move on and work with electronics professionally, just as I did. Making DIY PCBs is not a normal way of learning electronics, but I think it is a strength because once they move on to professionally made PCBs, it seems so much easier that it’s not intimidating any more.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 19 Feb 2019 00:00:00 +0800</pubDate>
+        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/teaching/homemade-hardware/</link>
         <guid isPermaLink="true">http://andysigler.github.io/teaching/homemade-hardware/</guid>
       </item>
@@ -173,16 +173,25 @@
 
 &lt;p&gt;My contributions to this project were minimal, as it was finishing up when I first joined Tomorrow Lab. I contributed to final PCB design and testing for the integrated iPhone cable.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 04 Feb 2019 00:00:00 +0800</pubDate>
+        <pubDate>Mon, 04 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/tomorrow-lab/</link>
         <guid isPermaLink="true">http://andysigler.github.io/products/tomorrow-lab/</guid>
       </item>
     
       <item>
         <title>Opentrons API</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons-api-banner.jpg&quot; alt=&quot;Opentrons API&quot; /&gt;&lt;/p&gt;
+        <description>&lt;!-- ![Opentrons API](http://andysigler.github.io/images/opentrons-api-banner.jpg) --&gt;
 
 &lt;p&gt;The &lt;a href=&quot;https://docs.opentrons.com/&quot;&gt;Opentrons API&lt;/a&gt; is an opensource software interface, written in Python, to control the set of Opentrons liquid-handlers. It was designed allow simple commands to perform relatively complex procedures, while at the same time exposing a lower level that gives the author control over the machine’s atomic movements.&lt;/p&gt;
+
+&lt;video id=&quot;vid&quot; style=&quot;max-width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/opentrons_api.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/opentrons_api.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/opentrons_api.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    document.getElementById(&#39;vid&#39;).removeAttribute(&#39;controls&#39;);
+&lt;/script&gt;
 
 &lt;p&gt;Conceived, designed, and developed in 2016, the Opentrons API has proven to be the right tool for protocol authors using Opentrons machines. It is still &lt;a href=&quot;https://github.com/opentrons/opentrons&quot;&gt;in active development&lt;/a&gt; by the team of Opentrons sofware engineers, with relatively little change made to the exterior API interface.&lt;/p&gt;
 
@@ -190,9 +199,11 @@
 
 &lt;p&gt;As part of a team of four software developers in 2016, I played an outsized role in shaping the interface of the API. From experience in using the &lt;a href=&quot;https://shop.opentrons.com/collections/ot-one-s-robot-and-accessories&quot;&gt;OT-One&lt;/a&gt;, plus having solely writting the &lt;a href=&quot;http://andysigler.github.io/projects/opentrons-platform-prototype&quot;&gt;platform’s Kickstarter version all in Javascript&lt;/a&gt;, I new it was important to allow both lower-level control of liquid transfers, while giving another option for simple transfers. This allowed the API to satisfy both simple needs and programming beginners, as well as more complex procedures and those with Python experience.&lt;/p&gt;
 
-&lt;p&gt;In addition to leading design of the API’s interface, I spent considerable time in 2016 for the OT-One and in 2018 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for control the stepper-motor-driving system, and finally communication with the machine’s stepper-motor-driver through GCode.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons-api-contribution.png&quot; alt=&quot;My API Contributions&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’m quite proud of the work I’ve done on Opentrons machine software stack. There’s nothing more satisfying than to see not only your code in the hands of happy customers, but to also know it is literally driving the liquid transfers of laboratory experiments around the world.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Opentrons/opentrons/commits?author=andySigler&quot;&gt;&lt;em&gt;GitHub Contributions 2016-18&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to leading design of the API’s interface, I spent considerable time in 2016 for the OT-One and in 2017 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for control the stepper-motor-driving system, and finally communication with the machine’s stepper-motor-driver through GCode.&lt;/p&gt;
 
 &lt;h1 id=&quot;how-to-use&quot;&gt;How to Use&lt;/h1&gt;
 
@@ -258,7 +269,7 @@
 
 &lt;p&gt;There is much more detail you can read in the documentaion linked to throughout this post.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 03 Feb 2019 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 03 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-api/</link>
         <guid isPermaLink="true">http://andysigler.github.io/products/opentrons-api/</guid>
       </item>
@@ -355,7 +366,7 @@
 
 &lt;p&gt;The hair dryer is fairly basic, I didn’t have one before, but now I use it to dry off my boards after cleaning them off in water. I’ve learned to never wipe a board clean because you can easily ruin whatever it is you’ve just done to it (removing wet toner or solder mask).&lt;/p&gt;
 </description>
-        <pubDate>Tue, 11 Aug 2015 00:00:00 +0800</pubDate>
+        <pubDate>Tue, 11 Aug 2015 00:00:00 -0400</pubDate>
         <link>http://andysigler.github.io/hardware/diy-pcb-setup/</link>
         <guid isPermaLink="true">http://andysigler.github.io/hardware/diy-pcb-setup/</guid>
       </item>
@@ -390,7 +401,7 @@ Below is a diagram showing the different software blocks I developed. Each was i
 
 &lt;p&gt;Odds are, you will see things that you didn’t expect or previously misjudged. Everything else down the road will be built up on top of that core feature, so it’s important to not gloss over it.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 +0800</pubDate>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://andysigler.github.io/projects/opentrons-platform-prototype/</link>
         <guid isPermaLink="true">http://andysigler.github.io/projects/opentrons-platform-prototype/</guid>
       </item>
@@ -427,7 +438,7 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JUvECBZpefU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width:100%;max-width:560px;&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Tue, 12 May 2015 00:00:00 +0800</pubDate>
+        <pubDate>Tue, 12 May 2015 00:00:00 -0400</pubDate>
         <link>http://andysigler.github.io/useless-things/art-and-the-internet-of-useless-things/</link>
         <guid isPermaLink="true">http://andysigler.github.io/useless-things/art-and-the-internet-of-useless-things/</guid>
       </item>
@@ -479,7 +490,7 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Apr 2015 00:00:00 +0800</pubDate>
+        <pubDate>Wed, 01 Apr 2015 00:00:00 -0400</pubDate>
         <link>http://andysigler.github.io/hardware/panelling-arduino-minis/</link>
         <guid isPermaLink="true">http://andysigler.github.io/hardware/panelling-arduino-minis/</guid>
       </item>

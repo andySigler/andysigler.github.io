@@ -14,7 +14,7 @@ header: no
 <br />
 
 <p class="subheadline">summer 2016 - winter 2019</p>
-<h1>Platform Design and Production</h1>
+<h1>Product Design and Production</h1>
 <div>Returned to <a href="http://www.opentrons.com">Opentrons Labworks</a> to design and manufacture the next-generation, open-source, liquid-handling hardware platform</div>
 <div class="row t30">
     <div class="medium-4 columns">
@@ -44,7 +44,7 @@ header: no
 <div>Work made while at the IoT design firm <a href="http://tomorrow-lab.com">Tomorrow-Lab</a>, as well as creating my own <a href="https://tisch.nyu.edu/itp">ITP-NYU</a> graduate course</div>
 <div class="row t30">
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/projects/hue-light-controller" >
+        <a>
             <img class="borderImg" src="{{ site.url }}/images/placeholder.png" alt="">
             <p>Hue Light Controller</p>
         </a>
