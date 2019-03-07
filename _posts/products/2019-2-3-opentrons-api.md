@@ -9,21 +9,13 @@ categories:
 tags:
     - automation
 
-image:
-    title: opentrons_api_contributions_chart.png
-    thumb: tomorrow_lab_small.png
-
 author: Andy Sigler
 
 header: no
 
 ---
 
-The [Opentrons API](https://docs.opentrons.com/) is an opensource software interface, written in Python, to control the set of Opentrons liquid-handlers. It was designed allow simple commands to perform relatively complex procedures, while at the same time exposing a lower level that gives the author control over the machine's atomic movements.
-
-From 2016-2018, I designed and wrote a majority of the Python that runs all the way down the liquid handling section of the Opentrons software stack. That is, from a user's liquid transfer command, all the way down to programming a motor to spin.
-
-<video id="vid_aspirate" style="width:100%;max-width:600px; height:auto; border:1px solid #aaa" width="854" height="480" controls loop muted>
+<video id="vid_aspirate" style="width:100%;max-width:400px; height:auto; border:1px solid #aaa" width="854" height="480" controls loop muted>
   <source src="{{site.url}}/images/aspirate-loop.webm" type="video/webm">
   <source src="{{site.url}}/images/aspirate-loop.ogv" type="video/ogg">
   <source src="{{site.url}}/images/aspirate-loop.mp4" type="video/mp4">
@@ -35,6 +27,12 @@ From 2016-2018, I designed and wrote a majority of the Python that runs all the 
         vid_aspirate.play();
     })
 </script>
+
+The [Opentrons API](https://docs.opentrons.com/) is an opensource software interface, written in Python, to control the set of Opentrons liquid-handlers. It was designed allow simple commands to perform relatively complex procedures, while at the same time exposing a lower level that gives the author control over the machine's atomic movements.
+
+![API Contributions]({{site.url}}/images/opentrons_api_contributions_chart.png)
+
+From 2016-2018, I designed and programmed an important piece of the Python API; the automated-liquid-handling portions. Specifically, it starts at the high-level user protocol commands, and moves down through individual pipette movements, all the way down to programming motor spins.
 
 <br />
 
@@ -64,10 +62,11 @@ Here's a video demoing my work. It shows protocol commands creating real-world l
 
 As part of a team of four software developers in 2016, I played an outsized role in shaping the interface of the API. From experience in using the [OT-One](https://shop.opentrons.com/collections/ot-one-s-robot-and-accessories), plus having solely writting the [platform's Kickstarter version all in Javascript]({{site.url}}/projects/opentrons-platform-prototype), I new it was important to allow both lower-level control of liquid transfers, while giving another option for simple transfers. This allowed the API to satisfy both simple needs and programming beginners, as well as more complex procedures and those with Python experience.
 
-In addition to leading design of the API's interface, I spent considerable time in 2016 for the OT-One and in 2017 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for control the stepper-motor-driving system, and finally communication with the machine's stepper-motor-driver through GCode.
+In addition to leading design of the API's interface, I spent considerable time in 2016 for the OT-One and in 2017 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for controlling the stepper-motor-driving system, and finally communication with the machine's stepper-motor-driver through GCode.
 
-<br />
+See the project live [on GitHub](https://github.com/opentrons/opentrons), and [read the docs](https://docs.opentrons.com/atomic%20commands.html)
 
+<!--
 # How to Use: Python API Tutorial
 
 Python was chosen to drive the Opentrons' backend because of the language's prevalence in the scientific community. So because we're working with Python, we need to first import our instruments (the pipettes) and our labware (the plates, tip-racks, etc.):
@@ -143,3 +142,4 @@ pipette.transfer(100, trough.wells('A1'), plate.wells('A1'))
 That single line will automatically pick up a tip, transfer the 100uL, then drop the tip. These complex commands are much easier to understand, more approachable to beginners, while the trade-off is less control.
 
 There is much more detail you can read in the documentaion linked to throughout this post.
+ -->

@@ -26,13 +26,13 @@ header: no
     <div class="medium-4 columns">
         <a href="{{ site.url }}/products/opentrons-ot2" >
             <img class="borderImg" src="{{ site.url }}/images/ot2-small.jpg" alt="">
-            <p>Hardware Design: OT2</p>
+            <p>Hardware: OT2 Electronics</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="{{ site.url }}/products/opentrons-modules" >
             <img class="borderImg" src="{{ site.url }}/images/opentrons_modules_small.png" alt="">
-            <p>Hardware Design: Modules</p>
+            <p>Hardware: OT2 Modules</p>
         </a>
     </div>
 </div>

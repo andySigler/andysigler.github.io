@@ -7,13 +7,40 @@
     <atom:link href="http://andysigler.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Opentrons OT2</title>
+        <title>OT2 Electronics</title>
         <description>&lt;ul&gt;
   &lt;li&gt;How to use it&lt;/li&gt;
   &lt;li&gt;Major components&lt;/li&gt;
   &lt;li&gt;PCBs in machine&lt;/li&gt;
   &lt;li&gt;Manufacturing&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;video id=&quot;vid_ot2&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+//    var vid_ot2 = document.getElementById(&#39;vid_ot2&#39;);
+//    vid_ot2.removeAttribute(&#39;controls&#39;);
+//    vid_ot2.addEventListener(&#39;canplaythrough&#39;, function(e){
+//        vid_ot2.play();
+//    })
+&lt;/script&gt;
+
+&lt;video id=&quot;vid_tip_probe&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/tip_probe.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/tip_probe.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/tip_probe.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+//    var vid_tip_probe = document.getElementById(&#39;vid_tip_probe&#39;);
+//    vid_tip_probe.removeAttribute(&#39;controls&#39;);
+//    vid_tip_probe.addEventListener(&#39;canplaythrough&#39;, function(e){
+//        vid_tip_probe.play();
+//    })
+&lt;/script&gt;
+
 </description>
         <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-ot2/</link>
@@ -180,11 +207,7 @@
     
       <item>
         <title>Python API: Moving Liquids</title>
-        <description>&lt;p&gt;The &lt;a href=&quot;https://docs.opentrons.com/&quot;&gt;Opentrons API&lt;/a&gt; is an opensource software interface, written in Python, to control the set of Opentrons liquid-handlers. It was designed allow simple commands to perform relatively complex procedures, while at the same time exposing a lower level that gives the author control over the machine’s atomic movements.&lt;/p&gt;
-
-&lt;p&gt;From 2016-2018, I designed and wrote a majority of the Python that runs all the way down the liquid handling section of the Opentrons software stack. That is, from a user’s liquid transfer command, all the way down to programming a motor to spin.&lt;/p&gt;
-
-&lt;video id=&quot;vid_aspirate&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+        <description>&lt;video id=&quot;vid_aspirate&quot; style=&quot;width:100%;max-width:400px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/aspirate-loop.webm&quot; type=&quot;video/webm&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/aspirate-loop.ogv&quot; type=&quot;video/ogg&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/aspirate-loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
@@ -196,6 +219,12 @@
         vid_aspirate.play();
     })
 &lt;/script&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://docs.opentrons.com/&quot;&gt;Opentrons API&lt;/a&gt; is an opensource software interface, written in Python, to control the set of Opentrons liquid-handlers. It was designed allow simple commands to perform relatively complex procedures, while at the same time exposing a lower level that gives the author control over the machine’s atomic movements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons_api_contributions_chart.png&quot; alt=&quot;API Contributions&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From 2016-2018, I designed and programmed an important piece of the Python API; the automated-liquid-handling portions. Specifically, it starts at the high-level user protocol commands, and moves down through individual pipette movements, all the way down to programming motor spins.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -227,50 +256,58 @@
 
 &lt;p&gt;As part of a team of four software developers in 2016, I played an outsized role in shaping the interface of the API. From experience in using the &lt;a href=&quot;https://shop.opentrons.com/collections/ot-one-s-robot-and-accessories&quot;&gt;OT-One&lt;/a&gt;, plus having solely writting the &lt;a href=&quot;http://andysigler.github.io/projects/opentrons-platform-prototype&quot;&gt;platform’s Kickstarter version all in Javascript&lt;/a&gt;, I new it was important to allow both lower-level control of liquid transfers, while giving another option for simple transfers. This allowed the API to satisfy both simple needs and programming beginners, as well as more complex procedures and those with Python experience.&lt;/p&gt;
 
-&lt;p&gt;In addition to leading design of the API’s interface, I spent considerable time in 2016 for the OT-One and in 2017 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for control the stepper-motor-driving system, and finally communication with the machine’s stepper-motor-driver through GCode.&lt;/p&gt;
+&lt;p&gt;In addition to leading design of the API’s interface, I spent considerable time in 2016 for the OT-One and in 2017 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for controlling the stepper-motor-driving system, and finally communication with the machine’s stepper-motor-driver through GCode.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;See the project live &lt;a href=&quot;https://github.com/opentrons/opentrons&quot;&gt;on GitHub&lt;/a&gt;, and &lt;a href=&quot;https://docs.opentrons.com/atomic%20commands.html&quot;&gt;read the docs&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;how-to-use-python-api-tutorial&quot;&gt;How to Use: Python API Tutorial&lt;/h1&gt;
+&lt;!--
+# How to Use: Python API Tutorial
 
-&lt;p&gt;Python was chosen to drive the Opentrons’ backend because of the language’s prevalence in the scientific community. So because we’re working with Python, we need to first import our instruments (the pipettes) and our labware (the plates, tip-racks, etc.):&lt;/p&gt;
+Python was chosen to drive the Opentrons&#39; backend because of the language&#39;s prevalence in the scientific community. So because we&#39;re working with Python, we need to first import our instruments (the pipettes) and our labware (the plates, tip-racks, etc.):
+
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;opentrons&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instruments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labware&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Before we can get started, we need to know about &lt;a href=&quot;https://docs.opentrons.com/labware.html#placing-labware-on-the-robot-deck&quot;&gt;the Opentrons deck&lt;/a&gt;. This is a set of slotted inserts that fit standard labware, so they do not move during a protocol. You’ll notice in the picture below that each “slot” on the deck is numbered, so that when our protocol creates a new labware we can easily assign it’s location to a numbered slot.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons-deck-small.png&quot; alt=&quot;Opentrons Deck&quot; /&gt;
-&lt;img src=&quot;http://andysigler.github.io/images/opentrons-full-deck-small.jpg&quot; alt=&quot;Opentrons Deck&quot; /&gt;&lt;/p&gt;
+Before we can get started, we need to know about [the Opentrons deck](https://docs.opentrons.com/labware.html#placing-labware-on-the-robot-deck). This is a set of slotted inserts that fit standard labware, so they do not move during a protocol. You&#39;ll notice in the picture below that each &quot;slot&quot; on the deck is numbered, so that when our protocol creates a new labware we can easily assign it&#39;s location to a numbered slot.
 
-&lt;p&gt;Now let’s pretend we have a &lt;a href=&quot;https://docs.opentrons.com/labware.html#troughs&quot;&gt;trough&lt;/a&gt; filled with some sample, and we want to transfer that sample to a &lt;a href=&quot;https://docs.opentrons.com/labware.html#pcr-flat&quot;&gt;well plate&lt;/a&gt;. The software contains accurate three-dimensional representations of these labwares, and the API can load them into your protocol like so:&lt;/p&gt;
+![Opentrons Deck](http://andysigler.github.io/images/opentrons-deck-small.png)
+![Opentrons Deck](http://andysigler.github.io/images/opentrons-full-deck-small.jpg)
+
+Now let&#39;s pretend we have a [trough](https://docs.opentrons.com/labware.html#troughs) filled with some sample, and we want to transfer that sample to a [well plate](https://docs.opentrons.com/labware.html#pcr-flat). The software contains accurate three-dimensional representations of these labwares, and the API can load them into your protocol like so:
+
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labware&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;trough-12row&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;plate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labware&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;96-PCR-flat&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;2&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Next we need a &lt;a href=&quot;https://docs.opentrons.com/pipettes.html&quot;&gt;pipette&lt;/a&gt;, which also need a &lt;a href=&quot;https://docs.opentrons.com/labware.html#tipracks&quot;&gt;tip rack&lt;/a&gt; which holds disposable tips for sterile liquid transfers. For the pipettes, let’s use a 300uL single-channel, and put it on the OT2’s left mount:&lt;/p&gt;
+
+Next we need a [pipette](https://docs.opentrons.com/pipettes.html), which also need a [tip rack](https://docs.opentrons.com/labware.html#tipracks) which holds disposable tips for sterile liquid transfers. For the pipettes, let&#39;s use a 300uL single-channel, and put it on the OT2&#39;s left mount:
+
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;tips&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labware&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;opentrons-tiprack-300ul&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;3&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instruments&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;P300_Single&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mount&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;left&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tip_racks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tips&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;With our labware and pipettes ready, we can start transferring liquids!&lt;/p&gt;
 
-&lt;p&gt;As of this writing, the API has loosely speaking two layers of liquid-handling commands, the documentation names “atomic” and “complex”.&lt;/p&gt;
+With our labware and pipettes ready, we can start transferring liquids!
 
-&lt;p&gt;The &lt;a href=&quot;https://docs.opentrons.com/atomic%20commands.html&quot;&gt;atomic commands&lt;/a&gt; can be thought of as individual movements, controllable and sequencable through the API. Below are a set of atomic commands which do the following:&lt;/p&gt;
+As of this writing, the API has loosely speaking two layers of liquid-handling commands, the documentation names &quot;atomic&quot; and &quot;complex&quot;.
 
-&lt;ul&gt;
-  &lt;li&gt;Pick up a new tip from the tip rack&lt;/li&gt;
-  &lt;li&gt;Aspirate 100uL from the trough’s A1 position&lt;/li&gt;
-  &lt;li&gt;Dispense 100uL to the plate’s A1 position&lt;/li&gt;
-  &lt;li&gt;Drop the tip inside the deck’s trash&lt;/li&gt;
-&lt;/ul&gt;
+The [atomic commands](https://docs.opentrons.com/atomic%20commands.html) can be thought of as individual movements, controllable and sequencable through the API. Below are a set of atomic commands which do the following:
+
+- Pick up a new tip from the tip rack
+- Aspirate 100uL from the trough&#39;s A1 position
+- Dispense 100uL to the plate&#39;s A1 position
+- Drop the tip inside the deck&#39;s trash
+
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pick_up_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aspirate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dispense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;To add some complexity, we can fit in a few more atomic commands to give even more fine-tuned control over the liquid’s movement:&lt;/p&gt;
+
+To add some complexity, we can fit in a few more atomic commands to give even more fine-tuned control over the liquid&#39;s movement:
+
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pick_up_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aspirate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -280,20 +317,26 @@
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blow_out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;To make it easier to read, you can also chain together pipette commands:&lt;/p&gt;
+
+To make it easier to read, you can also chain together pipette commands:
+
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pick_up_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aspirate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;touch_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;air_gap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dispense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blow_out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;The &lt;a href=&quot;https://docs.opentrons.com/complex%20commands.html&quot;&gt;complex commands&lt;/a&gt; are one level higher, and hide the many details you are show when using atomic commands. To perform a similar liquid transfer as above, we can us the following complex command:&lt;/p&gt;
 
+The [complex commands](https://docs.opentrons.com/complex%20commands.html) are one level higher, and hide the many details you are show when using atomic commands. To perform a similar liquid transfer as above, we can us the following complex command:
+
+ 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transfer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;That single line will automatically pick up a tip, transfer the 100uL, then drop the tip. These complex commands are much easier to understand, more approachable to beginners, while the trade-off is less control.&lt;/p&gt;
 
-&lt;p&gt;There is much more detail you can read in the documentaion linked to throughout this post.&lt;/p&gt;
+That single line will automatically pick up a tip, transfer the 100uL, then drop the tip. These complex commands are much easier to understand, more approachable to beginners, while the trade-off is less control.
+
+There is much more detail you can read in the documentaion linked to throughout this post.
+ --&gt;
 </description>
         <pubDate>Sun, 03 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-api/</link>
