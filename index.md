@@ -20,19 +20,19 @@ header: no
     <div class="medium-4 columns">
         <a href="{{ site.url }}/products/opentrons-api" >
             <img class="borderImg" src="{{ site.url }}/images/opentrons_api_small.png" alt="">
-            <p>Opentrons API</p>
+            <p>Python API: Moving Liquids</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="{{ site.url }}/products/opentrons-ot2" >
             <img class="borderImg" src="{{ site.url }}/images/ot2-small.jpg" alt="">
-            <p>Opentrons OT2</p>
+            <p>Hardware Design: OT2</p>
         </a>
     </div>
     <div class="medium-4 columns">
         <a href="{{ site.url }}/products/opentrons-modules" >
             <img class="borderImg" src="{{ site.url }}/images/opentrons_modules_small.png" alt="">
-            <p>Opentrons Modules</p>
+            <p>Hardware Design: Modules</p>
         </a>
     </div>
 </div>

@@ -179,33 +179,59 @@
       </item>
     
       <item>
-        <title>Opentrons API</title>
-        <description>&lt;!-- ![Opentrons API](http://andysigler.github.io/images/opentrons-api-banner.jpg) --&gt;
+        <title>Python API: Moving Liquids</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://docs.opentrons.com/&quot;&gt;Opentrons API&lt;/a&gt; is an opensource software interface, written in Python, to control the set of Opentrons liquid-handlers. It was designed allow simple commands to perform relatively complex procedures, while at the same time exposing a lower level that gives the author control over the machine’s atomic movements.&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href=&quot;https://docs.opentrons.com/&quot;&gt;Opentrons API&lt;/a&gt; is an opensource software interface, written in Python, to control the set of Opentrons liquid-handlers. It was designed allow simple commands to perform relatively complex procedures, while at the same time exposing a lower level that gives the author control over the machine’s atomic movements.&lt;/p&gt;
+&lt;p&gt;From 2016-2018, I designed and wrote a majority of the Python that runs all the way down the liquid handling section of the Opentrons software stack. That is, from a user’s liquid transfer command, all the way down to programming a motor to spin.&lt;/p&gt;
 
-&lt;video id=&quot;vid&quot; style=&quot;max-width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video id=&quot;vid_aspirate&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/aspirate-loop.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/aspirate-loop.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/aspirate-loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_aspirate = document.getElementById(&#39;vid_aspirate&#39;);
+    vid_aspirate.removeAttribute(&#39;controls&#39;);
+    vid_aspirate.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_aspirate.play();
+    })
+&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;my-contributions&quot;&gt;My Contributions&lt;/h1&gt;
+
+&lt;p&gt;Within the Opentrons Python API, mostly working on:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Designing protocol commands&lt;/li&gt;
+  &lt;li&gt;Designing pipette actions&lt;/li&gt;
+  &lt;li&gt;Programming pipette movements&lt;/li&gt;
+  &lt;li&gt;Programming motion control and hardware abstraction&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s a video demoing my work. It shows protocol commands creating real-world liquid transfers:&lt;/p&gt;
+
+&lt;video id=&quot;vid_demo&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/opentrons_api.webm&quot; type=&quot;video/webm&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/opentrons_api.ogv&quot; type=&quot;video/ogg&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/opentrons_api.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    document.getElementById(&#39;vid&#39;).removeAttribute(&#39;controls&#39;);
+    var vid_demo = document.getElementById(&#39;vid_demo&#39;);
+    vid_demo.removeAttribute(&#39;controls&#39;);
+    vid_demo.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_demo.play();
+    })
 &lt;/script&gt;
-
-&lt;p&gt;Conceived, designed, and developed in 2016, the Opentrons API has proven to be the right tool for protocol authors using Opentrons machines. It is still &lt;a href=&quot;https://github.com/opentrons/opentrons&quot;&gt;in active development&lt;/a&gt; by the team of Opentrons sofware engineers, with relatively little change made to the exterior API interface.&lt;/p&gt;
-
-&lt;h1 id=&quot;my-contributions&quot;&gt;My Contributions&lt;/h1&gt;
 
 &lt;p&gt;As part of a team of four software developers in 2016, I played an outsized role in shaping the interface of the API. From experience in using the &lt;a href=&quot;https://shop.opentrons.com/collections/ot-one-s-robot-and-accessories&quot;&gt;OT-One&lt;/a&gt;, plus having solely writting the &lt;a href=&quot;http://andysigler.github.io/projects/opentrons-platform-prototype&quot;&gt;platform’s Kickstarter version all in Javascript&lt;/a&gt;, I new it was important to allow both lower-level control of liquid transfers, while giving another option for simple transfers. This allowed the API to satisfy both simple needs and programming beginners, as well as more complex procedures and those with Python experience.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons-api-contribution.png&quot; alt=&quot;My API Contributions&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Opentrons/opentrons/commits?author=andySigler&quot;&gt;&lt;em&gt;GitHub Contributions 2016-18&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;In addition to leading design of the API’s interface, I spent considerable time in 2016 for the OT-One and in 2017 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for control the stepper-motor-driving system, and finally communication with the machine’s stepper-motor-driver through GCode.&lt;/p&gt;
 
-&lt;h1 id=&quot;how-to-use&quot;&gt;How to Use&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-use-python-api-tutorial&quot;&gt;How to Use: Python API Tutorial&lt;/h1&gt;
 
 &lt;p&gt;Python was chosen to drive the Opentrons’ backend because of the language’s prevalence in the scientific community. So because we’re working with Python, we need to first import our instruments (the pipettes) and our labware (the plates, tip-racks, etc.):&lt;/p&gt;
 

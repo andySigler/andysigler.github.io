@@ -18,14 +18,14 @@ header: no
 </style>
 <h1><span class="avoidMe">About</span></h1>
 <p class="avoidMe thingy">
-    I'm a designer who uses software and electronics. I use emerging technologies to design novel devices and interactions. I hope to use these tools to bring some magic and playfulness to everyday objects. These days, I'm most interested in finding new forms of interaction at the intersection of machine-learning and hardware.
+    I'm a designer who uses software and electronics. I use emerging technologies to design novel devices and interactions. I hope to use these tools to bring some magic and playfulness to everyday objects. These days, I'm most interested in finding new forms of interaction at the intersection of machine-learning, hardware, and connected devices.
 </p>
-<p class="avoidMe thingy">
+<!-- <p class="avoidMe thingy">
     For the past few years, I've designed and shipped an open-source liquid-handling platform with <a href="http://www.opentrons.com">Opentrons Labworks</a>. There, I gained experience in production software, product design, electronics engineering, research and development, as well as hardware manufacturing while helping build up Opentrons' factory in Shenzhen, China.
 </p>
 <p class="avoidMe thingy">
     I began at <a href="http://tisch.nyu.edu/itp">ITP-NYU</a>, where I became immersed in the world of wireless hardware and interaction design as a grad student, and later becoming a Research Resident and Adjunct Professor. I also spent a year as an Electronics Design Engineer at <a href="http://www.tomorrow-lab.com">Tomorrow Lab</a>.
-</p>
+</p> -->
 <br />
 
 <div class="thing" style="width: 100%; max-width: 650px">
