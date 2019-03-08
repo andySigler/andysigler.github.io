@@ -30,3 +30,7 @@ published: true
   - Mag-Deck PCBs
   - Mag-Deck firmware
 - Manufacturing
+
+<img style="max-width:32%;" src="{{site.url}}/images/ot2_temp_deck_2.jpg" >
+<img style="max-width:32%;margin-left:1.4%" src="{{site.url}}/images/ot2_temp_deck_3.jpg" >
+<img style="max-width:32%;margin-left:1.4%" src="{{site.url}}/images/ot2_temp_deck_4.jpg" >

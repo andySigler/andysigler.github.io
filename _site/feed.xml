@@ -8,25 +8,30 @@
     
       <item>
         <title>OT2 Electronics</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;How to use it&lt;/li&gt;
-  &lt;li&gt;Major components&lt;/li&gt;
-  &lt;li&gt;PCBs in machine&lt;/li&gt;
-  &lt;li&gt;Manufacturing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;video id=&quot;vid_ot2&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+        <description>&lt;video id=&quot;vid_ot2&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.webm&quot; type=&quot;video/webm&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.ogv&quot; type=&quot;video/ogg&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-//    var vid_ot2 = document.getElementById(&#39;vid_ot2&#39;);
-//    vid_ot2.removeAttribute(&#39;controls&#39;);
-//    vid_ot2.addEventListener(&#39;canplaythrough&#39;, function(e){
-//        vid_ot2.play();
-//    })
+    var vid_ot2 = document.getElementById(&#39;vid_ot2&#39;);
+    vid_ot2.removeAttribute(&#39;controls&#39;);
+    vid_ot2.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_ot2.play();
+    })
 &lt;/script&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_pcb_in_machine.jpg&quot; alt=&quot;OT2 with PCBs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_production_boards.jpg&quot; alt=&quot;OT2 PCBs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;max-width:33%&quot; src=&quot;http://andysigler.github.io/images/ot2_production_caitlyn.jpg&quot; /&gt;
+&lt;img style=&quot;max-width:63%;margin-left:3.5%&quot; src=&quot;http://andysigler.github.io/images/ot2_production_kris.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_production_cables.jpg&quot; alt=&quot;OT2 Ribbon Cables&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;max-width:63%&quot; src=&quot;http://andysigler.github.io/images/pipette_diagram.gif&quot; /&gt;
+&lt;img style=&quot;max-width:33%;margin-left:3.5%&quot; src=&quot;http://andysigler.github.io/images/ot2_production_pipette.png&quot; /&gt;&lt;/p&gt;
 
 &lt;video id=&quot;vid_tip_probe&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/tip_probe.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -34,13 +39,33 @@
   &lt;source src=&quot;http://andysigler.github.io/images/tip_probe.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-//    var vid_tip_probe = document.getElementById(&#39;vid_tip_probe&#39;);
-//    vid_tip_probe.removeAttribute(&#39;controls&#39;);
-//    vid_tip_probe.addEventListener(&#39;canplaythrough&#39;, function(e){
-//        vid_tip_probe.play();
-//    })
+    var vid_tip_probe = document.getElementById(&#39;vid_tip_probe&#39;);
+    vid_tip_probe.removeAttribute(&#39;controls&#39;);
+    vid_tip_probe.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_tip_probe.play();
+    })
 &lt;/script&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;pcb-artwork&quot;&gt;PCB Artwork&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_pcb_art_vertical.jpg&quot; alt=&quot;OT2 PCBs Artwork&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;pictures-before--after-launch&quot;&gt;Pictures Before &amp;amp; After Launch&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_camera.jpg&quot; alt=&quot;OT2 on Camera&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_prototype_gantry.jpg&quot; alt=&quot;OT2 Prototype&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_prototype_pcbs.jpg&quot; alt=&quot;OT2 Prototype Batch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;max-width:33%&quot; src=&quot;http://andysigler.github.io/images/ot2_prototype_caitlyn.jpg&quot; /&gt;
+&lt;img style=&quot;max-width:63%;margin-left:3.5%&quot; src=&quot;http://andysigler.github.io/images/ot2_prototype_face.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_prototype_CE.jpg&quot; alt=&quot;OT2 CE&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-ot2/</link>
@@ -65,6 +90,10 @@
   &lt;/li&gt;
   &lt;li&gt;Manufacturing&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;img style=&quot;max-width:32%;&quot; src=&quot;http://andysigler.github.io/images/ot2_temp_deck_2.jpg&quot; /&gt;
+&lt;img style=&quot;max-width:32%;margin-left:1.4%&quot; src=&quot;http://andysigler.github.io/images/ot2_temp_deck_3.jpg&quot; /&gt;
+&lt;img style=&quot;max-width:32%;margin-left:1.4%&quot; src=&quot;http://andysigler.github.io/images/ot2_temp_deck_4.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-modules/</link>
