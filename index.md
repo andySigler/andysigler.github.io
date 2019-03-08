@@ -18,15 +18,15 @@ header: no
 <div>Returned to <a href="http://www.opentrons.com">Opentrons Labworks</a> to design and manufacture the next-generation, open-source, liquid-handling hardware platform</div>
 <div class="row t30">
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/products/opentrons-api" >
-            <img class="borderImg" src="{{ site.url }}/images/opentrons_api_small.png" alt="">
-            <p>Python API: Moving Liquids</p>
-        </a>
-    </div>
-    <div class="medium-4 columns">
         <a href="{{ site.url }}/products/opentrons-ot2" >
             <img class="borderImg" src="{{ site.url }}/images/ot2-small.jpg" alt="">
             <p>Hardware: OT2 Electronics</p>
+        </a>
+    </div>
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}/products/opentrons-api" >
+            <img class="borderImg" src="{{ site.url }}/images/opentrons_api_small.png" alt="">
+            <p>Python API: Moving Liquids</p>
         </a>
     </div>
     <div class="medium-4 columns">

@@ -34,7 +34,7 @@ published: true
     })
 </script>
 
-![OT2 with PCBs]({{site.url}}/images/ot2_pcb_in_machine.jpg)
+![OT2 with PCBs]({{site.url}}/images/ot2_pcb_artwork.jpg)
 
 ![OT2 PCBs]({{site.url}}/images/ot2_production_boards.jpg)
 
@@ -79,3 +79,5 @@ published: true
 <img style="max-width:63%;margin-left:3.5%" src="{{site.url}}/images/ot2_prototype_face.png" >
 
 ![OT2 CE]({{site.url}}/images/ot2_prototype_CE.jpg)
+
+![Opentrons Employees in Shenzhen]({{site.url}}/images/ot2_factory_people.jpg)

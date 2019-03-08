@@ -21,7 +21,7 @@
     })
 &lt;/script&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_pcb_in_machine.jpg&quot; alt=&quot;OT2 with PCBs&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_pcb_artwork.jpg&quot; alt=&quot;OT2 with PCBs&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_production_boards.jpg&quot; alt=&quot;OT2 PCBs&quot; /&gt;&lt;/p&gt;
 
@@ -66,6 +66,8 @@
 &lt;img style=&quot;max-width:63%;margin-left:3.5%&quot; src=&quot;http://andysigler.github.io/images/ot2_prototype_face.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_prototype_CE.jpg&quot; alt=&quot;OT2 CE&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_factory_people.jpg&quot; alt=&quot;Opentrons Employees in Shenzhen&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-ot2/</link>
@@ -74,26 +76,68 @@
     
       <item>
         <title>Opentrons Modules</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Integrating with OT2&lt;/li&gt;
-  &lt;li&gt;How Temp-Deck works
-    &lt;ul&gt;
-      &lt;li&gt;Temp-Deck PCBs&lt;/li&gt;
-      &lt;li&gt;Temp-Deck firmware&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How Mag-Deck works
-    &lt;ul&gt;
-      &lt;li&gt;Mag-Deck PCBs&lt;/li&gt;
-      &lt;li&gt;Mag-Deck firmware&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Manufacturing&lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;h1 id=&quot;temperature-module&quot;&gt;Temperature Module&lt;/h1&gt;
+
+&lt;video id=&quot;vid_ot2_temp_deck&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_temp_deck.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_temp_deck.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_temp_deck.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_ot2_temp_deck = document.getElementById(&#39;vid_ot2_temp_deck&#39;);
+    vid_ot2_temp_deck.removeAttribute(&#39;controls&#39;);
+    vid_ot2_temp_deck.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_ot2_temp_deck.play();
+    })
+&lt;/script&gt;
+
+&lt;video id=&quot;vid_ot2_temp_deck_loop&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_temp_deck_loop.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_temp_deck_loop.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_temp_deck_loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_ot2_temp_deck_loop = document.getElementById(&#39;vid_ot2_temp_deck_loop&#39;);
+    vid_ot2_temp_deck_loop.removeAttribute(&#39;controls&#39;);
+    vid_ot2_temp_deck_loop.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_ot2_temp_deck_loop.play();
+    })
+&lt;/script&gt;
 
 &lt;p&gt;&lt;img style=&quot;max-width:32%;&quot; src=&quot;http://andysigler.github.io/images/ot2_temp_deck_2.jpg&quot; /&gt;
 &lt;img style=&quot;max-width:32%;margin-left:1.4%&quot; src=&quot;http://andysigler.github.io/images/ot2_temp_deck_3.jpg&quot; /&gt;
 &lt;img style=&quot;max-width:32%;margin-left:1.4%&quot; src=&quot;http://andysigler.github.io/images/ot2_temp_deck_4.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;magnetic-module&quot;&gt;Magnetic Module&lt;/h1&gt;
+
+&lt;video id=&quot;vid_ot2_mag_deck&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_mag_deck.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_mag_deck.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_mag_deck.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_ot2_mag_deck = document.getElementById(&#39;vid_ot2_mag_deck&#39;);
+    vid_ot2_mag_deck.removeAttribute(&#39;controls&#39;);
+    vid_ot2_mag_deck.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_ot2_mag_deck.play();
+    })
+&lt;/script&gt;
+
+&lt;video id=&quot;vid_ot2_mag_deck_loop&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_mag_deck_loop.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_mag_deck_loop.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/ot2_mag_deck_loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_ot2_mag_deck_loop = document.getElementById(&#39;vid_ot2_mag_deck_loop&#39;);
+    vid_ot2_mag_deck_loop.removeAttribute(&#39;controls&#39;);
+    vid_ot2_mag_deck_loop.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_ot2_mag_deck_loop.play();
+    })
+&lt;/script&gt;
+
 </description>
         <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-modules/</link>
@@ -253,6 +297,8 @@
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons_api_contributions_chart.png&quot; alt=&quot;API Contributions&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;In the chart above, &lt;strong style=&quot;color:#EEA33B&quot;&gt;my contributions are shown in orange&lt;/strong&gt;.&lt;/p&gt;
+
 &lt;p&gt;From 2016-2018, I designed and programmed an important piece of the Python API; the automated-liquid-handling portions. Specifically, it starts at the high-level user protocol commands, and moves down through individual pipette movements, all the way down to programming motor spins.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -275,13 +321,13 @@
   &lt;source src=&quot;http://andysigler.github.io/images/opentrons_api.ogv&quot; type=&quot;video/ogg&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/opentrons_api.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!-- &lt;script type=&quot;text/javascript&quot;&gt;
     var vid_demo = document.getElementById(&#39;vid_demo&#39;);
     vid_demo.removeAttribute(&#39;controls&#39;);
     vid_demo.addEventListener(&#39;canplaythrough&#39;, function(e){
         vid_demo.play();
     })
-&lt;/script&gt;
+&lt;/script&gt; --&gt;
 
 &lt;p&gt;As part of a team of four software developers in 2016, I played an outsized role in shaping the interface of the API. From experience in using the &lt;a href=&quot;https://shop.opentrons.com/collections/ot-one-s-robot-and-accessories&quot;&gt;OT-One&lt;/a&gt;, plus having solely writting the &lt;a href=&quot;http://andysigler.github.io/projects/opentrons-platform-prototype&quot;&gt;platform’s Kickstarter version all in Javascript&lt;/a&gt;, I new it was important to allow both lower-level control of liquid transfers, while giving another option for simple transfers. This allowed the API to satisfy both simple needs and programming beginners, as well as more complex procedures and those with Python experience.&lt;/p&gt;
 
