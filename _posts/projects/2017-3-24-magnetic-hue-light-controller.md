@@ -22,7 +22,7 @@ author: Andy Sigler
 published: true
 ---
 
-![Pictures of the hue controller]({{site.url}}/images/hue-still.jpg)
+![Pictures of the hue controller]({{site.url}}/images/hue-fridge.jpg)
 
 <video id="vid_demo" style="margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa" width="1280" height="720" controls loop poster="{{site.url}}/images/hue-demo-poster.png">
   <source src="{{site.url}}/images/hue-demo.webm" type="video/webm">

@@ -45,7 +45,7 @@ header: no
 <div class="row t30">
     <div class="medium-4 columns">
         <a href="{{ site.url }}/projects/magnetic-hue-light-controller">
-            <img class="borderImg" src="{{ site.url }}/images/hue_controller_wall_1_small.jpg" alt="">
+            <img class="borderImg" src="{{ site.url }}/images/hue-cat-small.jpg" alt="">
             <p>Magnetic Hue Light Controller</p>
         </a>
     </div>
