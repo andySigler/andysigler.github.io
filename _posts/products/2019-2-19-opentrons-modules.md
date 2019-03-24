@@ -2,7 +2,7 @@
 layout: page
 title: Opentrons Modules
 subheadline: Devices Built for the Opentrons Platform
-teaser: These are the first hardware modules for the Opentrons OT2, to further automation biological experiments
+teaser: Expanding automated workflows with Opentrons Modules
 breadcrumb: false
 categories:
     - products
@@ -81,3 +81,7 @@ published: true
         vid_ot2_mag_deck_loop.play();
     })
 </script>
+
+![Mag Deck PCB]({{site.url}}/images/ot2_mag_deck_pcb.jpg)
+
+![Modules cables]({{site.url}}/images/ot2_modules_cables.jpg)
