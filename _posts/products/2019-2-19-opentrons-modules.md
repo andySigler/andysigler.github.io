@@ -22,7 +22,15 @@ author: Andy Sigler
 published: true
 ---
 
+During 2017-'18, I was the sole electronics designer and firmware developer for the two Opentrons Modules; [the Temperature Module and the Magnetic Module](https://opentrons.com/modules). These devices connect to the Opentrons OT2 hardware platform over simple USB connections, so they are easy to setup, use, and can even be used outside of the Opentrons platform (if anyone wants to do that).
+
+For each of these devices, I worked on a small team of 2-4 people doing early ideation, design, testing, design for manufacturing, and quality control, with myself owning the electronics, firmware, and testing side of things.
+
 # Temperature Module
+
+It keeps hot things hot and cold things cold! The Temperature Module can hold a temperature between 4-94 Celsius with +/- 1 Celcius accuracy and uniformity.
+
+It uses two peltier devices to either heat or cool the top plate. A heatsink and fan are then used to cool the bottom side of the peltier devices. A number display at the top of the device shows the curren temperature, and either red or blue color to indicate temperature.
 
 <video id="vid_ot2_temp_deck" style="width:100%; height:auto; border:1px solid #aaa" width="854" height="480" controls loop muted>
   <source src="{{site.url}}/images/ot2_temp_deck.webm" type="video/webm">
@@ -56,6 +64,10 @@ published: true
 <br />
 
 # Magnetic Module
+
+The Magnetic Module raises a set of magnets near the user's sample, in order to attract iron beads that have been attached to a specific DNA strand they want to isolate (science!).
+
+This device is simply composed of a stepper motor moving along a rail (to raise/lower the magnets), plus the electronics to move said motor.
 
 <video id="vid_ot2_mag_deck" style="width:100%; height:auto; border:1px solid #aaa" width="854" height="480" controls loop muted>
   <source src="{{site.url}}/images/ot2_mag_deck.webm" type="video/webm">

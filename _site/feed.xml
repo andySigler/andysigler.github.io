@@ -20,7 +20,11 @@
     
       <item>
         <title>OT2 Electronics</title>
-        <description>&lt;video id=&quot;vid_ot2&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+        <description>&lt;p&gt;The Opentrons OT2 liquid handler is the next step in opensource lab automation, and I’m proud to have been one of the few designers and engineers to work on it.&lt;/p&gt;
+
+&lt;p&gt;During the OT2’s design and production, I had complete ownership of the machine’s electronics and firmware aspects (small startups, yea!).&lt;/p&gt;
+
+&lt;video id=&quot;vid_ot2&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.webm&quot; type=&quot;video/webm&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.ogv&quot; type=&quot;video/ogg&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
@@ -33,17 +37,55 @@
     })
 &lt;/script&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;circuit-boards&quot;&gt;Circuit Boards&lt;/h1&gt;
+
+&lt;p&gt;The machine has 13 circuit boards inside it (plus a Raspberry Pi 3 and USB camera). Each of these boards was designed, prototyped, tested, certified (CE/FCC) and brought to production by me (small startups, yea!).&lt;/p&gt;
+
+&lt;p&gt;See where each boards lives in the graphic below:&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_pcb_artwork.jpg&quot; alt=&quot;OT2 with PCBs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The most important PCB is the motor driver board in the machines head. This board is a 4-layer bad boy, which can control 6 stepper motors, and runs a fork of the opensource &lt;a href=&quot;https://github.com/opentrons/Smoothiewareot&quot;&gt;Smoothieware&lt;/a&gt; firwmare.&lt;/p&gt;
+
+&lt;p&gt;All the rest of the boards are used to route signals between the driver board, the Raspberry Pi 3, and elsewhere. Plus there are boards for switches, connectors, buttons, etc.&lt;/p&gt;
+
+&lt;p&gt;Below are some pictures of the real-life PCBs in an opened up machine:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_production_boards.jpg&quot; alt=&quot;OT2 PCBs&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&quot;max-width:33%&quot; src=&quot;http://andysigler.github.io/images/ot2_production_caitlyn.jpg&quot; /&gt;
 &lt;img style=&quot;max-width:63%;margin-left:3.5%&quot; src=&quot;http://andysigler.github.io/images/ot2_production_kris.jpg&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;flex-ribbon-cable&quot;&gt;Flex Ribbon Cable&lt;/h1&gt;
+
+&lt;p&gt;One exciting part of the design was to figure out how to route 32 conductors (power, data, and motor signals) across a 2-meter long ribbon cable. Not only is this cable being bent and twisted all over the place, but it’s carrying multiple types of signals that could all interfere during a protocol run.&lt;/p&gt;
+
+&lt;p&gt;See the 2-meter ribbon cable in the picture below:&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_production_cables.jpg&quot; alt=&quot;OT2 Ribbon Cables&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;electronic-pipettes&quot;&gt;Electronic Pipettes&lt;/h1&gt;
+
+&lt;p&gt;The OT2 electronic pipettes use a fairly simple mechanism to move the plunger up and down (seen in the animation below). The stepper motor inside the pipette is actually being driven by one of the 6 stepper axis on the main driver PCB, so no motor driver was required in the pipette.&lt;/p&gt;
+
+&lt;p&gt;The electronics inside the pipette are mostly used for storing unique serial and model numbers, and data lines for communicating that information back.&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&quot;max-width:63%&quot; src=&quot;http://andysigler.github.io/images/pipette_diagram.gif&quot; /&gt;
 &lt;img style=&quot;max-width:33%;margin-left:3.5%&quot; src=&quot;http://andysigler.github.io/images/ot2_production_pipette.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;tip-probe&quot;&gt;Tip Probe&lt;/h1&gt;
+
+&lt;p&gt;This thing is cool. It’s a series of 5 switches, used to detect the precise and accurate position of a disposable tip on a pipette.&lt;/p&gt;
+
+&lt;p&gt;By simply moving to press against each switch, the OT2’s system is able to calculate the position, height, and diameter of a pipette tip. This allows the machine to then move the point of that tip accurately within any labware.&lt;/p&gt;
 
 &lt;video id=&quot;vid_tip_probe&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/tip_probe.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -60,13 +102,13 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;pcb-artwork&quot;&gt;PCB Artwork&lt;/h1&gt;
+&lt;h1 id=&quot;more-pcb-artwork&quot;&gt;More PCB Artwork&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_pcb_art_vertical.jpg&quot; alt=&quot;OT2 PCBs Artwork&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;pictures-before--after-launch&quot;&gt;Pictures Before &amp;amp; After Launch&lt;/h1&gt;
+&lt;h1 id=&quot;some-pictures-from-before--after-launch&quot;&gt;Some Pictures from Before &amp;amp; After Launch&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_camera.jpg&quot; alt=&quot;OT2 on Camera&quot; /&gt;&lt;/p&gt;
 
@@ -88,7 +130,15 @@
     
       <item>
         <title>Opentrons Modules</title>
-        <description>&lt;h1 id=&quot;temperature-module&quot;&gt;Temperature Module&lt;/h1&gt;
+        <description>&lt;p&gt;During 2017-‘18, I was the sole electronics designer and firmware developer for the two Opentrons Modules; &lt;a href=&quot;https://opentrons.com/modules&quot;&gt;the Temperature Module and the Magnetic Module&lt;/a&gt;. These devices connect to the Opentrons OT2 hardware platform over simple USB connections, so they are easy to setup, use, and can even be used outside of the Opentrons platform (if anyone wants to do that).&lt;/p&gt;
+
+&lt;p&gt;For each of these devices, I worked on a small team of 2-4 people doing early ideation, design, testing, design for manufacturing, and quality control, with myself owning the electronics, firmware, and testing side of things.&lt;/p&gt;
+
+&lt;h1 id=&quot;temperature-module&quot;&gt;Temperature Module&lt;/h1&gt;
+
+&lt;p&gt;It keeps hot things hot and cold things cold! The Temperature Module can hold a temperature between 4-94 Celsius with +/- 1 Celcius accuracy and uniformity.&lt;/p&gt;
+
+&lt;p&gt;It uses two peltier devices to either heat or cool the top plate. A heatsink and fan are then used to cool the bottom side of the peltier devices. A number display at the top of the device shows the curren temperature, and either red or blue color to indicate temperature.&lt;/p&gt;
 
 &lt;video id=&quot;vid_ot2_temp_deck&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_temp_deck.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -123,6 +173,10 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;magnetic-module&quot;&gt;Magnetic Module&lt;/h1&gt;
+
+&lt;p&gt;The Magnetic Module raises a set of magnets near the user’s sample, in order to attract iron beads that have been attached to a specific DNA strand they want to isolate (science!).&lt;/p&gt;
+
+&lt;p&gt;This device is simply composed of a stepper motor moving along a rail (to raise/lower the magnets), plus the electronics to move said motor.&lt;/p&gt;
 
 &lt;video id=&quot;vid_ot2_mag_deck&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_mag_deck.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -422,6 +476,12 @@ There is much more detail you can read in the documentaion linked to throughout 
         <title>Magnetic Hue Light Controller</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-fridge.jpg&quot; alt=&quot;Pictures of the hue controller&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;By simply changing the orientation of this device, it will control all the lights in my apartment. Plus, it can also work by sticking to a refrigerator (or anything else magnetic), and it’s battery lasts an entire year without a recharge.&lt;/p&gt;
+
+&lt;p&gt;It’s like a magical 4-sided die; change the face, and it sets my Hue light settings. I’ve grown tired of the Apps and voice commands available to control my lights, so I made something physical and more interesting than just a button or something.&lt;/p&gt;
+
+&lt;p&gt;Watch the video below to see a quick demo of me controlling 3 Hue bulbs. It shows the device can work both on a tabletop, and also when magnetically attached to something (like a watering pot).&lt;/p&gt;
+
 &lt;video id=&quot;vid_demo&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; poster=&quot;http://andysigler.github.io/images/hue-demo-poster.png&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/hue-demo.webm&quot; type=&quot;video/webm&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/hue-demo.ogv&quot; type=&quot;video/ogg&quot; /&gt;
@@ -434,6 +494,12 @@ There is much more detail you can read in the documentaion linked to throughout 
 //        vid_demo.play();
 //    })
 &lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I thought it would be a fun interaction to keep this thing on my refrigerator, so it was available to me whenever I was in the kitchen (we have limited counter space).&lt;/p&gt;
+
+&lt;p&gt;The looping video below shows that if you change which face is against the fridge, then it will turn the kitchen light on or off.&lt;/p&gt;
 
 &lt;video id=&quot;vid_fridge&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/hue-fridge-loop.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -448,9 +514,22 @@ There is much more detail you can read in the documentaion linked to throughout 
     })
 &lt;/script&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Detecting this magnetic attachement is done using internal hall effect sensors. There are 4 total sensors, one next to each of the internal magnets. When a magnet is near another magnetic surface, the sensor detects the change in magnetic field.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-magnet-describe.jpg&quot; alt=&quot;How the magnets work&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;Even cats like it!&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-cat.jpg&quot; alt=&quot;On a cat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;diy-fabrication&quot;&gt;DIY Fabrication&lt;/h1&gt;
+
+&lt;p&gt;I used a Bantam Tools Milling Machine to cut the circuit boards.&lt;/p&gt;
 
 &lt;video id=&quot;vid_pcb&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/hue-pcb.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -465,13 +544,27 @@ There is much more detail you can read in the documentaion linked to throughout 
     })
 &lt;/script&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-pcb-coin.jpg&quot; alt=&quot;The main PCB&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The entire device is made up of 4 circuit boards, connected together with slots and solder.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-pcb-slots.jpg&quot; alt=&quot;Slotted PCBs fit together to make the sides&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;An ESP32 module is used to run the firmware, connect to the Hue lights system over WiFi, and to enter a deep sleep mode. A 3-axis accelerometer is used to detect both movements and which side is facing down. Finally, 4 hall-effect sensors are placed on each PCB near that side’s magnet.&lt;/p&gt;
+
+&lt;p&gt;If a movement is detected, the device will wake up from deep sleep. Once it is no longer moving, it will first check to see if a magnetic field is being pulled in any direction. If not, then it will check to see which side is facing down. The user-selected face is then used to set a Hue lights Scene.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-pcb-soldered.jpg&quot; alt=&quot;Components soldered on&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;There’s a 400mA/h lipo battery which fits snuggly inside. A micro-usb port is used to charge the battery, and also a small speaker can play sounds to let the user know what is going on.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-prototype-grid.jpg&quot; alt=&quot;Images of a prototype&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The rounded shape of the device prevents it from resting on any side that does not have a magnet. Because the device is entirely covered in plywood, I needed to bend a piece to match near-perfectly with it’s form.&lt;/p&gt;
+
+&lt;p&gt;To form the wood, I used a piece of 1” thick wood sanded down to match the shape, then some clamps and a sink full of water. The water allowed the wood to be more flexible, so as I slowly bent it to the rounded shape, it did not crack anywhere. I then left it clamped for 24 hours so it stayed put.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-bend-wood.jpg&quot; alt=&quot;Bending some plywood for the enclosure&quot; /&gt;&lt;/p&gt;
 </description>
