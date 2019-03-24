@@ -52,6 +52,8 @@ published: true
 
 ![How the magnets work]({{site.url}}/images/hue-magnet-describe.jpg)
 
+![On a cat]({{site.url}}/images/hue-cat.jpg)
+
 <video id="vid_pcb" style="margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa" width="1280" height="720" controls loop muted>
   <source src="{{site.url}}/images/hue-pcb.webm" type="video/webm">
   <source src="{{site.url}}/images/hue-pcb.ogv" type="video/ogg">

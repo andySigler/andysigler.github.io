@@ -435,6 +435,8 @@ There is much more detail you can read in the documentaion linked to throughout 
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-magnet-describe.jpg&quot; alt=&quot;How the magnets work&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-cat.jpg&quot; alt=&quot;On a cat&quot; /&gt;&lt;/p&gt;
+
 &lt;video id=&quot;vid_pcb&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/hue-pcb.webm&quot; type=&quot;video/webm&quot; /&gt;
   &lt;source src=&quot;http://andysigler.github.io/images/hue-pcb.ogv&quot; type=&quot;video/ogg&quot; /&gt;
