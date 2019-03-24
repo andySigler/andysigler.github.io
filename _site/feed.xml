@@ -145,21 +145,6 @@
       </item>
     
       <item>
-        <title>Hue Light Controller</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;How it works&lt;/li&gt;
-  &lt;li&gt;Prior art&lt;/li&gt;
-  &lt;li&gt;Design iterations&lt;/li&gt;
-  &lt;li&gt;PCBs inside&lt;/li&gt;
-  &lt;li&gt;Firmware overview&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
-        <link>http://andysigler.github.io/projects/hue-light-controller/</link>
-        <guid isPermaLink="true">http://andysigler.github.io/projects/hue-light-controller/</guid>
-      </item>
-    
-      <item>
         <title>Homemade Hardware</title>
         <description>&lt;p&gt;I’ve been teaching graduate students at &lt;a href=&quot;http://tisch.nyu.edu/itp&quot;&gt;NYU’s ITP program&lt;/a&gt; since 2015 as an adjunct professor, teaching a course of my own making title Homemade Hardware (&lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;link to my class website&lt;/a&gt;). There, student learn to design and fabricate do-it-yourself PCBs, all without leaving the school.&lt;/p&gt;
 
@@ -416,6 +401,66 @@ There is much more detail you can read in the documentaion linked to throughout 
         <pubDate>Sun, 03 Feb 2019 00:00:00 -0500</pubDate>
         <link>http://andysigler.github.io/products/opentrons-api/</link>
         <guid isPermaLink="true">http://andysigler.github.io/products/opentrons-api/</guid>
+      </item>
+    
+      <item>
+        <title>Magnetic Hue Light Controller</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-still.jpg&quot; alt=&quot;Pictures of the hue controller&quot; /&gt;&lt;/p&gt;
+
+&lt;video id=&quot;vid_demo&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; poster=&quot;http://andysigler.github.io/images/hue-demo-poster.png&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/hue-demo.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/hue-demo.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/hue-demo.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+//    var vid_demo = document.getElementById(&#39;vid_demo&#39;);
+//    vid_demo.removeAttribute(&#39;controls&#39;);
+//    vid_demo.addEventListener(&#39;canplaythrough&#39;, function(e){
+//        vid_demo.play();
+//    })
+&lt;/script&gt;
+
+&lt;video id=&quot;vid_fridge&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/hue-fridge-loop.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/hue-fridge-loop.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/hue-fridge-loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_fridge = document.getElementById(&#39;vid_fridge&#39;);
+    vid_fridge.removeAttribute(&#39;controls&#39;);
+    vid_fridge.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_fridge.play();
+    })
+&lt;/script&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-magnet-describe.jpg&quot; alt=&quot;How the magnets work&quot; /&gt;&lt;/p&gt;
+
+&lt;video id=&quot;vid_pcb&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/hue-pcb.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/hue-pcb.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;http://andysigler.github.io/images/hue-pcb.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_pcb = document.getElementById(&#39;vid_pcb&#39;);
+    vid_pcb.removeAttribute(&#39;controls&#39;);
+    vid_pcb.addEventListener(&#39;canplaythrough&#39;, function(e){
+        vid_pcb.play();
+    })
+&lt;/script&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-pcb-coin.jpg&quot; alt=&quot;The main PCB&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-pcb-slots.jpg&quot; alt=&quot;Slotted PCBs fit together to make the sides&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-pcb-soldered.jpg&quot; alt=&quot;Components soldered on&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-prototype-grid.jpg&quot; alt=&quot;Images of a prototype&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/hue-bend-wood.jpg&quot; alt=&quot;Bending some plywood for the enclosure&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Mar 2017 00:00:00 -0400</pubDate>
+        <link>http://andysigler.github.io/projects/magnetic-hue-light-controller/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/projects/magnetic-hue-light-controller/</guid>
       </item>
     
       <item>

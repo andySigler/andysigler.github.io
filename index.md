@@ -44,9 +44,9 @@ header: no
 <div>Work made while at the IoT design firm <a href="http://tomorrow-lab.com">Tomorrow-Lab</a>, as well as creating my own <a href="https://tisch.nyu.edu/itp">ITP-NYU</a> graduate course</div>
 <div class="row t30">
     <div class="medium-4 columns">
-        <a>
-            <img class="borderImg" src="{{ site.url }}/images/placeholder.png" alt="">
-            <p>Hue Light Controller</p>
+        <a href="{{ site.url }}/projects/magnetic-hue-light-controller">
+            <img class="borderImg" src="{{ site.url }}/images/hue_controller_wall_1_small.jpg" alt="">
+            <p>Magnetic Hue Light Controller</p>
         </a>
     </div>
     <div class="medium-4 columns">
