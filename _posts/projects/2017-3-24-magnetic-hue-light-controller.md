@@ -28,6 +28,8 @@ By simply changing the orientation of this device, it will control all the light
 
 It's like a magical 4-sided die; change the face, and it sets my Hue light settings. I've grown tired of the Apps and voice commands available to control my lights, so I made something physical and more interesting than just a button or something.
 
+This project started as a collaboration with [Jay Zehngebot](http://www.jayzehngebot.com/realjayz/?/about/) to redesign his 12-sided die, the "dod".
+
 Watch the video below to see a quick demo of me controlling 3 Hue bulbs. It shows the device can work both on a tabletop, and also when magnetically attached to something (like a watering pot).
 
 <video id="vid_demo" style="margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa" width="1280" height="720" controls loop poster="{{site.url}}/images/hue-demo-poster.png">
