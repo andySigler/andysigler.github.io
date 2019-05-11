@@ -12,6 +12,7 @@ __pycache__/
 venv/
 env/
 .env/
+.python-version
 
 # Generated files for local API server config paths
 api/.env
