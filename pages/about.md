@@ -20,14 +20,6 @@ header: no
 <p class="avoidMe thingy">
     I'm a designer who uses software and electronics. I use emerging technologies to design novel devices and interactions. I hope to use these tools to bring some magic and playfulness to everyday objects. These days, I'm most interested in finding new forms of interaction at the intersection of machine-learning, hardware, and connected devices.
 </p>
-<!-- <p class="avoidMe thingy">
-    For the past few years, I've designed and shipped an open-source liquid-handling platform with <a href="http://www.opentrons.com">Opentrons Labworks</a>. There, I gained experience in production software, product design, electronics engineering, research and development, as well as hardware manufacturing while helping build up Opentrons' factory in Shenzhen, China.
-</p>
-<p class="avoidMe thingy">
-    I began at <a href="http://tisch.nyu.edu/itp">ITP-NYU</a>, where I became immersed in the world of wireless hardware and interaction design as a grad student, and later becoming a Research Resident and Adjunct Professor. I also spent a year as an Electronics Design Engineer at <a href="http://www.tomorrow-lab.com">Tomorrow Lab</a>.
-</p> -->
-<br />
-
 <div class="thing" style="width: 100%; max-width: 650px">
     <h1><span class="avoidMe">Work</span></h1>
     <div>
@@ -72,14 +64,15 @@ header: no
         </ul>
     </div>
     <br />
-    <h1><span class="avoidMe">Tools and Tech</span></h1>
+    <h1><span class="avoidMe">Tools and Techniques</span></h1>
     <div>
         <ul>
+             <li class="avoidMe textWidth">Interaction Design</li>
+             <li class="avoidMe textWidth">Wired/Wireless Systems Design</li>
              <li class="avoidMe textWidth">Python</li>
-             <li class="avoidMe textWidth">NodeJS, HTML5, ES6</li>
-             <li class="avoidMe textWidth">Wireless protocols (WiFi, BLE, LoRa)</li>
+             <li class="avoidMe textWidth">Javascript/NodeJS, HTML5, ES6</li>
              <li class="avoidMe textWidth">Embedded C/C++, Arduino</li>
-             <li class="avoidMe textWidth">Eagle CAD, PCB Fab and Production</li>
+             <li class="avoidMe textWidth">Electronics DFM, Eagle CAD, and DIY PCBs</li>
              <li class="avoidMe textWidth">Solder, multimeter, tweezers</li>
              <li class="avoidMe textWidth">Duct tape, Gaffer tape</li>
              <li class="avoidMe textWidth">MaxMSP/Jitter</li>
