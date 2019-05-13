@@ -5,7 +5,7 @@ subheadline: Design Decisions for Multi-Device Interactions
 teaser: The Patchbay the graphical interface was developed for my 2014 master's thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.
 breadcrumb: false
 categories:
-    - patchbay
+    - projects
 tags:
     - mobile
     - interface
@@ -68,7 +68,7 @@ A working demo of the Patchbay can be found below. It's interactive! Rotate the 
 <div id="routerContainer" style="margin-bottom:1.5rem">
 	<div id="patchbayTitle">PatchBay</div>
 	<canvas id="canvas"></canvas>
-</div>	
+</div>
 
 The devices you see, and their corresponding <code>INPUTs</code> and <code>OUTPUTs</code>, are actualy toys and objects developed for my 2014 thesis. It was a lot of fun playing with the connections between them :)
 
