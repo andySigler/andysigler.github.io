@@ -15,11 +15,18 @@ Patchbay is a wireless framework and interface, built to facilitate improvisatio
 
 I love tech because of the new toys and magical powers it makes possible for us to enjoy and play with. In 2014, I had been fascinated with the promises of interoperability and mesh networking when applied to playful objects. This thesis project was my answer to how I could improvise with the links between mine and my classmates' projects.
 
-<video autoplay loop poster="{{ site.url }}/patchbay_old/img/patchbay_demo.png" id="bgvid" style="max-width: 100%">
+<video poster="{{ site.url }}/patchbay_old/img/patchbay_demo.png" id="bgvid" style="max-width: 100%" controls loop muted>
     <source src="{{ site.url }}/patchbay_old/img/patchbay_demo.mp4" type="video/mp4">
     <source src="{{ site.url }}/patchbay_old/img/patchbay_demo.webm" type="video/webm">
     <source src="{{ site.url }}/patchbay_old/img/patchbay_demo.ogv" type="video/ogv">
 </video>
+<script type="text/javascript">
+    var bgvid = document.getElementById('bgvid');
+    bgvid.removeAttribute('controls');
+    bgvid.addEventListener('canplaythrough', function(e){
+        bgvid.play();
+    })
+</script>
 
 It was built in the Spring of 2014 for my master's thesis at ITP. The interface was made in HTML, so it can be easily ported to different platforms. The electronics were custom milled and assembled microcontrollers and radio combinations, and all the toys and instruments were either found objects or gifts given to me.
 
