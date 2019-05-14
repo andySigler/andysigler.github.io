@@ -18,6 +18,7 @@ I love tech because of the new toys and magical powers it makes possible for us 
 <video autoplay loop poster="{{ site.url }}/patchbay_old/img/patchbay_demo.png" id="bgvid" style="max-width: 100%">
     <source src="{{ site.url }}/patchbay_old/img/patchbay_demo.mp4" type="video/mp4">
     <source src="{{ site.url }}/patchbay_old/img/patchbay_demo.webm" type="video/webm">
+    <source src="{{ site.url }}/patchbay_old/img/patchbay_demo.ogv" type="video/ogv">
 </video>
 
 It was built in the Spring of 2014 for my master's thesis at ITP. The interface was made in HTML, so it can be easily ported to different platforms. The electronics were custom milled and assembled microcontrollers and radio combinations, and all the toys and instruments were either found objects or gifts given to me.
