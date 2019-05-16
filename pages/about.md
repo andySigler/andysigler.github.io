@@ -15,6 +15,9 @@ header: no
     .textWidth {
         width: fit-content;
     }
+    .avoidMe {
+        background-color: rgb(253,253,253);
+    }
 </style>
 <h1><span class="avoidMe">About</span></h1>
 <p class="avoidMe">

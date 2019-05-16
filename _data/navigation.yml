@@ -1,4 +1,4 @@
-- title: Things I Made
+- title: Work
   url: "/"
   side: right
 
@@ -6,6 +6,6 @@
   url: "/blog/"
   side: right
 
-- title: "About Me"
+- title: "About"
   url: "/about/"
   side: right
