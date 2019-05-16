@@ -2,6 +2,19 @@
 ///////////////////////////////////////
 ///////////////////////////////////////
 
+
+/*
+
+OMG, this is hideous code written while I was in grad school (2012-'14)
+Please do not read beyond this line ;)
+
+*/
+
+
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+
 var oneLine = [];
 
 var pMillis = 0;
@@ -13,7 +26,7 @@ var b;
 
 //counter so we don't kill it with testing too much
 var stackOverflowCounter = 0;
-var stackOverflowThresh = 20;
+var stackOverflowThresh = 50;
 
 var width;
 var height;
@@ -97,6 +110,10 @@ function showEraser (mouseX, mouseY){
       }
       thisLine.shouldErase = true;
     }
+  }
+  if (oneLine.length - totalInvisibleLines < 20) {
+    timesAttempted = 0;
+    QUITER = false;
   }
 }
 
@@ -365,7 +382,13 @@ function makeNewPoint(){
         var RAND = getSeed();
 
         oneLine[oneLine.length-1].prevX += (RAND.seed.x*2-1)*globalMoveAmount;
+        if (oneLine[oneLine.length-1].prevX > width - 1) {
+          oneLine[oneLine.length-1].prevX = width - 1;
+        }
         oneLine[oneLine.length-1].prevY += (RAND.seed.y*2-1)*globalMoveAmount;
+        if (oneLine[oneLine.length-1].prevY > height - 1) {
+          oneLine[oneLine.length-1].prevY = height - 1;
+        }
 
         oneLine[oneLine.length-1].counter = 0;
 
@@ -395,7 +418,7 @@ var theLineWidth = 0;
 function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
   globalMoveAmount = (Math.pow(Math.random(),2)*width*.1)+40;
-  masterDrawCount = 20;
+  masterDrawCount = 10;
 }
 
 ///////////////////////////////////////
@@ -727,7 +750,7 @@ function Line(tempPrevX, tempPrevY) {
     var ranRadians = ((Math.PI * 2) / totalAngles) * this.currentAngle;
     // console.log('Actual Radians = ', ranRadians);
     // radius is move amount (random amount)
-    var ranRadius = (this.moveAmount * Math.random()) + 20;
+    var ranRadius = (this.moveAmount * Math.random()) + 5;
     // calculate new XY from radian and radius
     //      x = r × cos( θ )
     //      y = r × sin( θ )
@@ -859,21 +882,18 @@ function Line(tempPrevX, tempPrevY) {
           return true;
         }
       }
-      else {
-        m = (y1-y2)/(x1-x2);
-        b = y1 + (m * x1);
-        var yIntersect = (m * this.prevX) + b;
-        if ((yIntersect >= y1 && yIntersect <= y2) || (yIntersect >= y2 && yIntersect <= y1)) {
+      else if (inputIsHoriz) {
+        if ((this.prevX > x1 && this.prevX < x2) || (this.prevX > x2 && this.prevX < x1)) {
           return true;
         }
       }
-    }
-    else if(inputIsVerti){
-      n = (this.prevY-this.newY)/(this.prevX-this.newX);
-      d = this.prevY + (n * this.prevX);
-      var yIntersect = (n * x1) + d;
-      if ((yIntersect >= this.prevY && yIntersect <= this.newY) || (yIntersect >= this.newY && yIntersect <= this.prevY)) {
-        return true;
+      else {
+        m = (y1-y2)/(x1-x2);
+        b = y1 - (m * x1);
+        var yIntersect = (m * this.prevX) + b;
+        if ((yIntersect > y1 && yIntersect < y2) || (yIntersect > y2 && yIntersect < y1)) {
+          return true;
+        }
       }
     }
     else if(thisIsHoriz){
@@ -882,20 +902,33 @@ function Line(tempPrevX, tempPrevY) {
           return true;
         }
       }
+      else if (inputIsVerti) {
+        if ((this.prevY > y1 && this.prevY < y2) || (this.prevY > y2 && this.prevY < y1)) {
+          return true;
+        }
+      }
       else {
         m = (y1-y2)/(x1-x2);
-        b = y1 + (m * x1);
+        b = y1 - (m * x1);
         var xIntersect = (this.prevY - b) / m;
-        if ((xIntersect >= x1 && xIntersect <= x2) || (xIntersect >= x2 && xIntersect <= x1)) {
+        if ((xIntersect > x1 && xIntersect < x2) || (xIntersect > x2 && xIntersect < x1)) {
           return true;
         }
       }
     }
+    else if(inputIsVerti){
+      n = (this.prevY-this.newY)/(this.prevX-this.newX);
+      d = this.prevY - (n * this.prevX);
+      var yIntersect = (n * x1) + d;
+      if ((yIntersect > this.prevY && yIntersect < this.newY) || (yIntersect > this.newY && yIntersect < this.prevY)) {
+        return true;
+      }
+    }
     else if(inputIsHoriz){
       n = (this.prevY-this.newY)/(this.prevX-this.newX);
-      d = this.prevY + (n * this.prevX);
+      d = this.prevY - (n * this.prevX);
       var xIntersect = (y1 - d) / n;
-      if ((xIntersect >= this.prevX && xIntersect <= this.newX) || (xIntersect >= this.newX && xIntersect <= this.prevX)) {
+      if ((xIntersect > this.prevX && xIntersect < this.newX) || (xIntersect > this.newX && xIntersect < this.prevX)) {
         return true;
       }
     }
