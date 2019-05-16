@@ -12,8 +12,8 @@ tags:
     - opensource
 
 image:
-    homepage: placeholder.png
-    thumb: placeholder.png
+    homepage: opentrons_modules_small.png
+    thumb: opentrons_modules_small.png
 
 header: no
 

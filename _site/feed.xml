@@ -7,18 +7,6 @@
     <atom:link href="http://andysigler.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Opentrons Thermocycler</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2-thermocycler-pcb-main.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://andysigler.github.io/images/ot2-thermocycler-pcb-peltiers.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://andysigler.github.io/images/ot2-thermocycler-prototype-lid.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://andysigler.github.io/images/ot2-thermocycler-prototype-thermistors.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 24 Mar 2019 00:00:00 -0400</pubDate>
-        <link>http://andysigler.github.io/products/opentrons-thermocycler/</link>
-        <guid isPermaLink="true">http://andysigler.github.io/products/opentrons-thermocycler/</guid>
-      </item>
-    
-      <item>
         <title>OT2 Electronics</title>
         <description>&lt;p&gt;The Opentrons OT2 liquid handler is the next step in opensource lab automation, and I’m proud to have been one of the few designers and engineers to work on it.&lt;/p&gt;
 
@@ -742,6 +730,58 @@ My home is not a business, not an office, and I am not a set of metrics. I’m n
         <pubDate>Tue, 12 May 2015 00:00:00 -0400</pubDate>
         <link>http://andysigler.github.io/useless-things/art-and-the-internet-of-useless-things/</link>
         <guid isPermaLink="true">http://andysigler.github.io/useless-things/art-and-the-internet-of-useless-things/</guid>
+      </item>
+    
+      <item>
+        <title>Panelling Arduino Minis</title>
+        <description>&lt;p&gt;Here are some pictures of my attempt at making a panel of 10 Arduino Mini’s of my own design. You can find the pin layout, board files, and other documentation on &lt;a href=&quot;https://github.com/andySigler/homemade-hardware/tree/master/Arduino-SMD&quot;&gt;GitHub&lt;/a&gt;;&lt;/p&gt;
+
+&lt;p&gt;I’ve been working on this board design for a while, trying to make the board small and simple, yet having to consider the limitations of making my own PCBs in house (namely, vias being so difficult to make).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/arduino_smd_design.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These 10 boards were created within one day at ITP. I milled the panel in the morning, cleaned and added solder mask in the afternoon, and assembled at night. It was a long process, but I’ve never been able to make 10 boards of such quality and in such a short amount of time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/arduino_smd_pinout.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;solder-mask-results&quot;&gt;Solder Mask Results&lt;/h1&gt;
+
+&lt;p&gt;I’ve been using Dynamask dry-film solder mask, and it’s made populating boards much easier. I’ve documented the process a bit in my blog, and below are some pictures of my panel after milling and applying the solder mask.&lt;/p&gt;
+
+&lt;p&gt;Top layer:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/0-top-mask.jpg&quot; alt=&quot;0-top-mask&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bottom layer:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/1-bottom-mask.jpg&quot; alt=&quot;1-bottom-mask&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pretty picture:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/2-cleaned-mask.jpg&quot; alt=&quot;2-cleaned-mask&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;results-after-assembly&quot;&gt;Results after Assembly&lt;/h1&gt;
+
+&lt;p&gt;I used ITP’s manual pick-and-place machine to lay out the solder and place each component. I then reflowed using a heat gun, and finally soldered together all the vias.&lt;/p&gt;
+
+&lt;p&gt;The vias are what takes the longest, and greatly restrict your design. I use a thin piece of wire to connect the top and bottom of the PCB, then solder each side. This means that there can not be any vias underneath any component or IC, and that they need a considerable amount of space to allow the solder to melt with causing any shorts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/4-diy_arduino_mini.jpg&quot; alt=&quot;4-diy_arduino_mini&quot; /&gt;
+&lt;img src=&quot;http://andysigler.github.io/images/5-populated.jpg&quot; alt=&quot;5-populated&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;broken-out-boards&quot;&gt;Broken Out Boards&lt;/h1&gt;
+
+&lt;p&gt;Bootloaded and test, they all work!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/6-brokenOut.jpg&quot; alt=&quot;6-brokenOut&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I decided to add the option of soldering a coin-cell battery holder onto the bottom. Here you can see one attached:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2015 00:00:00 -0400</pubDate>
+        <link>http://andysigler.github.io/hardware/panelling-arduino-minis/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/hardware/panelling-arduino-minis/</guid>
       </item>
     
   </channel>

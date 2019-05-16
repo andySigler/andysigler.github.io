@@ -281,10 +281,17 @@ function makeNewPoint(){
   var currentLine = oneLine[oneLine.length-1];
 
   //set it's new points for drawing later
-  currentLine.setPoints();
+  currentLine.setPoints(oneLine[oneLine.length-2].currentAngle);
 
   //testing variable to redo this function if it ends up true
   var redoPoint = false;
+
+  if (currentLine.newX >= width || currentLine.newX < 0) {
+    redoPoint = true;
+  }
+  else if (currentLine.newY >= height || currentLine.newY < 0) {
+    redoPoint = true;
+  }
 
   for(var i=0;i<totalTextDivs;i++) {
     var index = i*4;
@@ -293,6 +300,7 @@ function makeNewPoint(){
         redoPoint = true;
         stackOverflowCounter += 10;
         insideTextBox = true;
+        break;
       }
     }
     else if(currentLine.prevX <= oneLine[index].newX && currentLine.prevX >= oneLine[index].prevX) {
@@ -300,6 +308,23 @@ function makeNewPoint(){
         redoPoint = true;
         stackOverflowCounter += 10;
         insideTextBox = true;
+        break;
+      }
+    }
+    else if(currentLine.newX >= oneLine[index].newX && currentLine.newX <= oneLine[index].prevX) {
+      if(currentLine.newY >= oneLine[index+1].newY && currentLine.newY <= oneLine[index+1].prevY) {
+        redoPoint = true;
+        stackOverflowCounter += 10;
+        insideTextBox = true;
+        break;
+      }
+    }
+    else if(currentLine.prevX >= oneLine[index].newX && currentLine.prevX <= oneLine[index].prevX) {
+      if(currentLine.prevY >= oneLine[index+1].newY && currentLine.prevY <= oneLine[index+1].prevY) {
+        redoPoint = true;
+        stackOverflowCounter += 10;
+        insideTextBox = true;
+        break;
       }
     }
   }
@@ -314,6 +339,7 @@ function makeNewPoint(){
         if(oneLine[oneLine.length-1].intersection (oneLine[i].prevX , oneLine[i].prevY , oneLine[i].newX , oneLine[i].newY)){
           //if any or all of them do intersect, redo this entire function
           redoPoint = true;
+          break;
         }
       }
     }
@@ -369,7 +395,7 @@ var theLineWidth = 0;
 function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
   globalMoveAmount = (Math.pow(Math.random(),2)*width*.1)+40;
-  masterDrawCount = 12;
+  masterDrawCount = 20;
 }
 
 ///////////////////////////////////////
@@ -492,7 +518,7 @@ var resizeCanvas = function(){
   }
 
   //set the first instance to start in the center
-  oneLine.push(new Line(width,0));
+  oneLine.push(new Line(width-1,1));
   //set it's new points for drawing later
   oneLine[oneLine.length-1].setPoints();
 
@@ -684,20 +710,29 @@ function Line(tempPrevX, tempPrevY) {
   //set starting point at center of screen
   this.prevX = tempPrevX;
   this.prevY = tempPrevY;
+  this.currentAngle = 0;
 
-  this.setPoints = function(){
+  this.setPoints = function(prevAngle){
 
-    //set the swing amount to keep the values towards the middle
-    this.swingX = (((this.prevX-width/2)*-1) / (width/2)) * this.moveAmount * this.swingAmount;
-    this.swingY = (((this.prevY-height/2)*-1) / (height/2)) * this.moveAmount * this.swingAmount;
-
-    var RAND = getSeed();
-
-    //set the new x and y points to be within the size set above
-    this.newX = this.prevX + ((RAND.seed.x*this.moveAmount*2)-this.moveAmount) + this.swingX;
-    this.newX = Math.min(Math.max(this.newX,RAND.min.x),RAND.max.x);
-    this.newY = this.prevY + ((RAND.seed.y*this.moveAmount*2)-this.moveAmount) + this.swingY;
-    this.newY = Math.min(Math.max(this.newY,RAND.min.y),RAND.max.y);
+    var totalAngles = 8;
+    // divide radians by num angles (pick random index for radians)
+    if (prevAngle === undefined) {
+      prevAngle = Math.floor(Math.random() * totalAngles);
+    }
+    var oppositeAngle = (prevAngle + (totalAngles / 2)) % totalAngles;
+    this.currentAngle = Math.floor(prevAngle);
+    while (this.currentAngle == prevAngle || this.currentAngle == oppositeAngle) {
+      this.currentAngle = Math.floor(Math.random() * totalAngles);
+    }
+    var ranRadians = ((Math.PI * 2) / totalAngles) * this.currentAngle;
+    // console.log('Actual Radians = ', ranRadians);
+    // radius is move amount (random amount)
+    var ranRadius = (this.moveAmount * Math.random()) + 20;
+    // calculate new XY from radian and radius
+    //      x = r × cos( θ )
+    //      y = r × sin( θ )
+    this.newX = Math.round(this.prevX + (ranRadius * Math.cos(ranRadians)));
+    this.newY = Math.round(this.prevY + (ranRadius * Math.sin(ranRadians)));
 
     //set the distance so it can drawn slowly over time
     this.xDistance = this.newX - this.prevX;
@@ -809,27 +844,74 @@ function Line(tempPrevX, tempPrevY) {
   //function for checking if this line intersections with the passed x and y points
   this.intersection = function(x1, y1, x2, y2){
 
-    var theResult = false;
-
     //save the slopes and y-intercepts in variables
     var m, n;
     var b, d;
-    var xIntersect;
 
-    //if the line is vertical or horizontal, just redo it
-    if(this.prevX-this.newX==0 || this.prevY-this.newY==0){
-      //println("bad line");
-      theResult = true;
+    var thisIsVerti = this.prevX === this.newX;
+    var thisIsHoriz = this.prevY === this.newY;
+    var inputIsVerti = x1 === x2;
+    var inputIsHoriz = y1 === y2;
+
+    if(thisIsVerti){
+      if (inputIsVerti) {
+        if (this.prevX === x1) {
+          return true;
+        }
+      }
+      else {
+        m = (y1-y2)/(x1-x2);
+        b = y1 + (m * x1);
+        var yIntersect = (m * this.prevX) + b;
+        if ((yIntersect >= y1 && yIntersect <= y2) || (yIntersect >= y2 && yIntersect <= y1)) {
+          return true;
+        }
+      }
+    }
+    else if(inputIsVerti){
+      n = (this.prevY-this.newY)/(this.prevX-this.newX);
+      d = this.prevY + (n * this.prevX);
+      var yIntersect = (n * x1) + d;
+      if ((yIntersect >= this.prevY && yIntersect <= this.newY) || (yIntersect >= this.newY && yIntersect <= this.prevY)) {
+        return true;
+      }
+    }
+    else if(thisIsHoriz){
+      if (inputIsHoriz) {
+        if (this.prevY === y1) {
+          return true;
+        }
+      }
+      else {
+        m = (y1-y2)/(x1-x2);
+        b = y1 + (m * x1);
+        var xIntersect = (this.prevY - b) / m;
+        if ((xIntersect >= x1 && xIntersect <= x2) || (xIntersect >= x2 && xIntersect <= x1)) {
+          return true;
+        }
+      }
+    }
+    else if(inputIsHoriz){
+      n = (this.prevY-this.newY)/(this.prevX-this.newX);
+      d = this.prevY + (n * this.prevX);
+      var xIntersect = (y1 - d) / n;
+      if ((xIntersect >= this.prevX && xIntersect <= this.newX) || (xIntersect >= this.newX && xIntersect <= this.prevX)) {
+        return true;
+      }
     }
     else{
       //set the slope values
       m = (y1-y2)/(x1-x2);
       n = (this.prevY-this.newY)/(this.prevX-this.newX);
 
-      //if the slopes aren't equal, keep going
+      //parallel lines
       if(m==n){
-        //println("they're parallel");
-        theResult = true;
+        // make sure they don't overlap
+        var yInterceptInput = y1 + (m * x1);
+        var yInterceptThis = this.prevY + (n * this.prevX);
+        if (yInterceptInput == yInterceptThis) {
+          return true;
+        }
       }
       else{
         //find the y-intercepts
@@ -837,20 +919,20 @@ function Line(tempPrevX, tempPrevY) {
         d = this.prevY - n * this.prevX;
 
         //now, find the x point of interception
-        xIntersect = (d-b)/(m-n);
+        var xIntersect = (d-b)/(m-n);
 
         //test if this x values is within both lines
         if(this.newX<this.prevX){
           if(x1<x2){
             if(xIntersect>this.newX && xIntersect<this.prevX && xIntersect>x1 && xIntersect<x2){
               //println("1 it's inside");
-              theResult = true;
+              return true;
             }
           }
           if(x2<x1){
             if(xIntersect>this.newX && xIntersect<this.prevX && xIntersect>x2 && xIntersect<x1){
               //println("2 it's inside");
-              theResult = true;
+              return true;
             }
           }
         }
@@ -858,19 +940,19 @@ function Line(tempPrevX, tempPrevY) {
           if(x1<x2){
             if(xIntersect>this.prevX && xIntersect<this.newX && xIntersect>x1 && xIntersect<x2){
               //println("3 it's inside");
-              theResult = true;
+              return true;
             }
           }
           if(x2<x1){
             if(xIntersect>this.prevX && xIntersect<this.newX && xIntersect>x2 && xIntersect<x1){
               //println("4 it's inside");
-              theResult = true;
+              return true;
             }
           }
         }
       }
     }
-    return theResult;
+    return false;
   }
 }
 

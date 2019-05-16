@@ -9,6 +9,9 @@ categories:
 tags:
     - automation
 
+image:
+    thumb: opentrons_api_small.png
+
 author: Andy Sigler
 
 header: no

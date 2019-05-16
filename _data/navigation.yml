@@ -1,7 +1,11 @@
-- title: Home
+- title: Things I Made
   url: "/"
   side: right
 
-- title: "About"
+- title: "Blog"
+  url: "/blog/"
+  side: right
+
+- title: "About Me"
   url: "/about/"
   side: right

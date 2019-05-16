@@ -12,7 +12,7 @@ tags:
 
 image:
     title: homemade-hardware-banner.jpg
-    thumb: placeholder.png
+    thumb: homemade_hardware_small.png
 
 header: no
 

@@ -17,8 +17,11 @@ header: no
     }
 </style>
 <h1><span class="avoidMe">About</span></h1>
-<p class="avoidMe thingy">
+<p class="avoidMe">
     I'm a designer who uses software and electronics. I use emerging technologies to design novel devices and interactions. I hope to use these tools to bring some magic and playfulness to everyday objects. These days, I'm most interested in finding new forms of interaction at the intersection of machine-learning, hardware, and connected devices.
+</p>
+<p>
+    <span class="avoidMe">In addition to my <a href="{{site.url}}">selected works</a>, you can also check out <a href="{{ site.url }}/blog">blog posts</a> I've made while making and learning new things.</span>
 </p>
 <div class="thing" style="width: 100%; max-width: 650px">
     <h1><span class="avoidMe">Work</span></h1>

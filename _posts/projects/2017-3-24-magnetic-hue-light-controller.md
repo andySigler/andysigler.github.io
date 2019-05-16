@@ -12,8 +12,8 @@ tags:
     - iot
 
 image:
-    homepage: placeholder.png
-    thumb: placeholder.png
+    homepage: hue-fridge-bulb.jpg
+    thumb: hue-fridge-bulb.jpg
 
 header: no
 

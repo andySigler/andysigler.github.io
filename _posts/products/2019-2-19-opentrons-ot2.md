@@ -15,6 +15,7 @@ header: no
 
 image:
     title: ot2_pcb_art_landscape.jpg
+    thumb: ot2-small.jpg
 
 author: Andy Sigler
 
