@@ -26,7 +26,7 @@ var b;
 
 //counter so we don't kill it with testing too much
 var stackOverflowCounter = 0;
-var stackOverflowThresh = 100;
+var stackOverflowThresh = 200;
 
 var width;
 var height;
@@ -38,13 +38,19 @@ var context;
 ///////////////////////////////////////
 ///////////////////////////////////////
 
+// var myColors = [
+//   '#008EB2',  // blue
+//   '#8E7B99',  // purple
+//   '#BDC0B5',  // yellow/green
+//   '#B25600',  // orange/brown
+//   '#BF2333',  // red
+//   '#BAE4CB'   // green
+// ];
+
 var myColors = [
-  '#008EB2',
-  '#8E7B99',
-  '#BDC0B5',
-  '#B25600',
-  '#BF2333',
-  '#BAE4CB'
+  '#008EB2',  // blue
+  '#555555',  // mid gray
+  '#CCCCCC'   // lightest gray
 ];
 
 var thisColorArray;
@@ -288,7 +294,7 @@ function makeNewLine(prevLineEndX, prevLineEndY){
 ///////////////////////////////////////
 
 var timesAttempted = 0;
-var attempThresh = 100;
+var attempThresh = 200;
 var QUITER = false;
 
 function makeNewPoint(){
@@ -383,11 +389,11 @@ function makeNewPoint(){
 
         var RAND = getSeed();
 
-        oneLine[oneLine.length-1].prevX += (RAND.seed.x*2-1)*globalMoveAmount;
+        oneLine[oneLine.length-1].prevX += (RAND.seed.x-0.5)*globalMoveAmount;
         if (oneLine[oneLine.length-1].prevX > width - 1) {
           oneLine[oneLine.length-1].prevX = width - 1;
         }
-        oneLine[oneLine.length-1].prevY += (RAND.seed.y*2-1)*globalMoveAmount;
+        oneLine[oneLine.length-1].prevY += (RAND.seed.y-0.5)*globalMoveAmount;
         if (oneLine[oneLine.length-1].prevY > height - 1) {
           oneLine[oneLine.length-1].prevY = height - 1;
         }
@@ -404,10 +410,22 @@ function makeNewPoint(){
         stackOverflowCounter=0;
 
         //now call this very function again
-        makeNewPoint();
+        try {
+          makeNewPoint();
+        }
+        catch (error) {
+          QUITER = true;
+        }
       }
     }
-    else makeNewPoint();
+    else {
+      try {
+        makeNewPoint();
+      }
+      catch (error) {
+        QUITER = true;
+      }
+    }
   }
 }
 
@@ -419,7 +437,7 @@ var theLineWidth = 0;
 
 function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
-  globalMoveAmount = (Math.pow(Math.random(),2)*width*.2)+40;
+  globalMoveAmount = (Math.random()*width*.2)+40;
   masterDrawCount = 5;
 }
 
@@ -602,14 +620,14 @@ window.addEventListener('load', function(){
   document.getElementsByClassName('top-bar-section ')[0].style.color = 'white';
 
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ){
-    stackOverflowThresh = 20;
-    attempThresh = 100;
+    stackOverflowThresh = 200;
+    attempThresh = 200;
     maxLineWidth = 3;
     shadowScale = 1;
   }
   else{
-    stackOverflowThresh = 100;
-    attempThresh = 100;
+    stackOverflowThresh = 200;
+    attempThresh = 200;
     maxLineWidth = 4;
     shadowScale = 2;
   }
@@ -739,7 +757,7 @@ function Line(tempPrevX, tempPrevY) {
 
   this.setPoints = function(prevAngle){
 
-    var totalAngles = 4;
+    var totalAngles = 8;
     // divide radians by num angles (pick random index for radians)
     if (prevAngle === undefined) {
       prevAngle = Math.floor(Math.random() * totalAngles);
@@ -750,12 +768,13 @@ function Line(tempPrevX, tempPrevY) {
       this.currentAngle = Math.floor(Math.random() * totalAngles);
     }
     // encourage it to be an angled line
-    // if (this.currentAngle % 2 == 0 && Math.random() < 0.85) {
-    //   this.currentAngle = (this.currentAngle + 1) % totalAngles;
-    // }
+    if (this.currentAngle % 2 == 0 && Math.random() < 0.95) {
+      this.currentAngle = (this.currentAngle + 1) % totalAngles;
+    }
     var ranRadians = ((Math.PI * 2) / totalAngles) * this.currentAngle;
-    ranRadians += (Math.PI / 4);
-    if (ranRadians > Math.PI * 2) ranRadians -= (Math.PI * 2);
+    // ranRadians += Math.PI / (totalAngles * 2);
+    // ranRadians += (Math.PI / 4);
+    // if (ranRadians > Math.PI * 2) ranRadians -= (Math.PI * 2);
     // also, add a bit of randomness to the angle itself
     if (Math.random() < 0.05) {
       ranRadians = ranRadians + ((Math.PI * 2) / (totalAngles * 2));
@@ -765,7 +784,7 @@ function Line(tempPrevX, tempPrevY) {
     }
     // console.log('Actual Radians = ', ranRadians);
     // radius is move amount (random amount)
-    var ranRadius = (this.moveAmount * Math.pow(Math.random(), 2)) + 5;
+    var ranRadius = (this.moveAmount * (1 - Math.pow(Math.random(), 1))) + 10;
     // calculate new XY from radian and radius
     //      x = r × cos( θ )
     //      y = r × sin( θ )
