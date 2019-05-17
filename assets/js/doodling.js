@@ -749,6 +749,10 @@ function Line(tempPrevX, tempPrevY) {
     while (this.currentAngle == prevAngle || this.currentAngle == oppositeAngle) {
       this.currentAngle = Math.floor(Math.random() * totalAngles);
     }
+    // encourage it to be an angled line
+    if (this.currentAngle % 2 == 0 && Math.random() < 0.85) {
+      this.currentAngle = (this.currentAngle + 1) % totalAngles;
+    }
     var ranRadians = ((Math.PI * 2) / totalAngles) * this.currentAngle;
     // console.log('Actual Radians = ', ranRadians);
     // radius is move amount (random amount)
@@ -881,12 +885,19 @@ function Line(tempPrevX, tempPrevY) {
     if(thisIsVerti){
       if (inputIsVerti) {
         if (this.prevX === x1) {
-          return true;
+          if ((this.prevY > y1 && this.prevY < y2) || (this.prevY > y2 && this.prevY < y1)) {
+            return true;
+          }
+          else if ((this.newY > y1 && this.newY < y2) || (this.newY > y2 && this.newY < y1)) {
+            return true;
+          }
         }
       }
       else if (inputIsHoriz) {
         if ((this.prevX > x1 && this.prevX < x2) || (this.prevX > x2 && this.prevX < x1)) {
-          return true;
+          if ((y1 > this.prevY && y1 < this.newY) || (y1 > this.newY && y1 < this.prevY)) {
+            return true;
+          }
         }
       }
       else {
@@ -901,12 +912,19 @@ function Line(tempPrevX, tempPrevY) {
     else if(thisIsHoriz){
       if (inputIsHoriz) {
         if (this.prevY === y1) {
-          return true;
+          if ((this.prevX > x1 && this.prevX < x2) || (this.prevX > x2 && this.prevX < x1)) {
+            return true;
+          }
+          else if ((this.newX > x1 && this.newX < x2) || (this.newX > x2 && this.newX < x1)) {
+            return true;
+          }
         }
       }
       else if (inputIsVerti) {
         if ((this.prevY > y1 && this.prevY < y2) || (this.prevY > y2 && this.prevY < y1)) {
-          return true;
+          if ((x1 > this.prevX && x1 < this.newX) || (x1 > this.newX && x1 < this.prevX)) {
+            return true;
+          }
         }
       }
       else {
