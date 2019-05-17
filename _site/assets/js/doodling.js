@@ -355,7 +355,7 @@ function makeNewPoint(){
         //check if it intersects with all previous lines, and this check returns a boolean
         if(oneLine[oneLine.length-1].intersection (oneLine[i].prevX , oneLine[i].prevY , oneLine[i].newX , oneLine[i].newY)){
           //if any or all of them do intersect, redo this entire function
-          if (i >= totalInvisibleLines && Math.random() < 0.975) {
+          if (i < totalInvisibleLines || Math.random() < 0.975) {
             redoPoint = true;
             break;
           }
