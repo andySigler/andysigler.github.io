@@ -7,6 +7,73 @@
     <atom:link href="http://andysigler.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Updated - homemadehardware.com</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;See the new updated website here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DIY PCBs is a growing fascination among the maker types, but it’s hard to find a single spot online where to get all the DIY details you need to successfully:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;prototype&lt;/li&gt;
+  &lt;li&gt;design&lt;/li&gt;
+  &lt;li&gt;and fabricate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This semester, I just finished teaching my &lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;graduate course at ITP&lt;/a&gt; for the fourth time, and decided to completely update the website.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;See the new updated website here&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 May 2019 00:00:00 -0400</pubDate>
+        <link>http://andysigler.github.io/hardware/homemade-hardware-website-update/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/hardware/homemade-hardware-website-update/</guid>
+      </item>
+    
+      <item>
+        <title>Colorful Solder Mask</title>
+        <description>&lt;p&gt;This is exciting for me and my graduate course, &lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;Homemade Hardware&lt;/a&gt;. I figured out how to make DIY PCBs with any design and color soldermask I want (wow!).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/colorful-solder-mask-cool-goo.jpg&quot; alt=&quot;Mid-Process of Solder Mask&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The reason this is so exciting for my class, is because I teach non-engineers, mostly artists and designers, how to design and fabricate circuit boards. If I am able to teach them how to make those same boards with any 2d design they want, I expect it will make them even more excited about the course.&lt;/p&gt;
+
+&lt;p&gt;Not to mention, I hope some students will make some truly beautiful boards that would otherwise (not DIY) be possible (or at least not easy to get made somewhere).&lt;/p&gt;
+
+&lt;p&gt;For now, I have no documentation of the process, but next Spring I will be including this process in my class website.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 May 2019 00:00:00 -0400</pubDate>
+        <link>http://andysigler.github.io/hardware/colorful-solder-mask/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/hardware/colorful-solder-mask/</guid>
+      </item>
+    
+      <item>
+        <title>Tensorflow Learning Materials</title>
+        <description>&lt;p&gt;Beginning to absorb machine learning, and how I might apply it towards my interests, has been a daunting task these past few weeks. Even with all the hype, tensorflow has what feels like no (zero) good examples, tutorials, guides.&lt;/p&gt;
+
+&lt;p&gt;This is a list of the things I’ve used to understand machine learning concepts, tensorflow basics, and building a model.&lt;/p&gt;
+
+&lt;p&gt;I plan to continue updating this list as I keep moving through materials, and learning more.&lt;/p&gt;
+
+&lt;h1 id=&quot;mit-6s191-introduction-to-deep-learninghttpintrotodeeplearningcom&quot;&gt;&lt;a href=&quot;http://introtodeeplearning.com/&quot;&gt;MIT 6.S191: Introduction to Deep Learning&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;This short course was taught January 2019 to MIT students, and is a great intro and overview of what machine learning and tensorflow can offer. There are just a few lectures, and some homework that goes with them.&lt;/p&gt;
+
+&lt;h1 id=&quot;tensoflow-tutorials-from-github-user-aymericdamienhttpsgithubcomaymericdamientensorflow-examples&quot;&gt;&lt;a href=&quot;https://github.com/aymericdamien/TensorFlow-Examples&quot;&gt;Tensoflow Tutorials from GitHub user aymericdamien&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;These tutorials have the most stars on github, the I love them because they don’t have distracting dependencies. These tutorials also include both lower-level learning, plus later examples that use Keras layer.&lt;/p&gt;
+
+&lt;h1 id=&quot;tensorflow-v2-alpha-tutorialshttpswwwtensorfloworgalpha&quot;&gt;&lt;a href=&quot;https://www.tensorflow.org/alpha&quot;&gt;Tensorflow v2 Alpha Tutorials&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;The offical tutorials. These are good for getting a deeper explaination from the developers. However, the tutorials have a lot of distracting dependencies, and the explainations tend to say a lot yet say very little…&lt;/p&gt;
+
+&lt;h1 id=&quot;a-recipe-for-training-neural-networkshttpskarpathygithubio20190425recipe&quot;&gt;&lt;a href=&quot;https://karpathy.github.io/2019/04/25/recipe/&quot;&gt;A Recipe for Training Neural Networks&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Coming from designing electro-mechanical and wireless systems, I know how the development, test, and debug approach is very import. This reading gives what seems like great advice for how to approach buidling a model, step-by-step, to help catch mistakes when they happen.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 May 2019 00:00:00 -0400</pubDate>
+        <link>http://andysigler.github.io/machine-learning/tensorflow-learning-materials/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/machine-learning/tensorflow-learning-materials/</guid>
+      </item>
+    
+      <item>
         <title>OT2 Electronics</title>
         <description>&lt;p&gt;The Opentrons OT2 liquid handler is the next step in opensource lab automation, and I’m proud to have been one of the few designers and engineers to work on it.&lt;/p&gt;
 
@@ -658,130 +725,6 @@ There is much more detail you can read in the documentaion linked to throughout 
         <pubDate>Tue, 11 Aug 2015 00:00:00 -0400</pubDate>
         <link>http://andysigler.github.io/hardware/diy-pcb-setup/</link>
         <guid isPermaLink="true">http://andysigler.github.io/hardware/diy-pcb-setup/</guid>
-      </item>
-    
-      <item>
-        <title>Opentrons Platform Prototype</title>
-        <description>&lt;h1 id=&quot;my-role-at-opentrons-labworks&quot;&gt;My Role at Opentrons Labworks&lt;/h1&gt;
-
-&lt;p&gt;Beginning June 2014, I have worked with Opentrons in developing their low-cost, open-source liquid handling robot. Working with Opentrons has allowed me to spend nearly a month living and working in Shenzhen, China and HAXLR8R. Shenzhen is considered the hardware capitol of the world, and it was eye-opening to see a city completely centered around hardware manufacturing at all scales.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons_team.jpg&quot; alt=&quot;The Opentrons Founders&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My role with Opentrons was to prototype the liquid handling platform’s software stack. This means I was responsible for the early decisions and executions of its design-file format (for writing experiments), for designing and making the robot’s interface, experimenting with how it would accurately calibrate, and finally what &lt;strong&gt;exactly&lt;/strong&gt; it does on execution (aka how it moves).&lt;/p&gt;
-
-&lt;h1 id=&quot;platform-overview&quot;&gt;Platform Overview&lt;/h1&gt;
-
-&lt;p&gt;Below is a quick video I shot to demonstrate the prototype. All designs and software in the video (excluding the motor controller) were written by me.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://player.vimeo.com/video/130249723&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;
-Below is a diagram showing the different software blocks I developed. Each was iterated upon to reflect what the robot’s mechanical requirements, and to satisfy users’ needs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/opentrons_flowchart.png&quot; alt=&quot;Platform Prototype Flowchart&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The file format fed in at the top ended up being a variation of the &lt;a href=&quot;http://autoprotocol.org/specification/&quot;&gt;Auto-Protocol standard proposed by Transcriptics&lt;/a&gt;, which uses JSON to describe a protocol’s many details and procedures. Because I needed to work fast, I used NodeJS to communicate with with robot’s motorcontroller, and I created an HTML5 interface for the user to interact with. Everything written in NodeJS has since been translated to Python, and the front-end has been handed off to front-end engineers.&lt;/p&gt;
-
-&lt;h1 id=&quot;a-lesson-learned&quot;&gt;A Lesson Learned&lt;/h1&gt;
-
-&lt;p&gt;This was my first time working on a real-world product/tool, and the experience has left me with one lesson that I will hold on to: Narrow down to what the &lt;u&gt;core&lt;/u&gt; experience of the product is, and get that single part working immediately, regardless of efficiencies and tools used.&lt;/p&gt;
-
-&lt;p&gt;Even if it’s something that’s already been done before, or if it’s not even the entire minimum-viable-product. Get the thing doing what you say it can do, and see what you’ve learned. If you say the liquid handler can move hundreds of samples accurately, make it do that and that alone before working on any other problems.&lt;/p&gt;
-
-&lt;p&gt;Odds are, you will see things that you didn’t expect or previously misjudged. Everything else down the road will be built up on top of that core feature, so it’s important to not gloss over it.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://andysigler.github.io/projects/opentrons-platform-prototype/</link>
-        <guid isPermaLink="true">http://andysigler.github.io/projects/opentrons-platform-prototype/</guid>
-      </item>
-    
-      <item>
-        <title>The Internet of Useless Things</title>
-        <description>&lt;p&gt;Sterling was discussing his work with Arduino, &lt;a href=&quot;http://casajasmina.arduino.cc/&quot;&gt;an open-source connected home called Casa Jasmina&lt;/a&gt;. The full 17 min talk can be viewed at the bottom of this post.&lt;/p&gt;
-
-&lt;p&gt;What follows is in no way a direct transcript of that video. Instead, it is a cut down, re-ordered, and re-written version of my favorite parts. The edits were made to better align with and summarize my own thoughts.&lt;/p&gt;
-
-&lt;p&gt;Also, check out my ITP master’s thesis presentation, &lt;a href=&quot;http://andysigler.github.io/projects/how-to-make-the-internet-of-useless-things&quot;&gt;How to Make the Interent of Useless Things&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-I want domestic internet art, designed for the home. I want internet of things art. I’d rather prefer it to be open-sourced art too. Luxurious, open-sourced, internet of things, cultural expression for the home.
-&lt;br /&gt;&lt;br /&gt;
-The trans-medial issue is, how to do it?
-&lt;br /&gt;&lt;br /&gt;
-Few connected things have been made to live in a domestic context. They have been in the home office, on the desktop, on the laptop, or even in the mobile handheld, but rarely ever in the home, per se. So what does that look like? More to the point, how &lt;strong&gt;&lt;u&gt;should&lt;/u&gt;&lt;/strong&gt; that look? And how should that be made to work, from the artist’s perspective?
-&lt;br /&gt;&lt;br /&gt;
-Will an internet of things home designed by corporations have any internet art in it?
-&lt;br /&gt;&lt;br /&gt;
-Obviously they’ll be very eager to retail digital rights management, movies and pop music. You can see them already drooling at the idea of doing that and meticulously tracking your purchases and your tastes. They’re also keen to slam the door on any intrusions on their vertically integrated stack data-streams.
-&lt;br /&gt;&lt;br /&gt;
-But what about the exploratory, inventive, and critical artwork that people actually find interesting? That needs a home, and I want to help make the home in which it properly belongs.
-&lt;br /&gt;&lt;br /&gt;
-I want living proof of what it’s like to actually live with these technologies, &lt;strong&gt;&lt;u&gt;on my own terms&lt;/u&gt;&lt;/strong&gt;.
-&lt;br /&gt;&lt;br /&gt;
-My home is not a business, not an office, and I am not a set of metrics. I’m not in any hurry. It’s my home. The things in it are not controlled by Facebook. They’re not optimized. They don’t have any particular purpose. You can’t rush me by pushing data at me. No, I will not archive any data. I do not data mine. I will not trace it back to anyone. Once data is expressed, enjoyed or experienced within the walls of my home, its gone forever.
-&lt;/blockquote&gt;
-
-&lt;p&gt;I have been thinking about art and musical instruments in the Internet of Things for a while now, and it exciting to finally hear rhetoric like this. While Sterling nor I know what will emerge out of pursuing these ideals, we certainly know what we do &lt;strong&gt;&lt;u&gt;not&lt;/u&gt;&lt;/strong&gt; want to make, and that’s important.&lt;/p&gt;
-
-&lt;p&gt;If you haven’t read Bruce Sterling’s essay &lt;a href=&quot;http://www.amazon.com/The-Epic-Struggle-Internet-Things-ebook/dp/B00N7EKIJ4&quot;&gt;The Epic Struggle of the Internet of Things&lt;/a&gt;, I highly suggest you read it.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JUvECBZpefU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width:100%;max-width:560px;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Tue, 12 May 2015 00:00:00 -0400</pubDate>
-        <link>http://andysigler.github.io/useless-things/art-and-the-internet-of-useless-things/</link>
-        <guid isPermaLink="true">http://andysigler.github.io/useless-things/art-and-the-internet-of-useless-things/</guid>
-      </item>
-    
-      <item>
-        <title>Panelling Arduino Minis</title>
-        <description>&lt;p&gt;Here are some pictures of my attempt at making a panel of 10 Arduino Mini’s of my own design. You can find the pin layout, board files, and other documentation on &lt;a href=&quot;https://github.com/andySigler/homemade-hardware/tree/master/Arduino-SMD&quot;&gt;GitHub&lt;/a&gt;;&lt;/p&gt;
-
-&lt;p&gt;I’ve been working on this board design for a while, trying to make the board small and simple, yet having to consider the limitations of making my own PCBs in house (namely, vias being so difficult to make).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/arduino_smd_design.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;These 10 boards were created within one day at ITP. I milled the panel in the morning, cleaned and added solder mask in the afternoon, and assembled at night. It was a long process, but I’ve never been able to make 10 boards of such quality and in such a short amount of time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/arduino_smd_pinout.png&quot; alt=&quot;pinouts&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;solder-mask-results&quot;&gt;Solder Mask Results&lt;/h1&gt;
-
-&lt;p&gt;I’ve been using Dynamask dry-film solder mask, and it’s made populating boards much easier. I’ve documented the process a bit in my blog, and below are some pictures of my panel after milling and applying the solder mask.&lt;/p&gt;
-
-&lt;p&gt;Top layer:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/0-top-mask.jpg&quot; alt=&quot;0-top-mask&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bottom layer:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/1-bottom-mask.jpg&quot; alt=&quot;1-bottom-mask&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pretty picture:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/2-cleaned-mask.jpg&quot; alt=&quot;2-cleaned-mask&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;results-after-assembly&quot;&gt;Results after Assembly&lt;/h1&gt;
-
-&lt;p&gt;I used ITP’s manual pick-and-place machine to lay out the solder and place each component. I then reflowed using a heat gun, and finally soldered together all the vias.&lt;/p&gt;
-
-&lt;p&gt;The vias are what takes the longest, and greatly restrict your design. I use a thin piece of wire to connect the top and bottom of the PCB, then solder each side. This means that there can not be any vias underneath any component or IC, and that they need a considerable amount of space to allow the solder to melt with causing any shorts.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/4-diy_arduino_mini.jpg&quot; alt=&quot;4-diy_arduino_mini&quot; /&gt;
-&lt;img src=&quot;http://andysigler.github.io/images/5-populated.jpg&quot; alt=&quot;5-populated&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;broken-out-boards&quot;&gt;Broken Out Boards&lt;/h1&gt;
-
-&lt;p&gt;Bootloaded and test, they all work!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/6-brokenOut.jpg&quot; alt=&quot;6-brokenOut&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I decided to add the option of soldering a coin-cell battery holder onto the bottom. Here you can see one attached:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/7-final.jpg&quot; alt=&quot;7-final&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Apr 2015 00:00:00 -0400</pubDate>
-        <link>http://andysigler.github.io/hardware/panelling-arduino-minis/</link>
-        <guid isPermaLink="true">http://andysigler.github.io/hardware/panelling-arduino-minis/</guid>
       </item>
     
   </channel>
