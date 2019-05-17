@@ -26,7 +26,7 @@ var b;
 
 //counter so we don't kill it with testing too much
 var stackOverflowCounter = 0;
-var stackOverflowThresh = 50;
+var stackOverflowThresh = 100;
 
 var width;
 var height;
@@ -355,7 +355,7 @@ function makeNewPoint(){
         //check if it intersects with all previous lines, and this check returns a boolean
         if(oneLine[oneLine.length-1].intersection (oneLine[i].prevX , oneLine[i].prevY , oneLine[i].newX , oneLine[i].newY)){
           //if any or all of them do intersect, redo this entire function
-          if (i < totalInvisibleLines || Math.random() < 0.975) {
+          if (i < totalInvisibleLines || Math.random() < 1.975) {
             redoPoint = true;
             break;
           }
@@ -419,7 +419,7 @@ var theLineWidth = 0;
 
 function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
-  globalMoveAmount = (Math.pow(Math.random(),2)*width*.1)+40;
+  globalMoveAmount = (Math.pow(Math.random(),2)*width*.2)+40;
   masterDrawCount = 5;
 }
 
@@ -609,7 +609,7 @@ window.addEventListener('load', function(){
   }
   else{
     stackOverflowThresh = 100;
-    attempThresh = 50;
+    attempThresh = 100;
     maxLineWidth = 4;
     shadowScale = 2;
   }
@@ -739,7 +739,7 @@ function Line(tempPrevX, tempPrevY) {
 
   this.setPoints = function(prevAngle){
 
-    var totalAngles = 8;
+    var totalAngles = 4;
     // divide radians by num angles (pick random index for radians)
     if (prevAngle === undefined) {
       prevAngle = Math.floor(Math.random() * totalAngles);
@@ -750,13 +750,22 @@ function Line(tempPrevX, tempPrevY) {
       this.currentAngle = Math.floor(Math.random() * totalAngles);
     }
     // encourage it to be an angled line
-    if (this.currentAngle % 2 == 0 && Math.random() < 0.85) {
-      this.currentAngle = (this.currentAngle + 1) % totalAngles;
-    }
+    // if (this.currentAngle % 2 == 0 && Math.random() < 0.85) {
+    //   this.currentAngle = (this.currentAngle + 1) % totalAngles;
+    // }
     var ranRadians = ((Math.PI * 2) / totalAngles) * this.currentAngle;
+    ranRadians += (Math.PI / 4);
+    if (ranRadians > Math.PI * 2) ranRadians -= (Math.PI * 2);
+    // also, add a bit of randomness to the angle itself
+    if (Math.random() < 0.05) {
+      ranRadians = ranRadians + ((Math.PI * 2) / (totalAngles * 2));
+      if (ranRadians > Math.PI * 2) {
+        ranRadians -= Math.PI * 2;
+      }
+    }
     // console.log('Actual Radians = ', ranRadians);
     // radius is move amount (random amount)
-    var ranRadius = (this.moveAmount * Math.random()) + 5;
+    var ranRadius = (this.moveAmount * Math.pow(Math.random(), 2)) + 5;
     // calculate new XY from radian and radius
     //      x = r × cos( θ )
     //      y = r × sin( θ )
@@ -773,7 +782,7 @@ function Line(tempPrevX, tempPrevY) {
     this.tempNewX = this.prevX;
     this.tempNewY = this.prevY;
 
-    this.c = JSON.parse(JSON.stringify(currentColor));
+    this.c = {r: currentColor.r, g: currentColor.g, b: currentColor.b};
   }
 
   this.drawLine = function(){
