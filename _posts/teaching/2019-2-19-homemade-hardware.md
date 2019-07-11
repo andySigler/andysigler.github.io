@@ -34,7 +34,7 @@ ITP is the birthplace of [physical computing](https://en.wikipedia.org/wiki/Phys
 - wireless sensors
 - and many more...
 
-# What Exactly is Taught?
+## What Exactly is Taught?
 
 To make a working PCB for a physical computing project, a variety of new skills must be learned relatively quickly in a semester. From electronics basics, to CAD design, and milling machines, it definitely true that hardware is hard, but in the end is most rewarding.
 
@@ -52,7 +52,7 @@ Then it's off to the fun stuff, design with [Eagle CAD](https://www.autodesk.com
 
 The final weeks of the class, I shift to acid etching PCBs using muriatic acid, and a laser-cutter to remove the acid-blocking ink (this is to replace the older toner-transfer method). While acid etching combined with micro-milling yields the best PCB quality, only a handful of students in the past have chosen acid etching, probably because the process is long and more prone to mistakes.
 
-# Lessons Learned on DIY PCBs
+## Lessons Learned on DIY PCBs
 
 During my [master's thesis at ITP]({{site.url}}/projects/patchbay), I thought that homemade PCBs would spur some kind of maker revolution, similar to 3d printing. Now I'm not as pie-in-the-sky as I was then (like some 3d printing evangelicals from years past may also feel), but I do think homemade PCBs are a welcome addition to the maker processes. And perhaps it will continue to get easier and easier.
 

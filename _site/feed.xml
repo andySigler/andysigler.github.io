@@ -46,31 +46,92 @@
     
       <item>
         <title>Tensorflow Learning Materials</title>
-        <description>&lt;p&gt;Beginning to absorb machine learning, and how I might apply it towards my interests, has been a daunting task these past few weeks. Even with all the hype, tensorflow has what feels like no (zero) good examples, tutorials, guides.&lt;/p&gt;
+        <description>&lt;p&gt;[Updated July 11, 2019]&lt;/p&gt;
+
+&lt;p&gt;Beginning to absorb machine learning, and how I might apply it towards my interests, has been a daunting task these past few weeks. Even with all the hype, tensorflow has what feels like no (zero) good examples, tutorials, guides.&lt;/p&gt;
 
 &lt;p&gt;This is a list of the things I’ve used to understand machine learning concepts, tensorflow basics, and building a model.&lt;/p&gt;
 
-&lt;p&gt;I plan to continue updating this list as I keep moving through materials, and learning more.&lt;/p&gt;
+&lt;p&gt;[Note] these are ordered psuedo-chronologically, the idea being I wish I started at the first one, and ended with the last one.&lt;/p&gt;
 
-&lt;h1 id=&quot;mit-6s191-introduction-to-deep-learninghttpintrotodeeplearningcom&quot;&gt;&lt;a href=&quot;http://introtodeeplearning.com/&quot;&gt;MIT 6.S191: Introduction to Deep Learning&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id=&quot;make-your-own-neural-network&quot;&gt;&lt;a href=&quot;https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G&quot;&gt;Make Your Own Neural Network&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Great (short) book by Tariq Rashid, guides the reader through writing a simple deep network from scratch in python.&lt;/p&gt;
+
+&lt;h3 id=&quot;machine-learning-for-artists&quot;&gt;&lt;a href=&quot;https://ml4a.github.io/ml4a/&quot;&gt;Machine Learning for Artists&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Website and courses by Gene Kogan, and understanding neural networks from the non-engineering, creative perspective. The lecture are great to just sit back and watch, try to absorb before moving on to actually making anything.&lt;/p&gt;
+
+&lt;h3 id=&quot;mit-6s191-introduction-to-deep-learning&quot;&gt;&lt;a href=&quot;http://introtodeeplearning.com/&quot;&gt;MIT 6.S191: Introduction to Deep Learning&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;This short course was taught January 2019 to MIT students, and is a great intro and overview of what machine learning and tensorflow can offer. There are just a few lectures, and some homework that goes with them.&lt;/p&gt;
 
-&lt;h1 id=&quot;tensoflow-tutorials-from-github-user-aymericdamienhttpsgithubcomaymericdamientensorflow-examples&quot;&gt;&lt;a href=&quot;https://github.com/aymericdamien/TensorFlow-Examples&quot;&gt;Tensoflow Tutorials from GitHub user aymericdamien&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id=&quot;tensoflow-tutorials-from-github-user-aymericdamien&quot;&gt;&lt;a href=&quot;https://github.com/aymericdamien/TensorFlow-Examples&quot;&gt;Tensoflow Tutorials from GitHub user aymericdamien&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;These tutorials have the most stars on github, the I love them because they don’t have distracting dependencies. These tutorials also include both lower-level learning, plus later examples that use Keras layer.&lt;/p&gt;
 
-&lt;h1 id=&quot;tensorflow-v2-alpha-tutorialshttpswwwtensorfloworgalpha&quot;&gt;&lt;a href=&quot;https://www.tensorflow.org/alpha&quot;&gt;Tensorflow v2 Alpha Tutorials&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id=&quot;tensorflow-v2-alpha-tutorials&quot;&gt;&lt;a href=&quot;https://www.tensorflow.org/alpha&quot;&gt;Tensorflow v2 Alpha Tutorials&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;The offical tutorials. These are good for getting a deeper explaination from the developers. However, the tutorials have a lot of distracting dependencies, and the explainations tend to say a lot yet say very little…&lt;/p&gt;
 
-&lt;h1 id=&quot;a-recipe-for-training-neural-networkshttpskarpathygithubio20190425recipe&quot;&gt;&lt;a href=&quot;https://karpathy.github.io/2019/04/25/recipe/&quot;&gt;A Recipe for Training Neural Networks&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id=&quot;deep-learning-book&quot;&gt;&lt;a href=&quot;https://www.deeplearningbook.org/&quot;&gt;Deep Learning Book&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I read that this was considered the “bible” of machine learning. I found that while it can be fairly dense with mathematics, there are some invaluable bottom-line summaries, suggestions, and best-practices riddled throughout this book.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-recipe-for-training-neural-networks&quot;&gt;&lt;a href=&quot;https://karpathy.github.io/2019/04/25/recipe/&quot;&gt;A Recipe for Training Neural Networks&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;Coming from designing electro-mechanical and wireless systems, I know how the development, test, and debug approach is very import. This reading gives what seems like great advice for how to approach buidling a model, step-by-step, to help catch mistakes when they happen.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 May 2019 00:00:00 -0400</pubDate>
         <link>http://andysigler.github.io/machine-learning/tensorflow-learning-materials/</link>
         <guid isPermaLink="true">http://andysigler.github.io/machine-learning/tensorflow-learning-materials/</guid>
+      </item>
+    
+      <item>
+        <title>Homemade Hardware</title>
+        <description>&lt;p&gt;I’ve been teaching graduate students at &lt;a href=&quot;http://tisch.nyu.edu/itp&quot;&gt;NYU’s ITP program&lt;/a&gt; since 2015 as an adjunct professor, teaching a course of my own making title Homemade Hardware (&lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;link to my class website&lt;/a&gt;). There, student learn to design and fabricate do-it-yourself PCBs, all without leaving the school.&lt;/p&gt;
+
+&lt;p&gt;ITP is the birthplace of &lt;a href=&quot;https://en.wikipedia.org/wiki/Physical_computing&quot;&gt;physical computing&lt;/a&gt;, so students there have been excited to take greater control over their hardware projects. Some project examples are shown in the picture at the top of this page, and they include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;analog and digital musical instruments&lt;/li&gt;
+  &lt;li&gt;tiny wall-mounted GIF players&lt;/li&gt;
+  &lt;li&gt;knitting wearables&lt;/li&gt;
+  &lt;li&gt;childrens’ toys&lt;/li&gt;
+  &lt;li&gt;smart cigarette lighter&lt;/li&gt;
+  &lt;li&gt;wireless sensors&lt;/li&gt;
+  &lt;li&gt;and many more…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-exactly-is-taught&quot;&gt;What Exactly is Taught?&lt;/h2&gt;
+
+&lt;p&gt;To make a working PCB for a physical computing project, a variety of new skills must be learned relatively quickly in a semester. From electronics basics, to CAD design, and milling machines, it definitely true that hardware is hard, but in the end is most rewarding.&lt;/p&gt;
+
+&lt;p&gt;We start the semester off taking ITP’s most common circuit board, the &lt;a href=&quot;https://store.arduino.cc/usa/arduino-uno-rev3&quot;&gt;Arduino Uno&lt;/a&gt;, and breaking it down to it’s most simple form (just the micro on a breadboard). We then take an indepth look at how a piece of code is placed onto the micro, so that now the students no longer need an actual Arduino to make their projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/arduino-to-breadboard.png&quot; alt=&quot;Arduino to Breadboard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, there’s a quick review of electronics basics, just the bare minimum so they can make simple digital circuits. With this new knowledge in place, they get their hands dirty soldering through-hole PCBs, and populating their first surface-mount PCB. ITP has a nice reflow oven, set of heat guns, and the most amazing manual pick-and-place machine (pictured below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/smt-place-2000.jpg&quot; alt=&quot;SMT Place 2000&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then it’s off to the fun stuff, design with &lt;a href=&quot;https://www.autodesk.com/products/eagle/overview&quot;&gt;Eagle CAD&lt;/a&gt; and micro-milling with &lt;a href=&quot;https://www.bantamtools.com/pages/products&quot;&gt;Bantam Tools’ Desktop PCB Milling Machine&lt;/a&gt;. This is where they can start putting their ideas down into board designs, and quickly milling them to test and try out. The desktop PCB milling machine is was the original game-changer that kickstarted this class, and it’s great to see it doing well and continuing to improve.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/bantam.jpg&quot; alt=&quot;Bantam Tools' Desktop PCB Milling Machine&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The final weeks of the class, I shift to acid etching PCBs using muriatic acid, and a laser-cutter to remove the acid-blocking ink (this is to replace the older toner-transfer method). While acid etching combined with micro-milling yields the best PCB quality, only a handful of students in the past have chosen acid etching, probably because the process is long and more prone to mistakes.&lt;/p&gt;
+
+&lt;h2 id=&quot;lessons-learned-on-diy-pcbs&quot;&gt;Lessons Learned on DIY PCBs&lt;/h2&gt;
+
+&lt;p&gt;During my &lt;a href=&quot;http://andysigler.github.io/projects/patchbay&quot;&gt;master’s thesis at ITP&lt;/a&gt;, I thought that homemade PCBs would spur some kind of maker revolution, similar to 3d printing. Now I’m not as pie-in-the-sky as I was then (like some 3d printing evangelicals from years past may also feel), but I do think homemade PCBs are a welcome addition to the maker processes. And perhaps it will continue to get easier and easier.&lt;/p&gt;
+
+&lt;p&gt;I’ve learned that the short-term benefits to students are that they are able to build ITP projects that do not fall apart easily (this is most noticable when my students perform at the NIME concert and their piece does not break). Also, they are better able to build a polished look and size for their hardware projects during thesis and in their portfolio.&lt;/p&gt;
+
+&lt;p&gt;In the long-term, students have been able to move on and work with electronics professionally, just as I did. Making DIY PCBs is not a normal way of learning electronics, but I think it is a strength because once they move on to professionally made PCBs, it seems so much easier that it’s not intimidating any more.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
+        <link>http://andysigler.github.io/teaching/homemade-hardware/</link>
+        <guid isPermaLink="true">http://andysigler.github.io/teaching/homemade-hardware/</guid>
       </item>
     
       <item>
@@ -85,16 +146,16 @@
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2 = document.getElementById(&#39;vid_ot2&#39;);
-    vid_ot2.removeAttribute(&#39;controls&#39;);
-    vid_ot2.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_ot2 = document.getElementById('vid_ot2');
+    vid_ot2.removeAttribute('controls');
+    vid_ot2.addEventListener('canplaythrough', function(e){
         vid_ot2.play();
     })
 &lt;/script&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;circuit-boards&quot;&gt;Circuit Boards&lt;/h1&gt;
+&lt;h2 id=&quot;circuit-boards&quot;&gt;Circuit Boards&lt;/h2&gt;
 
 &lt;p&gt;The machine has 13 circuit boards inside it (plus a Raspberry Pi 3 and USB camera). Each of these boards was designed, prototyped, tested, certified (CE/FCC) and brought to production by me (small startups, yea!).&lt;/p&gt;
 
@@ -115,7 +176,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;flex-ribbon-cable&quot;&gt;Flex Ribbon Cable&lt;/h1&gt;
+&lt;h2 id=&quot;flex-ribbon-cable&quot;&gt;Flex Ribbon Cable&lt;/h2&gt;
 
 &lt;p&gt;One exciting part of the design was to figure out how to route 32 conductors (power, data, and motor signals) across a 2-meter long ribbon cable. Not only is this cable being bent and twisted all over the place, but it’s carrying multiple types of signals that could all interfere during a protocol run.&lt;/p&gt;
 
@@ -125,7 +186,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;electronic-pipettes&quot;&gt;Electronic Pipettes&lt;/h1&gt;
+&lt;h2 id=&quot;electronic-pipettes&quot;&gt;Electronic Pipettes&lt;/h2&gt;
 
 &lt;p&gt;The OT2 electronic pipettes use a fairly simple mechanism to move the plunger up and down (seen in the animation below). The stepper motor inside the pipette is actually being driven by one of the 6 stepper axis on the main driver PCB, so no motor driver was required in the pipette.&lt;/p&gt;
 
@@ -136,7 +197,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;tip-probe&quot;&gt;Tip Probe&lt;/h1&gt;
+&lt;h2 id=&quot;tip-probe&quot;&gt;Tip Probe&lt;/h2&gt;
 
 &lt;p&gt;This thing is cool. It’s a series of 5 switches, used to detect the precise and accurate position of a disposable tip on a pipette.&lt;/p&gt;
 
@@ -148,22 +209,22 @@
   &lt;source src=&quot;http://andysigler.github.io/images/tip_probe.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_tip_probe = document.getElementById(&#39;vid_tip_probe&#39;);
-    vid_tip_probe.removeAttribute(&#39;controls&#39;);
-    vid_tip_probe.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_tip_probe = document.getElementById('vid_tip_probe');
+    vid_tip_probe.removeAttribute('controls');
+    vid_tip_probe.addEventListener('canplaythrough', function(e){
         vid_tip_probe.play();
     })
 &lt;/script&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;more-pcb-artwork&quot;&gt;More PCB Artwork&lt;/h1&gt;
+&lt;h2 id=&quot;more-pcb-artwork&quot;&gt;More PCB Artwork&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_pcb_art_vertical.jpg&quot; alt=&quot;OT2 PCBs Artwork&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;some-pictures-from-before--after-launch&quot;&gt;Some Pictures from Before &amp;amp; After Launch&lt;/h1&gt;
+&lt;h2 id=&quot;some-pictures-from-before--after-launch&quot;&gt;Some Pictures from Before &amp;amp; After Launch&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/ot2_camera.jpg&quot; alt=&quot;OT2 on Camera&quot; /&gt;&lt;/p&gt;
 
@@ -189,7 +250,7 @@
 
 &lt;p&gt;For each of these devices, I worked on a small team of 2-4 people doing early ideation, design, testing, design for manufacturing, and quality control, with myself owning the electronics, firmware, and testing side of things.&lt;/p&gt;
 
-&lt;h1 id=&quot;temperature-module&quot;&gt;Temperature Module&lt;/h1&gt;
+&lt;h2 id=&quot;temperature-module&quot;&gt;Temperature Module&lt;/h2&gt;
 
 &lt;p&gt;It keeps hot things hot and cold things cold! The Temperature Module can hold a temperature between 4-94 Celsius with +/- 1 Celcius accuracy and uniformity.&lt;/p&gt;
 
@@ -201,9 +262,9 @@
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_temp_deck.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2_temp_deck = document.getElementById(&#39;vid_ot2_temp_deck&#39;);
-    vid_ot2_temp_deck.removeAttribute(&#39;controls&#39;);
-    vid_ot2_temp_deck.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_ot2_temp_deck = document.getElementById('vid_ot2_temp_deck');
+    vid_ot2_temp_deck.removeAttribute('controls');
+    vid_ot2_temp_deck.addEventListener('canplaythrough', function(e){
         vid_ot2_temp_deck.play();
     })
 &lt;/script&gt;
@@ -214,9 +275,9 @@
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_temp_deck_loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2_temp_deck_loop = document.getElementById(&#39;vid_ot2_temp_deck_loop&#39;);
-    vid_ot2_temp_deck_loop.removeAttribute(&#39;controls&#39;);
-    vid_ot2_temp_deck_loop.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_ot2_temp_deck_loop = document.getElementById('vid_ot2_temp_deck_loop');
+    vid_ot2_temp_deck_loop.removeAttribute('controls');
+    vid_ot2_temp_deck_loop.addEventListener('canplaythrough', function(e){
         vid_ot2_temp_deck_loop.play();
     })
 &lt;/script&gt;
@@ -227,7 +288,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;magnetic-module&quot;&gt;Magnetic Module&lt;/h1&gt;
+&lt;h2 id=&quot;magnetic-module&quot;&gt;Magnetic Module&lt;/h2&gt;
 
 &lt;p&gt;The Magnetic Module raises a set of magnets near the user’s sample, in order to attract iron beads that have been attached to a specific DNA strand they want to isolate (science!).&lt;/p&gt;
 
@@ -239,9 +300,9 @@
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_mag_deck.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2_mag_deck = document.getElementById(&#39;vid_ot2_mag_deck&#39;);
-    vid_ot2_mag_deck.removeAttribute(&#39;controls&#39;);
-    vid_ot2_mag_deck.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_ot2_mag_deck = document.getElementById('vid_ot2_mag_deck');
+    vid_ot2_mag_deck.removeAttribute('controls');
+    vid_ot2_mag_deck.addEventListener('canplaythrough', function(e){
         vid_ot2_mag_deck.play();
     })
 &lt;/script&gt;
@@ -252,9 +313,9 @@
   &lt;source src=&quot;http://andysigler.github.io/images/ot2_mag_deck_loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2_mag_deck_loop = document.getElementById(&#39;vid_ot2_mag_deck_loop&#39;);
-    vid_ot2_mag_deck_loop.removeAttribute(&#39;controls&#39;);
-    vid_ot2_mag_deck_loop.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_ot2_mag_deck_loop = document.getElementById('vid_ot2_mag_deck_loop');
+    vid_ot2_mag_deck_loop.removeAttribute('controls');
+    vid_ot2_mag_deck_loop.addEventListener('canplaythrough', function(e){
         vid_ot2_mag_deck_loop.play();
     })
 &lt;/script&gt;
@@ -269,53 +330,6 @@
       </item>
     
       <item>
-        <title>Homemade Hardware</title>
-        <description>&lt;p&gt;I’ve been teaching graduate students at &lt;a href=&quot;http://tisch.nyu.edu/itp&quot;&gt;NYU’s ITP program&lt;/a&gt; since 2015 as an adjunct professor, teaching a course of my own making title Homemade Hardware (&lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;link to my class website&lt;/a&gt;). There, student learn to design and fabricate do-it-yourself PCBs, all without leaving the school.&lt;/p&gt;
-
-&lt;p&gt;ITP is the birthplace of &lt;a href=&quot;https://en.wikipedia.org/wiki/Physical_computing&quot;&gt;physical computing&lt;/a&gt;, so students there have been excited to take greater control over their hardware projects. Some project examples are shown in the picture at the top of this page, and they include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;analog and digital musical instruments&lt;/li&gt;
-  &lt;li&gt;tiny wall-mounted GIF players&lt;/li&gt;
-  &lt;li&gt;knitting wearables&lt;/li&gt;
-  &lt;li&gt;childrens’ toys&lt;/li&gt;
-  &lt;li&gt;smart cigarette lighter&lt;/li&gt;
-  &lt;li&gt;wireless sensors&lt;/li&gt;
-  &lt;li&gt;and many more…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;what-exactly-is-taught&quot;&gt;What Exactly is Taught?&lt;/h1&gt;
-
-&lt;p&gt;To make a working PCB for a physical computing project, a variety of new skills must be learned relatively quickly in a semester. From electronics basics, to CAD design, and milling machines, it definitely true that hardware is hard, but in the end is most rewarding.&lt;/p&gt;
-
-&lt;p&gt;We start the semester off taking ITP’s most common circuit board, the &lt;a href=&quot;https://store.arduino.cc/usa/arduino-uno-rev3&quot;&gt;Arduino Uno&lt;/a&gt;, and breaking it down to it’s most simple form (just the micro on a breadboard). We then take an indepth look at how a piece of code is placed onto the micro, so that now the students no longer need an actual Arduino to make their projects.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/arduino-to-breadboard.png&quot; alt=&quot;Arduino to Breadboard&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then, there’s a quick review of electronics basics, just the bare minimum so they can make simple digital circuits. With this new knowledge in place, they get their hands dirty soldering through-hole PCBs, and populating their first surface-mount PCB. ITP has a nice reflow oven, set of heat guns, and the most amazing manual pick-and-place machine (pictured below).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/smt-place-2000.jpg&quot; alt=&quot;SMT Place 2000&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then it’s off to the fun stuff, design with &lt;a href=&quot;https://www.autodesk.com/products/eagle/overview&quot;&gt;Eagle CAD&lt;/a&gt; and micro-milling with &lt;a href=&quot;https://www.bantamtools.com/pages/products&quot;&gt;Bantam Tools’ Desktop PCB Milling Machine&lt;/a&gt;. This is where they can start putting their ideas down into board designs, and quickly milling them to test and try out. The desktop PCB milling machine is was the original game-changer that kickstarted this class, and it’s great to see it doing well and continuing to improve.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/bantam.jpg&quot; alt=&quot;Bantam Tools&#39; Desktop PCB Milling Machine&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The final weeks of the class, I shift to acid etching PCBs using muriatic acid, and a laser-cutter to remove the acid-blocking ink (this is to replace the older toner-transfer method). While acid etching combined with micro-milling yields the best PCB quality, only a handful of students in the past have chosen acid etching, probably because the process is long and more prone to mistakes.&lt;/p&gt;
-
-&lt;h1 id=&quot;lessons-learned-on-diy-pcbs&quot;&gt;Lessons Learned on DIY PCBs&lt;/h1&gt;
-
-&lt;p&gt;During my &lt;a href=&quot;http://andysigler.github.io/projects/patchbay&quot;&gt;master’s thesis at ITP&lt;/a&gt;, I thought that homemade PCBs would spur some kind of maker revolution, similar to 3d printing. Now I’m not as pie-in-the-sky as I was then (like some 3d printing evangelicals from years past may also feel), but I do think homemade PCBs are a welcome addition to the maker processes. And perhaps it will continue to get easier and easier.&lt;/p&gt;
-
-&lt;p&gt;I’ve learned that the short-term benefits to students are that they are able to build ITP projects that do not fall apart easily (this is most noticable when my students perform at the NIME concert and their piece does not break). Also, they are better able to build a polished look and size for their hardware projects during thesis and in their portfolio.&lt;/p&gt;
-
-&lt;p&gt;In the long-term, students have been able to move on and work with electronics professionally, just as I did. Making DIY PCBs is not a normal way of learning electronics, but I think it is a strength because once they move on to professionally made PCBs, it seems so much easier that it’s not intimidating any more.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
-        <link>http://andysigler.github.io/teaching/homemade-hardware/</link>
-        <guid isPermaLink="true">http://andysigler.github.io/teaching/homemade-hardware/</guid>
-      </item>
-    
-      <item>
         <title>Tomorrow Lab</title>
         <description>&lt;p&gt;I spent about a year working as a Electronics Design Engineer at &lt;a href=&quot;https://www.tomorrow-lab.com&quot;&gt;Tomorrow Lab&lt;/a&gt;. It was a wonderful experience, as it was my first job outside of the NYU sphere, and we were constantly working on new initiatives and technologies.&lt;/p&gt;
 
@@ -324,7 +338,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;waycount---traffic-counter&quot;&gt;WayCount - Traffic Counter&lt;/h1&gt;
+&lt;h3 id=&quot;waycount---traffic-counter&quot;&gt;WayCount - Traffic Counter&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.tomorrow-lab.com/work/waycount&quot;&gt;See documentation on Tomorrow Lab’s website&lt;/a&gt;&lt;/p&gt;
 
@@ -338,7 +352,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/waycount-2.jpg&quot; alt=&quot;WayCount Traffic Counter&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;how-it-works&quot;&gt;How it Works&lt;/h2&gt;
+&lt;h4 id=&quot;how-it-works&quot;&gt;How it Works&lt;/h4&gt;
 
 &lt;p&gt;When a wheel passes over the rubber tubes, it compresses the air inside, sending that pressure out to the ends of the tube. There are two tubes a few inches apart, so that the direction of the wheel can be estimated. Inside the device, a small piezo microphone is press-fit against the tube, to detect when there is a change in air pressure.&lt;/p&gt;
 
@@ -349,21 +363,21 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;lotik---water-monitor&quot;&gt;Lotik - Water Monitor&lt;/h1&gt;
+&lt;h3 id=&quot;lotik---water-monitor&quot;&gt;Lotik - Water Monitor&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.tomorrow-lab.com/work/lotik&quot;&gt;See documentation on Tomorrow Lab’s website&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This device, designed for &lt;a href=&quot;http://lotik.com&quot;&gt;Lotik Labs&lt;/a&gt;, is a water-usage monitor of for residential plumbing. The device is clamped onto any water pipe, like for a sink, faucet, or toilet, and it can detect when and how much water is flowing. This data is then sent wireless to a central hub located in the building, to transmit to Lotik’s central monitoring service.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lotik-1.jpg&quot; alt=&quot;Lotik Labs&#39; Water Monitor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lotik-1.jpg&quot; alt=&quot;Lotik Labs' Water Monitor&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Intended to be used by apartment building owners, installing many devices within a single building not only helps the devices communicate back to the internet, but also gives greater understanding into how, when, and who is using water in a building. Traditionally, a single apartment is given a single meter to track how much water is used, but with Lotik’s technology, the detail can be focused down to individual uses.&lt;/p&gt;
 
 &lt;p&gt;My personal contributions to this project were early component testing and selection, systems design, firmware development, electrical/PCB design, and testing.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lotik-2.jpg&quot; alt=&quot;Lotik Labs&#39; Water Monitor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/lotik-2.jpg&quot; alt=&quot;Lotik Labs' Water Monitor&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;how-it-works-1&quot;&gt;How it Works&lt;/h2&gt;
+&lt;h4 id=&quot;how-it-works-1&quot;&gt;How it Works&lt;/h4&gt;
 
 &lt;p&gt;The Lotick water monitor detects vibrations along a water pipe to detect and analyze the water usage. First, the device is mechanically clamped down and lock onto a water pipe. Once powered on, it’s onboard acclerometer measures the vibrations’ intensity, frequency, and duration. This information is then sent wirelessly to a central hub and then on to Lotik’s central servers.&lt;/p&gt;
 
@@ -372,13 +386,13 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;rally---phone-charger&quot;&gt;Rally - Phone Charger&lt;/h1&gt;
+&lt;h3 id=&quot;rally---phone-charger&quot;&gt;Rally - Phone Charger&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.tomorrow-lab.com/work/rally&quot;&gt;See documentation on Tomorrow Lab’s website&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The Rally Charging Cable was designed for &lt;a href=&quot;http://rallycharge.com/&quot;&gt;Rally&lt;/a&gt;, to a simple iPhone charging cable for public use. Any user, whether at a restaurant, bar, or other public space, can simply connect their phone to get a quick charge. When connected, the device charges the iPhone like normal, except the iPhone will display advertisements while being charged. Once the user is done charging, simply unplug and the advertisements stop.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rally-1.jpg&quot; alt=&quot;Rally&#39;s iPhone Charger&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/rally-1.jpg&quot; alt=&quot;Rally's iPhone Charger&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My contributions to this project were minimal, as it was finishing up when I first joined Tomorrow Lab. I contributed to final PCB design and testing for the integrated iPhone cable.&lt;/p&gt;
 </description>
@@ -395,9 +409,9 @@
   &lt;source src=&quot;http://andysigler.github.io/images/aspirate-loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_aspirate = document.getElementById(&#39;vid_aspirate&#39;);
-    vid_aspirate.removeAttribute(&#39;controls&#39;);
-    vid_aspirate.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_aspirate = document.getElementById('vid_aspirate');
+    vid_aspirate.removeAttribute('controls');
+    vid_aspirate.addEventListener('canplaythrough', function(e){
         vid_aspirate.play();
     })
 &lt;/script&gt;
@@ -412,7 +426,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;my-contributions&quot;&gt;My Contributions&lt;/h1&gt;
+&lt;h2 id=&quot;my-contributions&quot;&gt;My Contributions&lt;/h2&gt;
 
 &lt;p&gt;Within the Opentrons Python API, mostly working on:&lt;/p&gt;
 
@@ -431,9 +445,9 @@
   &lt;source src=&quot;http://andysigler.github.io/images/opentrons_api.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;!-- &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_demo = document.getElementById(&#39;vid_demo&#39;);
-    vid_demo.removeAttribute(&#39;controls&#39;);
-    vid_demo.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_demo = document.getElementById('vid_demo');
+    vid_demo.removeAttribute('controls');
+    vid_demo.addEventListener('canplaythrough', function(e){
         vid_demo.play();
     })
 &lt;/script&gt; --&gt;
@@ -445,31 +459,31 @@
 &lt;p&gt;See the project live &lt;a href=&quot;https://github.com/opentrons/opentrons&quot;&gt;on GitHub&lt;/a&gt;, and &lt;a href=&quot;https://docs.opentrons.com/atomic%20commands.html&quot;&gt;read the docs&lt;/a&gt;&lt;/p&gt;
 
 &lt;!--
-# How to Use: Python API Tutorial
+## How to Use: Python API Tutorial
 
-Python was chosen to drive the Opentrons&#39; backend because of the language&#39;s prevalence in the scientific community. So because we&#39;re working with Python, we need to first import our instruments (the pipettes) and our labware (the plates, tip-racks, etc.):
-
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;opentrons&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instruments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labware&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Python was chosen to drive the Opentrons' backend because of the language's prevalence in the scientific community. So because we're working with Python, we need to first import our instruments (the pipettes) and our labware (the plates, tip-racks, etc.):
 
 
-Before we can get started, we need to know about [the Opentrons deck](https://docs.opentrons.com/labware.html#placing-labware-on-the-robot-deck). This is a set of slotted inserts that fit standard labware, so they do not move during a protocol. You&#39;ll notice in the picture below that each &quot;slot&quot; on the deck is numbered, so that when our protocol creates a new labware we can easily assign it&#39;s location to a numbered slot.
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;from opentrons import instruments, labware&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+Before we can get started, we need to know about [the Opentrons deck](https://docs.opentrons.com/labware.html#placing-labware-on-the-robot-deck). This is a set of slotted inserts that fit standard labware, so they do not move during a protocol. You'll notice in the picture below that each &quot;slot&quot; on the deck is numbered, so that when our protocol creates a new labware we can easily assign it's location to a numbered slot.
 
 ![Opentrons Deck](http://andysigler.github.io/images/opentrons-deck-small.png)
 ![Opentrons Deck](http://andysigler.github.io/images/opentrons-full-deck-small.jpg)
 
-Now let&#39;s pretend we have a [trough](https://docs.opentrons.com/labware.html#troughs) filled with some sample, and we want to transfer that sample to a [well plate](https://docs.opentrons.com/labware.html#pcr-flat). The software contains accurate three-dimensional representations of these labwares, and the API can load them into your protocol like so:
+Now let's pretend we have a [trough](https://docs.opentrons.com/labware.html#troughs) filled with some sample, and we want to transfer that sample to a [well plate](https://docs.opentrons.com/labware.html#pcr-flat). The software contains accurate three-dimensional representations of these labwares, and the API can load them into your protocol like so:
 
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labware&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;trough-12row&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;plate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labware&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;96-PCR-flat&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;2&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;trough = labware.load('trough-12row', slot='1')
+plate = labware.load('96-PCR-flat', slot='2')&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 
-Next we need a [pipette](https://docs.opentrons.com/pipettes.html), which also need a [tip rack](https://docs.opentrons.com/labware.html#tipracks) which holds disposable tips for sterile liquid transfers. For the pipettes, let&#39;s use a 300uL single-channel, and put it on the OT2&#39;s left mount:
+Next we need a [pipette](https://docs.opentrons.com/pipettes.html), which also need a [tip rack](https://docs.opentrons.com/labware.html#tipracks) which holds disposable tips for sterile liquid transfers. For the pipettes, let's use a 300uL single-channel, and put it on the OT2's left mount:
 
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;tips&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labware&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;opentrons-tiprack-300ul&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;3&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instruments&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;P300_Single&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mount&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;left&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tip_racks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tips&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;tips = labware.load('opentrons-tiprack-300ul', slot='3')
+pipette = instruments.P300_Single(mount='left', tip_racks=[tips])&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 
 With our labware and pipettes ready, we can start transferring liquids!
@@ -479,42 +493,42 @@ As of this writing, the API has loosely speaking two layers of liquid-handling c
 The [atomic commands](https://docs.opentrons.com/atomic%20commands.html) can be thought of as individual movements, controllable and sequencable through the API. Below are a set of atomic commands which do the following:
 
 - Pick up a new tip from the tip rack
-- Aspirate 100uL from the trough&#39;s A1 position
-- Dispense 100uL to the plate&#39;s A1 position
-- Drop the tip inside the deck&#39;s trash
+- Aspirate 100uL from the trough's A1 position
+- Dispense 100uL to the plate's A1 position
+- Drop the tip inside the deck's trash
 
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pick_up_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aspirate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dispense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;pipette.pick_up_tip()
+pipette.aspirate(100, trough.wells('A1'))
+pipette.dispense(100, trough.wells('A1'))
+pipette.drop_tip()&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 
-To add some complexity, we can fit in a few more atomic commands to give even more fine-tuned control over the liquid&#39;s movement:
+To add some complexity, we can fit in a few more atomic commands to give even more fine-tuned control over the liquid's movement:
 
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pick_up_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aspirate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;touch_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;air_gap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dispense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blow_out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;pipette.pick_up_tip()
+pipette.aspirate(100, trough.wells('A1'))
+pipette.touch_tip()
+pipette.air_gap(20)
+pipette.dispense(100, trough.wells('A1'))
+pipette.blow_out()
+pipette.drop_tip()&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 
 To make it easier to read, you can also chain together pipette commands:
 
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pick_up_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aspirate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;touch_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;air_gap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dispense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blow_out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop_tip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;pipette.pick_up_tip()
+pipette.aspirate(100, trough.wells('A1')).touch_tip().air_gap(20)
+pipette.dispense(100, trough.wells('A1')).blow_out()
+pipette.drop_tip()&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 
 The [complex commands](https://docs.opentrons.com/complex%20commands.html) are one level higher, and hide the many details you are show when using atomic commands. To perform a similar liquid transfer as above, we can us the following complex command:
 
  
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;&lt;span class=&quot;n&quot;&gt;pipette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transfer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trough&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wells&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;A1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;pipette.transfer(100, trough.wells('A1'), plate.wells('A1'))&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 
 That single line will automatically pick up a tip, transfer the 100uL, then drop the tip. These complex commands are much easier to understand, more approachable to beginners, while the trade-off is less control.
@@ -545,9 +559,9 @@ There is much more detail you can read in the documentaion linked to throughout 
   &lt;source src=&quot;http://andysigler.github.io/images/hue-demo.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-//    var vid_demo = document.getElementById(&#39;vid_demo&#39;);
-//    vid_demo.removeAttribute(&#39;controls&#39;);
-//    vid_demo.addEventListener(&#39;canplaythrough&#39;, function(e){
+//    var vid_demo = document.getElementById('vid_demo');
+//    vid_demo.removeAttribute('controls');
+//    vid_demo.addEventListener('canplaythrough', function(e){
 //        vid_demo.play();
 //    })
 &lt;/script&gt;
@@ -564,9 +578,9 @@ There is much more detail you can read in the documentaion linked to throughout 
   &lt;source src=&quot;http://andysigler.github.io/images/hue-fridge-loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_fridge = document.getElementById(&#39;vid_fridge&#39;);
-    vid_fridge.removeAttribute(&#39;controls&#39;);
-    vid_fridge.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_fridge = document.getElementById('vid_fridge');
+    vid_fridge.removeAttribute('controls');
+    vid_fridge.addEventListener('canplaythrough', function(e){
         vid_fridge.play();
     })
 &lt;/script&gt;
@@ -584,7 +598,7 @@ There is much more detail you can read in the documentaion linked to throughout 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;diy-fabrication&quot;&gt;DIY Fabrication&lt;/h1&gt;
+&lt;h2 id=&quot;diy-fabrication&quot;&gt;DIY Fabrication&lt;/h2&gt;
 
 &lt;p&gt;I used a Bantam Tools Milling Machine to cut the circuit boards.&lt;/p&gt;
 
@@ -594,9 +608,9 @@ There is much more detail you can read in the documentaion linked to throughout 
   &lt;source src=&quot;http://andysigler.github.io/images/hue-pcb.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_pcb = document.getElementById(&#39;vid_pcb&#39;);
-    vid_pcb.removeAttribute(&#39;controls&#39;);
-    vid_pcb.addEventListener(&#39;canplaythrough&#39;, function(e){
+    var vid_pcb = document.getElementById('vid_pcb');
+    vid_pcb.removeAttribute('controls');
+    vid_pcb.addEventListener('canplaythrough', function(e){
         vid_pcb.play();
     })
 &lt;/script&gt;
@@ -634,7 +648,7 @@ There is much more detail you can read in the documentaion linked to throughout 
         <title>DIY PCB Setup</title>
         <description>&lt;p&gt;I just finished putting together a PCB “pipeline” in my bedroom. It’s an ensemble of tools to help me make boards at low cost and fast. Here I’ll take you through the main components.&lt;/p&gt;
 
-&lt;h1 id=&quot;the-space&quot;&gt;The Space&lt;/h1&gt;
+&lt;h2 id=&quot;the-space&quot;&gt;The Space&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://andysigler.github.io/images/room_fullShot_original.jpg&quot; alt=&quot;full shot&quot; /&gt;&lt;/p&gt;
 
@@ -661,7 +675,7 @@ There is much more detail you can read in the documentaion linked to throughout 
 
 &lt;p&gt;To separate all my stuff, I’ve got the small drawers to hold components, a drawer unit from Ikea to hold other parts, and a large plastic container to keep all the chemicals out of harm’s way.&lt;/p&gt;
 
-&lt;h1 id=&quot;the-machines&quot;&gt;The Machines&lt;/h1&gt;
+&lt;h2 id=&quot;the-machines&quot;&gt;The Machines&lt;/h2&gt;
 
 &lt;div class=&quot;row t30&quot;&gt;
     &lt;div class=&quot;medium-4 columns&quot;&gt;
@@ -688,7 +702,7 @@ There is much more detail you can read in the documentaion linked to throughout 
 
 &lt;p&gt;Finally, a simple black &amp;amp; white laser printer I found on ebay. This is used for printing out designs from each to assist my toner transfer and solder mask processes.&lt;/p&gt;
 
-&lt;h1 id=&quot;the-tools&quot;&gt;The Tools&lt;/h1&gt;
+&lt;h2 id=&quot;the-tools&quot;&gt;The Tools&lt;/h2&gt;
 
 &lt;div class=&quot;row t30&quot;&gt;
     &lt;div class=&quot;medium-3 columns&quot;&gt;

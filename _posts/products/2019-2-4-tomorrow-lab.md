@@ -28,7 +28,7 @@ Below I have described three products that I contributed to, some with more cont
 <br/>
 <br/>
 
-# WayCount - Traffic Counter
+### WayCount - Traffic Counter
 
 [See documentation on Tomorrow Lab's website](https://www.tomorrow-lab.com/work/waycount)
 
@@ -42,7 +42,7 @@ My personal contributions to this project were early component testing and selec
 
 ![WayCount Traffic Counter]({{site.url}}/images/waycount-2.jpg)
 
-## How it Works
+#### How it Works
 
 When a wheel passes over the rubber tubes, it compresses the air inside, sending that pressure out to the ends of the tube. There are two tubes a few inches apart, so that the direction of the wheel can be estimated. Inside the device, a small piezo microphone is press-fit against the tube, to detect when there is a change in air pressure.
 
@@ -53,7 +53,7 @@ The microcontroller inside is the NRF51822 from Nordic, which has built-in Bluet
 <br/>
 <br/>
 
-# Lotik - Water Monitor
+### Lotik - Water Monitor
 
 [See documentation on Tomorrow Lab's website](https://www.tomorrow-lab.com/work/lotik)
 
@@ -67,7 +67,7 @@ My personal contributions to this project were early component testing and selec
 
 ![Lotik Labs' Water Monitor]({{site.url}}/images/lotik-2.jpg)
 
-## How it Works
+#### How it Works
 
 The Lotick water monitor detects vibrations along a water pipe to detect and analyze the water usage. First, the device is mechanically clamped down and lock onto a water pipe. Once powered on, it's onboard acclerometer measures the vibrations' intensity, frequency, and duration. This information is then sent wirelessly to a central hub and then on to Lotik's central servers.
 
@@ -76,7 +76,7 @@ The microcontroller used was the NRF51422 from Nordic, selected primarily to uti
 <br/>
 <br/>
 
-# Rally - Phone Charger
+### Rally - Phone Charger
 
 [See documentation on Tomorrow Lab's website](https://www.tomorrow-lab.com/work/rally)
 

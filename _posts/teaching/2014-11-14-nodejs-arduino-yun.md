@@ -22,19 +22,19 @@ The final steps (red section) of this tutorial are optional and should be taken 
 
 This, however, means you can only access the Linux side of the board over the network. If you do not have control over the network between your computer and Yun, you will not be able to connect.
 
-#Update the Yun's image
+### Update the Yun's image
 
 To do all the following, make sure you have updated your Yun to the latest image. This to to allow your Yun to have is disk space expanded in the next step.
 
 [Instructions on updating the Yun's image](http://arduino.cc/en/Tutorial/YunSysupgrade)
 
-#Expand disk space with SD card
+### Expand disk space with SD card
 
 We will be moving the Yun's operating system and memory onto a micro-sd card, so that we have enough room to install and run NodeJS.
 
 [Instructions on expanding the Yun's disk space](http://arduino.cc/en/Tutorial/ExpandingYunDiskSpace)
 
-#Install Node and node-modules with opkg
+### Install Node and node-modules with opkg
 
 With an updated Yun image and more memory, we can install Node using opkg (the Yun's package management system). Be sure the Yun is connected to the internet.
 
@@ -55,36 +55,36 @@ opkg install node
 This may take a few moments. After it's finished, install the pre-compiled node-modules using opkg.
 
 {% highlight html %}
-opkg install node-ws 
+opkg install node-ws
 opkg install node-serialport
 {% endhighlight %}
 
 There are a few other pre-compiled node-modules you can install through opkg. All modules are installed globally, so there is no need to ever run npm (especially because npm doesn't work on the Yun...)
 
-#Add SFTP to transfer files
+### Add SFTP to transfer files
 
 Uploading files to the Yun is much faster if you don't have to turn it off every time. To do this, we have enable our Yun to be accessed over SFTP. Now, applications like CyberDuck can connect to and upload files to your Yun
 
 Enter the following line to install the SFTP package, and now you can connect to it using an FTP client like CyberDuck.
 
 {% highlight html %}
-opkg update 
+opkg update
 opkg install openssh-sftp-server
 {% endhighlight %}
 
 In CyberDuck, connect with SFTP, port 22, username 'root', and the server-name being your Yun's IP address.
 
-![cyberDuck_yun]({{ site.url }}/images/cyberDuck_yun.png)
+![cyberDuck_yun]({{site.url}}/images/cyberDuck_yun.png)
 
 I store all the node and web files on the micro-sd card, at <code>/mnt/sda1/arduino/node</code>. "sda1" is the external memory, "arduino" is a folder that should already exist, and "node" is a folder I created to store my Node scripts.
 
-![cyberDuck_yun_2]({{ site.url }}/images/cyberDuck_yun_2.png)
+![cyberDuck_yun_2]({{site.url}}/images/cyberDuck_yun_2.png)
 
 Now you can upload and run NodeJS scripts on your Yun! See the below link for you can get NodeJS and the Arduino side of the Yun talking with Bridge:
 
 [Node.js on the Arduino Yun](http://www.tigoe.com/pcomp/code/arduinowiring/1216/#more-1216) - Tom Igoe's example for getting NodeJS and the ATmega32U4 to communicate with Bridge.
 
-#Give the ethernet port a static IP
+### Give the ethernet port a static IP
 
 To my mind, the biggest disadvantage of removing Bridge from the Yun, is that you are taking away the ability to access the Linino through the ATmega32U4. This is especially helpul during initial setup, and while configuring the Yun's network.
 
@@ -99,8 +99,8 @@ nano /etc/config/network
 If you get the error <code>Error opening terminal: xterm-256color.</code>, the following worked for me.
 
 {% highlight html %}
-ln -s x /usr/share/terminfo/78 
-export TERM=xterm-color 
+ln -s x /usr/share/terminfo/78
+export TERM=xterm-color
 nano /etc/config/network
 {% endhighlight %}
 
@@ -134,12 +134,12 @@ Restart your Yun, and you will find it's ethernet port has the permanent address
 
 In order to ssh into the Yun over an ethernet cable, your laptop's ethernet IP address must share the same two first digits as the Yun's IP. In this example, the laptop's IP should beging width 192 and 168 in order for the two to communicate.
 
-![staticEthernet_mac]({{ site.url }}/images/staticEthernet_mac.png)
+![staticEthernet_mac]({{site.url}}/images/staticEthernet_mac.png)
 
 On a Mac, I can go to <code>System Preferences > Network</code>, select the ethernet port, and tell it to be a Manual IP Address (not DHCP). For example, I could set my laptop to be <code>192.168.0.42</code>.
 
 
-#Disable Bridge on the Yun
+### Disable Bridge on the Yun
 
 <div class="alert-box radius alert">
 Warning: Proceed with Caution!
@@ -155,8 +155,8 @@ nano /etc/inittab
 If you get the error <code>Error opening terminal: xterm-256color.</code>, the following worked for me.
 
 {% highlight html %}
-ln -s x /usr/share/terminfo/78 
-export TERM=xterm-color 
+ln -s x /usr/share/terminfo/78
+export TERM=xterm-color
 nano /etc/inittab
 {% endhighlight %}
 
@@ -171,7 +171,7 @@ ttyATH0::askfirst:/bin/ash --login
 And comment it out with pound sign at the beginning, like this:
 
 {% highlight html %}
-#ttyATH0::askfirst:/bin/ash --login
+##### ttyATH0::askfirst:/bin/ash --login
 {% endhighlight %}
 
 Instructions on the bottom show how to Write Out (save the file), and Exit.
@@ -180,14 +180,14 @@ To Write Out (save your changes), hit <code>CONTROL-O</code>. It will ask if you
 
 Restart your Yun, and Bridge will not run. Once again, simply uncomment the line to bring Bridge back.
 
-#Modify code and run
+### Modify code and run
 
 The Arduino on your Yun can now open a plain Serial connection to the Linux processor. However, it uses <code>Serial1</code> instead of <code>Serial</code>. <code>Serial</code> (without the 1) is connected to the micro-USB, and is used to upload code and communicate with a laptop.
 
 So to begin in your setup(), your Arduino code should read:
 
 {% highlight c++ %}
-Serial1.begin(115200); 
+Serial1.begin(115200);
 while(!Serial1){}
 {% endhighlight %}
 
@@ -204,7 +204,7 @@ Any process running on Linux side of the board can access the Arduino's serial p
 
 Now any NodeJS script using the node-serialport module can access the Atmel32u4 using port <code>/dev/ttyATH0</code>.
 
-#Resources
+### Resources
 
 [NodeJS_Yun_Example](https://github.com/andySigler/NodeJS_Yun_Example) - Some example code, showing a NodeJS server mediating the connection between a browser and an Arduino.
 

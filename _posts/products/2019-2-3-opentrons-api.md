@@ -41,7 +41,7 @@ From 2016-2018, I designed and programmed an important piece of the Python API; 
 
 <br />
 
-# My Contributions
+## My Contributions
 
 Within the Opentrons Python API, mostly working on:
 
@@ -72,7 +72,7 @@ In addition to leading design of the API's interface, I spent considerable time 
 See the project live [on GitHub](https://github.com/opentrons/opentrons), and [read the docs](https://docs.opentrons.com/atomic%20commands.html)
 
 <!--
-# How to Use: Python API Tutorial
+## How to Use: Python API Tutorial
 
 Python was chosen to drive the Opentrons' backend because of the language's prevalence in the scientific community. So because we're working with Python, we need to first import our instruments (the pipettes) and our labware (the plates, tip-racks, etc.):
 

@@ -19,15 +19,15 @@ header: no
         background-color: rgb(253,253,253);
     }
 </style>
-<h1><span class="avoidMe">About</span></h1>
+<h1><span class="avoidMe matchbook">About</span></h1>
 <p class="avoidMe">
     I'm a designer who uses software and electronics. I use emerging technologies to design novel devices and interactions. I hope to use these tools to bring some magic and playfulness to everyday objects. These days, I'm most interested in finding new forms of interaction at the intersection of machine-learning, hardware, and connected devices.
 </p>
 <p>
-    <span class="avoidMe">In addition to my <a href="{{site.url}}">selected works</a>, you can also check out <a href="{{ site.url }}/blog">blog posts</a> I've made while making and learning new things.</span>
+    <span class="avoidMe">In addition to my <a href="{{site.url}}">selected works</a>, you can also check out <a href="{{site.url}}/blog">blog posts</a> I've made while making and learning new things.</span>
 </p>
 <div class="thing" style="width: 100%; max-width: 650px">
-    <h1><span class="avoidMe">Work</span></h1>
+    <h1><span class="avoidMe matchbook">Work</span></h1>
     <div>
         <span class="avoidMe subheadline">Software / Electronics / Systems Engineer</span>
         <span class="dateRight avoidMe">2014-'15 & 2016-'19</span><br />
@@ -70,7 +70,7 @@ header: no
         </ul>
     </div>
     <br />
-    <h1><span class="avoidMe">Tools and Techniques</span></h1>
+    <h1><span class="avoidMe matchbook">Tools and Techniques</span></h1>
     <div>
         <ul>
              <li class="avoidMe textWidth">Interaction Design</li>
@@ -85,14 +85,14 @@ header: no
         </ul>
     </div>
     <br />
-    <h1><span class="avoidMe">Education</span></h1>
+    <h1><span class="avoidMe matchbook">Education</span></h1>
     <div>
         <span class="avoidMe subheadline">Master's Degree</span>
         <span class="dateRight avoidMe">2012-'14</span><br />
         <span class="avoidMe subheadline">@ <a href="http://tisch.nyu.edu/itp">ITP-NYU</a></span>
         <ul>
             <li class="avoidMe textWidth">Self-lead master's degree, focused on interaction design through emerging hardware and internet technologies</li>
-            <li class="avoidMe textWidth">Presented a master's thesis, <a href="{{ site.url }}/patchbay">Patchbay</a>, a wireless framework for designing wirelessly interoperable toys and musical instruments</li>
+            <li class="avoidMe textWidth">Presented a master's thesis, <a href="{{site.url}}/patchbay">Patchbay</a>, a wireless framework for designing wirelessly interoperable toys and musical instruments</li>
         </ul>
     </div>
     <div>

@@ -46,6 +46,8 @@ logo: "logo.png"
 
 
 # Paginates all X entries
+plugins:
+  - jekyll-paginate
 paginate: 20
 
 

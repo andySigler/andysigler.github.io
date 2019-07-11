@@ -32,7 +32,7 @@ These 10 boards were created within one day at ITP. I milled the panel in the mo
 
 ![pinouts]({{ site.url }}/images/arduino_smd_pinout.png)
 
-#Solder Mask Results
+## Solder Mask Results
 
 I've been using Dynamask dry-film solder mask, and it's made populating boards much easier. I've documented the process a bit in my blog, and below are some pictures of my panel after milling and applying the solder mask.
 
@@ -48,7 +48,7 @@ Pretty picture:
 
 ![2-cleaned-mask]({{ site.url }}/images/2-cleaned-mask.jpg)
 
-#Results after Assembly
+## Results after Assembly
 
 I used ITP's manual pick-and-place machine to lay out the solder and place each component. I then reflowed using a heat gun, and finally soldered together all the vias.
 
@@ -57,7 +57,7 @@ The vias are what takes the longest, and greatly restrict your design. I use a t
 ![4-diy_arduino_mini]({{ site.url }}/images/4-diy_arduino_mini.jpg)
 ![5-populated]({{ site.url }}/images/5-populated.jpg)
 
-#Broken Out Boards
+## Broken Out Boards
 
 Bootloaded and test, they all work!
 

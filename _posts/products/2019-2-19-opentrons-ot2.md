@@ -41,7 +41,7 @@ During the OT2's design and production, I had complete ownership of the machine'
 
 <br />
 
-# Circuit Boards
+## Circuit Boards
 
 The machine has 13 circuit boards inside it (plus a Raspberry Pi 3 and USB camera). Each of these boards was designed, prototyped, tested, certified (CE/FCC) and brought to production by me (small startups, yea!).
 
@@ -62,7 +62,7 @@ Below are some pictures of the real-life PCBs in an opened up machine:
 
 <br />
 
-# Flex Ribbon Cable
+## Flex Ribbon Cable
 
 One exciting part of the design was to figure out how to route 32 conductors (power, data, and motor signals) across a 2-meter long ribbon cable. Not only is this cable being bent and twisted all over the place, but it's carrying multiple types of signals that could all interfere during a protocol run.
 
@@ -72,7 +72,7 @@ See the 2-meter ribbon cable in the picture below:
 
 <br />
 
-# Electronic Pipettes
+## Electronic Pipettes
 
 The OT2 electronic pipettes use a fairly simple mechanism to move the plunger up and down (seen in the animation below). The stepper motor inside the pipette is actually being driven by one of the 6 stepper axis on the main driver PCB, so no motor driver was required in the pipette.
 
@@ -83,7 +83,7 @@ The electronics inside the pipette are mostly used for storing unique serial and
 
 <br />
 
-# Tip Probe
+## Tip Probe
 
 This thing is cool. It's a series of 5 switches, used to detect the precise and accurate position of a disposable tip on a pipette.
 
@@ -104,13 +104,13 @@ By simply moving to press against each switch, the OT2's system is able to calcu
 
 <br />
 
-# More PCB Artwork
+## More PCB Artwork
 
 ![OT2 PCBs Artwork]({{site.url}}/images/ot2_pcb_art_vertical.jpg)
 
 <br />
 
-# Some Pictures from Before & After Launch
+## Some Pictures from Before & After Launch
 
 ![OT2 on Camera]({{site.url}}/images/ot2_camera.jpg)
 

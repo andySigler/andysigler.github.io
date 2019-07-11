@@ -77,7 +77,7 @@ Even cats like it!
 <br />
 <br />
 
-# DIY Fabrication
+## DIY Fabrication
 
 I used a Bantam Tools Milling Machine to cut the circuit boards.
 

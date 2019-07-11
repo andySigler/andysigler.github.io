@@ -15,10 +15,10 @@ Patchbay is a wireless framework and interface, built to facilitate improvisatio
 
 I love tech because of the new toys and magical powers it makes possible for us to enjoy and play with. In 2014, I had been fascinated with the promises of interoperability and mesh networking when applied to playful objects. This thesis project was my answer to how I could improvise with the links between mine and my classmates' projects.
 
-<video poster="{{ site.url }}/patchbay_old/img/patchbay_demo.png" id="bgvid" style="max-width: 100%" controls loop muted>
-    <source src="{{ site.url }}/patchbay_old/img/patchbay_demo.mp4" type="video/mp4">
-    <source src="{{ site.url }}/patchbay_old/img/patchbay_demo.webm" type="video/webm">
-    <source src="{{ site.url }}/patchbay_old/img/patchbay_demo.ogv" type="video/ogv">
+<video poster="{{site.url}}/patchbay_old/img/patchbay_demo.png" id="bgvid" style="max-width: 100%" controls loop muted>
+    <source src="{{site.url}}/patchbay_old/img/patchbay_demo.mp4" type="video/mp4">
+    <source src="{{site.url}}/patchbay_old/img/patchbay_demo.webm" type="video/webm">
+    <source src="{{site.url}}/patchbay_old/img/patchbay_demo.ogv" type="video/ogv">
 </video>
 <script type="text/javascript">
     var bgvid = document.getElementById('bgvid');
@@ -46,16 +46,16 @@ And here is a 2 minute demonstration video:
 
 I've also got a demo of the interface here. Click the fake touchpad to start, and you can rotate the circle, and make/break links.
 
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/hammer.min.js"></script>
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/websocketStuff.js"></script>
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/canvasStuff.js"></script>
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/touchStuff.js"></script>
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/cord.js"></script>
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/port.js"></script>
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/arc.js"></script>
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/circle.js"></script>
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/mouse.js"></script>
-<script type="text/javascript" src="{{ site.url }}/patchbay_old/js/patchbay/initPatchbay.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/hammer.min.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/websocketStuff.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/canvasStuff.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/touchStuff.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/cord.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/port.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/arc.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/circle.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/mouse.js"></script>
+<script type="text/javascript" src="{{site.url}}/patchbay_old/js/patchbay/initPatchbay.js"></script>
 <div id="ipad_div">
     <style type="text/css">
         .vert_align{
@@ -162,9 +162,9 @@ I've also got a demo of the interface here. Click the fake touchpad to start, an
     <div id="routerContainer">
         <canvas id="canvas"></canvas>
     </div>
-    <img id="ipad_image" src="{{ site.url }}/patchbay_old/img/ipad.png"/>
+    <img id="ipad_image" src="{{site.url}}/patchbay_old/img/ipad.png"/>
     <div id="ipad_text_top">
-        <h2 style="color:white">
+        <h2 style="color:white" class="matchbook">
             Wireless Links I can Touch
         </h2>
         <p>
@@ -172,7 +172,7 @@ I've also got a demo of the interface here. Click the fake touchpad to start, an
         </p>
     </div>
     <div id="ipad_text_bottom">
-        <h2 style="color:white">Hiding Network Complexity</h2>
+        <h2 style="color:white" class="matchbook">Hiding Network Complexity</h2>
         <p>Circles can display many devices, yet the interface focuses on just one at a time.</p>
     </div>
     <div id="demo_alert">

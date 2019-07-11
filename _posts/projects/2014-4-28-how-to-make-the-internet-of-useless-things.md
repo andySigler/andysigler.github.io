@@ -57,12 +57,12 @@ iframe: "<iframe width='970' height='546' src='//player.vimeo.com/video/96851567
 
 Below is a demo for the Patchbay interface. Turn the circles to view the projects, and make or break the links between inputs and outputs. The interface works on desktop, laptop, and touchscreen (recommended).
 
-I more detailed explanation of the interface can be found in [this blog post]({{ sitle.url }}/patchbay/patchbay-interface).
+I more detailed explanation of the interface can be found in [this blog post]({{sitle.url}}/patchbay/patchbay-interface).
 
 
 <div id="routerContainer" style="margin-bottom:1.5rem">
 	<div id="patchbayTitle">PatchBay</div>
 	<canvas id="canvas"></canvas>
-</div>	
+</div>
 
-Download the Patchbay framework (as it was upon presenting my thesis) from [GitHub]({{ site.github }}/patchbay). The package includes the nodeJS server, HTML5 interface, Arduino library and examples for making a physical computing projects work with the patchbay.
+Download the Patchbay framework (as it was upon presenting my thesis) from [GitHub]({{site.github}}/patchbay). The package includes the nodeJS server, HTML5 interface, Arduino library and examples for making a physical computing projects work with the patchbay.

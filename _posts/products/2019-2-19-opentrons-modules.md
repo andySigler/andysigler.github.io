@@ -26,7 +26,7 @@ During 2017-'18, I was the sole electronics designer and firmware developer for 
 
 For each of these devices, I worked on a small team of 2-4 people doing early ideation, design, testing, design for manufacturing, and quality control, with myself owning the electronics, firmware, and testing side of things.
 
-# Temperature Module
+## Temperature Module
 
 It keeps hot things hot and cold things cold! The Temperature Module can hold a temperature between 4-94 Celsius with +/- 1 Celcius accuracy and uniformity.
 
@@ -63,7 +63,7 @@ It uses two peltier devices to either heat or cool the top plate. A heatsink and
 
 <br />
 
-# Magnetic Module
+## Magnetic Module
 
 The Magnetic Module raises a set of magnets near the user's sample, in order to attract iron beads that have been attached to a specific DNA strand they want to isolate (science!).
 

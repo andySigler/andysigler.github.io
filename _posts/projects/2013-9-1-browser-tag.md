@@ -25,7 +25,7 @@ header: no
   <img id="sticker" width="360" border="3" title="BitTorrent-Sticker" src="{{ site.url }}/images/btnc_fold.png" name="BitTorrent-Sticker" alt="BitTorrent-Sticker" style="border:2px solid black"/>
 </a>
 
-## Instructions:
+### Instructions:
 1. <strong>Drag</strong> the sticker to your <strong>bookmark bar</strong>.
 2. Go to any website and <strong>click</strong> the "BitTorrent-Sticker" bookmarklet.
 3. <strong>Move</strong> your cursor to start tagging the page, click to turn on/off.

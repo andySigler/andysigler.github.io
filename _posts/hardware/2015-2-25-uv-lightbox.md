@@ -24,13 +24,13 @@ author: Andy Sigler
 
 DIY solder mask, like seen in [this video tutorial](https://www.youtube.com/watch?v=B0Syj4awcc8), is amazingly useful once you start making more than just a couple PCBs. However, it requires having access to an ultra-violet lightbox to expose the material. These lightboxes are way too expensive for what they are, a box with some LEDs in it. So, I'll make one!
 
-# Step 1: Buy LEDs
+### Step 1: Buy LEDs
 
 First I went searching for the right LEDs. An LED panel is the perfect excuse to power on the pick-and-place here, but the SMD ultra-violet LEDs I found on digikey were over $2 a piece. So I instead found this much cheaper [5mm version](https://www.superbrightleds.com/moreinfo/component-leds/5mm-uv-led-30-degree-viewing-angle-380-nm-20mw/631/), at the cost of having to use a soldering iron.
 
 I also got a [24VDC power supply](http://www.amazon.com/dp/B002LMQ6G2/ref=pe_825000_114660910_TE_item) to power the circuit.
 
-# Step 2: Make the Circuit
+### Step 2: Make the Circuit
 
 ![lightbox_2_finished_pcb]({{ site.url }}/images/lightbox_2_finished_pcb.png)
 
@@ -42,7 +42,7 @@ Ths picture above is me testing the PCB after fully assembling it. But don't be 
 
 It's a simple circuit. 6 LEDs and a 1k resistor are wired in series, and I feed 24VDC into it. This small circuit is then repeated many times in parallel, so the voltage doesn't change, but the current goes up.
 
-# Step 3: Assemble the Box
+### Step 3: Assemble the Box
 
 So I had been looking around for a good box to turn into a lightbox, and I decided to try this cigar box lying around my room. It seemed to be the perfect fit for a 6x6inch copper plate, and it looked nice on a desktop.
 
@@ -56,7 +56,7 @@ I finally lined the inside with some aluminum foil to let the light bounce aroun
 
 ![lightbox_4_box_open]({{ site.url }}/images/lightbox_4_box_open.jpg)
 
-# Step 4: Make Some Solder Mask
+### Step 4: Make Some Solder Mask
 
 Below is an image of the first PCB exposed in the lightbox. The acrylic and foam are holding the board well, but you'll notice the LEDs are only an inch or two from the PCB. This reduces the surface area the LEDs can evenly spread, meaning that whatever is put in the middle will "cook" faster than what's on the outer areas... oops.
 

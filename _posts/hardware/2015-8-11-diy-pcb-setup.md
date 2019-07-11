@@ -22,7 +22,7 @@ published: true
 
 I just finished putting together a PCB "pipeline" in my bedroom. It's an ensemble of tools to help me make boards at low cost and fast. Here I'll take you through the main components.
 
-#The Space
+## The Space
 
 ![full shot]({{ site.url }}/images/room_fullShot_original.jpg)
 
@@ -48,7 +48,7 @@ First off, the standing desk from Ikea, pictured above. 5' x 2.5', and 3.5' tall
 
 To separate all my stuff, I've got the small drawers to hold components, a drawer unit from Ikea to hold other parts, and a large plastic container to keep all the chemicals out of harm's way.
 
-#The Machines
+## The Machines
 
 <div class="row t30">
     <div class="medium-4 columns">
@@ -74,7 +74,7 @@ Next, it's a laminator from Amazon. Their cheapest one, I believe less than $20.
 
 Finally, a simple black & white laser printer I found on ebay. This is used for printing out designs from each to assist my toner transfer and solder mask processes.
 
-#The Tools
+## The Tools
 
 <div class="row t30">
     <div class="medium-3 columns">

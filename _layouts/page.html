@@ -8,35 +8,35 @@ format: post
 			<header>
 				{% if page.image.title %}
 				<figure>
-					<img style="border: 1px solid #aaa;" src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}" itemprop="image">
+					<img style="border: 1px solid #aaa;" src="{{site.url}}/images/{{page.image.title}}" width="970" alt="{{page.title escape_once}}" itemprop="image">
 
 					{% if page.image.caption_url && page.image.caption %}
 					<figcaption class="text-right">
-						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+						<a href="{{page.image.caption_url}}">{{page.image.caption}}</a>
 					</figcaption>
 					{% elsif page.image.caption %}
 					<figcaption class="text-right">
-						{{ page.image.caption }}
+						{{page.image.caption}}
 					</figcaption>
 					{% endif %}
 				</figure>
 				{% endif %}
 
 				<span itemprop="name" class="avoidMe">
-					{% if page.subheadline %}<div class="subheadline">{{ page.subheadline }}</div><br />{% endif %}
-					<h1 class="matchbook">{{ page.title }}</h1>
+					{% if page.subheadline %}<div class="subheadline">{{page.subheadline}}</div><br />{% endif %}
+					<h1 class="matchbook" style="font-size:60px">{{page.title}}</h1>
 				</span>
 			</header>
 
 
 			{% if page.teaser %}
 			<p class="teaser" itemprop="description">
-				{{ page.teaser }}
+				{{page.teaser}}
 			</p>
 			{% endif %}
 
 			<span itemprop="articleSection">
-			{{ content }}
+			{{content}}
 			</span>
 
 			{% if page.show_meta == true %}
