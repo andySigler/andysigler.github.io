@@ -24,7 +24,7 @@ header: no
     I'm a designer who uses software and electronics. I use emerging technologies to design novel devices and interactions. I hope to use these tools to bring some magic and playfulness to everyday objects. These days, I'm most interested in finding new forms of interaction at the intersection of machine-learning, hardware, and connected devices.
 </p>
 <p>
-    <span class="avoidMe">In addition to my <a href="{{site.url}}">selected works</a>, you can also check out <a href="{{site.url}}/blog">blog posts</a> I've made while making and learning new things.</span>
+    <span class="avoidMe">In addition to my <a href="{{site.url}}">selected works</a>, you can also check out <a href="{{site.url}}/blog">blog posts</a>, and my NYU course <a href="homemadehardware.com">Homemade Hardware</a>.</span>
 </p>
 <div class="thing" style="width: 100%; max-width: 650px">
     <h1><span class="avoidMe matchbook">Work</span></h1>
@@ -33,12 +33,13 @@ header: no
         <span class="dateRight avoidMe">2014-'15 & 2016-'19</span><br />
         <span class="avoidMe subheadline">@ <a href="http://opentrons.com">Opentrons Labworks</a></span>
         <ul>
-            <li class="avoidMe textWidth">First employee at hardware startup, writing entire software stack for the company's Kickstarter release</li>
-            <li class="avoidMe textWidth">Designed and developed the <a href="https://github.com/Opentrons/opentrons">Opentrons Python API</a> on a small team</li>
+            <li class="avoidMe textWidth">First employee at startup, writing entire software stack for Kickstarter release</li>
+            <li class="avoidMe textWidth">Designed and developed the <a href="https://github.com/Opentrons/opentrons">Opentrons Python API</a> on a small team, released winter 2016</li>
             <li class="avoidMe textWidth">Lead design and systems engineering of the <a href="https://opentrons.com/ot-2">OT2 liquid-handling machine</a> and <a href="https://opentrons.com/pipettes">pipettes</a></li>
+            <li class="avoidMe textWidth">Wrote OT2 and Module device firmware, motion control software, and production line testing software</li>
             <li class="avoidMe textWidth">Sole electronics designer for the OT2, pipettes, temperature module, and magnetic module</li>
             <li class="avoidMe textWidth">Lead early product ideation, R&D, testing, and design for all hardware products, focusing on electronics and systems design</li>
-            <li class="avoidMe textWidth">Helped grow factory and production process in Opentrons' Shenzhen factory, growing from 2 employees in 2016 to >50 in 2019</li>
+            <li class="avoidMe textWidth">Helped grow factory and production process in Opentrons' Shenzhen factory, growing from two employees in 2016 to greater than fifty in 2019</li>
         </ul>
     </div>
     <div>
@@ -70,18 +71,25 @@ header: no
         </ul>
     </div>
     <br />
-    <h1><span class="avoidMe matchbook">Tools and Techniques</span></h1>
+    <h1><span class="avoidMe matchbook">Tools</span></h1>
     <div>
         <ul>
-             <li class="avoidMe textWidth">Interaction Design</li>
-             <li class="avoidMe textWidth">Wired/Wireless Systems Design</li>
-             <li class="avoidMe textWidth">Python</li>
-             <li class="avoidMe textWidth">Javascript/NodeJS, HTML5, ES6</li>
-             <li class="avoidMe textWidth">Embedded C/C++, Arduino</li>
-             <li class="avoidMe textWidth">Electronics DFM, Eagle CAD, and DIY PCBs</li>
-             <li class="avoidMe textWidth">Solder, multimeter, tweezers</li>
-             <li class="avoidMe textWidth">Duct tape, Gaffer tape</li>
-             <li class="avoidMe textWidth">MaxMSP/Jitter</li>
+            <li class="avoidMe textWidth">Python</li>
+            <li class="avoidMe textWidth">Javascript (ES2019, NodeJS, HTML5/CSS)</li>
+            <li class="avoidMe textWidth">Firmware, Embedded C/C++, Arduino</li>
+            <li class="avoidMe textWidth">Tensorflow 2.0, Keras, TensorflowJS</li>
+            <li class="avoidMe textWidth">PCB Design, DFM, Eagle CAD</li>
+            <li class="avoidMe textWidth">MaxMSP/Jitter</li>
+        </ul>
+    </div>
+    <h1><span class="avoidMe matchbook">Techniques</span></h1>
+    <div>
+        <ul>
+            <li class="avoidMe textWidth">Product Development</li>
+            <li class="avoidMe textWidth">Wired/Wireless/Embedded Systems Design</li>
+            <li class="avoidMe textWidth">Interaction Design</li>
+            <li class="avoidMe textWidth">Solder, multimeter, tweezers</li>
+            <li class="avoidMe textWidth">Duct tape, Gaffer tape</li>
         </ul>
     </div>
     <br />

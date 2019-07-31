@@ -26,7 +26,7 @@ header: no
     <div class="medium-4 columns">
         <a href="{{site.url}}/products/opentrons-api" >
             <img class="borderImg" src="{{site.url}}/images/opentrons_api_small.png" alt="">
-            <p>Python API: Moving Liquids</p>
+            <p>Software: Moving Liquids</p>
         </a>
     </div>
     <div class="medium-4 columns">
