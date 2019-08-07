@@ -10,7 +10,7 @@
 {% for post in paginator.posts %}
   <div class="row">
     <div class="medium-12 columns b60">
-        {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+        {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img style="border: 1px solid #aaa;" src="{{ site.url }}/images/{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
 
         <h1 style="margin-top:0px" class="matchbook"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
         <p class="subheadline"><span class="subheader">{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</span> – {% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
