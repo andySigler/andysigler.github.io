@@ -93,7 +93,7 @@ header: no
 
 <p class="subheadline">spring 2014</p>
 <h1 class="matchbook">ITP Masters Thesis</h1>
-<div>Patchbay is a electronics and wireless platform for building musical instruments, toys, and other playful objects for the internet of things</div>
+<div>Patchbay is an electronics and wireless platform for building musical instruments, toys, and other playful objects for the internet of things</div>
 <div class="row t30 b20">
     <div class="medium-12 columns">
         <a href="{{site.url}}/patchbay" >
@@ -151,7 +151,7 @@ header: no
     <div class="medium-4 columns">
         <a href="{{site.url}}/projects/bookmapping/" >
             <img class="borderImg" src="{{site.url}}/images/bookmapping_small.png" alt="">
-            <p>Bookmapping: Interactive Projection</p>
+            <p>Bookmapping: Projection Map</p>
         </a>
     </div>
     <div class="medium-4 columns">
@@ -161,17 +161,17 @@ header: no
         </a>
     </div>
     <div class="medium-4 columns">
-        <a href="https://andysigler.github.io/trees" >
-            <img class="borderImg" src="{{site.url}}/images/trees_small.png" alt="">
-            <p>Trees: Browser Animation</p>
+        <a href="{{site.url}}/projects/bittorrent/" >
+            <img class="borderImg" src="{{site.url}}/images/bittorrent-combined-small.png" alt="">
+            <p>BitTorrent: Web Experiments</p>
         </a>
     </div>
 </div>
-<!-- <div class="row t30">
+<div class="row t30">
     <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/browser-tag/" >
-            <img class="borderImg" src="{{site.url}}/images/bookmarklet_small.png" alt="">
-            <p>Browser Tag</p>
+        <a href="https://andysigler.github.io/trees" >
+            <img class="borderImg" src="{{site.url}}/images/trees_small.png" alt="">
+            <p>Trees: Web Animation</p>
         </a>
     </div>
     <div class="medium-4 columns">
@@ -186,4 +186,4 @@ header: no
             <p>OpenLimbs</p>
         </a>
     </div>
-</div> -->
+</div>
