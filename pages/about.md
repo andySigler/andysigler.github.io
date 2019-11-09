@@ -29,6 +29,24 @@ header: no
 <div class="thing" style="width: 100%; max-width: 650px">
     <h1><span class="avoidMe matchbook">Work</span></h1>
     <div>
+        <span class="avoidMe subheadline">ITP Fellow</span>
+        <span class="dateRight avoidMe">2020 (next year)</span><br />
+        <span class="avoidMe subheadline">@ <a href="http://tisch.nyu.edu/itp">ITP-NYU</a></span>
+        <ul>
+            <li class="avoidMe textWidth">Developing software tools and experiences for ITP's robotic arms</li>
+            <li class="avoidMe textWidth">Teaching wider ITP community how to safely use large robotic arms</li>
+            <li class="avoidMe textWidth">Developing curriculum for a future class around the robotic arms</li>
+        </ul>
+    </div>
+    <div>
+        <span class="avoidMe subheadline">Freelance Consulting</span>
+        <span class="dateRight avoidMe">2019-Present</span><br />
+        <span class="avoidMe subheadline">@ <a href="http://andysigler.com">self</a>, @ <a href="https://informal.cc">informal</a></span>
+        <ul>
+            <li class="avoidMe textWidth">Advising and developing on IoT systems and products, for startups, companies and regional artists</li>
+        </ul>
+    </div>
+    <div>
         <span class="avoidMe subheadline">Software / Electronics / Systems Engineer</span>
         <span class="dateRight avoidMe">2014-'15 & 2016-'19</span><br />
         <span class="avoidMe subheadline">@ <a href="http://opentrons.com">Opentrons Labworks</a></span>

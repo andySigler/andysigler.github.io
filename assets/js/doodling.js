@@ -437,7 +437,7 @@ var theLineWidth = 0;
 
 function lookDifferent(){
   globalSwingAmount = Math.random()*0.5;
-  globalMoveAmount = (Math.random()*width*.2)+40;
+  globalMoveAmount = (Math.random()*width*.1) + 20;
   masterDrawCount = 5;
 }
 
@@ -757,7 +757,7 @@ function Line(tempPrevX, tempPrevY) {
 
   this.setPoints = function(prevAngle){
 
-    var totalAngles = 8;
+    var totalAngles = 32;
     // divide radians by num angles (pick random index for radians)
     if (prevAngle === undefined) {
       prevAngle = Math.floor(Math.random() * totalAngles);
@@ -768,20 +768,21 @@ function Line(tempPrevX, tempPrevY) {
       this.currentAngle = Math.floor(Math.random() * totalAngles);
     }
     // encourage it to be an angled line
-    if (this.currentAngle % 2 == 0 && Math.random() < 0.95) {
-      this.currentAngle = (this.currentAngle + 1) % totalAngles;
-    }
+    // if (this.currentAngle % 2 == 0 && Math.random() < 0.95) {
+    //   this.currentAngle = (this.currentAngle + 1) % totalAngles;
+    // }
     var ranRadians = ((Math.PI * 2) / totalAngles) * this.currentAngle;
+    ranRadians = (ranRadians + (Math.PI * 2 * 0.05)) % (Math.PI * 2)
     // ranRadians += Math.PI / (totalAngles * 2);
     // ranRadians += (Math.PI / 4);
     // if (ranRadians > Math.PI * 2) ranRadians -= (Math.PI * 2);
     // also, add a bit of randomness to the angle itself
-    if (Math.random() < 0.05) {
-      ranRadians = ranRadians + ((Math.PI * 2) / (totalAngles * 2));
-      if (ranRadians > Math.PI * 2) {
-        ranRadians -= Math.PI * 2;
-      }
-    }
+    // if (Math.random() < 0.05) {
+    //   ranRadians = ranRadians + ((Math.PI * 2) / (totalAngles * 2));
+    //   if (ranRadians > Math.PI * 2) {
+    //     ranRadians -= Math.PI * 2;
+    //   }
+    // }
     // console.log('Actual Radians = ', ranRadians);
     // radius is move amount (random amount)
     var ranRadius = (this.moveAmount * (1 - Math.pow(Math.random(), 1))) + 10;
