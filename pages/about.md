@@ -41,7 +41,7 @@ header: no
     <div>
         <span class="avoidMe subheadline">Freelance Consulting</span>
         <span class="dateRight avoidMe">2019-Present</span><br />
-        <span class="avoidMe subheadline">@ <a href="http://andysigler.com">self</a>
+        <span class="avoidMe subheadline">@ <a href="http://andysigler.com">self</a></span>
         <ul>
             <li class="avoidMe textWidth">Advising and developing on IoT systems and products, for startups, companies and regional artists</li>
         </ul>
