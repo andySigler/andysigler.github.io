@@ -48,8 +48,8 @@ header: no
     </div>
     <div>
         <span class="avoidMe subheadline">Software / Electronics / Systems Engineer</span>
-        <span class="dateRight avoidMe">2014-'15 & 2016-'19</span><br />
-        <span class="avoidMe subheadline">@ <a href="http://opentrons.com">Opentrons Labworks</a></span>
+        <span class="dateRight avoidMe">2014-'19</span><br />
+        <span class="avoidMe subheadline">@ <a href="http://opentrons.com">Opentrons-Labworks</a></span>
         <ul>
             <li class="avoidMe textWidth">First employee at startup, writing entire software stack for Kickstarter release</li>
             <li class="avoidMe textWidth">Designed and developed the <a href="https://github.com/Opentrons/opentrons">Opentrons Python API</a> on a small team, released winter 2016</li>
@@ -124,7 +124,7 @@ header: no
     <div>
         <span class="avoidMe subheadline">Bachelor's Degree</span>
         <span class="dateRight avoidMe">2006-'10</span><br />
-        <span class="avoidMe subheadline">@ <a href="https://www.hamilton.edu">Hamilton College</a></span>
+        <span class="avoidMe subheadline">@ <a href="https://www.hamilton.edu">Hamilton-College</a></span>
         <ul>
             <li class="avoidMe textWidth">Political science major, and music minor</li>
             <li class="avoidMe textWidth">Varsity lacrosse player, three years starting at defensive midfield and close defense</li>
