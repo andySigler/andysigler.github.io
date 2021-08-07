@@ -63,39 +63,9 @@
   
     
     <url>
-      <loc>https://andysigler.github.io/hardware/homemade-hardware-website-update/</loc>
-      
-        <lastmod>2019-05-17T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>https://andysigler.github.io/hardware/colorful-solder-mask/</loc>
       
         <lastmod>2019-05-17T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://andysigler.github.io/teaching/homemade-hardware/</loc>
-      
-        <lastmod>2019-02-19T00:00:00-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -183,21 +153,6 @@
   
     
     <url>
-      <loc>https://andysigler.github.io/hardware/diy-pcb-setup/</loc>
-      
-        <lastmod>2015-08-11T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>https://andysigler.github.io/projects/opentrons-platform-prototype/</loc>
       
         <lastmod>2015-06-01T00:00:00-04:00</lastmod>
@@ -213,54 +168,9 @@
   
     
     <url>
-      <loc>https://andysigler.github.io/useless-things/art-and-the-internet-of-useless-things/</loc>
-      
-        <lastmod>2015-05-12T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>https://andysigler.github.io/hardware/panelling-arduino-minis/</loc>
       
         <lastmod>2015-04-01T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://andysigler.github.io/hardware/dynamask-and-twenty-rfm69-breakouts/</loc>
-      
-        <lastmod>2015-03-20T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://andysigler.github.io/hardware/uv-lightbox/</loc>
-      
-        <lastmod>2015-02-25T00:00:00-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -291,21 +201,6 @@
       <loc>https://andysigler.github.io/projects/patchbay-interface/</loc>
       
         <lastmod>2014-12-26T00:00:00-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://andysigler.github.io/teaching/nodejs-arduino-yun/</loc>
-      
-        <lastmod>2014-11-14T00:00:00-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -393,21 +288,6 @@
   
     
     <url>
-      <loc>https://andysigler.github.io/projects/openlimbs/</loc>
-      
-        <lastmod>2013-05-01T00:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>https://andysigler.github.io/projects/numbers-on-the-board/</loc>
       
         <lastmod>2013-05-01T00:00:00-04:00</lastmod>
@@ -471,7 +351,7 @@
     <url>
       <loc>https://andysigler.github.io/404.html</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -486,7 +366,7 @@
     <url>
       <loc>https://andysigler.github.io/about/</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -501,7 +381,7 @@
     <url>
       <loc>https://andysigler.github.io/blog/archive/</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -516,7 +396,7 @@
     <url>
       <loc>https://andysigler.github.io/feed.xml</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -531,7 +411,7 @@
     <url>
       <loc>https://andysigler.github.io/humans.txt</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -546,7 +426,7 @@
     <url>
       <loc>https://andysigler.github.io/blog/</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -561,7 +441,7 @@
     <url>
       <loc>https://andysigler.github.io/</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -576,7 +456,7 @@
     <url>
       <loc>https://andysigler.github.io/patchbay/</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -591,7 +471,7 @@
     <url>
       <loc>https://andysigler.github.io/redirect-page/</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -606,7 +486,7 @@
     <url>
       <loc>https://andysigler.github.io/robots.txt</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -621,7 +501,7 @@
     <url>
       <loc>https://andysigler.github.io/sitemap.xml</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -636,7 +516,7 @@
     <url>
       <loc>https://andysigler.github.io/assets/css/styles_feeling_responsive.css</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -651,7 +531,7 @@
     <url>
       <loc>https://andysigler.github.io/blog/page2/</loc>
       
-        <lastmod>2019-11-08T19:43:21-05:00</lastmod>
+        <lastmod>2021-08-07T17:45:44-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

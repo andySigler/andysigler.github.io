@@ -89,27 +89,6 @@
       </item>
     
       <item>
-        <title>Updated - homemadehardware.com</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;See the new updated website here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;DIY PCBs is a growing fascination among the maker types, but it’s hard to find a single spot online where to get all the DIY details you need to successfully:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;prototype&lt;/li&gt;
-  &lt;li&gt;design&lt;/li&gt;
-  &lt;li&gt;and fabricate&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This semester, I just finished teaching my &lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;graduate course at ITP&lt;/a&gt; for the fourth time, and decided to completely update the website.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;See the new updated website here&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 17 May 2019 00:00:00 -0400</pubDate>
-        <link>https://andysigler.github.io/hardware/homemade-hardware-website-update/</link>
-        <guid isPermaLink="true">https://andysigler.github.io/hardware/homemade-hardware-website-update/</guid>
-      </item>
-    
-      <item>
         <title>Colorful Solder Mask</title>
         <description>&lt;p&gt;This is exciting for me and my graduate course, &lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;Homemade Hardware&lt;/a&gt;. I figured out how to make DIY PCBs with any design and color soldermask I want (wow!).&lt;/p&gt;
 
@@ -127,53 +106,6 @@
       </item>
     
       <item>
-        <title>Homemade Hardware</title>
-        <description>&lt;p&gt;I’ve been teaching graduate students at &lt;a href=&quot;http://tisch.nyu.edu/itp&quot;&gt;NYU’s ITP program&lt;/a&gt; since 2015 as an adjunct professor, teaching a course of my own making title Homemade Hardware (&lt;a href=&quot;http://www.homemadehardware.com&quot;&gt;link to my class website&lt;/a&gt;). There, student learn to design and fabricate do-it-yourself PCBs, all without leaving the school.&lt;/p&gt;
-
-&lt;p&gt;ITP is the birthplace of &lt;a href=&quot;https://en.wikipedia.org/wiki/Physical_computing&quot;&gt;physical computing&lt;/a&gt;, so students there have been excited to take greater control over their hardware projects. Some project examples are shown in the picture at the top of this page, and they include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;analog and digital musical instruments&lt;/li&gt;
-  &lt;li&gt;tiny wall-mounted GIF players&lt;/li&gt;
-  &lt;li&gt;knitting wearables&lt;/li&gt;
-  &lt;li&gt;childrens’ toys&lt;/li&gt;
-  &lt;li&gt;smart cigarette lighter&lt;/li&gt;
-  &lt;li&gt;wireless sensors&lt;/li&gt;
-  &lt;li&gt;and many more…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;what-exactly-is-taught&quot;&gt;What Exactly is Taught?&lt;/h2&gt;
-
-&lt;p&gt;To make a working PCB for a physical computing project, a variety of new skills must be learned relatively quickly in a semester. From electronics basics, to CAD design, and milling machines, it definitely true that hardware is hard, but in the end is most rewarding.&lt;/p&gt;
-
-&lt;p&gt;We start the semester off taking ITP’s most common circuit board, the &lt;a href=&quot;https://store.arduino.cc/usa/arduino-uno-rev3&quot;&gt;Arduino Uno&lt;/a&gt;, and breaking it down to it’s most simple form (just the micro on a breadboard). We then take an indepth look at how a piece of code is placed onto the micro, so that now the students no longer need an actual Arduino to make their projects.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/arduino-to-breadboard.png&quot; alt=&quot;Arduino to Breadboard&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then, there’s a quick review of electronics basics, just the bare minimum so they can make simple digital circuits. With this new knowledge in place, they get their hands dirty soldering through-hole PCBs, and populating their first surface-mount PCB. ITP has a nice reflow oven, set of heat guns, and the most amazing manual pick-and-place machine (pictured below).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/smt-place-2000.jpg&quot; alt=&quot;SMT Place 2000&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then it’s off to the fun stuff, design with &lt;a href=&quot;https://www.autodesk.com/products/eagle/overview&quot;&gt;Eagle CAD&lt;/a&gt; and micro-milling with &lt;a href=&quot;https://www.bantamtools.com/pages/products&quot;&gt;Bantam Tools’ Desktop PCB Milling Machine&lt;/a&gt;. This is where they can start putting their ideas down into board designs, and quickly milling them to test and try out. The desktop PCB milling machine is was the original game-changer that kickstarted this class, and it’s great to see it doing well and continuing to improve.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/bantam.jpg&quot; alt=&quot;Bantam Tools' Desktop PCB Milling Machine&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The final weeks of the class, I shift to acid etching PCBs using muriatic acid, and a laser-cutter to remove the acid-blocking ink (this is to replace the older toner-transfer method). While acid etching combined with micro-milling yields the best PCB quality, only a handful of students in the past have chosen acid etching, probably because the process is long and more prone to mistakes.&lt;/p&gt;
-
-&lt;h2 id=&quot;lessons-learned-on-diy-pcbs&quot;&gt;Lessons Learned on DIY PCBs&lt;/h2&gt;
-
-&lt;p&gt;During my &lt;a href=&quot;https://andysigler.github.io/projects/patchbay&quot;&gt;master’s thesis at ITP&lt;/a&gt;, I thought that homemade PCBs would spur some kind of maker revolution, similar to 3d printing. Now I’m not as pie-in-the-sky as I was then (like some 3d printing evangelicals from years past may also feel), but I do think homemade PCBs are a welcome addition to the maker processes. And perhaps it will continue to get easier and easier.&lt;/p&gt;
-
-&lt;p&gt;I’ve learned that the short-term benefits to students are that they are able to build ITP projects that do not fall apart easily (this is most noticable when my students perform at the NIME concert and their piece does not break). Also, they are better able to build a polished look and size for their hardware projects during thesis and in their portfolio.&lt;/p&gt;
-
-&lt;p&gt;In the long-term, students have been able to move on and work with electronics professionally, just as I did. Making DIY PCBs is not a normal way of learning electronics, but I think it is a strength because once they move on to professionally made PCBs, it seems so much easier that it’s not intimidating any more.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
-        <link>https://andysigler.github.io/teaching/homemade-hardware/</link>
-        <guid isPermaLink="true">https://andysigler.github.io/teaching/homemade-hardware/</guid>
-      </item>
-    
-      <item>
         <title>OT2 Electronics</title>
         <description>&lt;p&gt;The Opentrons OT2 liquid handler is the next step in opensource lab automation, and I’m proud to have been one of the few designers and engineers to work on it.&lt;/p&gt;
 
@@ -185,9 +117,9 @@
   &lt;source src=&quot;https://andysigler.github.io/images/ot2_video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2 = document.getElementById('vid_ot2');
-    vid_ot2.removeAttribute('controls');
-    vid_ot2.addEventListener('canplaythrough', function(e){
+    var vid_ot2 = document.getElementById(&apos;vid_ot2&apos;);
+    vid_ot2.removeAttribute(&apos;controls&apos;);
+    vid_ot2.addEventListener(&apos;canplaythrough&apos;, function(e){
         vid_ot2.play();
     })
 &lt;/script&gt;
@@ -248,9 +180,9 @@
   &lt;source src=&quot;https://andysigler.github.io/images/tip_probe.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_tip_probe = document.getElementById('vid_tip_probe');
-    vid_tip_probe.removeAttribute('controls');
-    vid_tip_probe.addEventListener('canplaythrough', function(e){
+    var vid_tip_probe = document.getElementById(&apos;vid_tip_probe&apos;);
+    vid_tip_probe.removeAttribute(&apos;controls&apos;);
+    vid_tip_probe.addEventListener(&apos;canplaythrough&apos;, function(e){
         vid_tip_probe.play();
     })
 &lt;/script&gt;
@@ -301,9 +233,9 @@
   &lt;source src=&quot;https://andysigler.github.io/images/thermocycler-video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_cycler = document.getElementById('vid_cycler');
-    vid_cycler.removeAttribute('controls');
-    vid_cycler.addEventListener('canplaythrough', function(e){
+    var vid_cycler = document.getElementById(&apos;vid_cycler&apos;);
+    vid_cycler.removeAttribute(&apos;controls&apos;);
+    vid_cycler.addEventListener(&apos;canplaythrough&apos;, function(e){
         vid_cycler.play();
     })
 &lt;/script&gt;
@@ -334,9 +266,9 @@
   &lt;source src=&quot;https://andysigler.github.io/images/ot2_temp_deck.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2_temp_deck = document.getElementById('vid_ot2_temp_deck');
-    vid_ot2_temp_deck.removeAttribute('controls');
-    vid_ot2_temp_deck.addEventListener('canplaythrough', function(e){
+    var vid_ot2_temp_deck = document.getElementById(&apos;vid_ot2_temp_deck&apos;);
+    vid_ot2_temp_deck.removeAttribute(&apos;controls&apos;);
+    vid_ot2_temp_deck.addEventListener(&apos;canplaythrough&apos;, function(e){
         vid_ot2_temp_deck.play();
     })
 &lt;/script&gt;
@@ -349,9 +281,9 @@
   &lt;source src=&quot;https://andysigler.github.io/images/ot2_temp_deck_loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2_temp_deck_loop = document.getElementById('vid_ot2_temp_deck_loop');
-    vid_ot2_temp_deck_loop.removeAttribute('controls');
-    vid_ot2_temp_deck_loop.addEventListener('canplaythrough', function(e){
+    var vid_ot2_temp_deck_loop = document.getElementById(&apos;vid_ot2_temp_deck_loop&apos;);
+    vid_ot2_temp_deck_loop.removeAttribute(&apos;controls&apos;);
+    vid_ot2_temp_deck_loop.addEventListener(&apos;canplaythrough&apos;, function(e){
         vid_ot2_temp_deck_loop.play();
     })
 &lt;/script&gt;
@@ -374,9 +306,9 @@
   &lt;source src=&quot;https://andysigler.github.io/images/ot2_mag_deck.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2_mag_deck = document.getElementById('vid_ot2_mag_deck');
-    vid_ot2_mag_deck.removeAttribute('controls');
-    vid_ot2_mag_deck.addEventListener('canplaythrough', function(e){
+    var vid_ot2_mag_deck = document.getElementById(&apos;vid_ot2_mag_deck&apos;);
+    vid_ot2_mag_deck.removeAttribute(&apos;controls&apos;);
+    vid_ot2_mag_deck.addEventListener(&apos;canplaythrough&apos;, function(e){
         vid_ot2_mag_deck.play();
     })
 &lt;/script&gt;
@@ -389,9 +321,9 @@
   &lt;source src=&quot;https://andysigler.github.io/images/ot2_mag_deck_loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-    var vid_ot2_mag_deck_loop = document.getElementById('vid_ot2_mag_deck_loop');
-    vid_ot2_mag_deck_loop.removeAttribute('controls');
-    vid_ot2_mag_deck_loop.addEventListener('canplaythrough', function(e){
+    var vid_ot2_mag_deck_loop = document.getElementById(&apos;vid_ot2_mag_deck_loop&apos;);
+    vid_ot2_mag_deck_loop.removeAttribute(&apos;controls&apos;);
+    vid_ot2_mag_deck_loop.addEventListener(&apos;canplaythrough&apos;, function(e){
         vid_ot2_mag_deck_loop.play();
     })
 &lt;/script&gt;
@@ -446,13 +378,13 @@
 
 &lt;p&gt;This device, designed for &lt;a href=&quot;http://lotik.com&quot;&gt;Lotik Labs&lt;/a&gt;, is a water-usage monitor of for residential plumbing. The device is clamped onto any water pipe, like for a sink, faucet, or toilet, and it can detect when and how much water is flowing. This data is then sent wireless to a central hub located in the building, to transmit to Lotik’s central monitoring service.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/lotik-1.jpg&quot; alt=&quot;Lotik Labs' Water Monitor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/lotik-1.jpg&quot; alt=&quot;Lotik Labs&apos; Water Monitor&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Intended to be used by apartment building owners, installing many devices within a single building not only helps the devices communicate back to the internet, but also gives greater understanding into how, when, and who is using water in a building. Traditionally, a single apartment is given a single meter to track how much water is used, but with Lotik’s technology, the detail can be focused down to individual uses.&lt;/p&gt;
 
 &lt;p&gt;My personal contributions to this project were early component testing and selection, systems design, firmware development, electrical/PCB design, and testing.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/lotik-2.jpg&quot; alt=&quot;Lotik Labs' Water Monitor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/lotik-2.jpg&quot; alt=&quot;Lotik Labs&apos; Water Monitor&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;how-it-works-1&quot;&gt;How it Works&lt;/h4&gt;
 
@@ -469,13 +401,256 @@
 
 &lt;p&gt;The Rally Charging Cable was designed for &lt;a href=&quot;http://rallycharge.com/&quot;&gt;Rally&lt;/a&gt;, to a simple iPhone charging cable for public use. Any user, whether at a restaurant, bar, or other public space, can simply connect their phone to get a quick charge. When connected, the device charges the iPhone like normal, except the iPhone will display advertisements while being charged. Once the user is done charging, simply unplug and the advertisements stop.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/rally-1.jpg&quot; alt=&quot;Rally's iPhone Charger&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/rally-1.jpg&quot; alt=&quot;Rally&apos;s iPhone Charger&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My contributions to this project were minimal, as it was finishing up when I first joined Tomorrow Lab. I contributed to final PCB design and testing for the integrated iPhone cable.&lt;/p&gt;
 </description>
         <pubDate>Mon, 04 Feb 2019 00:00:00 -0500</pubDate>
         <link>https://andysigler.github.io/products/tomorrow-lab/</link>
         <guid isPermaLink="true">https://andysigler.github.io/products/tomorrow-lab/</guid>
+      </item>
+    
+      <item>
+        <title>Python API: Moving Liquids</title>
+        <description>&lt;video id=&quot;vid_aspirate&quot; style=&quot;width:100%;max-width:400px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/aspirate-loop.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/aspirate-loop.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/aspirate-loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_aspirate = document.getElementById(&apos;vid_aspirate&apos;);
+    vid_aspirate.removeAttribute(&apos;controls&apos;);
+    vid_aspirate.addEventListener(&apos;canplaythrough&apos;, function(e){
+        vid_aspirate.play();
+    })
+&lt;/script&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://docs.opentrons.com/&quot;&gt;Opentrons API&lt;/a&gt; is an opensource software interface, written in Python, to control the set of Opentrons liquid-handlers. It was designed allow simple commands to perform relatively complex procedures, while at the same time exposing a lower level that gives the author control over the machine’s atomic movements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/opentrons_api_contributions_chart.png&quot; alt=&quot;API Contributions&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the chart above, &lt;strong style=&quot;color:#EEA33B&quot;&gt;my contributions are shown in orange&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;From 2016-2018, I designed and programmed an important piece of the Python API; the automated-liquid-handling portions. Specifically, it starts at the high-level user protocol commands, and moves down through individual pipette movements, all the way down to programming motor spins.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;my-contributions&quot;&gt;My Contributions&lt;/h2&gt;
+
+&lt;p&gt;Within the Opentrons Python API, mostly working on:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Designing protocol commands&lt;/li&gt;
+  &lt;li&gt;Designing pipette actions&lt;/li&gt;
+  &lt;li&gt;Programming pipette movements&lt;/li&gt;
+  &lt;li&gt;Programming motion control and hardware abstraction&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s a video demoing my work. It shows protocol commands creating real-world liquid transfers:&lt;/p&gt;
+
+&lt;video id=&quot;vid_demo&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/opentrons_api.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/opentrons_api.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/opentrons_api.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;!-- &lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_demo = document.getElementById(&apos;vid_demo&apos;);
+    vid_demo.removeAttribute(&apos;controls&apos;);
+    vid_demo.addEventListener(&apos;canplaythrough&apos;, function(e){
+        vid_demo.play();
+    })
+&lt;/script&gt; --&gt;
+
+&lt;p&gt;As part of a team of four software developers in 2016, I played an outsized role in shaping the interface of the API. From experience in using the &lt;a href=&quot;https://shop.opentrons.com/collections/ot-one-s-robot-and-accessories&quot;&gt;OT-One&lt;/a&gt;, plus having solely writting the &lt;a href=&quot;https://andysigler.github.io/projects/opentrons-platform-prototype&quot;&gt;platform’s Kickstarter version all in Javascript&lt;/a&gt;, I new it was important to allow both lower-level control of liquid transfers, while giving another option for simple transfers. This allowed the API to satisfy both simple needs and programming beginners, as well as more complex procedures and those with Python experience.&lt;/p&gt;
+
+&lt;p&gt;In addition to leading design of the API’s interface, I spent considerable time in 2016 for the OT-One and in 2017 for the OT2 writing the motion control aspect of the Opentrons software. This includes how a pipette moves around, what parameters are required to allow fine control of liquid transfers, software interfaces for controlling the stepper-motor-driving system, and finally communication with the machine’s stepper-motor-driver through GCode.&lt;/p&gt;
+
+&lt;p&gt;See the project live &lt;a href=&quot;https://github.com/opentrons/opentrons&quot;&gt;on GitHub&lt;/a&gt;, and &lt;a href=&quot;https://docs.opentrons.com/atomic%20commands.html&quot;&gt;read the docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+## How to Use: Python API Tutorial
+
+Python was chosen to drive the Opentrons&apos; backend because of the language&apos;s prevalence in the scientific community. So because we&apos;re working with Python, we need to first import our instruments (the pipettes) and our labware (the plates, tip-racks, etc.):
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;from opentrons import instruments, labware&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+Before we can get started, we need to know about [the Opentrons deck](https://docs.opentrons.com/labware.html#placing-labware-on-the-robot-deck). This is a set of slotted inserts that fit standard labware, so they do not move during a protocol. You&apos;ll notice in the picture below that each &quot;slot&quot; on the deck is numbered, so that when our protocol creates a new labware we can easily assign it&apos;s location to a numbered slot.
+
+![Opentrons Deck](https://andysigler.github.io/images/opentrons-deck-small.png)
+![Opentrons Deck](https://andysigler.github.io/images/opentrons-full-deck-small.jpg)
+
+Now let&apos;s pretend we have a [trough](https://docs.opentrons.com/labware.html#troughs) filled with some sample, and we want to transfer that sample to a [well plate](https://docs.opentrons.com/labware.html#pcr-flat). The software contains accurate three-dimensional representations of these labwares, and the API can load them into your protocol like so:
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;trough = labware.load(&apos;trough-12row&apos;, slot=&apos;1&apos;)
+plate = labware.load(&apos;96-PCR-flat&apos;, slot=&apos;2&apos;)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+Next we need a [pipette](https://docs.opentrons.com/pipettes.html), which also need a [tip rack](https://docs.opentrons.com/labware.html#tipracks) which holds disposable tips for sterile liquid transfers. For the pipettes, let&apos;s use a 300uL single-channel, and put it on the OT2&apos;s left mount:
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;tips = labware.load(&apos;opentrons-tiprack-300ul&apos;, slot=&apos;3&apos;)
+pipette = instruments.P300_Single(mount=&apos;left&apos;, tip_racks=[tips])&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+With our labware and pipettes ready, we can start transferring liquids!
+
+As of this writing, the API has loosely speaking two layers of liquid-handling commands, the documentation names &quot;atomic&quot; and &quot;complex&quot;.
+
+The [atomic commands](https://docs.opentrons.com/atomic%20commands.html) can be thought of as individual movements, controllable and sequencable through the API. Below are a set of atomic commands which do the following:
+
+- Pick up a new tip from the tip rack
+- Aspirate 100uL from the trough&apos;s A1 position
+- Dispense 100uL to the plate&apos;s A1 position
+- Drop the tip inside the deck&apos;s trash
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;pipette.pick_up_tip()
+pipette.aspirate(100, trough.wells(&apos;A1&apos;))
+pipette.dispense(100, trough.wells(&apos;A1&apos;))
+pipette.drop_tip()&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+To add some complexity, we can fit in a few more atomic commands to give even more fine-tuned control over the liquid&apos;s movement:
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;pipette.pick_up_tip()
+pipette.aspirate(100, trough.wells(&apos;A1&apos;))
+pipette.touch_tip()
+pipette.air_gap(20)
+pipette.dispense(100, trough.wells(&apos;A1&apos;))
+pipette.blow_out()
+pipette.drop_tip()&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+To make it easier to read, you can also chain together pipette commands:
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;pipette.pick_up_tip()
+pipette.aspirate(100, trough.wells(&apos;A1&apos;)).touch_tip().air_gap(20)
+pipette.dispense(100, trough.wells(&apos;A1&apos;)).blow_out()
+pipette.drop_tip()&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+The [complex commands](https://docs.opentrons.com/complex%20commands.html) are one level higher, and hide the many details you are show when using atomic commands. To perform a similar liquid transfer as above, we can us the following complex command:
+
+ 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot; data-lang=&quot;python3&quot;&gt;pipette.transfer(100, trough.wells(&apos;A1&apos;), plate.wells(&apos;A1&apos;))&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+That single line will automatically pick up a tip, transfer the 100uL, then drop the tip. These complex commands are much easier to understand, more approachable to beginners, while the trade-off is less control.
+
+There is much more detail you can read in the documentaion linked to throughout this post.
+ --&gt;
+</description>
+        <pubDate>Sun, 03 Feb 2019 00:00:00 -0500</pubDate>
+        <link>https://andysigler.github.io/products/opentrons-api/</link>
+        <guid isPermaLink="true">https://andysigler.github.io/products/opentrons-api/</guid>
+      </item>
+    
+      <item>
+        <title>Magnetic Hue Light Controller</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/hue-fridge.jpg&quot; alt=&quot;Pictures of the hue controller&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By simply changing the orientation of this device, it will control all the lights in my apartment. Plus, it can also work by sticking to a refrigerator (or anything else magnetic), and it’s battery lasts an entire year without a recharge.&lt;/p&gt;
+
+&lt;p&gt;It’s like a magical 4-sided die; change the face, and it sets my Hue light settings. I’ve grown tired of the Apps and voice commands available to control my lights, so I made something physical and more interesting than just a button or something.&lt;/p&gt;
+
+&lt;p&gt;This project started as a collaboration with &lt;a href=&quot;http://www.jayzehngebot.com/realjayz/?/about/&quot;&gt;Jay Zehngebot&lt;/a&gt; to redesign his 12-sided die, the “dod”.&lt;/p&gt;
+
+&lt;p&gt;Watch the video below to see a quick demo of me controlling 3 Hue bulbs. It shows the device can work both on a tabletop, and also when magnetically attached to something (like a watering pot).&lt;/p&gt;
+
+&lt;video id=&quot;vid_demo&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; poster=&quot;https://andysigler.github.io/images/hue-demo-poster.png&quot;&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/hue-demo.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/hue-demo.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/hue-demo.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+//    var vid_demo = document.getElementById(&apos;vid_demo&apos;);
+//    vid_demo.removeAttribute(&apos;controls&apos;);
+//    vid_demo.addEventListener(&apos;canplaythrough&apos;, function(e){
+//        vid_demo.play();
+//    })
+&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I thought it would be a fun interaction to keep this thing on my refrigerator, so it was available to me whenever I was in the kitchen (we have limited counter space).&lt;/p&gt;
+
+&lt;p&gt;The looping video below shows that if you change which face is against the fridge, then it will turn the kitchen light on or off.&lt;/p&gt;
+
+&lt;video id=&quot;vid_fridge&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/hue-fridge-loop.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/hue-fridge-loop.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/hue-fridge-loop.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_fridge = document.getElementById(&apos;vid_fridge&apos;);
+    vid_fridge.removeAttribute(&apos;controls&apos;);
+    vid_fridge.addEventListener(&apos;canplaythrough&apos;, function(e){
+        vid_fridge.play();
+    })
+&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Detecting this magnetic attachement is done using internal hall effect sensors. There are 4 total sensors, one next to each of the internal magnets. When a magnet is near another magnetic surface, the sensor detects the change in magnetic field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/hue-magnet-describe.jpg&quot; alt=&quot;How the magnets work&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Even cats like it!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/hue-cat.jpg&quot; alt=&quot;On a cat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;diy-fabrication&quot;&gt;DIY Fabrication&lt;/h2&gt;
+
+&lt;p&gt;I used a Bantam Tools Milling Machine to cut the circuit boards.&lt;/p&gt;
+
+&lt;video id=&quot;vid_pcb&quot; style=&quot;margin-left:auto;margin-right:auto;display:block;width:100%;max-width:640px; height:auto; border:1px solid #aaa&quot; width=&quot;1280&quot; height=&quot;720&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/hue-pcb.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/hue-pcb.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;https://andysigler.github.io/images/hue-pcb.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_pcb = document.getElementById(&apos;vid_pcb&apos;);
+    vid_pcb.removeAttribute(&apos;controls&apos;);
+    vid_pcb.addEventListener(&apos;canplaythrough&apos;, function(e){
+        vid_pcb.play();
+    })
+&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/hue-pcb-coin.jpg&quot; alt=&quot;The main PCB&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The entire device is made up of 4 circuit boards, connected together with slots and solder.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/hue-pcb-slots.jpg&quot; alt=&quot;Slotted PCBs fit together to make the sides&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An ESP32 module is used to run the firmware, connect to the Hue lights system over WiFi, and to enter a deep sleep mode. A 3-axis accelerometer is used to detect both movements and which side is facing down. Finally, 4 hall-effect sensors are placed on each PCB near that side’s magnet.&lt;/p&gt;
+
+&lt;p&gt;If a movement is detected, the device will wake up from deep sleep. Once it is no longer moving, it will first check to see if a magnetic field is being pulled in any direction. If not, then it will check to see which side is facing down. The user-selected face is then used to set a Hue lights Scene.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/hue-pcb-soldered.jpg&quot; alt=&quot;Components soldered on&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a 400mA/h lipo battery which fits snuggly inside. A micro-usb port is used to charge the battery, and also a small speaker can play sounds to let the user know what is going on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/hue-prototype-grid.jpg&quot; alt=&quot;Images of a prototype&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The rounded shape of the device prevents it from resting on any side that does not have a magnet. Because the device is entirely covered in plywood, I needed to bend a piece to match near-perfectly with it’s form.&lt;/p&gt;
+
+&lt;p&gt;To form the wood, I used a piece of 1” thick wood sanded down to match the shape, then some clamps and a sink full of water. The water allowed the wood to be more flexible, so as I slowly bent it to the rounded shape, it did not crack anywhere. I then left it clamped for 24 hours so it stayed put.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://andysigler.github.io/images/hue-bend-wood.jpg&quot; alt=&quot;Bending some plywood for the enclosure&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Mar 2017 00:00:00 -0400</pubDate>
+        <link>https://andysigler.github.io/projects/magnetic-hue-light-controller/</link>
+        <guid isPermaLink="true">https://andysigler.github.io/projects/magnetic-hue-light-controller/</guid>
       </item>
     
   </channel>

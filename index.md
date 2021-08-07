@@ -1,189 +1,162 @@
 ---
 layout: page
-title: Andy Sigler
-subheadline: design with software and electronics
+title: 
+subheadline: 
 permalink: "/"
 show_meta: false
 header: no
 ---
 <style type="text/css">
     .borderImg {
-        border: 1px solid #aaa;
+        border: 1px solid #222;
+/*        -webkit-filter: grayscale(50%);  Safari 6.0 - 9.0 
+        filter: grayscale(50%);*/
+    }
+    .borderImg:hover {
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+    }
+    .overlayText {
+        border-radius: 2px;
+        position: absolute; 
+        bottom: 1px;
+        left: 16px;
+        background-color: rgba(0,0,0,0.7);
+        color: white;
+        font-size: 12px;
+        padding: 0px 5px 0px 5px;
+    }
+    .bottomMargin {
+        margin-bottom: 20px;
     }
 </style>
 <br />
-
-<p class="subheadline">summer 2016 - winter 2019</p>
-<h1 class="matchbook">Product Design and Production</h1>
-<div>Returned to <a href="http://www.opentrons.com">Opentrons Labworks</a> to design and manufacture the next-generation, open-source, liquid-handling hardware platform</div>
 <div class="row t30">
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/products/opentrons-ot2" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/products/opentrons-ot2" class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/ot2-small.jpg" alt="">
-            <p>Hardware: OT2 Electronics</p>
+            <span class="overlayText">Hardware: OT2 Electronics</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/products/opentrons-api" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/products/opentrons-api"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/opentrons_api_small.png" alt="">
-            <p>Software: Moving Liquids</p>
+            <span class="overlayText">Software: Moving Liquids</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/products/opentrons-modules" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/products/opentrons-modules"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/opentrons_modules_small.png" alt="">
-            <p>Hardware: OT2 Modules</p>
+            <span class="overlayText">Hardware: OT2 Modules</span>
         </a>
     </div>
-</div>
-<br />
-<br />
-
-<p class="subheadline">fall 2015 - summer 2016</p>
-<h1 class="matchbook">Internet of Things and Teaching</h1>
-<div>Work made while at the IoT design firm <a href="http://tomorrow-lab.com">Tomorrow-Lab</a>, as well as creating my own <a href="https://tisch.nyu.edu/itp">ITP-NYU</a> graduate course</div>
-<div class="row t30">
-    <div class="medium-4 columns">
-        <a href="{{ site.url }}/projects/magnetic-hue-light-controller">
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{ site.url }}/projects/magnetic-hue-light-controller" class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/hue-fridge-bulb.jpg" alt="">
-            <p>Magnetic Hue Light Controller</p>
+            <span class="overlayText">Magnetic Hue Light Controller</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/teaching/homemade-hardware" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/teaching/homemade-hardware"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/homemade_hardware_small.png" alt="">
-            <p>ITP Course - Homemade Hardware</p>
+            <span class="overlayText">ITP Course - Homemade Hardware</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/products/tomorrow-lab" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/products/tomorrow-lab"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/tomorrow_lab_small.png" alt="">
-            <p>Products from Tomorrow Lab</p>
+            <span class="overlayText">Products from Tomorrow Lab</span>
         </a>
     </div>
-</div>
-<br />
-<br />
-
-<p class="subheadline">summer 2014 - summer 2015</p>
-<h1 class="matchbook">DIY PCBs and Automation</h1>
-<div>Work made during a research residency at <a href="https://tisch.nyu.edu/itp">ITP-NYU</a>, and creating the initial software stack for <a href="https://www.kickstarter.com/projects/932664050/opentrons-open-source-rapid-prototyping-for-biolog">Opentrons Labwork's Kickstarter product</a></div>
-<div class="row t30">
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/hardware/nodela/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/hardware/nodela/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/nodela_image_small.png" alt="">
-            <p>Nodela: DIY PCB Milling Software</p>
+            <span class="overlayText">Nodela: DIY PCB Milling Software</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/hardware/panelling-arduino-minis/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/hardware/panelling-arduino-minis/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/diy_arduino_mini_thumb.jpg" alt="">
-            <p>DIY Arduino Panel</p>
+            <span class="overlayText">DIY Arduino Panel</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/opentrons-platform-prototype/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/projects/opentrons-platform-prototype/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/opentrons_small.jpg" alt="">
-            <p>Opentrons Platform Prototype</p>
+            <span class="overlayText">Opentrons Platform Prototype</span>
         </a>
     </div>
-</div>
-<br />
-<br />
-
-<p class="subheadline">spring 2014</p>
-<h1 class="matchbook">ITP Masters Thesis</h1>
-<div>Patchbay is an electronics and wireless platform for building musical instruments, toys, and other playful objects for the internet of things</div>
-<div class="row t30 b20">
-    <div class="medium-12 columns">
-        <a href="{{site.url}}/patchbay" >
+    <div class="medium-12 columns bottomMargin">
+        <a href="{{site.url}}/patchbay"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/uselessThings.jpg" alt="">
-            <p>Patchbay: For Connected Instruments & Toys</p>
+            <span class="overlayText">Patchbay: For Connected Instruments & Toys</span>
         </a>
     </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
-<br />
-
-<p class="subheadline">fall 2012 - spring 2014</p>
-<h1 class="matchbook">ITP Portfolio</h1>
-<div>Selected works from my time as a graduate student at <a href="https://tisch.nyu.edu/itp">ITP-NYU</a></div>
-<div class="row t30">
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/noser/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/projects/noser/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/noser_small_2.png" alt="">
-            <p>Noser: Monster Synth</p>
+            <span class="overlayText">Noser: Monster Synth</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/screenracer/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/projects/screenracer/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/screenracer_small.png" alt="">
-            <p>Screenracer: Multi-Screen Game</p>
+            <span class="overlayText">Screenracer: Multi-Screen Game</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/foodable/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/projects/foodable/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/foodable_small.png" alt="">
-            <p>Foodable: Interactive Tabletop</p>
+            <span class="overlayText">Foodable: Interactive Tabletop</span>
         </a>
     </div>
-</div>
-<div class="row t30">
-    <div class="medium-4 columns">
-        <a href="https://andysigler.github.io/squaremirror" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="https://andysigler.github.io/squaremirror"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/squaremirror_small.jpg" alt="">
-            <p>Squaremirror: Live Demo</p>
+            <span class="overlayText">Squaremirror: Live Demo</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="https://andysigler.github.io/paintmirror" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="https://andysigler.github.io/paintmirror"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/paintmirror_small.jpg" alt="">
-            <p>Paintmirror: Live Demo</p>
+            <span class="overlayText">Paintmirror: Live Demo</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="https://andysigler.github.io/stretchmirror" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="https://andysigler.github.io/stretchmirror"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/stretchmirror_small.png" alt="">
-            <p>Stretchmirror: Live Demo</p>
+            <span class="overlayText">Stretchmirror: Live Demo</span>
         </a>
     </div>
-</div>
-<div class="row t30">
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/bookmapping/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/projects/bookmapping/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/bookmapping_small.png" alt="">
-            <p>Bookmapping: Projection Map</p>
+            <span class="overlayText">Bookmapping: Projection Map</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/dipinator/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/projects/dipinator/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/dipinator_small.png" alt="">
-            <p>Dipinator: Water as Interface</p>
+            <span class="overlayText">Dipinator: Water as Interface</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/bittorrent/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/projects/bittorrent/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/bittorrent-combined-small.png" alt="">
-            <p>BitTorrent: Web Experiments</p>
+            <span class="overlayText">BitTorrent: Web Experiments</span>
         </a>
     </div>
-</div>
-<div class="row t30">
-    <div class="medium-4 columns">
-        <a href="https://andysigler.github.io/trees" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="https://andysigler.github.io/trees"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/trees_small.png" alt="">
-            <p>Trees: Web Animation</p>
+            <span class="overlayText">Trees: Web Animation</span>
         </a>
     </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/numbers-on-the-board/" >
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/projects/numbers-on-the-board/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/gears_small.png" alt="">
-            <p>Numbers on the Board</p>
-        </a>
-    </div>
-    <div class="medium-4 columns">
-        <a href="{{site.url}}/projects/openlimbs/" >
-            <img class="borderImg" src="{{site.url}}/images/openlimbs_small.png" alt="">
-            <p>OpenLimbs</p>
+            <span class="overlayText">Numbers on the Board</span>
         </a>
     </div>
 </div>
+<script type="text/javascript" src="{{ site.url }}/assets/js/textOverlays.js"></script>
