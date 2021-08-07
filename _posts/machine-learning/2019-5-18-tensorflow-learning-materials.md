@@ -37,7 +37,7 @@ Great (short) book by Tariq Rashid, guides the reader through writing a simple d
 
 Website and courses by Gene Kogan, and understanding neural networks from the non-engineering, creative perspective. The lecture are great to just sit back and watch, try to absorb before moving on to actually making anything.
 
-### [MIT 6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/)
+### [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com/)
 
 This short course was taught January 2019 to MIT students, and is a great intro and overview of what machine learning and tensorflow can offer. There are just a few lectures, and some homework that goes with them.
 

@@ -111,19 +111,19 @@ header: no
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
-        <a href="https://andysigler.github.io/squaremirror"  class="wrappedLink">
+        <a href="{{site.url}}/squaremirror"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/squaremirror_small.jpg" alt="">
             <span class="overlayText">Squaremirror: Live Demo</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
-        <a href="https://andysigler.github.io/paintmirror"  class="wrappedLink">
+        <a href="{{site.url}}/paintmirror"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/paintmirror_small.jpg" alt="">
             <span class="overlayText">Paintmirror: Live Demo</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
-        <a href="https://andysigler.github.io/stretchmirror"  class="wrappedLink">
+        <a href="{{site.url}}/stretchmirror"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/stretchmirror_small.png" alt="">
             <span class="overlayText">Stretchmirror: Live Demo</span>
         </a>
@@ -147,7 +147,7 @@ header: no
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
-        <a href="https://andysigler.github.io/trees"  class="wrappedLink">
+        <a href="{{site.url}}/trees"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/trees_small.png" alt="">
             <span class="overlayText">Trees: Web Animation</span>
         </a>

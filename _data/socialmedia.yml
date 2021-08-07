@@ -1,14 +1,14 @@
 - name: Vimeo
-  url: http://www.vimeo.com/andysigler
+  url: https://www.vimeo.com/andysigler
   class: icon-vimeo
   title: "Videos"
 
 - name: Twitter
-  url: http://twitter.com/andy_sigler
+  url: https://twitter.com/andy_sigler
   class: icon-twitter
   title: "Twitter"
 
 - name: GitHub
-  url: http://github.com/andysigler
+  url: https://github.com/andysigler
   class: icon-github
   title: Code and Design Files

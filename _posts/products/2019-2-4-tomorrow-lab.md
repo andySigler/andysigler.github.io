@@ -57,7 +57,7 @@ The microcontroller inside is the NRF51822 from Nordic, which has built-in Bluet
 
 [See documentation on Tomorrow Lab's website](https://www.tomorrow-lab.com/work/lotik)
 
-This device, designed for [Lotik Labs](http://lotik.com), is a water-usage monitor of for residential plumbing. The device is clamped onto any water pipe, like for a sink, faucet, or toilet, and it can detect when and how much water is flowing. This data is then sent wireless to a central hub located in the building, to transmit to Lotik's central monitoring service.
+This device, designed for [Lotik Labs](https://lotik.com), is a water-usage monitor of for residential plumbing. The device is clamped onto any water pipe, like for a sink, faucet, or toilet, and it can detect when and how much water is flowing. This data is then sent wireless to a central hub located in the building, to transmit to Lotik's central monitoring service.
 
 ![Lotik Labs' Water Monitor]({{site.url}}/images/lotik-1.jpg)
 
@@ -80,7 +80,7 @@ The microcontroller used was the NRF51422 from Nordic, selected primarily to uti
 
 [See documentation on Tomorrow Lab's website](https://www.tomorrow-lab.com/work/rally)
 
-The Rally Charging Cable was designed for [Rally](http://rallycharge.com/), to a simple iPhone charging cable for public use. Any user, whether at a restaurant, bar, or other public space, can simply connect their phone to get a quick charge. When connected, the device charges the iPhone like normal, except the iPhone will display advertisements while being charged. Once the user is done charging, simply unplug and the advertisements stop.
+The Rally Charging Cable was designed for [Rally](https://rallycharge.com/), to a simple iPhone charging cable for public use. Any user, whether at a restaurant, bar, or other public space, can simply connect their phone to get a quick charge. When connected, the device charges the iPhone like normal, except the iPhone will display advertisements while being charged. Once the user is done charging, simply unplug and the advertisements stop.
 
 ![Rally's iPhone Charger]({{site.url}}/images/rally-1.jpg)
 

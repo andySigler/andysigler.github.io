@@ -26,7 +26,7 @@
 	}	/**
 	 *  Tone.js
 	 *  @author Yotam Mann
-	 *  @license http://opensource.org/licenses/MIT MIT License
+	 *  @license https://opensource.org/licenses/MIT MIT License
 	 *  @copyright 2014-2017 Yotam Mann
 	 */
 	Main(function () {
@@ -858,7 +858,7 @@
 	    
 	    /**
 		 *  @class Wraps the native Web Audio API 
-		 *         [WaveShaperNode](http://webaudio.github.io/web-audio-api/#the-waveshapernode-interface).
+		 *         [WaveShaperNode](https://webaudio.github.io/web-audio-api/#the-waveshapernode-interface).
 		 *
 		 *  @extends {Tone.SignalBase}
 		 *  @constructor
@@ -2627,7 +2627,7 @@
 	    Tone.Param.prototype.setTargetAtTime = function (value, startTime, timeConstant) {
 	        value = this._fromUnits(value);
 	        // The value will never be able to approach without timeConstant > 0.
-	        // http://www.w3.org/TR/webaudio/#dfn-setTargetAtTime, where the equation
+	        // https://www.w3.org/TR/webaudio/#dfn-setTargetAtTime, where the equation
 	        // is described. 0 results in a division by 0.
 	        value = Math.max(this._minOutput, value);
 	        timeConstant = Math.max(this._minOutput, timeConstant);
@@ -2801,7 +2801,7 @@
 		 *  @class  A signal is an audio-rate value. Tone.Signal is a core component of the library.
 		 *          Unlike a number, Signals can be scheduled with sample-level accuracy. Tone.Signal
 		 *          has all of the methods available to native Web Audio 
-		 *          [AudioParam](http://webaudio.github.io/web-audio-api/#the-audioparam-interface)
+		 *          [AudioParam](https://webaudio.github.io/web-audio-api/#the-audioparam-interface)
 		 *          as well as additional conveniences. Read more about working with signals 
 		 *          [here](https://github.com/Tonejs/Tone.js/wiki/Signals).
 		 *
@@ -4201,7 +4201,7 @@
 	    
 	    /**
 		 *  @class  Wrapper around the native Web Audio's 
-		 *          [AnalyserNode](http://webaudio.github.io/web-audio-api/#idl-def-AnalyserNode).
+		 *          [AnalyserNode](https://webaudio.github.io/web-audio-api/#idl-def-AnalyserNode).
 		 *          Extracts FFT or Waveform data from the incoming signal.
 		 *  @extends {Tone}
 		 *  @param {String=} type The return type of the analysis, either "fft", or "waveform". 
@@ -4423,7 +4423,7 @@
 	    
 	    /**
 		 *  @class Tone.Compressor is a thin wrapper around the Web Audio 
-		 *         [DynamicsCompressorNode](http://webaudio.github.io/web-audio-api/#the-dynamicscompressornode-interface).
+		 *         [DynamicsCompressorNode](https://webaudio.github.io/web-audio-api/#the-dynamicscompressornode-interface).
 		 *         Compression reduces the volume of loud sounds or amplifies quiet sounds 
 		 *         by narrowing or "compressing" an audio signal's dynamic range. 
 		 *         Read more on [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_range_compression).
@@ -5556,7 +5556,7 @@
 	    
 	    /**
 		 *  @class  Tone.Filter is a filter which allows for all of the same native methods
-		 *          as the [BiquadFilterNode](http://webaudio.github.io/web-audio-api/#the-biquadfilternode-interface). 
+		 *          as the [BiquadFilterNode](https://webaudio.github.io/web-audio-api/#the-biquadfilternode-interface). 
 		 *          Tone.Filter has the added ability to set the filter rolloff at -12 
 		 *          (default), -24 and -48. 
 		 *
@@ -6216,7 +6216,7 @@
 	Module(function (Tone) {
 	    
 	    /**
-		 *  @class Wrapper around Web Audio's native [DelayNode](http://webaudio.github.io/web-audio-api/#the-delaynode-interface). 
+		 *  @class Wrapper around Web Audio's native [DelayNode](https://webaudio.github.io/web-audio-api/#the-delaynode-interface). 
 		 *  @extends {Tone}
 		 *  @param {Time=} delayTime The delay applied to the incoming signal.
 		 *  @param {Time=} maxDelay The maximum delay time. 
@@ -7749,7 +7749,7 @@
 		 *  its children. 
 		 *  References: 
 		 *  https://brooknovak.wordpress.com/2013/12/07/augmented-interval-tree-in-c/
-		 *  http://www.mif.vu.lt/~valdas/ALGORITMAI/LITERATURA/Cormen/Cormen.pdf
+		 *  https://www.mif.vu.lt/~valdas/ALGORITMAI/LITERATURA/Cormen/Cormen.pdf
 		 *  @param {Number} low
 		 *  @param {Number} high
 		 *  @private
@@ -13461,7 +13461,7 @@
 		 *         for making different types of distortion sounds.
 		 *         Note that odd orders sound very different from even ones, 
 		 *         and order = 1 is no change. 
-		 *         Read more at [music.columbia.edu](http://music.columbia.edu/cmc/musicandcomputers/chapter4/04_06.php).
+		 *         Read more at [music.columbia.edu](https://music.columbia.edu/cmc/musicandcomputers/chapter4/04_06.php).
 		 *
 		 *  @extends {Tone.Effect}
 		 *  @constructor
@@ -13783,7 +13783,7 @@
 		 *  @class Tone.Chorus is a stereo chorus effect with feedback composed of 
 		 *         a left and right delay with a Tone.LFO applied to the delayTime of each channel. 
 		 *         Inspiration from [Tuna.js](https://github.com/Dinahmoe/tuna/blob/master/tuna.js).
-		 *         Read more on the chorus effect on [SoundOnSound](http://www.soundonsound.com/sos/jun04/articles/synthsecrets.htm).
+		 *         Read more on the chorus effect on [SoundOnSound](https://www.soundonsound.com/sos/jun04/articles/synthsecrets.htm).
 		 *
 		 *	@constructor
 		 *	@extends {Tone.StereoXFeedbackEffect}
@@ -13979,7 +13979,7 @@
 	    
 	    /**
 		 *  @class  Tone.Convolver is a wrapper around the Native Web Audio 
-		 *          [ConvolverNode](http://webaudio.github.io/web-audio-api/#the-convolvernode-interface).
+		 *          [ConvolverNode](https://webaudio.github.io/web-audio-api/#the-convolvernode-interface).
 		 *          Convolution is useful for reverb and filter emulation. Read more about convolution reverb on
 		 *          [Wikipedia](https://en.wikipedia.org/wiki/Convolution_reverb).
 		 *  
@@ -14079,7 +14079,7 @@
 	    
 	    /**
 		 *  @class Tone.Distortion is a simple distortion effect using Tone.WaveShaper.
-		 *         Algorithm from [a stackoverflow answer](http://stackoverflow.com/a/22313408).
+		 *         Algorithm from [a stackoverflow answer](https://stackoverflow.com/a/22313408).
 		 *
 		 *  @extends {Tone.Effect}
 		 *  @constructor
@@ -14263,7 +14263,7 @@
 	    ];
 	    /**
 		 *  @class Tone.Freeverb is a reverb based on [Freeverb](https://ccrma.stanford.edu/~jos/pasp/Freeverb.html).
-		 *         Read more on reverb on [SoundOnSound](http://www.soundonsound.com/sos/may00/articles/reverb.htm).
+		 *         Read more on reverb on [SoundOnSound](https://www.soundonsound.com/sos/may00/articles/reverb.htm).
 		 *
 		 *  @extends {Tone.Effect}
 		 *  @constructor
@@ -14539,7 +14539,7 @@
 		 *         and the 'side' (which only comes out of the the side channels) 
 		 *         and effects them separately before being recombined.
 		 *         Applies a Mid/Side seperation and recombination.
-		 *         Algorithm found in [kvraudio forums](http://www.kvraudio.com/forum/viewtopic.php?t=212587).
+		 *         Algorithm found in [kvraudio forums](https://www.kvraudio.com/forum/viewtopic.php?t=212587).
 		 *         <br><br>
 		 *         This is a base-class for Mid/Side Effects. 
 		 *
@@ -14895,8 +14895,8 @@
 		 *  @class Tone.PitchShift does near-realtime pitch shifting to the incoming signal. 
 		 *         The effect is achieved by speeding up or slowing down the delayTime
 		 *         of a DelayNode using a sawtooth wave. 
-		 *         Algorithm found in [this pdf](http://dsp-book.narod.ru/soundproc.pdf).
-		 *         Additional reference by [Miller Pucket](http://msp.ucsd.edu/techniques/v0.11/book-html/node115.html).
+		 *         Algorithm found in [this pdf](https://dsp-book.narod.ru/soundproc.pdf).
+		 *         Additional reference by [Miller Pucket](https://msp.ucsd.edu/techniques/v0.11/book-html/node115.html).
 		 *         
 		 *  @extends {Tone.FeedbackEffect}
 		 *  @param {Interval=} pitch The interval to transpose the incoming signal by. 
@@ -15158,7 +15158,7 @@
 	    /**
 		 *  @class Applies a width factor to the mid/side seperation. 
 		 *         0 is all mid and 1 is all side.
-		 *         Algorithm found in [kvraudio forums](http://www.kvraudio.com/forum/viewtopic.php?t=212587).
+		 *         Algorithm found in [kvraudio forums](https://www.kvraudio.com/forum/viewtopic.php?t=212587).
 		 *         <br><br>
 		 *         <code>
 		 *         Mid *= 2*(1-width)<br>
@@ -16799,7 +16799,7 @@
 		 *         in an array of events which will be spaced at the
 		 *         given subdivision. Sub-arrays will subdivide that beat
 		 *         by the number of items are in the array. 
-		 *         Sequence notation inspiration from [Tidal](http://yaxu.org/tidal/)
+		 *         Sequence notation inspiration from [Tidal](https://yaxu.org/tidal/)
 		 *  @param  {Function}  callback  The callback to invoke with every note
 		 *  @param  {Array}    events  The sequence
 		 *  @param  {Time} subdivision  The subdivision between which events are placed. 
@@ -18672,7 +18672,7 @@
 		 *          amplitude of another Tone.Synth. The harmonicity (the ratio between
 		 *          the two signals) affects the timbre of the output signal greatly.
 		 *          Read more about Amplitude Modulation Synthesis on 
-		 *          [SoundOnSound](http://www.soundonsound.com/sos/mar00/articles/synthsecrets.htm).
+		 *          [SoundOnSound](https://www.soundonsound.com/sos/mar00/articles/synthsecrets.htm).
 		 *          <img src="https://docs.google.com/drawings/d/1TQu8Ed4iFr1YTLKpB3U1_hur-UwBrh5gdBXc8BxfGKw/pub?w=1009&h=457">
 		 *
 		 *  @constructor
@@ -19214,7 +19214,7 @@
 		 *  @class  FMSynth is composed of two Tone.Synths where one Tone.Synth modulates
 		 *          the frequency of a second Tone.Synth. A lot of spectral content 
 		 *          can be explored using the modulationIndex parameter. Read more about
-		 *          frequency modulation synthesis on [SoundOnSound](http://www.soundonsound.com/sos/apr00/articles/synthsecrets.htm).
+		 *          frequency modulation synthesis on [SoundOnSound](https://www.soundonsound.com/sos/apr00/articles/synthsecrets.htm).
 		 *          <img src="https://docs.google.com/drawings/d/1h0PUDZXPgi4Ikx6bVT6oncrYPLluFKy7lj53puxj-DM/pub?w=902&h=462">
 		 *
 		 *  @constructor
@@ -19542,7 +19542,7 @@
 		 *  @class  A highly inharmonic and spectrally complex source with a highpass filter
 		 *          and amplitude envelope which is good for making metalophone sounds. Based
 		 *          on CymbalSynth by [@polyrhythmatic](https://github.com/polyrhythmatic).
-		 *          Inspiration from [Sound on Sound](http://www.soundonsound.com/sos/jul02/articles/synthsecrets0702.asp).
+		 *          Inspiration from [Sound on Sound](https://www.soundonsound.com/sos/jul02/articles/synthsecrets0702.asp).
 		 *
 		 *  @constructor
 		 *  @extends {Tone.Instrument}
@@ -19935,7 +19935,7 @@
 	    };
 	    ///////////////////////////////////////////////////////////////////////////
 	    // THE BUFFERS
-	    // borrowed heavily from http://noisehack.com/generate-noise-web-audio-api/
+	    // borrowed heavily from https://noisehack.com/generate-noise-web-audio-api/
 	    ///////////////////////////////////////////////////////////////////////////
 	    /**
 		 *	static noise buffers

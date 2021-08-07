@@ -21,7 +21,7 @@ author: Andy Sigler
 published: true
 ---
 
-This is exciting for me and my graduate course, [Homemade Hardware](http://www.homemadehardware.com). I figured out how to make DIY PCBs with any design and color soldermask I want (wow!).
+This is exciting for me and my graduate course, [Homemade Hardware](https://www.homemadehardware.com). I figured out how to make DIY PCBs with any design and color soldermask I want (wow!).
 
 ![Mid-Process of Solder Mask]({{ site.url }}/images/colorful-solder-mask-cool-goo.jpg)
 

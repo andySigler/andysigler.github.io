@@ -23,7 +23,7 @@ header: no
     <div>
         <span class="subheadline">ITP Fellow</span>
         <span class="dateRight">2020</span><br />
-        <span class="subheadline">@ <a href="http://tisch.nyu.edu/itp">ITP-NYU</a></span>
+        <span class="subheadline">@ <a href="https://tisch.nyu.edu/itp">ITP-NYU</a></span>
         <ul>
             <li class="textWidth">Developing software tools and experiences for ITP's robotic arms</li>
             <li class="textWidth">Teaching wider ITP community how to safely use large robotic arms</li>
@@ -33,7 +33,7 @@ header: no
     <div>
         <span class="subheadline">Freelance Consulting</span>
         <span class="dateRight">2019-Present</span><br />
-        <span class="subheadline">@ <a href="http://andysigler.com">self</a></span>
+        <span class="subheadline">@ <a href="{{site.url}}">self</a></span>
         <ul>
             <li class="textWidth">Advising and developing on IoT systems and products, for startups, companies and regional artists</li>
         </ul>
@@ -41,7 +41,7 @@ header: no
     <div>
         <span class="subheadline">Software / Electronics / Systems Engineer</span>
         <span class="dateRight">2014-'19</span><br />
-        <span class="subheadline">@ <a href="http://opentrons.com">Opentrons-Labworks</a></span>
+        <span class="subheadline">@ <a href="https://opentrons.com">Opentrons-Labworks</a></span>
         <ul>
             <li class="textWidth">First employee at startup, writing entire software stack for Kickstarter release</li>
             <li class="textWidth">Designed and developed the <a href="https://github.com/Opentrons/opentrons">Opentrons Python API</a> on a small team, released winter 2016</li>
@@ -55,16 +55,16 @@ header: no
     <div>
         <span class="subheadline">Adjunct Professor</span>
         <span class="dateRight">2015-Present</span><br />
-        <span class="subheadline">@ <a href="http://tisch.nyu.edu/itp">ITP-NYU</a></span>
+        <span class="subheadline">@ <a href="https://tisch.nyu.edu/itp">ITP-NYU</a></span>
         <ul>
-            <li class="textWidth">Teaching a course of my own design, entitled <a href="http://homemadehardware.com">Homemade Hardware</a></li>
+            <li class="textWidth">Teaching a course of my own design, entitled <a href="https://homemadehardware.com">Homemade Hardware</a></li>
             <li class="textWidth">Graduate students from all types of backgrounds learn to design and fabricate DIY circuit boards</li>
         </ul>
     </div>
     <div>
         <span class="subheadline">Electronics Design Engineer</span>
         <span class="dateRight">2015-'16</span><br />
-        <span class="subheadline">@ <a href="http://tomorrow-lab.com">Tomorrow Lab</a></span>
+        <span class="subheadline">@ <a href="https://tomorrow-lab.com">Tomorrow Lab</a></span>
         <ul>
             <li class="textWidth">Designed and tested production-ready prototypes and beta runs of wireless devices</li>
             <li class="textWidth">Designed electronics and firmware for devices utilizing wireless protocols, including Bluetooth LE, WiFi, LoRa, and ANT</li>
@@ -73,7 +73,7 @@ header: no
     <div>
         <span class="subheadline">Research Resident</span>
         <span class="dateRight">2014-'15</span><br />
-        <span class="subheadline">@ <a href="http://tisch.nyu.edu/itp">ITP-NYU</a></span>
+        <span class="subheadline">@ <a href="https://tisch.nyu.edu/itp">ITP-NYU</a></span>
         <ul>
             <li class="textWidth">Research focusing on internet-of-things design tools, as well as circuit board fabrication techniques</li>
             <li class="textWidth">Mentored graduate students with their projects, as well as held office hours to teach relevant engineering skills</li>
@@ -107,7 +107,7 @@ header: no
     <div>
         <span class="subheadline">Master's Degree</span>
         <span class="dateRight">2012-'14</span><br />
-        <span class="subheadline">@ <a href="http://tisch.nyu.edu/itp">ITP-NYU</a></span>
+        <span class="subheadline">@ <a href="https://tisch.nyu.edu/itp">ITP-NYU</a></span>
         <ul>
             <li class="textWidth">Self-lead master's degree, focused on interaction design through emerging hardware and internet technologies</li>
             <li class="textWidth">Presented a master's thesis, <a href="{{site.url}}/patchbay">Patchbay</a>, a wireless framework for designing wirelessly interoperable toys and musical instruments</li>

@@ -38,7 +38,7 @@ Below is a diagram showing the different software blocks I developed. Each was i
 
 ![Platform Prototype Flowchart]({{site.url}}/images/opentrons_flowchart.png)
 
-The file format fed in at the top ended up being a variation of the [Auto-Protocol standard proposed by Transcriptics](http://autoprotocol.org/specification/), which uses JSON to describe a protocol's many details and procedures. Because I needed to work fast, I used NodeJS to communicate with with robot's motorcontroller, and I created an HTML5 interface for the user to interact with. Everything written in NodeJS has since been translated to Python, and the front-end has been handed off to front-end engineers.
+The file format fed in at the top ended up being a variation of the [Auto-Protocol standard proposed by Transcriptics](https://autoprotocol.org/specification/), which uses JSON to describe a protocol's many details and procedures. Because I needed to work fast, I used NodeJS to communicate with with robot's motorcontroller, and I created an HTML5 interface for the user to interact with. Everything written in NodeJS has since been translated to Python, and the front-end has been handed off to front-end engineers.
 
 ## A Lesson Learned
 

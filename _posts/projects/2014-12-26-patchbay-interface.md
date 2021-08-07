@@ -51,7 +51,7 @@ author: Andy Sigler
 
 The Patchbay is a graphical interface, developed for my 2014 master's thesis at ITP. It was designed to greatly simplify multi-device interactions, and allows users to make and break links between wireless objects.
 
-Skip ahead to [5:10](http://vimeo.com/96851567#t=5m10s) to see my explanation of the Patchbay interface.
+Skip ahead to [5:10](https://vimeo.com/96851567#t=5m10s) to see my explanation of the Patchbay interface.
 
 <iframe src="https://player.vimeo.com/video/96851567" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width:100%;max-width:500px;"></iframe>
 
@@ -95,10 +95,10 @@ With a simple interface come constraints. The Patchbay is for devices that share
 The past few years, I have seen a growing interest in connected devices, and how to best interact with an Internet of Things on a day-to-day bases. "Patching" interfaces have arose, ranging from simple I/O mapping, to more richly featured environments for controlling a network's data flow.
 
 ![spacebrew]({{site.url}}/images/spacebrew.png)
-[Spacebrew](http://docs.spacebrew.cc/) - a framework for mapping simple I/O over a WebSocket connection.
+[Spacebrew](https://docs.spacebrew.cc/) - a framework for mapping simple I/O over a WebSocket connection.
 
 ![node-red]({{site.url}}/images/node-red.png)
-[Node-RED](http://docs.spacebrew.cc/) - a framework for connecting devices, APIs and online services.
+[Node-RED](https://docs.spacebrew.cc/) - a framework for connecting devices, APIs and online services.
 
 All these interfaces have one serious design flaw: they become easily over-crowded and difficult to use once the network grows. The more devices that are displayed, the more concentration a user must put into navigating and using one of these interfaces.
 
@@ -110,9 +110,9 @@ By rotating either circle, you are allowed to see only a couple of the devices' 
 
 ## How it was Made
 
-The Patchbay is an HTML5 graphical interface, designed to work on any device that supports modern web technologies. All animations are done an a Canvas element using custom Javascript. The only framework used was [Hammer.js](http://hammerjs.github.io/), a Javascript library for handling both mouse and touch events for tablets.
+The Patchbay is an HTML5 graphical interface, designed to work on any device that supports modern web technologies. All animations are done an a Canvas element using custom Javascript. The only framework used was [Hammer.js](https://hammerjs.github.io/), a Javascript library for handling both mouse and touch events for tablets.
 
-For my thesis, the interface was connected over a WebSocket connection to a local [NodeJS](http://nodejs.org/) server. This NodeJS server was constantly scanning for surrounding devices, and relaying the space's state on the interface. The decision to run a NodeJS server was made because my devices were all communicating using the [RFm12b radio](http://www.hoperf.com/rf/fsk_module/RFM12B.htm), operating at 433MHz, and using the [Arduino library from JeeNode](https://github.com/jcw/jeelib). Smartphones sadly do not support these frequencies, so I fellback to running a local server.
+For my thesis, the interface was connected over a WebSocket connection to a local [NodeJS](https://nodejs.org/) server. This NodeJS server was constantly scanning for surrounding devices, and relaying the space's state on the interface. The decision to run a NodeJS server was made because my devices were all communicating using the [RFm12b radio](https://www.hoperf.com/rf/fsk_module/RFM12B.htm), operating at 433MHz, and using the [Arduino library from JeeNode](https://github.com/jcw/jeelib). Smartphones sadly do not support these frequencies, so I fellback to running a local server.
 
 However, for future implementations I would like to use Bluetooth 4.0. This would allow devices to communicate over broadcasted, stateless communication channels, while being able to communicate directly with a user's smartphone, tablet, or laptop.
 
