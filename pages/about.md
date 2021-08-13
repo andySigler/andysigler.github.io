@@ -21,6 +21,16 @@ header: no
 </style>
 <div class="thing" style="width: 100%; max-width: 650px">
     <div>
+        <span class="subheadline">Hardware Lead / Firmware</span>
+        <span class="dateRight">2019-Present</span><br />
+        <span class="subheadline">@ <a href="https://oda.co">Oda Inc</a></span>
+        <ul>
+            <li class="textWidth">Hardware team leader and manager for startup consumer-electronics product</li>
+            <li class="textWidth">Led mechanical, electrical, and production of 1k speaker systems</li>
+            <li class="textWidth">Wrote device firmware (WiFi/Bluetooth audio, BLE, interactivity)</li>
+        </ul>
+    </div>
+    <div>
         <span class="subheadline">ITP Fellow</span>
         <span class="dateRight">2020</span><br />
         <span class="subheadline">@ <a href="https://tisch.nyu.edu/itp">ITP-NYU</a></span>
@@ -39,7 +49,7 @@ header: no
         </ul>
     </div>
     <div>
-        <span class="subheadline">Software / Electronics / Systems Engineer</span>
+        <span class="subheadline">Systems / Software / Electronics</span>
         <span class="dateRight">2014-'19</span><br />
         <span class="subheadline">@ <a href="https://opentrons.com">Opentrons-Labworks</a></span>
         <ul>
@@ -81,7 +91,7 @@ header: no
         </ul>
     </div>
     <br />
-    <h1><span class="matchbook">Tools</span></h1>
+    <!-- <h1><span class="matchbook">Tools</span></h1>
     <div>
         <ul>
             <li class="textWidth">Python</li>
@@ -102,7 +112,7 @@ header: no
             <li class="textWidth">Duct tape, Gaffer tape</li>
         </ul>
     </div>
-    <br />
+    <br /> -->
     <h1><span class="matchbook">Education</span></h1>
     <div>
         <span class="subheadline">Master's Degree</span>

@@ -57,13 +57,13 @@ Here's a video demoing my work. It shows protocol commands creating real-world l
   <source src="{{site.url}}/images/opentrons_api.ogv" type="video/ogg">
   <source src="{{site.url}}/images/opentrons_api.mp4" type="video/mp4">
 </video>
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     var vid_demo = document.getElementById('vid_demo');
     vid_demo.removeAttribute('controls');
     vid_demo.addEventListener('canplaythrough', function(e){
         vid_demo.play();
     })
-</script> -->
+</script>
 
 As part of a team of four software developers in 2016, I played an outsized role in shaping the interface of the API. From experience in using the [OT-One](https://shop.opentrons.com/collections/ot-one-s-robot-and-accessories), plus having solely writting the [platform's Kickstarter version all in Javascript]({{site.url}}/projects/opentrons-platform-prototype), I new it was important to allow both lower-level control of liquid transfers, while giving another option for simple transfers. This allowed the API to satisfy both simple needs and programming beginners, as well as more complex procedures and those with Python experience.
 
