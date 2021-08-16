@@ -1,8 +1,8 @@
 ---
 layout: video
-subheadline: "Learn about and play with your food"
+subheadline: "2013"
 title:  "Foodable"
-teaser: "Foodable is an interactive table-top which monitors users actions to deliver information about their food."
+teaser: 
 breadcrumb: false
 categories:
     - projects

@@ -1,8 +1,8 @@
 ---
 layout: video
-subheadline: "Syncopation and New York City"
+subheadline: "2013"
 title:  "Numbers on the Board"
-teaser: "Sound sculpture, symbolizing the cycles of time and alignment during the Mannhattan-Henge events in New York City"
+teaser: 
 breadcrumb: false
 categories:
     - projects

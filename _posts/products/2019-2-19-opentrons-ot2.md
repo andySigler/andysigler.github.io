@@ -1,8 +1,8 @@
 ---
 layout: page
-title: OT2 Electronics
-subheadline: Affordable Open-Source Liquid Handler
-teaser: Creating a hardware platform, from early design to manufacture
+title: OT2 Liquid Handler Electronics
+subheadline: "2016 - 2019"
+teaser: 
 breadcrumb: false
 categories:
     - products
@@ -22,9 +22,9 @@ author: Andy Sigler
 published: true
 ---
 
-The Opentrons OT2 liquid handler is the next step in opensource lab automation, and I'm proud to have been one of the few designers and engineers to work on it.
+The Opentrons OT2 liquid handler is the 2nd generation liquid handler from Opentrons.
 
-During the OT2's design and production, I had complete ownership of the machine's electronics and firmware aspects (small startups, yea!).
+I had the privelege of owning the planning, development, and implementation of all electronics in the machine, as well as leading firmware and motion-control systems.
 
 <video id="vid_ot2" style="width:100%; height:auto; border:1px solid #aaa" width="854" height="480" controls loop muted>
   <source src="{{site.url}}/images/ot2_video.webm" type="video/webm">
@@ -43,30 +43,22 @@ During the OT2's design and production, I had complete ownership of the machine'
 
 ## Circuit Boards
 
-The machine has 13 circuit boards inside it (plus a Raspberry Pi 3 and USB camera). Each of these boards was designed, prototyped, tested, certified (CE/FCC) and brought to production by me (small startups, yea!).
-
-See where each boards lives in the graphic below:
+The OT2 has 13 circuit boards inside it (plus a Raspberry Pi 3 and USB camera):
 
 ![OT2 with PCBs]({{site.url}}/images/ot2_pcb_artwork.jpg)
 
-The most important PCB is the motor driver board in the machines head. This board is a 4-layer bad boy, which can control 6 stepper motors, and runs a fork of the opensource [Smoothieware](https://github.com/opentrons/Smoothiewareot) firwmare.
-
-All the rest of the boards are used to route signals between the driver board, the Raspberry Pi 3, and elsewhere. Plus there are boards for switches, connectors, buttons, etc.
-
-Below are some pictures of the real-life PCBs in an opened up machine:
+The motor-driver PCB is in the machine's head. It can control 6 stepper motors, and runs on a fork of the open-source [Smoothieware](https://github.com/opentrons/Smoothiewareot) firwmare.
 
 ![OT2 PCBs]({{site.url}}/images/ot2_production_boards.jpg)
 
-<img style="max-width:33%" src="{{site.url}}/images/ot2_production_caitlyn.jpg" >
-<img style="max-width:63%;margin-left:3.5%" src="{{site.url}}/images/ot2_production_kris.jpg" >
+<img style="max-width:32%" src="{{site.url}}/images/ot2_production_caitlyn.jpg" >
+<img style="max-width:61%;margin-left:3.5%" src="{{site.url}}/images/ot2_production_kris.jpg" >
 
 <br />
 
 ## Flex Ribbon Cable
 
-One exciting part of the design was to figure out how to route 32 conductors (power, data, and motor signals) across a 2-meter long ribbon cable. Not only is this cable being bent and twisted all over the place, but it's carrying multiple types of signals that could all interfere during a protocol run.
-
-See the 2-meter ribbon cable in the picture below:
+A 2-meter-long ribbon cable is used to route 32 conductors (power, data, and motor signals):
 
 ![OT2 Ribbon Cables]({{site.url}}/images/ot2_production_cables.jpg)
 
@@ -74,9 +66,7 @@ See the 2-meter ribbon cable in the picture below:
 
 ## Electronic Pipettes
 
-The OT2 electronic pipettes use a fairly simple mechanism to move the plunger up and down (seen in the animation below). The stepper motor inside the pipette is actually being driven by one of the 6 stepper axis on the main driver PCB, so no motor driver was required in the pipette.
-
-The electronics inside the pipette are mostly used for storing unique serial and model numbers, and data lines for communicating that information back.
+The OT2 electronic pipettes use a fairly simple mechanism to move the plunger up and down. The pipette's stepper motor is being driven by the main driver PCB, so no motor driver was required inside the pipette. The electronics inside the pipette also store the unique serial and model numbers.
 
 <img style="max-width:63%" src="{{site.url}}/images/pipette_diagram.gif" >
 <img style="max-width:33%;margin-left:3.5%" src="{{site.url}}/images/ot2_production_pipette.png" >
@@ -85,9 +75,9 @@ The electronics inside the pipette are mostly used for storing unique serial and
 
 ## Tip Probe
 
-This thing is cool. It's a series of 5 switches, used to detect the precise and accurate position of a disposable tip on a pipette.
+The tip-probe is a series of 5 switches, used to detect the precise and accurate position of a disposable tip on a pipette.
 
-By simply moving to press against each switch, the OT2's system is able to calculate the position, height, and diameter of a pipette tip. This allows the machine to then move the point of that tip accurately within any labware.
+The tip-probe allows the OT2 to calculate the position, height, and diameter of a pipette tip.
 
 <video id="vid_tip_probe" style="width:100%;max-width:600px; height:auto; border:1px solid #aaa" width="854" height="480" controls loop muted>
   <source src="{{site.url}}/images/tip_probe.webm" type="video/webm">
@@ -118,9 +108,9 @@ By simply moving to press against each switch, the OT2's system is able to calcu
 
 ![OT2 Prototype Batch]({{site.url}}/images/ot2_prototype_pcbs.jpg)
 
-<img style="max-width:33%" src="{{site.url}}/images/ot2_prototype_caitlyn.jpg" >
-<img style="max-width:63%;margin-left:3.5%" src="{{site.url}}/images/ot2_prototype_face.png" >
+<img style="max-width:32%" src="{{site.url}}/images/ot2_prototype_caitlyn.jpg" >
+<img style="max-width:62%;margin-left:3.5%" src="{{site.url}}/images/ot2_prototype_face.png" >
 
 ![OT2 CE]({{site.url}}/images/ot2_prototype_CE.jpg)
 
-![Opentrons Employees in Shenzhen]({{site.url}}/images/ot2_factory_people.jpg)
+<!-- ![Opentrons Employees in Shenzhen]({{site.url}}/images/ot2_factory_people.jpg) -->

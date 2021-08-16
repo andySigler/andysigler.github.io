@@ -1,8 +1,8 @@
 ---
 layout: page
 title: BitTorrent Projects
-subheadline: Some Browser Animations
-teaser: Projects made during my 2013 internship
+subheadline: "2013"
+teaser: 
 breadcrumb: false
 categories:
     - projects

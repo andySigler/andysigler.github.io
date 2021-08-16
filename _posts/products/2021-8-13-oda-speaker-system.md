@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Oda Speaker System"
-subheadline: "Speakers for Live Performances"
-teaser: ""
+subheadline: "2020 - Present"
+teaser: 
 breadcrumb: false
 categories:
     - products

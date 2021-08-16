@@ -48,6 +48,28 @@ header: no
         - cleanup all page contents
  -->
 
+<div class="matchbook sectionTitle">Gadgets</div>
+<div class="row t30 sectionContent">
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/products/oda-speaker-system/"  class="wrappedLink">
+            <img class="borderImg" src="{{site.url}}/images/oda-thumb.jpg" alt="">
+            <span class="overlayText">Oda Speaker System</span>
+        </a>
+    </div>
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/products/nbhs/"  class="wrappedLink">
+            <img class="borderImg" src="{{site.url}}/images/nbhs-thumb.jpg" alt="">
+            <span class="overlayText">ML Timbre-Transfer</span>
+        </a>
+    </div>
+    <div class="medium-4 columns bottomMargin">
+        <a href="{{site.url}}/products/tomorrow-lab"  class="wrappedLink">
+            <img class="borderImg" src="{{site.url}}/images/tomorrow_lab_small.png" alt="">
+            <span class="overlayText">Products from Tomorrow Lab</span>
+        </a>
+    </div>
+</div>
+
 <div class="matchbook sectionTitle">Automation</div>
 <div class="row t30 sectionContent">
     <div class="medium-6 columns bottomMargin">
@@ -78,28 +100,6 @@ header: no
         <a href="{{site.url}}/projects/opentrons-platform-prototype/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/opentrons_small.jpg" alt="">
             <span class="overlayText">Opentrons Platform Prototype</span>
-        </a>
-    </div>
-</div>
-
-<div class="matchbook sectionTitle">Gadgets</div>
-<div class="row t30 sectionContent">
-    <div class="medium-4 columns bottomMargin">
-        <a href="{{site.url}}/products/oda-speaker-system/"  class="wrappedLink">
-            <img class="borderImg" src="{{site.url}}/images/oda-thumb.jpg" alt="">
-            <span class="overlayText">Oda Speaker System</span>
-        </a>
-    </div>
-    <div class="medium-4 columns bottomMargin">
-        <a href="{{site.url}}/products/nbhs/"  class="wrappedLink">
-            <img class="borderImg" src="{{site.url}}/images/nbhs-thumb.jpg" alt="">
-            <span class="overlayText">ML Timbre-Transfer</span>
-        </a>
-    </div>
-    <div class="medium-4 columns bottomMargin">
-        <a href="{{site.url}}/products/tomorrow-lab"  class="wrappedLink">
-            <img class="borderImg" src="{{site.url}}/images/tomorrow_lab_small.png" alt="">
-            <span class="overlayText">Products from Tomorrow Lab</span>
         </a>
     </div>
 </div>

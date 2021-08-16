@@ -31,7 +31,7 @@
       </item>
     
       <item>
-        <title>Real-Time ML Timbre-Transfer</title>
+        <title>Never Before Heard Sounds</title>
         <description>
 </description>
         <pubDate>Fri, 13 Aug 2021 00:00:00 -0400</pubDate>
@@ -139,10 +139,10 @@
       </item>
     
       <item>
-        <title>OT2 Electronics</title>
-        <description>&lt;p&gt;The Opentrons OT2 liquid handler is the next step in opensource lab automation, and I’m proud to have been one of the few designers and engineers to work on it.&lt;/p&gt;
+        <title>OT2 Liquid Handler Electronics</title>
+        <description>&lt;p&gt;The Opentrons OT2 liquid handler is the 2nd generation liquid handler from Opentrons.&lt;/p&gt;
 
-&lt;p&gt;During the OT2’s design and production, I had complete ownership of the machine’s electronics and firmware aspects (small startups, yea!).&lt;/p&gt;
+&lt;p&gt;I had the privelege of owning the planning, development, and implementation of all electronics in the machine, as well as leading firmware and motion-control systems.&lt;/p&gt;
 
 &lt;video id=&quot;vid_ot2&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;https://www.andysigler.com/images/ot2_video.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -161,30 +161,22 @@
 
 &lt;h2 id=&quot;circuit-boards&quot;&gt;Circuit Boards&lt;/h2&gt;
 
-&lt;p&gt;The machine has 13 circuit boards inside it (plus a Raspberry Pi 3 and USB camera). Each of these boards was designed, prototyped, tested, certified (CE/FCC) and brought to production by me (small startups, yea!).&lt;/p&gt;
-
-&lt;p&gt;See where each boards lives in the graphic below:&lt;/p&gt;
+&lt;p&gt;The OT2 has 13 circuit boards inside it (plus a Raspberry Pi 3 and USB camera):&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/ot2_pcb_artwork.jpg&quot; alt=&quot;OT2 with PCBs&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The most important PCB is the motor driver board in the machines head. This board is a 4-layer bad boy, which can control 6 stepper motors, and runs a fork of the opensource &lt;a href=&quot;https://github.com/opentrons/Smoothiewareot&quot;&gt;Smoothieware&lt;/a&gt; firwmare.&lt;/p&gt;
-
-&lt;p&gt;All the rest of the boards are used to route signals between the driver board, the Raspberry Pi 3, and elsewhere. Plus there are boards for switches, connectors, buttons, etc.&lt;/p&gt;
-
-&lt;p&gt;Below are some pictures of the real-life PCBs in an opened up machine:&lt;/p&gt;
+&lt;p&gt;The motor-driver PCB is in the machine’s head. It can control 6 stepper motors, and runs on a fork of the open-source &lt;a href=&quot;https://github.com/opentrons/Smoothiewareot&quot;&gt;Smoothieware&lt;/a&gt; firwmare.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/ot2_production_boards.jpg&quot; alt=&quot;OT2 PCBs&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&quot;max-width:33%&quot; src=&quot;https://www.andysigler.com/images/ot2_production_caitlyn.jpg&quot; /&gt;
-&lt;img style=&quot;max-width:63%;margin-left:3.5%&quot; src=&quot;https://www.andysigler.com/images/ot2_production_kris.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;max-width:32%&quot; src=&quot;https://www.andysigler.com/images/ot2_production_caitlyn.jpg&quot; /&gt;
+&lt;img style=&quot;max-width:61%;margin-left:3.5%&quot; src=&quot;https://www.andysigler.com/images/ot2_production_kris.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;flex-ribbon-cable&quot;&gt;Flex Ribbon Cable&lt;/h2&gt;
 
-&lt;p&gt;One exciting part of the design was to figure out how to route 32 conductors (power, data, and motor signals) across a 2-meter long ribbon cable. Not only is this cable being bent and twisted all over the place, but it’s carrying multiple types of signals that could all interfere during a protocol run.&lt;/p&gt;
-
-&lt;p&gt;See the 2-meter ribbon cable in the picture below:&lt;/p&gt;
+&lt;p&gt;A 2-meter-long ribbon cable is used to route 32 conductors (power, data, and motor signals):&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/ot2_production_cables.jpg&quot; alt=&quot;OT2 Ribbon Cables&quot; /&gt;&lt;/p&gt;
 
@@ -192,9 +184,7 @@
 
 &lt;h2 id=&quot;electronic-pipettes&quot;&gt;Electronic Pipettes&lt;/h2&gt;
 
-&lt;p&gt;The OT2 electronic pipettes use a fairly simple mechanism to move the plunger up and down (seen in the animation below). The stepper motor inside the pipette is actually being driven by one of the 6 stepper axis on the main driver PCB, so no motor driver was required in the pipette.&lt;/p&gt;
-
-&lt;p&gt;The electronics inside the pipette are mostly used for storing unique serial and model numbers, and data lines for communicating that information back.&lt;/p&gt;
+&lt;p&gt;The OT2 electronic pipettes use a fairly simple mechanism to move the plunger up and down. The pipette’s stepper motor is being driven by the main driver PCB, so no motor driver was required inside the pipette. The electronics inside the pipette also store the unique serial and model numbers.&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&quot;max-width:63%&quot; src=&quot;https://www.andysigler.com/images/pipette_diagram.gif&quot; /&gt;
 &lt;img style=&quot;max-width:33%;margin-left:3.5%&quot; src=&quot;https://www.andysigler.com/images/ot2_production_pipette.png&quot; /&gt;&lt;/p&gt;
@@ -203,9 +193,9 @@
 
 &lt;h2 id=&quot;tip-probe&quot;&gt;Tip Probe&lt;/h2&gt;
 
-&lt;p&gt;This thing is cool. It’s a series of 5 switches, used to detect the precise and accurate position of a disposable tip on a pipette.&lt;/p&gt;
+&lt;p&gt;The tip-probe is a series of 5 switches, used to detect the precise and accurate position of a disposable tip on a pipette.&lt;/p&gt;
 
-&lt;p&gt;By simply moving to press against each switch, the OT2’s system is able to calculate the position, height, and diameter of a pipette tip. This allows the machine to then move the point of that tip accurately within any labware.&lt;/p&gt;
+&lt;p&gt;The tip-probe allows the OT2 to calculate the position, height, and diameter of a pipette tip.&lt;/p&gt;
 
 &lt;video id=&quot;vid_tip_probe&quot; style=&quot;width:100%;max-width:600px; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;https://www.andysigler.com/images/tip_probe.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -236,12 +226,12 @@
 
 &lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/ot2_prototype_pcbs.jpg&quot; alt=&quot;OT2 Prototype Batch&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&quot;max-width:33%&quot; src=&quot;https://www.andysigler.com/images/ot2_prototype_caitlyn.jpg&quot; /&gt;
-&lt;img style=&quot;max-width:63%;margin-left:3.5%&quot; src=&quot;https://www.andysigler.com/images/ot2_prototype_face.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;max-width:32%&quot; src=&quot;https://www.andysigler.com/images/ot2_prototype_caitlyn.jpg&quot; /&gt;
+&lt;img style=&quot;max-width:62%;margin-left:3.5%&quot; src=&quot;https://www.andysigler.com/images/ot2_prototype_face.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/ot2_prototype_CE.jpg&quot; alt=&quot;OT2 CE&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/ot2_factory_people.jpg&quot; alt=&quot;Opentrons Employees in Shenzhen&quot; /&gt;&lt;/p&gt;
+&lt;!-- ![Opentrons Employees in Shenzhen](https://www.andysigler.com/images/ot2_factory_people.jpg) --&gt;
 </description>
         <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
         <link>https://www.andysigler.com/products/opentrons-ot2/</link>
@@ -250,15 +240,21 @@
     
       <item>
         <title>Opentrons Modules</title>
-        <description>&lt;p&gt;During 2017-‘18, I was the sole electronics designer and firmware developer for the two Opentrons Modules; &lt;a href=&quot;https://opentrons.com/modules&quot;&gt;the Thermocycler Moduel, the Temperature Module, and the Magnetic Module&lt;/a&gt;. These devices connect to the Opentrons OT2 hardware platform over simple USB connections, so they are easy to setup, use, and can even be used outside of the Opentrons platform (if anyone wants to do that).&lt;/p&gt;
+        <description>&lt;p&gt;During 2017-‘18, I was the sole electronics designer and firmware developer for &lt;a href=&quot;https://opentrons.com/modules&quot;&gt;three Opentrons Modules&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;For each of these devices, I worked on a small team of 2-4 people doing early ideation, design, testing, design for manufacturing, and quality control, with myself owning the electronics, firmware, and testing side of things. The one exception being that I left Opentrons during the beta/pre-production phase of the Thermocycler, so I did not implement the final design changes nor the manufacturing workflow for that product, but the electronics/firmware design is largely mine.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Thermocycler Module&lt;/li&gt;
+  &lt;li&gt;Temperature Module&lt;/li&gt;
+  &lt;li&gt;Magnetic Module.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These devices connect to the Opentrons OT2 hardware platform to automate lab protocols.&lt;/p&gt;
 
 &lt;h2 id=&quot;thermocycler-module&quot;&gt;Thermocycler Module&lt;/h2&gt;
 
-&lt;p&gt;The Thermocycler ramps up and down in temperature, at about 4 degrees Celsius per-second, in order to rapidly change the temperature of whatever material it holds. This is to amplify different biological reactions (don’t ask me any more details about the science…). The liquids inside can read between 4-100 degrees Celsius.&lt;/p&gt;
+&lt;p&gt;The Thermocycler ramps up and down in temperature, at about 4 degrees Celsius per-second, between 4-100 degrees Celsius.&lt;/p&gt;
 
-&lt;p&gt;Because it is for automation, there is also a lid that can automatically open/close. This lid is also used as a heating element, raising to up to 110 degrees Celsius, in order to prevent condensation inside the sample plate.&lt;/p&gt;
+&lt;p&gt;The lid can automatically open/close. This lid is also used as a heating element, heating to 110-degrees Celsius.&lt;/p&gt;
 
 &lt;video id=&quot;vid_cycler&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;960&quot; height=&quot;540&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;https://www.andysigler.com/images/thermocycler-video.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -273,16 +269,14 @@
     })
 &lt;/script&gt;
 
-&lt;p&gt;The electronics had a quite a lot going on. The main temperature control was driven by six peltier devices, where two would each be wired in serial, creating three pairs of two driven in parallel on their own PID loops. Also, the heated lid was driven by a simple heating pad, a stepper motor driving system was needed to open/close it, plus a solenoid to latch the lid shut and pop it open.&lt;/p&gt;
+&lt;p&gt;The main temperature control was driven by six peltier devices, driven separately to create a more uniform temperature gradient. In addition, the heated lid was driven by a heating pad, a stepper-motor driving system was needed to open/close the lid, and also a solenoid is used to latch the lid shut and pop it open.&lt;/p&gt;
 
-&lt;p&gt;Six separate thermistors, plus the ADC circuit to go along with them, were used to measure the parallel peltier pairs with accuracy of &amp;lt;0.1 degrees Celsius. An RGBW LED strip was added as a basic status and progress indicator, and of course there is a power button on the side.&lt;/p&gt;
+&lt;p&gt;Six separate thermistors are used to monitor the peltiers with an accuracy of &amp;lt;0.1 degrees Celsius. An RGBW LED strip was added as a basic status and progress indicator, and of course there is a power button on the side.&lt;/p&gt;
 
 &lt;p&gt;The PCBs pictured below were from the beta phase.&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&quot;max-width:48.75%;&quot; src=&quot;https://www.andysigler.com/images/ot2-thermocycler-pcb-main.jpg&quot; /&gt;
 &lt;img style=&quot;max-width:48.75%;margin-left:1.4%&quot; src=&quot;https://www.andysigler.com/images/ot2-thermocycler-pcb-peltiers.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I left Opentrons during this project’s beta/pre-production phase, so I only have pictures from the testing times. Measure the accuracy and uniformity across all it’s internal wells was a big problem to solve, and took tons of work and iteration to get right. Having nobody on the team who’s worked with thermodynamics was probably the biggest challenge, since we were consisting realizing things that would have been obvious to someone like that.&lt;/p&gt;
 
 &lt;p&gt;Below you can see about a dozen thermistors externally epoxied to the internal wells of an alpha prototype.&lt;/p&gt;
 
@@ -291,7 +285,7 @@
 
 &lt;h2 id=&quot;temperature-module&quot;&gt;Temperature Module&lt;/h2&gt;
 
-&lt;p&gt;It keeps hot things hot and cold things cold! The Temperature Module can hold a temperature between 4-94 Celsius with +/- 1 Celcius accuracy and uniformity. Unlike the thermocycler (above), it was not designed to cycle between temperatures, but to instead hold a single steady temperature.&lt;/p&gt;
+&lt;p&gt;The Temperature Module can hold a temperature between 4-94 Celsius with +/- 1 Celcius accuracy and uniformity. Unlike the thermocycler (above), it was not designed to cycle between temperatures, but to instead hold a single steady temperature.&lt;/p&gt;
 
 &lt;video id=&quot;vid_ot2_temp_deck&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;https://www.andysigler.com/images/ot2_temp_deck.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -306,7 +300,7 @@
     })
 &lt;/script&gt;
 
-&lt;p&gt;It uses two peltier devices to either heat or cool the top plate. A heatsink and fan are then used to cool the bottom side of the peltier devices. A number display at the top of the device shows the curren temperature, and either red or blue color to indicate temperature.&lt;/p&gt;
+&lt;p&gt;It uses two peltier devices to either heat or cool the top plate. A heatsink and fan are then used to cool the bottom side of the peltier devices. A display at the top of the device shows the current temperature, and red or blue colors to indicate temperature.&lt;/p&gt;
 
 &lt;video id=&quot;vid_ot2_temp_deck_loop&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;https://www.andysigler.com/images/ot2_temp_deck_loop.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -321,8 +315,6 @@
     })
 &lt;/script&gt;
 
-&lt;p&gt;It was a tight package to fit all the electronics, which ended up getting separated into four PCBs, pictured below.&lt;/p&gt;
-
 &lt;p&gt;&lt;img style=&quot;max-width:31.75%;&quot; src=&quot;https://www.andysigler.com/images/ot2_temp_deck_2.jpg&quot; /&gt;
 &lt;img style=&quot;max-width:31.75%;margin-left:1.4%&quot; src=&quot;https://www.andysigler.com/images/ot2_temp_deck_3.jpg&quot; /&gt;
 &lt;img style=&quot;max-width:31.75%;margin-left:1.4%&quot; src=&quot;https://www.andysigler.com/images/ot2_temp_deck_4.jpg&quot; /&gt;&lt;/p&gt;
@@ -331,7 +323,7 @@
 
 &lt;h2 id=&quot;magnetic-module&quot;&gt;Magnetic Module&lt;/h2&gt;
 
-&lt;p&gt;The Magnetic Module raises a set of magnets near the user’s sample, in order to attract iron beads that have been attached to a specific DNA strand they want to isolate (science!).&lt;/p&gt;
+&lt;p&gt;The Magnetic Module raises a set of magnets near the user’s sample, in order to attract iron beads that have been attached to a specific DNA strand to be isolated.&lt;/p&gt;
 
 &lt;video id=&quot;vid_ot2_mag_deck&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;https://www.andysigler.com/images/ot2_mag_deck.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -346,7 +338,7 @@
     })
 &lt;/script&gt;
 
-&lt;p&gt;This device is simply composed of a stepper motor moving along a rail (to raise/lower the magnets), plus the electronics to move said motor.&lt;/p&gt;
+&lt;p&gt;This device is composed of a stepper motor moving along a rail (to raise/lower the magnets), plus the electronics to move said motor.&lt;/p&gt;
 
 &lt;video id=&quot;vid_ot2_mag_deck_loop&quot; style=&quot;width:100%; height:auto; border:1px solid #aaa&quot; width=&quot;854&quot; height=&quot;480&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
   &lt;source src=&quot;https://www.andysigler.com/images/ot2_mag_deck_loop.webm&quot; type=&quot;video/webm&quot; /&gt;
@@ -360,8 +352,6 @@
         vid_ot2_mag_deck_loop.play();
     })
 &lt;/script&gt;
-
-&lt;p&gt;This one was simpler for the electronics, plus there was much more room for a single long PCB, pictured below. Also, just like the other Modules, it is connected to the OT2 over a simple USB cable.&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&quot;max-width:48.75%;&quot; src=&quot;https://www.andysigler.com/images/ot2_mag_deck_pcb.jpg&quot; /&gt;
 &lt;img style=&quot;max-width:48.75%;margin-left:1.4%&quot; src=&quot;https://www.andysigler.com/images/ot2_modules_cables.jpg&quot; /&gt;&lt;/p&gt;

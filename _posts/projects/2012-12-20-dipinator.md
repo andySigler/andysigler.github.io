@@ -1,8 +1,8 @@
 ---
 layout: video
-subheadline: "Water cups as a musical instrument and game"
+subheadline: "2012"
 title:  "Dipinator"
-teaser: "Dip your fingers in a cup, and it will light up with sound. Play a song, or try your best at the memory game."
+teaser: 
 breadcrumb: false
 categories:
     - projects

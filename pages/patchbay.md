@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Patchbay"
-subheadline: "Patchbay"
+subheadline: "2014"
 teaser: ""
 permalink: "/patchbay/"
 markdown: 1

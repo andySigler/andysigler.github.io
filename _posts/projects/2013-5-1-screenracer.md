@@ -1,8 +1,8 @@
 ---
 layout: video
-subheadline: "Multi-Screen Online Game"
+subheadline: "2013"
 title:  "ScreenRacer"
-teaser: "Fly your helicopter through any connected screen, and don't crash!"
+teaser: 
 breadcrumb: false
 categories:
     - projects

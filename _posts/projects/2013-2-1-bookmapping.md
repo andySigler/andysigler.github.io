@@ -1,8 +1,8 @@
 ---
 layout: video
-subheadline: "Interactive installation for books on a shelf"
+subheadline: "2013"
 title:  "Bookmapping"
-teaser: "Books on a shelf come to life when used as a medium for animation and interaction."
+teaser: 
 breadcrumb: false
 categories:
     - projects
