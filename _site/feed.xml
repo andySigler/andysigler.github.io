@@ -22,7 +22,56 @@
     document.getElementById(&apos;titleImage&apos;).style.border = &apos;0px&apos;;
 &lt;/script&gt;
 
-&lt;p&gt;The Oda speaker system plays live music and sounds.&lt;/p&gt;
+&lt;p&gt;The Oda speaker system (&lt;a href=&quot;https://oda.co&quot;&gt;oda.co&lt;/a&gt;) is designed for playing live performances. It consists of a pair of flat-panel (DML) speakers, a wireless amplifier, and the backend infrastructure for streaming live sound.&lt;/p&gt;
+
+&lt;p&gt;Upon connecting their speakers to WiFi, customers can listen to daily livestreams and musical performances from locations and artists around the world.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WiFi streams&lt;/li&gt;
+  &lt;li&gt;Bluetooth audio&lt;/li&gt;
+  &lt;li&gt;Line-In (Aux)&lt;/li&gt;
+  &lt;li&gt;BLE App control&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/oda-lighthouse.png&quot; alt=&quot;oda-lighthouse&quot; /&gt;
+&lt;!-- ![oda-accessories](https://www.andysigler.com/images/oda-accessories.png)  --&gt;&lt;/p&gt;
+
+&lt;p&gt;The flat-panel (DML) speakers are a novel design, which look simple and sleak, as well as being uniquely suited for live performances because of their spread-spectrum response.&lt;/p&gt;
+
+&lt;p&gt;High frequencies are scattered in multiple directions, creating a larger stereo image and presence for the listener.&lt;/p&gt;
+
+&lt;p&gt;See the slow-motion video below, showing how the speakers moves:&lt;/p&gt;
+
+&lt;video id=&quot;vid_oda_soundboard&quot; style=&quot;width:100%;max-width:400px; height:auto; border:1px solid #aaa&quot; width=&quot;640&quot; height=&quot;360&quot; controls=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;https://www.andysigler.com/images/oda-moving-soundboard.webm&quot; type=&quot;video/webm&quot; /&gt;
+  &lt;source src=&quot;https://www.andysigler.com/images/oda-moving-soundboard.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+  &lt;source src=&quot;https://www.andysigler.com/images/oda-moving-soundboard.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var vid_oda_soundboard = document.getElementById(&apos;vid_oda_soundboard&apos;);
+    vid_oda_soundboard.removeAttribute(&apos;controls&apos;);
+    vid_oda_soundboard.addEventListener(&apos;canplaythrough&apos;, function(e){
+        vid_oda_soundboard.play();
+    })
+&lt;/script&gt;
+
+&lt;!-- ![oda-table-top](https://www.andysigler.com/images/oda-table-top.png) --&gt;
+
+&lt;p&gt;Our 2nd-generation speakers (pictured below) achieve a frequency reponse of ~40Hz-20kHz, making them both look great and sound big.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/oda-inside-panel-v2.png&quot; alt=&quot;oda-inside-panel-v2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The core electronics components are the ESP32 from Espressif, and the TAS5825M audio amplifier from TI.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/oda-pcb.png&quot; alt=&quot;oda-pcb&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A testing and fulfillment center was established in Brooklyn, NY to test and ship our first 1000 units to customers. A major component of our R&amp;amp;D and testing suite was the Klippel KA3 and a custom-build “panel-chamber” for acoustically isolated our speakers during evaluation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/oda-panel-chamber.png&quot; alt=&quot;oda-panel-chamber&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is a picture of the many units we tested and shipped.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/oda-fulfillment-center.png&quot; alt=&quot;oda-fulfillment-center&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 13 Aug 2021 00:00:00 -0400</pubDate>
