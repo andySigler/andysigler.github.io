@@ -1,7 +1,7 @@
-- title: Work
+- title: Home
   url: "/"
   side: right
 
-- title: "About"
-  url: "/about/"
-  side: right
+# - title: "About"
+#   url: "/about/"
+#   side: right

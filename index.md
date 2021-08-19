@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 
-subheadline: 
+title: Andy Sigler
+subheadline: product engineering &nbsp;&nbsp;|&nbsp;&nbsp; interactivity &nbsp;&nbsp;|&nbsp;&nbsp; software &nbsp;&nbsp;|&nbsp;&nbsp; electronics
 permalink: "/"
 show_meta: false
 header: no
@@ -59,7 +59,7 @@ header: no
     <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/products/nbhs/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/nbhs-thumb.jpg" alt="">
-            <span class="overlayText">ML Timbre-Transfer</span>
+            <span class="overlayText">Never Before Heard Sounds</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
@@ -75,19 +75,19 @@ header: no
     <div class="medium-6 columns bottomMargin">
         <a href="{{site.url}}/products/opentrons-ot2" class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/ot2-small.jpg" alt="">
-            <span class="overlayText">Hardware: OT2 Electronics</span>
+            <span class="overlayText">OT2 Electronics</span>
         </a>
     </div>
     <div class="medium-6 columns bottomMargin">
         <a href="{{site.url}}/products/opentrons-api"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/opentrons_api_small.png" alt="">
-            <span class="overlayText">Software: Moving Liquids</span>
+            <span class="overlayText">Opentrons API</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/products/opentrons-modules"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/opentrons_modules_small.png" alt="">
-            <span class="overlayText">Hardware: OT2 Modules</span>
+            <span class="overlayText">Opentrons Modules</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
@@ -99,7 +99,7 @@ header: no
     <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/projects/opentrons-platform-prototype/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/opentrons_small.jpg" alt="">
-            <span class="overlayText">Opentrons Platform Prototype</span>
+            <span class="overlayText">OT-One Alpha</span>
         </a>
     </div>
 </div>
@@ -109,13 +109,13 @@ header: no
     <div class="medium-4 columns bottomMargin">
         <a href="{{ site.url }}/projects/magnetic-hue-light-controller" class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/hue-fridge-bulb-small.jpg" alt="">
-            <span class="overlayText">Magnetic Hue Light Controller</span>
+            <span class="overlayText">Hue Light Controller</span>
         </a>
     </div>
      <div class="medium-4 columns bottomMargin">
         <a href="{{ site.url }}/hardware/homemade-hardware"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/homemade_hardware_small.png" alt="">
-            <span class="overlayText">ITP Course - Homemade Hardware</span>
+            <span class="overlayText">Graduate Course</span>
         </a>
     </div>
    <!--  <div class="medium-4 columns bottomMargin">
@@ -127,7 +127,7 @@ header: no
     <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/hardware/nodela/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/nodela_image_small.png" alt="">
-            <span class="overlayText">Nodela: DIY PCB Milling Software</span>
+            <span class="overlayText">DIY PCB Milling App</span>
         </a>
     </div>
 </div>
@@ -137,7 +137,7 @@ header: no
     <div class="medium-12 columns bottomMargin">
         <a href="{{site.url}}/patchbay"  class="wrappedLink">
             <img id="patchbayImg" class="borderImg" src="{{site.url}}/images/uselessThings.jpg" alt="">
-            <span class="overlayText">Patchbay: For Connected Instruments & Toys</span>
+            <span class="overlayText">Patchbay</span>
         </a>
     </div>
 </div>
@@ -147,25 +147,25 @@ header: no
     <div class="medium-6 columns bottomMargin">
         <a href="{{site.url}}/projects/noser/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/noser_small_2.png" alt="">
-            <span class="overlayText">Noser: Monster Synth</span>
+            <span class="overlayText">Throat Synth</span>
         </a>
     </div>
     <div class="medium-6 columns bottomMargin">
         <a href="{{site.url}}/projects/foodable/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/foodable_small.png" alt="">
-            <span class="overlayText">Foodable: Interactive Tabletop</span>
+            <span class="overlayText">Interactive Tabletop</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/projects/bookmapping/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/bookmapping_small.png" alt="">
-            <span class="overlayText">Bookmapping: Projection Map</span>
+            <span class="overlayText">Bookmapping</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/projects/dipinator/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/dipinator_small.png" alt="">
-            <span class="overlayText">Dipinator: Water as Interface</span>
+            <span class="overlayText">Dipinator</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
@@ -187,31 +187,31 @@ header: no
     <div class="medium-6 columns bottomMargin">
         <a href="{{site.url}}/projects/screenracer/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/screenracer_small.png" alt="">
-            <span class="overlayText">Screenracer: Multi-Screen Game</span>
+            <span class="overlayText">Screenracer</span>
         </a>
     </div>
     <div class="medium-6 columns bottomMargin">
         <a href="{{site.url}}/paintmirror"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/paintmirror_small.jpg" alt="">
-            <span class="overlayText">Paintmirror: Live Demo</span>
+            <span class="overlayText">Paintmirror</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/squaremirror"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/squaremirror_small.jpg" alt="">
-            <span class="overlayText">Squaremirror: Live Demo</span>
+            <span class="overlayText">Squaremirror</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/stretchmirror"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/stretchmirror_small.png" alt="">
-            <span class="overlayText">Stretchmirror: Live Demo</span>
+            <span class="overlayText">Stretchmirror</span>
         </a>
     </div>
     <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/projects/bittorrent/"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/bittorrent-combined-small.png" alt="">
-            <span class="overlayText">BitTorrent: Web Experiments</span>
+            <span class="overlayText">BitTorrent Web Experiments</span>
         </a>
     </div>
 <!--     <div class="medium-4 columns bottomMargin">

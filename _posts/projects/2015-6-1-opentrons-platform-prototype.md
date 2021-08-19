@@ -11,6 +11,7 @@ tags:
 
 image:
     homepage: opentrons.jpg
+    title: opentrons-ot-one-app.png
     thumb: opentrons_small.jpg
 
 header: no
@@ -19,6 +20,11 @@ author: Andy Sigler
 
 published: true
 ---
+
+<!-- remove border from title image, b/c it has alpha channel -->
+<script type="text/javascript">
+    document.getElementById('titleImage').style.border = '0px';
+</script>
 
 I worked with Opentrons to build a prototype of their liquid-handling platform's software stack.
 
