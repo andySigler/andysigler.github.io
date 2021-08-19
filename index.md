@@ -113,7 +113,7 @@ header: no
         </a>
     </div>
      <div class="medium-4 columns bottomMargin">
-        <a href="https://www.homemadehardware.com"  class="wrappedLink">
+        <a href="{{ site.url }}/hardware/homemade-hardware"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/homemade_hardware_small.png" alt="">
             <span class="overlayText">ITP Course - Homemade Hardware</span>
         </a>

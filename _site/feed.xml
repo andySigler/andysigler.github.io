@@ -8,7 +8,33 @@
     
       <item>
         <title>uArm Python API</title>
-        <description>&lt;p&gt;uArm wrapper&lt;/p&gt;
+        <description>&lt;p&gt;The &lt;strong&gt;uarm-python-wrapper&lt;/strong&gt; &lt;a href=&quot;https://github.com/andysigler/uarm-python-wrapper&quot;&gt;see on GitHub&lt;/a&gt; is a fork and wrapper/extension of the &lt;a href=&quot;https://github.com/uArm-Developer/uArm-Python-SDK&quot;&gt;uArm-Python-SDK&lt;/a&gt; from uFactory. The goal of this fork is to create a more intuitive and easier to use set of controls for the &lt;a href=&quot;https://store.ufactory.cc/products/uarm&quot;&gt;uArm Swift/SwiftPro&lt;/a&gt;, built on-top of the original Python API from uFactory.&lt;/p&gt;
+
+&lt;p&gt;All code was developed as a part of a fellowship at NYU’s ITP program, from February to May 2020.&lt;/p&gt;
+
+&lt;p&gt;Demo projects were made using the uArm Swift Pro, to have fun and explore the arm’s functionality.&lt;/p&gt;
+
+&lt;h3 id=&quot;tic-tac-toe&quot;&gt;Tic-Tac-Toe&lt;/h3&gt;
+
+&lt;p&gt;The uArm uses it’s camera and a marker to play tic-tac-toe with me. &lt;a href=&quot;https://github.com/andySigler/uarm-projects/tree/master/tictactoe&quot;&gt;Source code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.andysigler.com/images/uarm_tictactoe_video.mp4&quot;&gt;&lt;img src=&quot;https://www.andysigler.com/images/uarm_tictactoe_video_image.png&quot; alt=&quot;Tic-Tac-Toe Video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;basketball&quot;&gt;Basketball&lt;/h3&gt;
+
+&lt;p&gt;The uArm uses it’s camera and suction tool to play a solo game of basketball. &lt;a href=&quot;https://github.com/andySigler/uarm-projects/tree/master/basketball&quot;&gt;Source code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See the video, click the image below:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.andysigler.com/images/uarm_basketball_video.mp4&quot;&gt;&lt;img src=&quot;https://www.andysigler.com/images/uarm_basketball_video_image.png&quot; alt=&quot;Basketball Video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;knife-game&quot;&gt;Knife Game&lt;/h3&gt;
+
+&lt;p&gt;The uArm uses (safe) plastic knife to play the knife game &lt;a href=&quot;https://www.youtube.com/watch?v=3hiTlGNDH9Y&quot;&gt;from the movie Aliens&lt;/a&gt;. &lt;a href=&quot;https://github.com/andySigler/uarm-projects/tree/master/knife&quot;&gt;Source code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See the video, click the image below:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.andysigler.com/images/uarm_knife_video.mp4&quot;&gt;&lt;img src=&quot;https://www.andysigler.com/images/uarm_knife_video_image.png&quot; alt=&quot;Knive Video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Aug 2021 00:00:00 -0400</pubDate>
         <link>https://www.andysigler.com/projects/uarm-api/</link>
@@ -81,7 +107,28 @@
     
       <item>
         <title>Never Before Heard Sounds</title>
-        <description>
+        <description>&lt;p&gt;Never Before Hear Sounds’ real-time hardware does timbre transformations on the sounds of a performer. This application of machine learning uses pre-trained models to automatically change, for example, what instrument it sounds like is being played.&lt;/p&gt;
+
+&lt;p&gt;Learn more about it &lt;a href=&quot;https://heardsounds.com/hardware&quot;&gt;on their website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-4p8ICPYkG4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;contributions&quot;&gt;Contributions&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Electronics selection and prototyping&lt;/li&gt;
+  &lt;li&gt;PCB design and testing&lt;/li&gt;
+  &lt;li&gt;DFM and prototype batch build&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/nbhs-pcbs-table.jpg&quot; alt=&quot;nbhs-pcbs-table&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/nbhs-enclosure-bottom.jpg&quot; alt=&quot;nbhs-enclosure-bottom&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.andysigler.com/images/nbhs-enclosure-no-knobs.jpg&quot; alt=&quot;nbhs-enclosure-no-knobs&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Aug 2021 00:00:00 -0400</pubDate>
         <link>https://www.andysigler.com/products/nbhs/</link>
