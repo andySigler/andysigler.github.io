@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Andy Sigler
-subheadline: andrewsigler1@gmail.com
+subheadline: 
 permalink: "/about/"
 show_meta: false
 header: no
@@ -20,6 +20,13 @@ header: no
     }
 </style>
 <div class="thing" style="width: 100%; max-width: 650px">
+    <div>
+        <p>product engineering &nbsp;|&nbsp; interactivity &nbsp;|&nbsp; software &nbsp;|&nbsp; electronics</p>
+        <p>I love to make physical things that are fun or interesting to use. My experiences mostly include designing gadgets and automation tools, plus I teach a graduate course on making DIY circuit boards.</p>
+        <p>email: andrewsigler1@gmail.com</p>
+    </div>
+    <hr/>
+    <h1><span class="matchbook">Work</span></h1>
     <div>
         <span class="subheadline">Hardware Lead / Firmware</span>
         <span class="dateRight">2019-Present</span><br />
