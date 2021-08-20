@@ -40,22 +40,6 @@ header: no
     }
 </style>
 
-<!-- 
-    Todo:
-        - uArm page
-        - NBHS page
-        - Oda page
-        - cleanup all page contents
- -->
-
-<div class="row t30 sectionContent">
-    <div class="medium-12 columns bottomMargin" style="margin-top:-20px;">
-        <p style="">
-            product engineering &nbsp;&nbsp;|&nbsp;&nbsp; interactivity &nbsp;&nbsp;|&nbsp;&nbsp; software &nbsp;&nbsp;|&nbsp;&nbsp; electronics
-        </p>
-    </div>
-</div>
-
 <div class="matchbook sectionTitle">Gadgets</div>
 <div class="row t30 sectionContent">
     <div class="medium-4 columns bottomMargin">
