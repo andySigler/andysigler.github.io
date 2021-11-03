@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+
+			html,body{
+				margin:0;
+				padding:0;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+				overflow:  hidden;
+			}
+
+			#container {
+				background-color: white;
+				overflow: hidden;
+			}
+
+			.butlerPic {
+				position: absolute;
+				left:25%;
+				bottom:0%;
+			}
+
+			audio {
+				display:none;
+			}
+
+			.particle {
+				position:absolute;
+			}
+
+			#particle_container{
+				width:100%;
+				height:100%;
+			}
+
+			#bannerPic {
+				width:100%;
+				position: absolute;
+				left:0px;
+				top:0px;
+			}
+
+			.blanket{
+				position: absolute;
+				left:0px;
+				top:0px;
+				width:100%;
+				height:100%;
+			}
+
+			#lauraBanner {
+				position: absolute;
+				display: inline-block;
+				top: -10px;
+				left: 30%;
+				width:40%;
+				opacity:0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+
+			<div id="particle_container"></div>
+
+			<img src="./files/banner.png" id="bannerPic"/>
+
+			<img src="./files/laura.png" id="lauraBanner"/>
+
+			<img src="./files/one.png" id="frankPic" class="butlerPic" style="display:none"/>
+			<img src="./files/two.png" id="linkinPic" class="butlerPic" style="display:none"/>
+
+			<audio controls id="songTag">
+			  <source src="./files/song.mp3" type="audio/mpeg">
+			</audio>
+
+			<div class="blanket"></div>
+
+		</div>
+		<script type="text/javascript">
+
+			/////////////////////////////////
+			/////////////////////////////////
+			/////////////////////////////////
+
+			var frankArrived = false;
+
+			var r = Math.random()*255;
+			var g = Math.random()*255;
+			var b = Math.random()*255;
+
+			var rStep = (Math.random()*2)+1;
+			var gStep = (Math.random()*2)+1;
+			var bStep = (Math.random()*2)+1;
+
+			var laura = document.getElementById('lauraBanner');
+			laura.opacity = 0;
+
+			function loop() {
+				window.requestAnimationFrame(loop);
+
+				if(frankArrived===false) {
+					if(moveFrank(0.2)) {
+						frankArrived = true;
+						window.addEventListener('mousedown',function(){
+							startTheJam();
+						});
+						window.addEventListener('touchstart',function(){
+							startTheJam();
+						});
+						window.addEventListener('mouseup',function(){
+							endTheJam();
+						});
+						window.addEventListener('touchend',function(){
+							endTheJam();
+						});
+					}
+				}
+
+				if(jamming) {
+
+					laura.opacity += 0.01;
+					if(laura.opacity>=1) {
+						laura.opacity = 1;
+					}
+
+					laura.style.opacity = laura.opacity;
+
+					moveBanner(20);
+					if(Math.random()<0.1) {
+						createChick();
+					}
+
+					r += rStep;
+					if(r>255 || r<0) {
+						rStep *= -1;
+						r += rStep;
+					}
+					g += gStep;
+					if(g>255 || g<0) {
+						gStep *= -1;
+						g += gStep;
+					}
+					b += bStep;
+					if(b>255 || b<0) {
+						bStep *= -1;
+						b += bStep;
+					}
+
+					document.getElementById('particle_container').style.backgroundColor = 'rgb('+Math.floor(r)+','+Math.floor(g)+','+Math.floor(b)+')';
+				}
+				else {
+					laura.opacity -= 0.1;
+					if(laura.opacity<=0) {
+						laura.opacity = 0;
+					}
+
+					laura.style.opacity = laura.opacity;
+					moveBanner(-5);
+				}
+
+				for(var i=0;i<allParticles.length;i++) {
+					if(allParticles[i].update()===false){
+						allParticles.splice(i,1);
+						i--;
+					}
+				}
+			}
+
+			/////////////////////////////////
+			/////////////////////////////////
+			/////////////////////////////////
+
+			var jamming = false;
+
+			var linkinPic = document.getElementById('linkinPic');
+			var songTag = document.getElementById('songTag');
+
+			songTag.onended = function(){
+				songTag.currentTime = 0;
+				songTag.play();
+			};
+
+			function startTheJam(){
+				jamming = true;
+
+				linkinPic.style.display = 'inline-block';
+				frankPic.style.display = 'none';
+
+				songTag.play();
+			}
+
+			function endTheJam(){
+				jamming = false;
+
+				linkinPic.style.display = 'none';
+				frankPic.style.display = 'inline-block';
+
+				songTag.pause();
+
+				document.getElementById('particle_container').style.backgroundColor = 'white';
+			}
+
+			/////////////////////////////////
+			/////////////////////////////////
+			/////////////////////////////////
+
+			var frankPic = document.getElementById('frankPic');
+			var frankRiseCounter = -100;
+
+			function moveFrank(step){
+				frankRiseCounter += step;
+				frankPic.style.bottom = frankRiseCounter + '%';
+				frankPic.style.display = 'inline-block';
+
+				if(frankRiseCounter>=0) {
+					return true;
+				}
+				else return false;
+			}
+
+			/////////////////////////////////
+			/////////////////////////////////
+			/////////////////////////////////
+
+			var bannerInit = -600;
+			var bannerTop = bannerInit+1;
+
+			bannerPic.style.top = bannerTop+'px';
+
+			function moveBanner(step) {
+
+				var bannerPic = document.getElementById('bannerPic');
+
+				if(bannerTop+step<=0 && bannerTop+step>bannerInit){
+					bannerTop+=step;
+					bannerPic.style.top = bannerTop+'px';
+				}
+			}
+
+			/////////////////////////////////
+			/////////////////////////////////
+			/////////////////////////////////
+
+			var allParticles = [];
+
+			var totalPictures = 5;
+
+			function createChick() {
+
+				var particle = document.createElement("img");
+
+				particle.src = './files/particle_'+Math.floor(Math.random()*totalPictures)+'.png';
+				particle.className = 'particle';
+
+				particle.andyX = Math.floor(Math.random()*window.innerWidth);
+				particle.andyY = -130;
+
+				particle.andySpeed = Math.random()*5+2;
+				particle.style.width = (Math.floor((0.2/particle.andySpeed)*20))+'px';
+
+				particle.style.width = (Math.floor(Math.random()*100)+30)+'px';
+
+				var deg = Math.floor(Math.random()*360);
+
+				particle.update = function() {
+
+					particle.style.left = particle.andyX + 'px';
+					particle.style.top = particle.andyY + 'px';
+
+					particle.andyY += particle.andySpeed;
+
+					if(particle.andyY>window.innerHeight) {
+						document.getElementById('particle_container').removeChild(particle);
+						return false;
+					}
+					else return true;
+				};
+
+				document.getElementById('particle_container').appendChild(particle);
+
+				allParticles.push(particle);
+			}
+
+			/////////////////////////////////
+			/////////////////////////////////
+			/////////////////////////////////
+
+			function resize() {
+				var cont = document.getElementById('container');
+				cont.style.width = window.innerWidth + 'px';
+				cont.style.height = window.innerHeight + 'px';
+			}
+
+			window.addEventListener('load',function(){
+				linkinPic.style.display = 'none';
+				resize();
+
+				loop()
+			});
+
+			window.addEventListener('resize',resize);
+
+			/////////////////////////////////
+			/////////////////////////////////
+			/////////////////////////////////
+
+		</script>
+	</body>
+</html>
