@@ -28,8 +28,22 @@ header: no
     <hr/>
     <h1><span class="matchbook">Work</span></h1>
     <div>
+        <span class="subheadline">Hardware RnD / Systems / Software / Electronics</span>
+        <span class="dateRight">2014-'19, 2021-Present</span><br />
+        <span class="subheadline">@ <a href="https://opentrons.com">Opentrons-Labworks</a></span>
+        <ul>
+            <li class="textWidth">First employee at startup, writing entire software stack for Kickstarter release</li>
+            <li class="textWidth">Designed and developed the <a href="https://github.com/Opentrons/opentrons">Opentrons Python API</a> on a small team, released winter 2016</li>
+            <li class="textWidth">Lead design and systems engineering of the <a href="https://opentrons.com/ot-2">OT2 liquid-handling machine</a> and <a href="https://opentrons.com/pipettes">pipettes</a></li>
+            <li class="textWidth">Wrote OT2 and Module device firmware, motion control software, and production line testing software</li>
+            <li class="textWidth">Sole electronics designer for the OT2, pipettes, temperature module, and magnetic module</li>
+            <li class="textWidth">Lead early product ideation, R&D, testing, and design for all hardware products, focusing on electronics and systems design</li>
+            <li class="textWidth">Helped grow factory and production process in Opentrons' Shenzhen factory, growing from two employees in 2016 to greater than fifty in 2019</li>
+        </ul>
+    </div>
+    <div>
         <span class="subheadline">Hardware Lead / Firmware</span>
-        <span class="dateRight">2019-Present</span><br />
+        <span class="dateRight">2019-2021</span><br />
         <span class="subheadline">@ <a href="https://oda.co">Oda Inc</a></span>
         <ul>
             <li class="textWidth">Hardware team leader and manager for startup consumer-electronics product</li>
@@ -53,20 +67,6 @@ header: no
         <span class="subheadline">@ <a href="{{site.url}}">self</a></span>
         <ul>
             <li class="textWidth">Advising and developing on IoT systems and products, for startups, companies and regional artists</li>
-        </ul>
-    </div>
-    <div>
-        <span class="subheadline">Systems / Software / Electronics</span>
-        <span class="dateRight">2014-'19</span><br />
-        <span class="subheadline">@ <a href="https://opentrons.com">Opentrons-Labworks</a></span>
-        <ul>
-            <li class="textWidth">First employee at startup, writing entire software stack for Kickstarter release</li>
-            <li class="textWidth">Designed and developed the <a href="https://github.com/Opentrons/opentrons">Opentrons Python API</a> on a small team, released winter 2016</li>
-            <li class="textWidth">Lead design and systems engineering of the <a href="https://opentrons.com/ot-2">OT2 liquid-handling machine</a> and <a href="https://opentrons.com/pipettes">pipettes</a></li>
-            <li class="textWidth">Wrote OT2 and Module device firmware, motion control software, and production line testing software</li>
-            <li class="textWidth">Sole electronics designer for the OT2, pipettes, temperature module, and magnetic module</li>
-            <li class="textWidth">Lead early product ideation, R&D, testing, and design for all hardware products, focusing on electronics and systems design</li>
-            <li class="textWidth">Helped grow factory and production process in Opentrons' Shenzhen factory, growing from two employees in 2016 to greater than fifty in 2019</li>
         </ul>
     </div>
     <div>
