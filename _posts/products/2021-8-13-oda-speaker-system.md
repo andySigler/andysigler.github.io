@@ -59,9 +59,9 @@ See the slow-motion video below, showing how the speakers moves:
 
 <!-- ![oda-table-top]({{site.url}}/images/oda-table-top.png) -->
 
-Our 2nd-generation speakers (pictured below) achieve a frequency reponse of ~40Hz-20kHz, making them both look great and sound big.
+<!-- Our 2nd-generation speakers (pictured below) achieve a frequency reponse of ~40Hz-20kHz, making them both look great and sound big.
 
-![oda-inside-panel-v2]({{site.url}}/images/oda-inside-panel-v2.png)
+![oda-inside-panel-v2]({{site.url}}/images/oda-inside-panel-v2.png) -->
 
 The core electronics components are the ESP32 from Espressif, and the TAS5825M audio amplifier from TI.
 
