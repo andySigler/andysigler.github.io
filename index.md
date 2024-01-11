@@ -44,7 +44,7 @@ header: no
 <div class="row t30 sectionContent">
     <div class="medium-4 columns bottomMargin">
         <a href="" class="wrappedLink">
-            <img class="borderImg" src="{{site.url}}/images/opentrons-flex-everything.png" alt="">
+            <img class="borderImg" src="{{site.url}}/images/opentrons-flex-everything-small.png" alt="">
             <span class="overlayText">Opentrons Flex</span>
         </a>
     </div>
