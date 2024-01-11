@@ -28,10 +28,11 @@ header: no
     <hr/>
     <h1><span class="matchbook">Work</span></h1>
     <div>
-        <span class="subheadline">Hardware RnD / Systems / Software / Electronics</span>
+        <span class="subheadline">Systems Architect / RnD / Software / Electronics</span>
         <span class="dateRight">2014-'19, 2021-Present</span><br />
         <span class="subheadline">@ <a href="https://opentrons.com">Opentrons-Labworks</a></span>
         <ul>
+            <li class="textWidth">As Systems Architect, work across teams and disciplines to ensure product and engineering requirements are met at all stages of product development.</li>
             <li class="textWidth">First employee at startup, writing entire software stack for Kickstarter release</li>
             <li class="textWidth">Designed and developed the <a href="https://github.com/Opentrons/opentrons">Opentrons Python API</a> on a small team, released winter 2016</li>
             <li class="textWidth">Lead design and systems engineering of the <a href="https://opentrons.com/ot-2">OT2 liquid-handling machine</a> and <a href="https://opentrons.com/pipettes">pipettes</a></li>

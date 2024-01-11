@@ -42,13 +42,19 @@ header: no
 
 <div class="matchbook sectionTitle">Automation</div>
 <div class="row t30 sectionContent">
-    <div class="medium-6 columns bottomMargin">
+    <div class="medium-4 columns bottomMargin">
+        <a href="" class="wrappedLink">
+            <img class="borderImg" src="{{site.url}}/images/opentrons-flex-everything.png" alt="">
+            <span class="overlayText">Opentrons Flex</span>
+        </a>
+    </div>
+    <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/products/opentrons-ot2" class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/ot2-small.jpg" alt="">
             <span class="overlayText">OT2 Electronics</span>
         </a>
     </div>
-    <div class="medium-6 columns bottomMargin">
+    <div class="medium-4 columns bottomMargin">
         <a href="{{site.url}}/products/opentrons-api"  class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/opentrons_api_small.png" alt="">
             <span class="overlayText">Opentrons API</span>
