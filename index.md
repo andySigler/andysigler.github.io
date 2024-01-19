@@ -43,7 +43,7 @@ header: no
 <div class="matchbook sectionTitle">Automation</div>
 <div class="row t30 sectionContent">
     <div class="medium-4 columns bottomMargin">
-        <a href="" class="wrappedLink">
+        <a href="https://opentrons.com/products/flex/" class="wrappedLink">
             <img class="borderImg" src="{{site.url}}/images/opentrons-flex-everything-small.jpg" alt="">
             <span class="overlayText">Opentrons Flex</span>
         </a>
